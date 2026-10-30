@@ -1,8 +1,8 @@
-# Weekly starter prompt (copy everything below the line into a new chat, with a usage screenshot)
+# Starter prompt for the next build chat (copy everything below the line, with a usage screenshot)
 
 ---
-Hoshi Arcade weekly build. Repo: DyGoMa/hoshi-arcade (attach it and pull first).
-Here's my usage screenshot. Read docs/ORCHESTRATOR.md and follow it: size the week from my usage, read the World Bible, the test checklist (my works/broken marks below) and the decisions log, fix anything broken first, then build the next planned cabinet(s) with workers as the usage allows. Push only on my yes.
+Driftbound build (formerly Hoshi Arcade). Repo: DyGoMa/hoshi-arcade. Attach it and pull first.
+Here's my usage screenshot. Read docs/WORLD_BIBLE.md (v2, Driftbound), docs/DECISIONS.md and docs/ORCHESTRATOR.md. Then start build step 1: design the 6 adult leads, their partners and the Empire villain unit on paper, and list every call you made for my OK. Don't start images until I've said yes to the cast and to the image spend. Push only on my yes.
 
-My play-check marks since last week:
-- (paste or type them here, e.g. "3 works, 7 broken: stacks came too early")
+My play-check marks on v1 Aki Dash (optional):
+- (type them here)

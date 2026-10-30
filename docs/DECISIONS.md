@@ -9,7 +9,29 @@
 - Art: **Drawn in code**
 - Play link: **Public repo + free link** (GitHub Pages)
 
-## Calls Claude made (you delegated these; change any of them)
+## Your words (2026-10-30, v2 direction)
+- Request: "Can we make the art style more 00's anime style like Naruto, one piece and full metal Alchemist. Make them more human like shapes. We will be adding a video section for a short anime stories and also a visual novel section. We want it to be more adult 18+ theme with fan service."
+- Art: "Option 1 but I want you to make refinements and checks before getting me to check it." (AI images locked by ref sheets)
+- Rating: Mature: violence, swearing, romance
+- Cast: "Option 2 mix in a pokemon style world where there's some monsters/partners/pals" (brand-new adult cast)
+- First up: New art and cast first
+- World frame: Drop the arcade, one big world
+- Partners: 1 partner each + collectible pals
+- Cast size: 6 leads + villain group
+- Fan service: "Option 2 plus they wear more revealing outfits for the woman and more innuendos" (Option 2 = stylish designs + flirty comedy + romance routes)
+- Setting: Island frontier + strange science
+- Power: Fight side by side, borrow its power
+- Leads: 1 main hero + 5 crew; 3 women, 3 men
+- Main hero: A hot-headed young man
+- Villains: Empire unit hunting partners
+- Name: Driftbound
+- Videos: Motion comics
+- VN engine: Small custom engine
+- Monsters: Mostly cool beasts, some cute
+- Next step: Save plan + fresh-chat starter
+- Line Claude set (not your choice; your call to discuss): all characters clearly adult (21+); bold outfits but no nudity, sexualized framing or explicit scenes.
+
+## Calls Claude made (v1, Hoshi Arcade; superseded where the v2 answers above differ) (you delegated these; change any of them)
 | Call | Choice | Easy to change? |
 |---|---|---|
 | Site name | Hoshi Arcade ("hoshi" = star) | Yes, one line in each page title |
