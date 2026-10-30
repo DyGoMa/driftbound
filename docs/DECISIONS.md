@@ -71,3 +71,7 @@
 - Hero power: "Storm wolf"
 - Bond costs: "Yes, visible" (each ref sheet shows the base state)
 - Villains: "Keep the trio"
+
+## Your words (2026-10-30, after the cast)
+- Push: "Push now"
+- Images: "Style test first" (Kaito + Skarn only, 2 sheets, ~3 images with a redo)
