@@ -97,3 +97,14 @@
 - Kaito scar: "Paint it in by hand" → take 6 = take 4 with a scar line painted through his left eyebrow in the left-side view, and (Claude's call) also in the front view, where take 4's scar was only a faint line above the brow.
 - Skarn redo (image 7): "Yes, redo Skarn"
 - Skarn take 2: sail membrane fixed; tail still missing from the back view (second miss on that point, so Claude stopped). Shown to Dylan with Kaito take 6.
+- Skarn tail: "One fresh try" (image 8 = Skarn take 3)
+- Dylan's check of Kaito take 6: "kaito scar is still showing on both side views. streak in hair looks inconsistent in the views as well"
+  - Scar: "Right side has a mark" (a faint line on the forehead above the brow in the right-side view)
+  - Streak: "Yes, fix the streak" (image 9 = Kaito take 7; one lock from above the right temple to the jaw in front of the right ear)
+- Push: "Commit and push" (pushed branch `art/style-test-kaito-skarn` at d890de0, takes up to Kaito 6 / Skarn 2)
+- Kaito take 7: streak matches in all views and the right-side forehead is clean; the left-side eyebrow scar came back faint. Take 8 = take 7 with that scar repainted by hand.
+- Skarn take 3: tail still missing from the back view (third miss); otherwise the same as take 2.
+- Kaito: "Kaito passes" → locked sheet `art/refs/kaito-sheet-v8.png`
+- Skarn: "Take 3, as is" → locked sheet `art/refs/skarn-sheet-v3.png` (tail shown in the side views only)
+- Push: "Commit and push"
+- Images used in this step: 9 Codex images (Kaito takes 1–5 and 7, Skarn takes 1–3); Kaito takes 6 and 8 were painted by hand (no Codex use).
