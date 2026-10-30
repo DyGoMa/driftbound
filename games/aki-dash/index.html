@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Aki Dash · Hoshi Arcade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; height: 100%; background: #120c33; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; }
+  canvas { display: block; width: 100vw; height: 100vh; height: 100dvh; }
+  .hud { position: fixed; bottom: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; pointer-events: none; }
+  .hud a, .hud button { pointer-events: auto; font: 700 13px "M PLUS Rounded 1c", system-ui, sans-serif; color: #fff; background: rgba(29,20,48,0.75);
+    border: 2px solid #ff9fc3; border-radius: 999px; padding: 6px 12px; text-decoration: none; cursor: pointer; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div class="hud">
+  <a href="../../index.html">← Back to arcade</a>
+  <button id="mute" type="button">Sound: on</button>
+</div>
+<script src="../../shared/cast.js"></script>
+<script src="../../shared/save.js"></script>
+<script src="tuning.js"></script>
+<script src="sfx.js"></script>
+<script src="world.js"></script>
+<script src="dash.js"></script>
+<script>
+  const m = document.getElementById('mute');
+  const label = () => m.textContent = 'Sound: ' + (SFX.isMuted() ? 'off' : 'on');
+  label(); m.addEventListener('click', e => { e.stopPropagation(); SFX.toggle(); label(); m.blur(); });
+  m.addEventListener('pointerdown', e => e.stopPropagation());
+</script>
+</body>
+</html>
