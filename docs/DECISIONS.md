@@ -7,6 +7,7 @@
 - Weekly run: **I start it myself**
 - Week 1 scope: **World, site, 1 game**
 - Art: **Drawn in code**
+- Play link: **Public repo + free link** (GitHub Pages)
 
 ## Calls Claude made (you delegated these; change any of them)
 | Call | Choice | Easy to change? |
