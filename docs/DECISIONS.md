@@ -41,3 +41,27 @@
 | Game 1 | Aki Dash, a one-tap endless runner (works on phone and keyboard) | Yes |
 | Tech | Plain HTML + JavaScript, no build step, no add-ons; runs from any static host (GitHub Pages) | Hard later, so chosen early on purpose |
 | Workers this week | None. Week 1 had ~10% usage, and workers cost the same as doing it directly. Workers start in week 2, one per game (see ORCHESTRATOR.md) | Yes |
+
+## Your words (2026-10-30, build step 1)
+- Request: "start build step 1: design the 6 adult leads, their partners and the Empire villain unit on paper, and list every call you made for my OK. Don't start images until I've said yes to the cast and to the image spend. Push only on my yes."
+- Usage screenshot: mentioned, but it didn't come through in the chat. Needed before the image-spend ask.
+
+## Calls Claude made (v2 cast, DRAFT, waiting for your OK) (full detail in `docs/CAST.md`)
+| Call | Choice | Easy to change? |
+|---|---|---|
+| Ship and crew name | The Gullwake | Yes |
+| Bond mark | Glowing mark on the skin, unique shape per lead, partner's colour | Yes now; hard after ref sheets |
+| Surge | Name for borrowing power; each lead has one cost with a visible "base state" for the ref sheet | Yes now |
+| Elements | Storm, Tide, Fire, Wind, Iron, Crystal (one per lead) | Yes now |
+| Hero | Kaito Brask, 21; storm wolf Skarn; cost = lightning scars up his right arm (base: hand to elbow) | Yes now |
+| Captain | Sela Vey, 28; sea serpent-dragon Vesh tows the ship; cost = lost memories (keeps a logbook) | Yes now |
+| Sharpshooter | Juno Calloway, 23; fire raptor Ashka; cost = burning heat (scarred palms under gloves) | Yes now |
+| Duelist | Silas Moreau, 24; wind owl-lynx Hush; cost = loses his voice | Yes now |
+| Shipwright / cook | Bram Torvald, 31; iron rhino-beetle Grist; cost = turning to iron (grey patches) | Yes now |
+| Scientist | Dr. Ione Raske, 26, Empire defector; glass mantis-moth Prism; cost = crystal growths from a half-stripped bond | Yes now |
+| Empire name | Meridian Empire; wants to pin islands in place with anchor pylons | Yes now |
+| Villain unit | The Sever; strips bonds and rebuilds monsters into Hollows | Yes now |
+| Villains | Director Aurel Vasch (46, leader, Ione's mentor), Captain Hekka Dorn (33, enforcer, Sela's rival), Silt (29, masked hunter, Kaito's rival), faceless troopers | Yes now |
+| Sever symbol | A straight line cutting a circle | Yes now |
+| Heights | In cm with feet/inches | Yes |
+| Not decided yet | Pals, romance routes (step 4) | — |
