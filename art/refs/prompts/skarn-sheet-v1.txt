@@ -1,0 +1,14 @@
+Creature reference turnaround sheet of an ORIGINAL monster, for building a 3D model. Image 1 is for ART STYLE ONLY (the 2000s TV-anime cel-shaded look: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours). Do NOT draw the human from Image 1.
+
+Layout: four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all standing on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image (its left side nearest us).
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image (its right side nearest us).
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere. Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no humans, no saddle, no collar, no harness.
+
+Pose (neutral, for 3D modelling): standing square on all four legs, legs straight and evenly spaced, head level and facing straight ahead, mouth closed with a few fang tips showing, tail held straight out behind, fin fully raised.
+
+The creature: Skarn, a storm wolf the size of a horse. A huge, heavy-boned but lean wolf with long legs, big paws and a thick neck; sharp angular lines and some menace, like a cool 2000s anime beast. Not cute, not a dog, and not resembling any existing anime or game creature. Slate-grey fur, shaggier at the neck and shoulders. Glowing yellow eyes and a grumpy, scowling brow. A tall sail-like fin runs along its spine from the back of the neck to the base of the tail: a thin darker-grey membrane stretched over long spines, with small crackling electric-yellow lightning arcs along its top edge. A forked tail: the tail splits into two separate tips about halfway along.
+
+Every detail (fin shape and height, the fork in the tail, fur colour, eye glow) stays identical in all four views.

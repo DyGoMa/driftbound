@@ -75,3 +75,25 @@
 ## Your words (2026-10-30, after the cast)
 - Push: "Push now"
 - Images: "Style test first" (Kaito + Skarn only, 2 sheets, ~3 images with a redo)
+
+## Your words (2026-10-30, build step 2 style test)
+- Request: "Make reference sheets for Kaito Brask and his partner Skarn only (2 sheets, about 3 images with one redo) using game-image-gen. Original 2000s-anime look: four views (front/back/side/3-4), grey background, no text, no Naruto symbols. Kaito's base state: lightning scars from hand to elbow, bond mark on the back of his right hand. Check each sheet against CAST.md and redo failures before showing me. Save as new files in art/refs/ (never overwrite). Ask before each image. Push only on my yes."
+- Usage screenshots: mentioned again, but didn't come through in the chat.
+- Gauntlet vs. scars (both on the right forearm): "Open bracer" (bands and plates with gaps; scars show through and around it)
+- Image 1 (Kaito): "Yes, make Kaito"
+- Branch: `art/style-test-kaito-skarn`
+- Kaito take 1 failed Claude's check (scars past the elbow, hair streak swapped sides in the back view, eyebrow scar faint, hand mark looked like a "K"). Redo: "Yes, redo Kaito"
+- After take 2 passed Claude's check, before Skarn: "we should do front/left side/right side/back views incase we want to do a 3d model of the character. other than that he looks pretty good. side view does show both of the feet/boots. also should we do an a or t pose instead of the pose we have now"
+  - This changes the views in the original request ("four views (front/back/side/3-4)") to front / left side / right side / back.
+- Pose: "A-pose"
+- Side views: "Make true profile"
+- Order: "Kaito first, then Skarn" (Kaito remade in the new layout as image 3; ask before Skarn as image 4; one redo each only on Dylan's yes)
+- Kaito take 3 failed Claude's check (no A-pose; white streak missing in the right-side view). Redo: "Yes, redo Kaito"
+- Kaito take 4: shown to Dylan (A-pose and streak fixed; eyebrow scar faded from the left-side view).
+- Kaito take 4: "Fix the scar"
+- Skarn (image 5): "Yes, make Skarn"
+- Kaito take 5 (image 6): the eyebrow scar still did not appear in the left-side view; the image came back almost the same as take 4. Second failed try on the same fix, so Claude stopped on it.
+- Skarn take 1 failed Claude's check (bare spines with no sail membrane; tail missing from the back view).
+- Kaito scar: "Paint it in by hand" → take 6 = take 4 with a scar line painted through his left eyebrow in the left-side view, and (Claude's call) also in the front view, where take 4's scar was only a faint line above the brow.
+- Skarn redo (image 7): "Yes, redo Skarn"
+- Skarn take 2: sail membrane fixed; tail still missing from the back view (second miss on that point, so Claude stopped). Shown to Dylan with Kaito take 6.

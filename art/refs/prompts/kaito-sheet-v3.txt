@@ -1,0 +1,15 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is the approved design of this character: copy his face, hair, outfit, colours, marks and the 2000s TV-anime cel-shaded art style EXACTLY (clean black ink lines, flat cel shading with one shadow tone). Only the views and the pose change.
+
+Layout: four full-body views of the same man in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so his LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so his RIGHT arm with the steel bracer is nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so only one boot is clearly seen and the far boot is mostly hidden. No three-quarter angles anywhere.
+
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and angled down about 45 degrees away from the body, palms facing inward toward the thighs, fingers relaxed and slightly apart, hands not touching the body. Neutral face, mouth closed.
+
+Character (unchanged from Image 1): Kaito Brask, a 21-year-old ADULT man, adult face and proportions, lean and wiry, runner's legs. Sharp jaw, amber eyes, a thin vertical scar through his LEFT eyebrow. Shaggy black hair with one bleached-white streak on his RIGHT side. Black sleeveless zip top half unzipped; short red flight jacket tied around his waist by the sleeves; grey cargo pants tucked into scuffed brown boots; brass flight goggles pushed up on his forehead; an open steel bracer of separate bands with gaps on his RIGHT forearm only.
+Marks: on the back of his RIGHT hand, a glowing electric-yellow jagged lightning fork (one zigzag bolt splitting into three points). Pale branching lightning scars on his RIGHT arm from the back of the hand to the elbow, stopping at the elbow; upper arm clean. Left arm unmarked.
+
+Background: plain flat mid-grey. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
