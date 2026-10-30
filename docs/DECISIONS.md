@@ -46,7 +46,7 @@
 - Request: "start build step 1: design the 6 adult leads, their partners and the Empire villain unit on paper, and list every call you made for my OK. Don't start images until I've said yes to the cast and to the image spend. Push only on my yes."
 - Usage screenshot: mentioned, but it didn't come through in the chat. Needed before the image-spend ask.
 
-## Calls Claude made (v2 cast, DRAFT, waiting for your OK) (full detail in `docs/CAST.md`)
+## Calls Claude made (v2 cast, approved 2026-10-30) (full detail in `docs/CAST.md`)
 | Call | Choice | Easy to change? |
 |---|---|---|
 | Ship and crew name | The Gullwake | Yes |
@@ -65,3 +65,9 @@
 | Sever symbol | A straight line cutting a circle | Yes now |
 | Heights | In cm with feet/inches | Yes |
 | Not decided yet | Pals, romance routes (step 4) | — |
+
+## Your words (2026-10-30, cast check)
+- Cast: "Lock it in"
+- Hero power: "Storm wolf"
+- Bond costs: "Yes, visible" (each ref sheet shows the base state)
+- Villains: "Keep the trio"

@@ -1,6 +1,6 @@
-# Driftbound: Cast, Partners and Villains (DRAFT v1, 2026-10-30)
+# Driftbound: Cast, Partners and Villains (v1, approved 2026-10-30)
 
-Status: **draft, waiting for Dylan's OK.** Nothing here is locked until he says yes. Every name, look and cost below is Claude's call (see the calls table in `DECISIONS.md`); change any of them.
+Status: **approved by Dylan 2026-10-30** (cast locked; images not started). Every name, look and cost below is Claude's call (see the calls table in `DECISIONS.md`); change any of them.
 
 Follows the World Bible hard rules: everyone is 21+ with adult faces and bodies; bold 2000s outfits, no nudity or sexualized posing; all designs original.
 
