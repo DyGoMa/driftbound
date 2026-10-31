@@ -234,3 +234,26 @@
 - Pair check: "Both pass" → locked sheets `art/refs/bram-sheet-v3.png` and `art/refs/grist-sheet-v2.png`
 - Push: "Yes, push after locking"
 - Images used so far in this step: 21 Codex images (Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2, Bram 1-3, Grist 1); 30 counting the style test. Silas take 4 and Grist take 2 painted by hand.
+- Next pair: Ione + Prism (the last one)
+- Ione wrist (CAST.md: "a cracked hexagon on her left wrist" and "small crystal growths on her left wrist and up the side of her neck"): "Crystals grow from the mark"
+- Ione neck (CAST.md: "a cropped black turtleneck" vs. crystals "up the side of her neck"): "Crystals break through" (left side of the collar, fabric torn around them)
+- Ione coat sleeves (Claude found: coat off her shoulders would cover her wrists): "Rolled up to the elbow"
+- Ione white lock (Claude found; fix 5): "Left side, by the face"
+- Ione mark spot (Claude found: A-pose hides the inner wrist): "Back of the wrist"
+- Prism wings: "Folded flat over the back"
+- Prism body: "Ice-blue glass" (clear wings with rainbow edges, glowing ice-blue eyes)
+- Prism pose vs. STYLE.md's creature pose line: "Four legs down, blades folded" (tail phrase becomes "long slim abdomen held straight out behind")
+- Image 22 (Ione take 1): "Yes, make Ione"
+- Ione take 1: passed Claude's check on every CAST.md point and your answers (cracked hexagon with crystals on the back of her left wrist: front view right of the picture, clear in the left-side view, back view left of the picture, hidden in the right-side view; crystals breaking through the left side of the collar up to below the ear, right side of the collar whole; white lock on her left by the face, hidden in the right-side view, edge showing in the back view; coat off both shoulders, sleeves rolled, forearms bare; glasses; vial belt; stockings; buckled boots). Failed on size again: 1774x887, not 2048x1024 (fix 16). Note: the model made the turtleneck sleeveless.
+- Ione size: "Option Q but also fix her lab coat so its sitting on her shoulders, looks weird." (clashes with CAST.md: "a lab coat worn open and loose off her shoulders")
+- Lab coat: "Yes, coat on her shoulders" (CAST.md updated; old line archived word for word)
+- Image 23 (Ione take 2, edit of take 1: coat on shoulders, at 2048x1024): "Yes, make take 2"
+- Image 23 attempt timed out after 600s ("codex-imagegen: timed out after 600s. Raise --timeout or simplify the prompt."); no file was saved. Unknown whether it used Plus allowance.
+- Ione take 2 retry: "Retry, wait up to 20 min"
+- Ione take 2 passed Claude's check: 2048x1024; lab coat on both shoulders in all four views, open at the front, sleeves rolled to the elbow, forearms and wrists bare; everything else unchanged from take 1 (wrist mark, neck crystals, white lock all on her left, on the correct image side per view).
+- Prism take 1 card: "Change something first" → Ione: "Her shirt doesn't look right make it a low cut v neck instead" (clashes with CAST.md: "a cropped black turtleneck", and the earlier answer "Crystals break through" the collar)
+- Top: "Yes, cropped black V-neck" (CAST.md updated; old line archived word for word; crystals now on bare skin up the left side of her neck)
+- Image 24 (Ione take 3, edit of take 2: V-neck top): "Yes, make take 3"
+- Image 24 attempt (Ione take 3) timed out after 1200s ("codex-imagegen: timed out after 1200s. Raise --timeout or simplify the prompt."); no file saved.
+- Codex hanging: "One retry with a shorter prompt" (Ione take 3, retry 1)
+- Ione take 3 retry 1 (short prompt) timed out after 1200s too; no file saved. Third hang in a row on this edit, so Claude stopped image work.

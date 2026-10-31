@@ -1,0 +1,19 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fur or colours. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, long slim abdomen held straight out behind.
+
+The creature: Prism, an ORIGINAL glass mantis-moth the size of a large dog. Its whole body is made of pale ICE-BLUE see-through crystal glass, drawn with clean cel-shaded facets and a few bright white highlight edges. A mantis build: a small triangular head with two large faceted glowing ice-blue eyes and two short feathery moth antennae; a long thin neck-like thorax; a long slim segmented abdomen held straight out behind. It stands on FOUR thin straight crystal legs, two on each side, all four on the ground. Its two front limbs are BLADE-LIKE FOREARMS, long and sharp like curved glass sickles, FOLDED UP tight against its chest, mantis-style, not touching the ground. Two pairs of large moth wings made of CLEAR crystal, FOLDED FLAT back over the body like a resting moth, covering the top of the abdomen; the wings are see-through with thin ice-blue veins, and their edges catch light in thin RAINBOW bands. Fragile-looking but deadly, with sharp angular lines and some menace.
+- FRONT view: the head with both eyes and antennae, the folded blade forearms crossed in front of the chest, the front legs, the folded wings showing at the sides.
+- LEFT and RIGHT SIDE views: the full mantis profile: head, thorax, folded blades, both near legs, the abdomen straight out behind, the folded wings lying along the top.
+- BACK view: the folded wings covering the back, the end of the abdomen pointing toward the viewer, the back legs, the head and antennae just showing above.
+Every detail stays identical in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

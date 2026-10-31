@@ -1,0 +1,36 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Dr. Ione Raske, a 26-year-old ADULT woman with an adult face and adult proportions, 168 cm, slim. Pale skin, sharp grey eyes behind thin round wire-rimmed glasses. A messy chin-length black bob.
+White lock: ONE crystal-white lock of hair on her LEFT side, starting at her left temple and falling down past her left cheek to the jaw. The rest of the hair is black.
+- FRONT view: on the RIGHT side of the image, framing her face.
+- LEFT SIDE view: the whole lock clearly visible beside her face.
+- RIGHT SIDE view: hidden (far side); the hair on this side is all black.
+- BACK view: only the edge of the white lock peeks out on the LEFT side of the image.
+Outfit: a white lab coat worn OPEN and slipped down off BOTH shoulders, hanging loose around her upper arms, with both sleeves rolled up to the elbows, so both forearms and wrists are bare. A cropped black turtleneck that ends above the navel (bare midriff). High-waisted dark grey shorts with a belt holding a row of small glass sample vials in loops around the front and sides, flat against the body. Dark stockings and black buckled boots.
+The outfit is bold but the pose is neutral and the framing is a plain technical reference sheet: no sexualized posing.
+
+Bond mark: a glowing ice-blue CRACKED HEXAGON on the BACK of her LEFT wrist, just above the back of the hand: one closed six-sided outline with jagged cracks running through it, as if broken. It must not look like a letter, a number or any written character. Small, sharp, pale ice-blue CRYSTAL SHARDS grow out of its cracks and along its edges, a few short angular spikes poking up from the skin.
+- FRONT view: on her left wrist, on the RIGHT side of the image.
+- LEFT SIDE view: clearly visible on the wrist nearest us.
+- BACK view: on her left wrist, on the LEFT side of the image.
+- RIGHT SIDE view: hidden (far side).
+Her RIGHT wrist and hand are clean skin with no mark and no crystals.
+
+Neck crystals (her bond cost): a cluster of small, sharp, pale ice-blue crystal shards growing up the LEFT side of her neck, from her collarbone to just below her left ear. They break out THROUGH the left side of the turtleneck collar, with the black fabric torn around them.
+- FRONT view: on the side of the neck on the RIGHT side of the image.
+- LEFT SIDE view: clearly visible on the neck nearest us.
+- RIGHT SIDE view: hidden (far side); the right side of the collar is whole.
+- BACK view: at most a few tips showing at the edge of the neck on the LEFT side of the image.
+The RIGHT side of her neck is clean, with no crystals.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

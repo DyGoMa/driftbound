@@ -73,7 +73,7 @@ Follows the World Bible hard rules: everyone is 21+ with adult faces and bodies;
 ### 6. Dr. Ione Raske — the bond scientist
 - **Age / build:** 26, woman. 168 cm (5'6"), slim.
 - **Face / hair:** pale skin, sharp grey eyes behind thin round glasses. Messy black bob with a single crystal-white lock.
-- **Outfit:** a lab coat worn open and loose off her shoulders, a cropped black turtleneck, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots.
+- **Outfit:** a lab coat worn open on her shoulders, sleeves rolled to the elbow, a cropped black low-cut V-neck top, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots. (Coat and top changed by Dylan, 2026-10-31; old lines in the archive at the end of this file.)
 - **Bond mark:** a cracked hexagon on her left wrist (broken, because her bond was half-stripped).
 - **Personality:** deadpan, brilliant, deadpan innuendo delivered as science. Defected from the Empire's bond labs and feels guilty about what she helped build.
 - **Colour:** ice blue + black.
@@ -125,3 +125,5 @@ Faceless grunts in grey coats and visored helmets with bond-cutters. Used in gam
 - Juno power, replaced 2026-10-30 (build step 2, crew sheets): "- **Borrowed power:** she loads Ashka's fire into her bullets."
 - Sela, replaced 2026-10-30 (build step 2, crew sheets): "- **Bond mark:** a spiral wave on her left collarbone."
 - Sela, replaced 2026-10-31 (build step 2, crew sheets, second change): "- **Bond mark:** a spiral wave just below her left collarbone. (Moved by Dylan, 2026-10-30, so the high collar doesn't hide it; old line in the archive at the end of this file.)"
+- Ione outfit, replaced 2026-10-31 (build step 2, crew sheets): "- **Outfit:** a lab coat worn open and loose off her shoulders, a cropped black turtleneck, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots."
+- Ione outfit, replaced 2026-10-31 (build step 2, crew sheets, second change): "- **Outfit:** a lab coat worn open on her shoulders, sleeves rolled to the elbow, a cropped black turtleneck, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots. (Coat changed by Dylan, 2026-10-31; old line in the archive at the end of this file.)"

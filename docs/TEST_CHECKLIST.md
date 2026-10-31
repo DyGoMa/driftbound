@@ -35,6 +35,7 @@ Mark each line **works** or **broken (what happened)**. Only you mark things con
 | R6 | `art/refs/hush-sheet-v2.png` | Owl face with beak and ear tufts; violet eyes; smoky grey-violet; wings folded with blade-tipped feathers; bobtail; back-view ears show their dark backs | passed by Dylan 2026-10-31 |
 | R7 | `art/refs/bram-sheet-v3.png` | Glowing anvil on his bare left chest; left strap down, right strap up; back view: back bib buckled to the right strap, sagging on the left with the loose strap at his hip; towel on his right shoulder; iron patches on his left shoulder and forearm only; flowing tattoos, the left one under the iron | passed by Dylan 2026-10-31 |
 | R8 | `art/refs/grist-sheet-v2.png` | Iron-plated beetle; one anvil-shaped horn; six legs on the ground; glowing rust-orange eyes; no tail; no text on the horn | passed by Dylan 2026-10-31 |
+| R9 | `art/refs/ione-sheet-v2.png` (V-neck take 3 not made yet: Codex timed out 3 times) | Cracked hexagon with crystals on the back of her left wrist; crystals up the left side of her neck; white lock on her left; coat on both shoulders, sleeves rolled. Still to do: swap the turtleneck for a cropped low-cut V-neck | |
 
 ## Headless smoke test (for workers)
 Serve the folder (`python3 -m http.server 8765`), open each page in Playwright Chromium (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers` in the cloud workspace), collect page errors, and screenshot the title, play and game-over states.
