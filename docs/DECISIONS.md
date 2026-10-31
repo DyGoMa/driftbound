@@ -181,3 +181,5 @@
 - Vesh take 1 passed Claude's check: 2048x1024; four true views; no legs or arms; head and neck raised over a tight coil, mouth closed; glowing teal eyes; fan-shaped frills on the jaw; paired webbed side fins along the body; one ridge of gold lure bulbs on stalks from the head down the back and along the coil; navy scales with a pale blue-grey belly. Not in CAST.md, the model's own additions: two swept-back horns. Notes: the lures fan out a little over the top of the head in the side views but form a single column above the head in the front view; along the coil they look a bit like a string of lights.
 - Images used so far in this step: 12 Codex images (Juno takes 1-5, Ashka take 1, Sela takes 1-5, Vesh take 1); 21 counting the style test.
 - Pair check: "Both pass" → locked sheets `art/refs/sela-sheet-v5.png` and `art/refs/vesh-sheet-v1.png`
+- Push: "Yes, push"
+- Next pair: "Not at my PC so will use compact and use this chat"
