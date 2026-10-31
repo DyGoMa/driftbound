@@ -7,6 +7,8 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 |---|---|---|
 | Kaito Brask | `kaito-sheet-v8.png` | Take 7 plus the left-side eyebrow scar painted in by hand |
 | Skarn | `skarn-sheet-v3.png` | Tail shows in the side views only (back view missed 3 times; Dylan accepted) |
+| Juno Calloway | `juno-sheet-v5.png` | Mark below the right collarbone; no rifle or bandolier (removed from her design by Dylan) |
+| Ashka | `ashka-sheet-v1.png` | Wings folded; tail plumes in all four views; yellow eyes and head crest are the model's additions |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -46,3 +48,7 @@ Size: `--size 2048x1024` for every four-view sheet.
 9. **Quadruped tail missing from the back view.** Failed 3 times (edit and fresh). Accept side views, or ask Dylan before trying again.
 10. **Edits that ask for many changes drift.** Fix one or two things per edit and list everything that must stay identical.
 11. **Edits sometimes return an almost unchanged picture.** Compare against the previous take before calling it fixed.
+12. **Props slung across the body (rifle on a strap, bandolier) come out floating or tangled** (Juno takes 1–3). Dylan removed them from her design. Keep big slung props off body sheets; give them their own prop sheet if needed. Removing items edits cleanly in one pass (Juno take 4).
+13. **A braid over one shoulder drifts in the side views.** Say per view: on the braid's side it falls straight down in front of the shoulder, ending in one tail under one tie; on the far side it is hidden. Otherwise it wraps behind the neck or splits into two tails.
+14. **A detail on one sleeve gets copied onto both** (bomber pocket). Name the one sleeve, and say the other sleeve is plain in the view where it is nearest.
+15. **Clothing can cover a bond mark.** Before the first take, check the outfit against where the mark sits (Juno's shoulder mark vs. her jacket). Dylan's fix there: move the mark to bare skin (below the collarbone, inside the open jacket).

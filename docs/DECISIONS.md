@@ -108,3 +108,44 @@
 - Skarn: "Take 3, as is" → locked sheet `art/refs/skarn-sheet-v3.png` (tail shown in the side views only)
 - Push: "Commit and push"
 - Images used in this step: 9 Codex images (Kaito takes 1–5 and 7, Skarn takes 1–3); Kaito takes 6 and 8 were painted by hand (no Codex use).
+
+## Your words (2026-10-30, build step 2: crew sheets)
+- Request: "Driftbound, build step 2: reference sheets for the other five leads and their partners." Scope: Sela + Vesh, Juno + Ashka, Silas + Hush, Bram + Grist, Ione + Prism (10 sheets); villains not in this step. One pair at a time, stop after each pair for Dylan's check. Ask before each image; redo failures before showing, each redo with its own yes. Push only on Dylan's yes.
+- Usage screenshots: mentioned again, but didn't come through in the chat. "Go ahead without them"
+- First pair: "Juno + Ashka"
+- Branch: `art/ref-sheets-crew` (off `art/style-test-kaito-skarn` at b1f8c65)
+- Juno palms vs. gloves: "Burns peek out" (gloves on; red blistered skin shows at the glove edges, fingers and wrists)
+- Juno shoulder mark vs. open bomber (a clash Claude found; not on Dylan's list): "Jacket off both shoulders" (bomber slipped down to her elbows)
+- Ashka pose: "Wings folded"
+- Juno braid: "Over her left shoulder" (Claude's call to go with it: bandolier and rifle strap also over her left shoulder, keeping the right-shoulder mark clear)
+- Image 1 (Juno take 1): "Yes, make Juno"
+- Juno take 1 passed Claude's check (mark on her right shoulder on the correct image side in front, right-side and back views, hidden in the left-side view; braid, bandolier and rifle strap over her left shoulder; burns at glove edges on both hands; jacket off both shoulders; faint freckles). Notes: the mark reads as a plain feather with only a slight flame tip; it is a soft glow in the front view.
+- Image 2 (Ashka): "Fix Juno first"
+- Juno take 1 fix: "move the mark to her collarbone and put the jacket on properly. it also isnt on properly in the back view"
+  - This changes CAST.md ("a flame-shaped feather on her right shoulder") and the earlier answer "Jacket off both shoulders".
+  - Mark side: "Right collarbone" (Sela's is on her left collarbone)
+  - CAST.md: "Yes, update CAST.md" (old line kept word for word in CAST.md's archive)
+  - Image 2 (Juno take 2, an edit of take 1): "Yes, make Juno take 2"
+- Juno take 2 passed Claude's check (jacket on both shoulders in every view, including the back; mark crisp on her right collarbone in the front view, a small glimpse at the neck in the right-side view, not shown in the left-side or back views; everything else matches take 1). Slip: Kaito's sheet was not passed as the style reference for this edit (only take 1 was); the style still matches take 1.
+- Image 3 (Ashka): "Fix Juno again first"
+- Juno take 2 fix: "left side view braid isnt in front of neck. pocket on jacket shouldnt be on right side view. shotgun is free floating on her back. make the makr closer to her chest so its more visible"
+  - CAST.md calls the gun "a long-barrelled rifle"; Claude kept it a rifle.
+  - How: "Two edits, two images" (edit 1 = braid + sleeve pocket; edit 2 = gun strap + mark)
+  - Mark spot: "Just below the collarbone" (CAST.md updated; old line archived)
+  - Image 3 (Juno take 3, edit 1 of 2): "Yes, make Juno take 3"
+- Juno take 3 passed Claude's check (left-side braid now in front of her neck and chest; right sleeve plain, pocket on the left sleeve only; other views unchanged). Note: in the left-side view the braid's end splits into two loose tails below the tie.
+- Image 4 (Juno take 4, sling + mark): "Fix take 3 first"
+- Juno take 3 fix: "lower the mark closer to her chest. side view hair braid still isnt correct. take away the gun and ammo belt its too complicated of a detail and is messed up."
+  - This clashes with CAST.md ("ammo bandolier across her chest", "a long-barrelled rifle on her back"; she is "the sharpshooter").
+  - Gun and belt: "Remove both from her design" (CAST.md outfit line archived word for word; her gun is decided later)
+  - Side braid: "Left: hangs straight down; right: hidden" (left-side view: falls straight down in front of her shoulder, one tail; right-side view: hidden, only the tip peeking past her chest)
+  - How: "Two edits, two images" (edit 1 = remove gun and ammo belt; edit 2 = side braid + mark lower)
+  - Image 4 (Juno take 4, edit 1 of 2): "Yes, make Juno take 4"
+- Juno take 4 passed Claude's check (rifle and bandolier gone from all four views, no leftover straps; everything else unchanged from take 3).
+- Image 5 (Juno take 5, edit 2 of 2: side braid + mark lower): "Yes, make Juno take 5"
+- Juno take 5 passed Claude's check (mark on her upper chest below the right collarbone, larger, feather with a flame-curl tip, small glow in the right-side view, hidden in the left-side and back views; left-side braid hangs down in front of the shoulder with one tail; right-side braid hidden; everything else unchanged from take 4).
+- Image 6 (Ashka take 1): "Yes, make Ashka"
+- Ashka take 1 passed Claude's check (four true views; wings folded; tail plumes show in all four views, including the back; hooked beak closed; ember-red and black feathers with sparks). Not in CAST.md, the model's own additions: yellow eyes and a tall spiky head crest. In the back view the dark feather patch on the back of the head could be misread as a beak at a glance.
+- Images used so far in this step: 6 Codex images (Juno takes 1–5, Ashka take 1).
+- Pair check: "Both pass" → locked sheets `art/refs/juno-sheet-v5.png` and `art/refs/ashka-sheet-v1.png`
+- Push: "Commit and push after you pass them"

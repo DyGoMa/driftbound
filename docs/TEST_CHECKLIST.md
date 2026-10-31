@@ -24,5 +24,11 @@ Mark each line **works** or **broken (what happened)**. Only you mark things con
 | 11 | On a computer: Space / Up arrow | Same as tapping | |
 | 12 | Feel | Too easy / too hard / jump too floaty? Tell me, and I'll change the numbers in `games/aki-dash/tuning.js` | |
 
+## Waiting for your check: reference sheets (build step 2, crew)
+| # | Look at | Check | Result |
+|---|---|---|---|
+| R1 | `art/refs/juno-sheet-v5.png` | Mark on her upper chest below the right collarbone (left of the picture in front view); braid down in front of her left shoulder, hidden in the right-side view; jacket on both shoulders; burns at glove edges; no gun or ammo belt | passed by Dylan 2026-10-30 |
+| R2 | `art/refs/ashka-sheet-v1.png` | Wings folded; glowing tail plumes in all four views (including the back); hooked beak closed; ember-red and black feathers with sparks | passed by Dylan 2026-10-30 |
+
 ## Headless smoke test (for workers)
 Serve the folder (`python3 -m http.server 8765`), open each page in Playwright Chromium (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers` in the cloud workspace), collect page errors, and screenshot the title, play and game-over states.

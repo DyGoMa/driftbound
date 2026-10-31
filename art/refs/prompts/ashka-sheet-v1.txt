@@ -1,0 +1,17 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fur or colours. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind.
+
+Creature: Ashka, a fire raptor the size of a large eagle: a bird of prey with a sleek, fierce, sharp-lined 2000s-anime monster design (cool, a little menacing, not cute). Ember-red feathers with black feather tips and black bands on the wings; tiny glowing orange sparks drift off the edges of the feathers. A sharp hooked beak (beak closed). Strong scaly legs with black talons, standing upright on both feet on the baseline.
+Wings: FOLDED, tucked flat against the body in every view, wing tips crossing just above the tail. Do not spread the wings.
+Tail: long glowing tail plumes (several long feathers glowing orange-yellow at the ends like embers), held straight out behind. The tail plumes show in EVERY view: in the FRONT view their glowing tips fan out a little behind the legs; in both SIDE views at full length behind the body; in the BACK view clearly, nearest to us, covering the lower back.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

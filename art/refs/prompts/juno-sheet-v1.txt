@@ -1,0 +1,25 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Juno Calloway, a 23-year-old ADULT woman with an adult face and adult proportions, 165 cm, curvy and strong. Tanned skin with freckles across her nose and cheeks, bright green eyes. Copper-orange hair in one thick braid that hangs forward over her LEFT shoulder onto her chest.
+Outfit: cropped white tank top; a brown bomber jacket with a cream fur collar, worn OPEN and slipped down off BOTH shoulders so it hangs at her elbows (both shoulders bare, sleeves still on her arms below the elbow); short blue denim shorts; a brown leather ammo bandolier running diagonally from her LEFT shoulder to her RIGHT hip; knee-high laced brown boots; black fingerless gloves on both hands; a long-barrelled rifle slung diagonally across her back, its strap over her LEFT shoulder. The outfit is bold but the pose is neutral and the framing is a plain technical reference sheet: no sexualized posing.
+
+Bond mark: a glowing fire-orange flame-shaped feather (one feather whose tip curls up like a flame) on the outer cap of her RIGHT shoulder, on bare skin. It must not look like a letter or any written character.
+- FRONT view: on the LEFT side of the image, on her right shoulder.
+- RIGHT SIDE view: clearly visible on the shoulder nearest us.
+- BACK view: on the RIGHT side of the image, on the back of her right shoulder.
+- LEFT SIDE view: hidden (far side).
+Her LEFT shoulder is clean skin with no mark.
+
+Burn scars: both palms are scarred and blistered under the gloves. Red, blistered burn skin peeks out at the glove edges: on the bare parts of her fingers and in a band around both wrists just above the glove cuffs. Show this on BOTH hands in every view where the hands are visible.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

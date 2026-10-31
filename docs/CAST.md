@@ -40,8 +40,8 @@ Follows the World Bible hard rules: everyone is 21+ with adult faces and bodies;
 ### 3. Juno Calloway — the sharpshooter
 - **Age / build:** 23, woman. 165 cm (5'5"), curvy, strong.
 - **Face / hair:** tanned skin with freckles, bright green eyes, a cocky grin. Copper-orange hair in one thick braid over her shoulder.
-- **Outfit:** cropped white tank top, open bomber jacket with a fur collar, short denim shorts, ammo bandolier across her chest, knee-high laced boots, fingerless gloves; a long-barrelled rifle on her back.
-- **Bond mark:** a flame-shaped feather on her right shoulder.
+- **Outfit:** cropped white tank top, open bomber jacket with a fur collar, short denim shorts, knee-high laced boots, fingerless gloves. (Bandolier and rifle removed by Dylan, 2026-10-30: "too complicated of a detail". Her gun is decided later; old line in the archive at the end of this file.)
+- **Bond mark:** a flame-shaped feather on her upper chest, just below her right collarbone. (Moved by Dylan, 2026-10-30; old lines in the archive at the end of this file.)
 - **Personality:** loud gambler, bets on everything, constant innuendo, rival-banter with Kaito. Brave to the point of stupid.
 - **Colour:** fire orange + white.
 - **Partner: Ashka**, a fire raptor the size of a large eagle. Ember-red and black feathers that trail sparks, a hooked beak, glowing tail plumes. Rides on Juno's shoulder or flies spotter for her shots.
@@ -115,3 +115,10 @@ Faceless grunts in grey coats and visored helmets with bond-cutters. Used in gam
 - Pals (the cute collectibles for the monster book) and other monsters: designed later.
 - Which leads have romance routes and how they play out: decided at build step 4 (visual novel).
 - Reference sheet prompts: build step 2, after Dylan's OK and the image-spend OK.
+
+---
+
+## Archive: replaced lines (word for word)
+- Juno, replaced 2026-10-30 (build step 2): "- **Bond mark:** a flame-shaped feather on her right shoulder."
+- Juno outfit, replaced 2026-10-30 (build step 2): "- **Outfit:** cropped white tank top, open bomber jacket with a fur collar, short denim shorts, ammo bandolier across her chest, knee-high laced boots, fingerless gloves; a long-barrelled rifle on her back."
+- Juno, replaced 2026-10-30 (build step 2, second move): "- **Bond mark:** a flame-shaped feather on her right collarbone. (Moved from her right shoulder by Dylan, 2026-10-30; old line in the archive at the end of this file.)"
