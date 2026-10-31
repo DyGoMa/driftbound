@@ -1,0 +1,24 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Silas Moreau, a 24-year-old ADULT man with an adult face and adult proportions, 183 cm, slim and graceful. Pale skin, violet eyes, a small dark beauty mark under his LEFT eye (FRONT view: under the eye on the RIGHT side of the image; visible in the LEFT SIDE view; hidden in the RIGHT SIDE view). Long dark-teal hair tied low at the nape of the neck with a simple band; the tail hangs straight down the MIDDLE of his back to the shoulder blades. No loose hair over the shoulders or in front of the neck: both sides of his neck are clear.
+Outfit: a loose white shirt unbuttoned down to the stomach, with a loose high collar that is OPEN and falls back, splaying away from the neck like an open poet shirt, so both sides of his neck are bare from the jaw to the collarbones. A wide red cloth sash wrapped around his waist. A thin steel chain wound three times around his waist on top of the red sash, lying flat and neat, its end clipped at his right hip to a short curved knife in a black leather sheath that hangs at his RIGHT hip (FRONT view: on the LEFT side of the image; clearly visible in the RIGHT SIDE view; BACK view: on the RIGHT side of the image; hidden in the LEFT SIDE view). Nothing crosses his chest. Loose black trousers. Off-white cloth wraps on both forearms from wrist to elbow and around both ankles. Soft black boots.
+The outfit is bold but the pose is neutral and the framing is a plain technical reference sheet: no sexualized posing.
+
+Bond mark: three tiny glowing violet FEATHERS on bare skin down the LEFT side of his neck, stacked one above the other from below the ear toward the collarbone, each slightly angled. Each one is a small slim feather with a centre quill and soft barbs, clearly a feather, not a plain stroke. They must NOT look like the numeral III, slashes, scratches, a letter or any written character.
+- FRONT view: on the side of the neck on the RIGHT side of the image.
+- LEFT SIDE view: clearly visible, all three feathers, on the side of the neck nearest us.
+- RIGHT SIDE view: hidden (far side).
+- BACK view: at most a small glimpse at the edge of the neck on the LEFT side of the image.
+The RIGHT side of his neck is clean skin, with no mark.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

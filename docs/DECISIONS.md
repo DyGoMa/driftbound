@@ -183,3 +183,30 @@
 - Pair check: "Both pass" → locked sheets `art/refs/sela-sheet-v5.png` and `art/refs/vesh-sheet-v1.png`
 - Push: "Yes, push"
 - Next pair: "Not at my PC so will use compact and use this chat"
+- Next pair: "Silas + Hush"
+- Silas mark vs. collar (CAST.md: "white shirt unbuttoned to the stomach with a loose high collar" and "three short feather lines down the left side of his neck"): "Collar open, falls back" (CAST.md wording stays)
+- Silas hair (Claude found: low tie vs. neck mark): "Straight down his back"
+- Silas chain-blade (Claude found; fix 12): "Chain wound round the sash" (sheathed knife at his right hip; nothing crosses his chest)
+- Silas mark shape (Claude found; fix 17 risk of reading as III): "Three tiny feathers"
+- Image 13 (Silas take 1): "Yes, make Silas"
+- Silas take 1 failed Claude's check: (a) hair is blue-black, not dark teal; (b) in the front view a dark smudge rings his RIGHT eye (left of the picture), like a bruise or eyeliner. Passed: 2048x1024; three violet marks down the left side of his neck (front view on the right of the picture, clear in the left-side view, hidden in the right-side and back views); beauty mark under his left eye; collar open and falling back; ponytail down the middle of his back; chain wound round the red sash, sheathed knife at his right hip in every view; forearm and ankle wraps. Notes, not redone: the feathers read more like petals; the boots are chunky lace-ups rather than "soft boots".
+- Image 14 (Silas take 2, edit of take 1: hair colour + eyes): "Option 1 but also his left eye in front view looks like there is something on it" (Claude folded both eyes into one eye clean-up change: only one beauty mark below the outer corner of his left eye)
+- Silas take 2: hair now dark teal in all four views (fixed); 2048x1024; everything else unchanged. Eyes: his right eye (left of the picture) still has a grey smudge, now partly a hair lock falling across it, and his left eye still shows a faint speck beside the beauty mark. Second miss on the eyes, so Claude stopped and asked.
+- Silas eyes after take 2: "One more edit"
+- Image 15 (Silas take 3, edit of take 2: front-view eyes only): "Yes, make take 3"
+- Silas take 3: came back almost unchanged from take 2 (fix 11): hair lock still over his right eye, grey smudge still there, faint speck by the left eye still there. 2048x1024; nothing else changed. Third miss on the eyes, so Claude stopped and asked.
+- Silas eyes after take 3: "I paint them by hand" → take 4 = take 3 with his clean left eye mirrored onto his right eye in the front view (smudge and hair lock gone; one beauty mark, under his left eye). No Codex use.
+- Hush size (CAST.md: "a big cat's body"): "Leopard-sized"
+- Hush colour: "Smoky grey-violet" (pale owl face disc, darker wing tips)
+- Hush wings: "Folded"
+- Hush eyes: "Glowing violet"
+- Image 16 (Hush take 1): "Yes, make Hush"
+- Hush take 1 passed Claude's check on CAST.md and your answers: 2048x1024; four true views; big-cat body on four legs; flat round owl face with pale disc, hooked beak, lynx ear tufts; glowing violet eyes; smoky grey-violet with pale belly and darker wing tips; wings folded along both sides with long blade-pointed flight feathers; short bobtail in the side and back views. Notes: in the back view the ears show their pale insides, as if facing backwards (they should show the dark backs); it reads more soft than menacing; size can't be judged on its own sheet.
+- Images used so far in this step: 16 Codex images (Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1); 25 counting the style test. Silas take 4 was painted by hand (no Codex use).
+- Pair check (Silas take 4 + Hush take 1): "Fix Hush's back-view ears"
+- Silas: "Silas passes" → locked sheet `art/refs/silas-sheet-v4.png`
+- Image 17 (Hush take 2, edit of take 1: back-view ears): "Yes, make take 2"
+- Hush take 2 passed Claude's check: 2048x1024; back-view ears now show their dark furry backs with tufts, no pale insides; everything else unchanged from take 1.
+- Hush: "Hush passes" → locked sheet `art/refs/hush-sheet-v2.png`
+- Push: "Yes, push after locking"
+- Images used so far in this step: 17 Codex images (Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2); 26 counting the style test. Silas take 4 painted by hand.

@@ -11,6 +11,8 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 | Ashka | `ashka-sheet-v1.png` | Wings folded; tail plumes in all four views; yellow eyes and head crest are the model's additions |
 | Sela Vey | `sela-sheet-v5.png` | Round whirlpool mark below the left collarbone (replaced the spiral wave, which read as a 2); jacket buttoned once under the high collar |
 | Vesh | `vesh-sheet-v1.png` | Head raised over a coil, no legs; pose line swapped for this sheet only; horns are the model's addition |
+| Silas Moreau | `silas-sheet-v4.png` | Take 3 with the front-view right eye painted by hand (mirrored from the clean left eye); feather marks read a little like petals; boots chunkier than "soft boots" |
+| Hush | `hush-sheet-v2.png` | Wings folded; owl beak, lynx ear tufts and bobtail; back-view ears fixed by one edit |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -56,3 +58,5 @@ Size: `--size 2048x1024` for every four-view sheet.
 15. **Clothing can cover a bond mark.** Before the first take, check the outfit against where the mark sits (Juno's shoulder mark vs. her jacket). Dylan's fix there: move the mark to bare skin (below the collarbone, inside the open jacket).
 16. **The requested size is not always honoured** (Sela take 1 came out 1774x887). Read the pixel size of every take; an edit of it with `--size 2048x1024` came back at the right size.
 17. **A curl with a tail reads as the number 2, and edits keep copying an existing mark** (Sela takes 1-3, even after the shape was renamed). Give marks a closed, round outline with no tail. To replace a stuck mark: one edit that removes it completely, then a second edit that adds the new shape on clean skin (Sela takes 4-5).
+18. **A smudged eye in the front view survives edits** (Silas takes 1-3: a grey smudge and a hair lock over one eye; the third edit came back almost unchanged). Paint it by hand: mirror the clean eye across the face's centre line with a soft oval blend, masking out any one-sided mark like a beauty mark (Silas take 4).
+19. **Back views can show the insides of the ears**, as if they face backwards (Hush take 1). One edit that names the back view only and says "we see the backs of both ears; the pale inner ear is not visible" fixed it (Hush take 2).
