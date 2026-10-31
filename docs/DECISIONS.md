@@ -257,3 +257,4 @@
 - Image 24 attempt (Ione take 3) timed out after 1200s ("codex-imagegen: timed out after 1200s. Raise --timeout or simplify the prompt."); no file saved.
 - Codex hanging: "One retry with a shorter prompt" (Ione take 3, retry 1)
 - Ione take 3 retry 1 (short prompt) timed out after 1200s too; no file saved. Third hang in a row on this edit, so Claude stopped image work.
+- After the 3 hangs: "Option 1 use compact and use this chat" (stay here; retry Ione take 3 when Codex usage looks fine)
