@@ -1,0 +1,32 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Bram Torvald, a 31-year-old ADULT man with an adult face and adult proportions, 198 cm, huge and broad: a big barrel chest, thick arms, a heavy strong build. Light-brown skin, kind brown eyes, a thick full black beard, a cleanly shaved head.
+Outfit: shirtless. Heavy brown leather work-dungarees. The RIGHT shoulder strap is UP over his right shoulder. The LEFT shoulder strap is DOWN, hanging loose at his left hip, and the left top corner of the bib is folded down, so his whole LEFT chest is bare. A brown leather tool belt at the waist with a hammer and a few small tools in loops, all flat against the body. Thick dark work boots. A white cook's towel draped over his RIGHT shoulder, on top of the strap, hanging a little down the front and back (FRONT view: on the LEFT side of the image; clearly visible in the RIGHT SIDE view; BACK view: on the RIGHT side of the image; hidden in the LEFT SIDE view).
+The outfit is bold but the pose is neutral and the framing is a plain technical reference sheet: no sexualized posing.
+
+Bond mark: a glowing rust-orange ANVIL on bare skin over his heart, on his LEFT chest. Draw it as one solid filled anvil silhouette: a flat wide top with a pointed horn sticking out to one side, a narrow waist, and a wide flat base; a closed shape with a glow around it. It must not look like the letter T, any letter or any written character.
+- FRONT view: on the RIGHT side of the image, on his left chest.
+- LEFT SIDE view: visible on the front of the chest nearest us.
+- RIGHT SIDE view: hidden (far side).
+- BACK view: hidden.
+His RIGHT chest is covered by the bib.
+
+Iron patches (his bond cost): flat grey iron patches on his skin, metallic grey with a dull sheen and rough cracked edges where they meet the skin, as if his skin is turning to metal.
+- On his LEFT shoulder: one large patch covering the shoulder cap.
+- On his LEFT forearm: one patch on the outer forearm between wrist and elbow.
+FRONT view: on the RIGHT side of the image. LEFT SIDE view: clearly visible. BACK view: on the LEFT side of the image. RIGHT SIDE view: hidden.
+His RIGHT shoulder and RIGHT forearm are clean skin with no iron.
+
+Tattoos: thick black tribal-style tattoos of flowing curved bands with sharp points, like waves or flames, wrapping round both shoulders and across the top of his upper back. Pure pattern: no letters, no symbols, no faces, no emblems, nothing that reads as writing. On his RIGHT shoulder the tattoo is whole. On his LEFT shoulder the grey iron patch spreads over the tattoo and covers part of it, with the black bands disappearing under the iron.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

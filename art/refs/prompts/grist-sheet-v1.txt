@@ -1,0 +1,19 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fur or colours. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, the rear of the shell ends in a rounded plate, no tail.
+
+The creature: Grist, an ORIGINAL iron rhino-beetle beast (in the story it is the size of a truck). A huge, heavy, low beetle body covered by a domed SHELL of overlapping dark iron plates, gunmetal grey with a dull metallic sheen, rivet-like bumps along the plate edges and a few rust-orange scuffs. ONE huge horn rising from the front of the head, curving up and forward, shaped like a blacksmith's ANVIL seen from the side: a thick flat-topped block with a pointed tip sticking forward. A short armoured head under the horn with small mandibles closed, and two small glowing rust-orange eyes. SIX thick, stubby, armoured legs, three on each side, evenly spaced under the shell, all six planted on the ground, each ending in a blunt clawed foot. No tail, no wings showing (the shell is closed), no fur. Slow, stubborn and heavy-looking, with sharp angular plate edges and some menace.
+- FRONT view: the face head-on with both glowing eyes, the anvil horn rising up the middle, the front pair of legs, the shell dome behind.
+- LEFT and RIGHT SIDE views: the anvil horn in clear profile (flat top, forward point), the domed shell, all three near legs visible and the far legs behind them.
+- BACK view: the rounded rear plate of the shell, the back legs, and the top of the horn just showing above the shell.
+Every detail stays identical in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

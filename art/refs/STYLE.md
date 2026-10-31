@@ -13,6 +13,8 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 | Vesh | `vesh-sheet-v1.png` | Head raised over a coil, no legs; pose line swapped for this sheet only; horns are the model's addition |
 | Silas Moreau | `silas-sheet-v4.png` | Take 3 with the front-view right eye painted by hand (mirrored from the clean left eye); feather marks read a little like petals; boots chunkier than "soft boots" |
 | Hush | `hush-sheet-v2.png` | Wings folded; owl beak, lynx ear tufts and bobtail; back-view ears fixed by one edit |
+| Bram Torvald | `bram-sheet-v3.png` | Left strap down; back bib buckled to the right strap, sagging on the left; dungarees read as canvas rather than leather |
+| Grist | `grist-sheet-v2.png` | No tail (pose phrase swapped for this sheet); text-like squiggle on the front-view horn painted out by hand |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -60,3 +62,5 @@ Size: `--size 2048x1024` for every four-view sheet.
 17. **A curl with a tail reads as the number 2, and edits keep copying an existing mark** (Sela takes 1-3, even after the shape was renamed). Give marks a closed, round outline with no tail. To replace a stuck mark: one edit that removes it completely, then a second edit that adds the new shape on clean skin (Sela takes 4-5).
 18. **A smudged eye in the front view survives edits** (Silas takes 1-3: a grey smudge and a hair lock over one eye; the third edit came back almost unchanged). Paint it by hand: mirror the clean eye across the face's centre line with a soft oval blend, masking out any one-sided mark like a beauty mark (Silas take 4).
 19. **Back views can show the insides of the ears**, as if they face backwards (Hush take 1). One edit that names the back view only and says "we see the backs of both ears; the pale inner ear is not visible" fixed it (Hush take 2).
+20. **Overalls with one strap down come out wrong in the back view** (Bram take 1: a wide diagonal panel instead of a strap; take 2: straps but no back bib). Describe the back bib panel, which corner is hooked to the strap with a buckle, and which corner sags with the loose strap hanging from it (Bram take 3).
+21. **Tiny text-like squiggles can appear on flat surfaces** (Grist's horn top). Zoom in on flat faces in every view; a small one paints out cleanly by blending the colours just above and below.

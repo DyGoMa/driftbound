@@ -210,3 +210,27 @@
 - Hush: "Hush passes" → locked sheet `art/refs/hush-sheet-v2.png`
 - Push: "Yes, push after locking"
 - Images used so far in this step: 17 Codex images (Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2); 26 counting the style test. Silas take 4 painted by hand.
+- Next pair: "Bram + Grist"
+- Bram strap vs. mark (CAST.md: "heavy leather work-dungarees with one strap down" and "a square anvil shape over his heart"): "Left strap down" (that corner of the bib folds down so the mark is bare; right strap up)
+- Bram towel (Claude found): "Right shoulder"
+- Bram tattoos vs. iron patch (Claude found): "Iron spreads over the ink" (left-shoulder tattoo partly covered by the iron patch; right shoulder whole)
+- Bram tattoo style (Claude found; STYLE.md no-symbols rule): "Flowing bands and points"
+- Grist size ("the size of a truck"): "Notes only"
+- Grist tail vs. STYLE.md's creature pose line ("tail held straight out behind"): "No tail, swap that phrase" (rest of the pose line word for word)
+- Grist legs: "All six on the ground"
+- Grist accent: "Glowing rust-orange eyes"
+- Image 18 (Bram take 1): "Yes, make Bram"
+- Bram take 1 passed Claude's check: 2048x1024; glowing rust-orange anvil (clear solid silhouette, not a T) on his bare left chest (front view on the right of the picture, visible in the left-side view, hidden in the right-side and back views); left strap down with that bib corner folded; right strap up; white towel over his right shoulder in the front, right-side and back views; grey iron patches on his left shoulder and left forearm in the front, left-side and back views, none on the right; flowing black tattoo bands on both shoulders and upper back, the left one disappearing under the iron; shaved head, thick black beard; hammer and tool pouches on the belt. Notes: the dungarees read as heavy canvas with cargo pockets rather than leather.
+- Grist take 1 card: "Change something first" → "No Bram's I strapped suspenders in the back view isn't proper" (Claude missed it: in the back view a wide triangular back panel runs diagonally from his waist up to his right shoulder instead of a strap, and the loose left strap does not show)
+- Image 19 (Bram take 2, edit of take 1: back-view straps): "Yes, make take 2"
+- Bram take 2 passed Claude's check: 2048x1024; back view now has bare back above the waistband, one narrow strap from the middle of the back waistband up over his right shoulder under the towel, and the loose left strap hanging down his left hip with a buckle; other three views unchanged from take 1.
+- Bram take 2 check: "His back view completely exposes his back and doesn't have the back part of the overalls hanging or hooked up to the one strap correctly"
+- Image 20 (Bram take 3, edit of take 2: back bib): "Yes, make take 3"
+- Bram take 3 passed Claude's check: 2048x1024; back view now has the back bib: its top-right corner hooked by a buckle to the strap over his right shoulder (under the towel), its top-left corner folded down and sagging, with the loose left strap hanging from it down his left hip to a buckle; other three views unchanged.
+- Bram take 3: "Bram's right now"
+- Image 21 (Grist take 1): "Yes, make Grist"
+- Grist take 1: 2048x1024; four true views; dark iron plate shell with rivets and rust scuffs; one anvil-shaped horn (flat top, forward point) clear in both side views, rising up the middle in the front view and showing above the shell in the back view; glowing rust-orange eyes; closed mandibles; six stubby legs on the ground (three per side); no tail, rounded rear plate. Failed Claude's check on one point: a tiny engraved squiggle like text on the top face of the horn in the front view (no-text rule).
+- Grist squiggle: "Paint it out by hand" → take 2 = take 1 with the squiggle covered in the horn's own grey; checked zoomed in: clean. No Codex use.
+- Pair check: "Both pass" → locked sheets `art/refs/bram-sheet-v3.png` and `art/refs/grist-sheet-v2.png`
+- Push: "Yes, push after locking"
+- Images used so far in this step: 21 Codex images (Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2, Bram 1-3, Grist 1); 30 counting the style test. Silas take 4 and Grist take 2 painted by hand.
