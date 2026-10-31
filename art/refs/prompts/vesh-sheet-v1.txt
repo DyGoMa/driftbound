@@ -1,0 +1,19 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fur or colours. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): the head and neck rise straight up out of the coil like a cobra, head level facing ahead, mouth closed, side fins spread; the rest of the long body is coiled tight in a neat pile beneath, resting on the baseline, with the tail tip tucked into the coil.
+
+The creature: Vesh, an ORIGINAL deep-sea serpent-dragon (in the story it is as long as a ship; here it is coiled to fit). NO LEGS: a true sea serpent. Long, thick, muscular serpent body covered in dark navy-blue scales, with a paler blue-grey underbelly of wide belly plates. A dragon-like head with a long snout, sharp angular lines and some menace, glowing teal eyes, and a large frilled jaw: a fan-shaped frill of webbed spines on each side of the jaw and throat. A single ridge of glowing gold lantern lures runs down the middle of its back from the back of the head along the whole body: small round bulbs, each on a short thin stalk, evenly spaced, glowing gold. Pairs of webbed side fins, dark blue with lighter edges, spaced along both sides of the body (the first pair just behind the head). No arms, no legs, no claws, no wings.
+- FRONT view: the face head-on with both jaw frills spread, the neck rising above the coil, the gold lure ridge running up the middle of the back of the neck behind the head.
+- LEFT and RIGHT SIDE views: the head in profile at the top, the raised neck, the frill on the near side, the lure ridge along the top edge of the neck and the coil.
+- BACK view: the back of the head and the neck from behind, with the gold lure ridge running straight down the middle, and the coil beneath.
+Every detail stays identical in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

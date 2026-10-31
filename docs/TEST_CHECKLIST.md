@@ -29,6 +29,8 @@ Mark each line **works** or **broken (what happened)**. Only you mark things con
 |---|---|---|---|
 | R1 | `art/refs/juno-sheet-v5.png` | Mark on her upper chest below the right collarbone (left of the picture in front view); braid down in front of her left shoulder, hidden in the right-side view; jacket on both shoulders; burns at glove edges; no gun or ammo belt | passed by Dylan 2026-10-30 |
 | R2 | `art/refs/ashka-sheet-v1.png` | Wings folded; glowing tail plumes in all four views (including the back); hooked beak closed; ember-red and black feathers with sparks | passed by Dylan 2026-10-30 |
+| R3 | `art/refs/sela-sheet-v5.png` | Round teal whirlpool mark (no tail) just below her left collarbone, right of the picture in the front view, hidden in the right-side and back views; jacket buttoned once under the high collar with a low V; spyglass on her right hip, logbook pouch on her left hip; skirt slit on her left leg | passed by Dylan 2026-10-31 |
+| R4 | `art/refs/vesh-sheet-v1.png` | No legs; head raised over a tight coil; glowing teal eyes; frilled jaw; paired side fins; gold lure ridge down the back; horns are the model's addition | passed by Dylan 2026-10-31 |
 
 ## Headless smoke test (for workers)
 Serve the folder (`python3 -m http.server 8765`), open each page in Playwright Chromium (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers` in the cloud workspace), collect page errors, and screenshot the title, play and game-over states.

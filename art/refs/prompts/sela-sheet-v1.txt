@@ -1,0 +1,26 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Sela Vey, a 28-year-old ADULT woman with an adult face and adult proportions, 175 cm, tall and athletic with long legs. Dark brown skin, sea-green eyes, small gold hoop earrings in both ears. Long silver-blue hair pulled into a high ponytail at the back of her head; the ponytail hangs straight down her back to between her shoulder blades. No loose strands over the shoulders.
+Outfit: a short cropped deep-blue navigator's jacket with brass buttons and a stiff HIGH stand-up collar. The jacket is buttoned at the top, under the collar, then opens into a low V neckline that shows bare skin of the upper chest below the collarbones; it is cropped above the waist. Under it, a black bandeau top; bare midriff. A deep-teal wrap skirt to just below the knee, with a high slit up the side of her LEFT leg (the slit opens on her left leg only; her right leg is covered by the skirt). Brown strapped sandal-boots on both feet. A brown leather belt at the waist holds two items that sit flat against the body with no straps across the torso:
+- a brass spyglass in a short leather holster on her RIGHT hip (FRONT view: on the LEFT side of the image; clearly visible in the RIGHT SIDE view; BACK view: on the RIGHT side of the image; hidden in the LEFT SIDE view);
+- a small worn leather logbook in a strapped belt pouch on her LEFT hip (FRONT view: on the RIGHT side of the image; clearly visible in the LEFT SIDE view; BACK view: on the LEFT side of the image; hidden in the RIGHT SIDE view).
+The outfit is bold but the pose is neutral and the framing is a plain technical reference sheet: no sexualized posing.
+
+Bond mark: a glowing deep-teal spiral wave (one curling wave that rolls into a spiral) on bare skin just BELOW her LEFT collarbone, inside the V of the jacket neckline, fully visible and not covered by the jacket or collar. It must not look like a letter or any written character.
+- FRONT view: on the RIGHT side of the image, on her left upper chest.
+- LEFT SIDE view: visible at the front of the chest, just below the collarbone, nearest us.
+- RIGHT SIDE view: hidden (far side).
+- BACK view: hidden.
+The skin below her RIGHT collarbone is clean, with no mark.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

@@ -9,6 +9,8 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 | Skarn | `skarn-sheet-v3.png` | Tail shows in the side views only (back view missed 3 times; Dylan accepted) |
 | Juno Calloway | `juno-sheet-v5.png` | Mark below the right collarbone; no rifle or bandolier (removed from her design by Dylan) |
 | Ashka | `ashka-sheet-v1.png` | Wings folded; tail plumes in all four views; yellow eyes and head crest are the model's additions |
+| Sela Vey | `sela-sheet-v5.png` | Round whirlpool mark below the left collarbone (replaced the spiral wave, which read as a 2); jacket buttoned once under the high collar |
+| Vesh | `vesh-sheet-v1.png` | Head raised over a coil, no legs; pose line swapped for this sheet only; horns are the model's addition |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -52,3 +54,5 @@ Size: `--size 2048x1024` for every four-view sheet.
 13. **A braid over one shoulder drifts in the side views.** Say per view: on the braid's side it falls straight down in front of the shoulder, ending in one tail under one tie; on the far side it is hidden. Otherwise it wraps behind the neck or splits into two tails.
 14. **A detail on one sleeve gets copied onto both** (bomber pocket). Name the one sleeve, and say the other sleeve is plain in the view where it is nearest.
 15. **Clothing can cover a bond mark.** Before the first take, check the outfit against where the mark sits (Juno's shoulder mark vs. her jacket). Dylan's fix there: move the mark to bare skin (below the collarbone, inside the open jacket).
+16. **The requested size is not always honoured** (Sela take 1 came out 1774x887). Read the pixel size of every take; an edit of it with `--size 2048x1024` came back at the right size.
+17. **A curl with a tail reads as the number 2, and edits keep copying an existing mark** (Sela takes 1-3, even after the shape was renamed). Give marks a closed, round outline with no tail. To replace a stuck mark: one edit that removes it completely, then a second edit that adds the new shape on clean skin (Sela takes 4-5).

@@ -30,7 +30,7 @@ Follows the World Bible hard rules: everyone is 21+ with adult faces and bodies;
 - **Age / build:** 28, woman. 175 cm (5'9"), tall, athletic, long legs.
 - **Face / hair:** dark brown skin, sea-green eyes, gold hoop earrings. Long silver-blue hair in a high ponytail.
 - **Outfit:** short cropped navigator's jacket (deep blue, brass buttons, high collar) over a black bandeau top, bare midriff; a wrap skirt with a high side slit; strapped sandal-boots; a brass spyglass on her hip.
-- **Bond mark:** a spiral wave on her left collarbone.
+- **Bond mark:** a whirlpool spiral (curls inward, no tail) just below her left collarbone. (Moved by Dylan, 2026-10-30, so the high collar doesn't hide it; shape changed 2026-10-31 because the spiral wave kept reading as the number 2; old lines in the archive at the end of this file.)
 - **Personality:** calm, teasing, the crew's anchor. Big-sister flirt who calls Kaito "pup" and enjoys making him blush. Reads the Drift better than any chart.
 - **Colour:** deep teal + gold.
 - **Partner: Vesh**, a deep-sea serpent-dragon, long as the ship. Dark blue scales, a ridge of glowing lantern lures along its back, frilled jaw. Tows the Gullwake through tight gaps between islands.
@@ -45,7 +45,7 @@ Follows the World Bible hard rules: everyone is 21+ with adult faces and bodies;
 - **Personality:** loud gambler, bets on everything, constant innuendo, rival-banter with Kaito. Brave to the point of stupid.
 - **Colour:** fire orange + white.
 - **Partner: Ashka**, a fire raptor the size of a large eagle. Ember-red and black feathers that trail sparks, a hooked beak, glowing tail plumes. Rides on Juno's shoulder or flies spotter for her shots.
-- **Borrowed power:** she loads Ashka's fire into her bullets.
+- **Borrowed power:** she throws Ashka's fire from her gloved hands. (Changed by Dylan, 2026-10-30, after her rifle was removed; old line in the archive at the end of this file.)
 - **Bond cost (heat / pain):** each Surge raises her body heat; too much and she burns from the inside. **Base state:** scarred, blistered palms she hides under her gloves.
 
 ### 4. Silas Moreau — the duelist
@@ -122,3 +122,6 @@ Faceless grunts in grey coats and visored helmets with bond-cutters. Used in gam
 - Juno, replaced 2026-10-30 (build step 2): "- **Bond mark:** a flame-shaped feather on her right shoulder."
 - Juno outfit, replaced 2026-10-30 (build step 2): "- **Outfit:** cropped white tank top, open bomber jacket with a fur collar, short denim shorts, ammo bandolier across her chest, knee-high laced boots, fingerless gloves; a long-barrelled rifle on her back."
 - Juno, replaced 2026-10-30 (build step 2, second move): "- **Bond mark:** a flame-shaped feather on her right collarbone. (Moved from her right shoulder by Dylan, 2026-10-30; old line in the archive at the end of this file.)"
+- Juno power, replaced 2026-10-30 (build step 2, crew sheets): "- **Borrowed power:** she loads Ashka's fire into her bullets."
+- Sela, replaced 2026-10-30 (build step 2, crew sheets): "- **Bond mark:** a spiral wave on her left collarbone."
+- Sela, replaced 2026-10-31 (build step 2, crew sheets, second change): "- **Bond mark:** a spiral wave just below her left collarbone. (Moved by Dylan, 2026-10-30, so the high collar doesn't hide it; old line in the archive at the end of this file.)"

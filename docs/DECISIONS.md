@@ -149,3 +149,35 @@
 - Images used so far in this step: 6 Codex images (Juno takes 1–5, Ashka take 1).
 - Pair check: "Both pass" → locked sheets `art/refs/juno-sheet-v5.png` and `art/refs/ashka-sheet-v1.png`
 - Push: "Commit and push after you pass them"
+
+## Your words (2026-10-30, build step 2 continued: remaining four pairs)
+- Request: "reference sheets for the remaining four leads and partners." Scope: Sela + Vesh, Silas + Hush, Bram + Grist, Ione + Prism (8 sheets); Juno + Ashka done; villains not in this step. One pair at a time, stop after each pair.
+- Usage screenshots: didn't come through again. "Go ahead without them"
+- First pair: "Sela + Vesh"
+- Juno's power line (CAST.md said she "loads Ashka's fire into her bullets", but her rifle was removed): "Fire from her hands" (CAST.md updated; old line archived word for word)
+- Sela mark vs. collar (CAST.md: "short cropped navigator's jacket (deep blue, brass buttons, high collar)" and "a spiral wave on her left collarbone"): "Move the mark lower"
+  - Jacket front: "Buttoned, low neckline" (top button done up under the high collar, a V opening low enough to show the mark)
+  - CAST.md: "Yes, update CAST.md" (mark now "just below her left collarbone"; old line archived word for word)
+- Sela props (Claude found; fix 12): "Spyglass right, book left" (spyglass holstered on her right hip, logbook in a strapped belt pouch on her left hip, no slung straps)
+- Sela skirt slit (Claude found): "Left leg"
+- Vesh fit ("long as the ship"): "Raised head, coiled body" (head and neck up, body coiled tight beneath like a cobra; size lives in the notes)
+- Vesh limbs (CAST.md doesn't say): "No legs, side fins"
+- Image 7 (Sela take 1): "Yes, make Sela"
+- Sela take 1 failed Claude's check: (a) the mark reads as the number "2" (fix 3 wording was in the prompt); (b) the jacket hangs fully open, not buttoned at the top as chosen; (c) the file came out 1774x887, not 2048x1024 (new: the size was passed but not honoured). Passed: mark below her left collarbone on the correct image side in the front view, visible in the left-side view, hidden in the right-side and back views; spyglass on her right hip and logbook pouch on her left hip in every view; slit on her left leg; high ponytail; hoop earrings.
+- Image 8 (Sela take 2, edit of take 1: top button + mark shape): "Yes, make take 2"
+- Sela take 2: jacket now buttoned once under the high collar with the low V below (fixed); file is 2048x1024 (fixed); everything else unchanged from take 1. The mark still reads as the number "2" in the front view (in the left-side view it is a looser spiral). Second miss on the mark shape, so Claude stopped and asked.
+- Sela mark (spiral wave read as "2" twice): "Change it to a whirlpool" (a round spiral curling inward, no tail; CAST.md updated, old line archived word for word)
+- Image 9 (Sela take 3, edit of take 2: whirlpool mark): "Yes, make take 3"
+- Sela take 3: 2048x1024; the edit came back almost unchanged (fix 11). The mark is still the same 2-like curl with a tail, not a round whirlpool. Everything else unchanged from take 2. Third miss on the mark (first with the whirlpool wording), so Claude stopped and asked.
+- Mark fix after take 3: "Remove, then re-add" (edit 1 erases the mark; edit 2 adds the whirlpool on clean skin; each with its own yes)
+- Image 10 (Sela take 4, edit 1 of 2: remove mark): "Yes, make take 4"
+- Sela take 4 passed Claude's check: 2048x1024; mark gone from every view, clean skin with no leftover glow or lines; everything else unchanged from take 3.
+- Image 11 (Sela take 5, edit 2 of 2: add whirlpool mark): "Yes, make take 5"
+- Sela take 5 passed Claude's check: 2048x1024; a round teal whirlpool spiral with no tail just below her left collarbone (front view on the right of the image; left-side view an oval seen edge-on at the front of the chest; hidden in the right-side and back views); no 2-like shape; everything else unchanged from take 4. Note: the mark is fairly small.
+- Vesh pose vs. STYLE.md's creature pose line ("standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind"): "Swap only the pose line" (rest of the creature block word for word)
+- Vesh lures (colour not in CAST.md): "Gold"
+- Vesh eyes (not in CAST.md): "Glowing teal"
+- Image 12 (Vesh take 1): "Yes, make Vesh"
+- Vesh take 1 passed Claude's check: 2048x1024; four true views; no legs or arms; head and neck raised over a tight coil, mouth closed; glowing teal eyes; fan-shaped frills on the jaw; paired webbed side fins along the body; one ridge of gold lure bulbs on stalks from the head down the back and along the coil; navy scales with a pale blue-grey belly. Not in CAST.md, the model's own additions: two swept-back horns. Notes: the lures fan out a little over the top of the head in the side views but form a single column above the head in the front view; along the coil they look a bit like a string of lights.
+- Images used so far in this step: 12 Codex images (Juno takes 1-5, Ashka take 1, Sela takes 1-5, Vesh take 1); 21 counting the style test.
+- Pair check: "Both pass" → locked sheets `art/refs/sela-sheet-v5.png` and `art/refs/vesh-sheet-v1.png`
