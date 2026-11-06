@@ -305,3 +305,29 @@
 - Next step: "can we do both in parallel on different branches?" (villain sheets and step 3)
 - Repo: "i created a new repo for the new name. its driftbound. we should use that from now on and not hoshi-arcade."
 - Move: "Yes, move it" (full history pushed to DyGoMa/driftbound; its main starts from art/ref-sheets-crew; new local folder Documents\driftbound; hoshi-arcade left untouched)
+
+## Your words (2026-11-05, build step 3: homepage and game remake)
+- Request: "Driftbound, build step 3: rebuild the homepage as Driftbound with the 18+ gate, and remake Aki Dash in the new style." Work in `Documents\driftbound-site`, branch `site/step-3-homepage`; don't touch `art/refs/` or `docs/CAST.md`. Push and merge only on Dylan's yes. Stop after each phase.
+- Who runs (bible: "remake Aki Dash in the new style"; CAST.md has no Aki; v1: "Fastest kid in Hoshimachi"; bible: "Every character is an adult."): "Kaito, with Skarn"
+- Game name: "Storm Run"
+- Island and foes (bible: "set on a different island"; CAST.md: Sever troopers "Used in games as the common enemy"): "Empire island, with Hollows" (an island being pinned by anchor pylons; jump troopers and barricades; a Hollow swoops in mid-air. Rough stand-ins until the villain sheets are locked)
+- What he grabs: "Salvage" (replaces Star Shards; one total across every game)
+- Game art: "New poses from the image tool"
+- Skarn's spot (CAST.md: "the size of a horse", "Glides on updrafts"): "Glides above and behind"
+- How it plays: "Add the scar cost" (every second jump is a Surge; a small arm in the corner shows the scars climbing)
+- Scar cost (CAST.md: "every big Surge burns a branching lightning-shaped scar further up his right arm", "Push too far and the arm goes numb for days."; the card cut that second quote off before "for days"): "Numb for a few seconds" (scars fade slowly when not Surging; at the top you lose the second jump for about 5 seconds)
+- Upright phone (found by Claude: v1 cuts off its title and shows about 0.28 seconds of warning at start): "Ask to turn sideways"
+- Pose images: "3 strips of poses" (Kaito run frames; Kaito jump, Surge and hurt; Skarn gliding)
+- Image timing: "Rough game first, then images"
+- Home art: "Crew cards plus a new banner" (six crew cards cropped from copies of the locked sheets; one new action picture of Kaito and Skarn)
+- Gate words: "Shortest" ("DRIFTBOUND / Adults only. / Are you 18 or older? / [Yes] [No]")
+- If they say No: "Polite stop screen" (no content loads; a small "I tapped by mistake" link brings the question back)
+- Remember Yes: "Remember for 30 days"
+- Unbuilt parts: "Coming soon, plus empty book" (Visual novel and Videos marked coming soon; the Monster book shows a grid of mystery silhouettes)
+- Old saves (`shared/save.js`: 'hoshi-arcade-save-v1', HoshiSave): "New name, fresh start" (the old save stays where it is, untouched)
+- v1 archive (bible: "The v1 code moves to archive/v1-hoshi-arcade/"; only 2 old docs there before this step): "Move, keep off the public site" (10 files, word for word; still playable at the old link)
+- Hosting (log: "Public repo + free link"): "Free link, from this branch" (dygoma.github.io/driftbound/; switches to main on merge; each push and switch-on still gets its own yes)
+- Old site (dygoma.github.io/hoshi-arcade/): "Leave it alone for now"
+- Plan (`docs/STEP3_PLAN.md`): "Start Phase 1"
+- Book size (CAST.md: pals "designed later"): "12 slots" (a stand-in number)
+- Sheets and docs on the free link: "Publish everything" (the card said "No extra setting", but that was wrong: keeping the v1 archive off the site, as answered above, still needs one. Claude read this answer as covering sheets and docs only; the archive stays off. Dylan to overrule if he meant the archive too.)

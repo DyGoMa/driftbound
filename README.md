@@ -1,11 +1,13 @@
-# Hoshi Arcade
+# Driftbound
 
-A browser game arcade where every game shares one anime world: Aki, Mochi, Ren and Yuzu versus The Static.
+An adults-only (18+) anime site set in the Drift, a sea of floating islands: short browser games, and later a visual novel, motion-comic videos and a monster book. It all shares one cast and one save.
 
-- Play: open `index.html` (or the GitHub Pages link once it's switched on).
-- World and rules: `docs/WORLD_BIBLE.md`
-- How weekly build sessions run: `docs/ORCHESTRATOR.md`, starter prompt in `docs/STARTER_PROMPT.md`
+- World and hard rules: `docs/WORLD_BIBLE.md`
+- Cast, partners and villains: `docs/CAST.md`
+- Art style and locked sheets: `art/refs/STYLE.md`
+- Current build step: `docs/STEP3_PLAN.md`
 - Things waiting for a play-check: `docs/TEST_CHECKLIST.md`
 - Every decision and who made it: `docs/DECISIONS.md`
+- The old Hoshi Arcade code: `archive/v1-hoshi-arcade/`
 
-Plain HTML + JavaScript, no build step. Shared art: `shared/cast.js`. Shared Star Shard save: `shared/save.js`.
+Plain HTML + JavaScript, no build step. Every page loads `shared/gate.js` first and keeps its content in `<template id="page">`. Shared save: `shared/save.js`.

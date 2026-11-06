@@ -1,0 +1,4 @@
+# GitHub Pages settings. Keeps the v1 code off the public site (Dylan 2026-11-05: "Move, keep off the public site").
+# It stays in the repo, word for word. The old game is still playable at dygoma.github.io/hoshi-arcade/.
+exclude:
+  - archive
