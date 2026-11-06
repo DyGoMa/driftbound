@@ -15,6 +15,8 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 | Hush | `hush-sheet-v2.png` | Wings folded; owl beak, lynx ear tufts and bobtail; back-view ears fixed by one edit |
 | Bram Torvald | `bram-sheet-v3.png` | Left strap down; back bib buckled to the right strap, sagging on the left; dungarees read as canvas rather than leather |
 | Grist | `grist-sheet-v2.png` | No tail (pose phrase swapped for this sheet); text-like squiggle on the front-view horn painted out by hand |
+| Dr. Ione Raske | `ione-sheet-v11.png` | Coat on her shoulders; cropped V-neck; wrist mark reads as a broken zigzag rather than a clear cracked hexagon (accepted by Dylan); finger lines softened and eyes greyed by hand |
+| Prism | `prism-sheet-v3.png` | Four walking legs; blades uncrossed on either side of the chest; wings folded; tail phrase swapped for a long abdomen |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -64,3 +66,8 @@ Size: `--size 2048x1024` for every four-view sheet.
 19. **Back views can show the insides of the ears**, as if they face backwards (Hush take 1). One edit that names the back view only and says "we see the backs of both ears; the pale inner ear is not visible" fixed it (Hush take 2).
 20. **Overalls with one strap down come out wrong in the back view** (Bram take 1: a wide diagonal panel instead of a strap; take 2: straps but no back bib). Describe the back bib panel, which corner is hooked to the strap with a buckle, and which corner sags with the loose strap hanging from it (Bram take 3).
 21. **Tiny text-like squiggles can appear on flat surfaces** (Grist's horn top). Zoom in on flat faces in every view; a small one paints out cleanly by blending the colours just above and below.
+22. **Back-view hands can read as front views** (Ione takes 3-9). Dylan's standard is Sela's back-view hands: "easily distinguished that we are looking at them from behind". Pass `sela-sheet-v5.png` as the hand guide and describe it: one smooth back of the hand, fingers together, short thumb behind the hand on the inner side. Do not spread the fingers or move the thumb to the outer edge (take 7). Zoom in on the back-view hands of every person sheet before showing Dylan.
+23. **Asking for cracks can overshoot** (Ione take 6: a hexagon became zigzags that differ per view). Ask for "two thin cracks, the outline stays whole", and zoom in on marks for their described damage, not only their side and place.
+24. **Edits can drift colours they were told to keep** (Ione's grey eyes went blue in take 8). Compare eye colour after every edit. Taking the blue out by hand worked.
+25. **Never add a pose detail nobody asked for** (the prompt said Prism's blades "crossed"; Dylan rejected it). Keep limbs on their own side unless the design says otherwise.
+26. **`codex-imagegen` sometimes hangs until its time limit** (5 timeouts on this step, with no file saved). Use `--timeout 1200`, run it in the background, and retry the same prompt on Dylan's yes; every timed-out edit here worked on a later try, apart from a shorter prompt that also hung.

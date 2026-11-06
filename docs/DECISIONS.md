@@ -258,3 +258,47 @@
 - Codex hanging: "One retry with a shorter prompt" (Ione take 3, retry 1)
 - Ione take 3 retry 1 (short prompt) timed out after 1200s too; no file saved. Third hang in a row on this edit, so Claude stopped image work.
 - After the 3 hangs: "Option 1 use compact and use this chat" (stay here; retry Ione take 3 when Codex usage looks fine)
+- Ione take 3 retry 2: "Usage is fine, retry now"
+- Ione take 3 passed Claude's check: 2048x1024; cropped black low-cut V-neck top in all four views, neck bare; crystals on bare skin up the left side of her neck (front view right of the picture, clear in the left-side view, a few tips on the left in the back view), right side of the neck clean; everything else unchanged from take 2.
+- Image 25 (Prism take 1): "Yes, make Prism"
+- Prism take 1 failed Claude's check: (a) in both side views only ONE walking leg shows (under the thorax); the rear pair under the body is missing, though the front and back views show four legs; (b) the file came out 1774x887 (fix 16). Passed: ice-blue glass body; glowing ice-blue faceted eyes; feathery antennae; blade forearms folded against the chest; clear wings folded flat with rainbow edges; four legs in the front and back views.
+- Image 26 (Prism take 2, edit of take 1: side-view rear legs): "Yes, make take 2"
+- Prism take 2 passed Claude's check: 2048x1024; both side views now show two near walking legs (front under the thorax, rear under the abdomen), matching the four legs in the front and back views; everything else unchanged from take 1.
+- Pair check (Ione take 3 + Prism take 2): "Ione back view hands are not correct and look glitched out. prism front view the front claw things are crossed"
+- Claude's zoom confirms both. Ione take 3, back view: both hands have fused, mitten-like fingers, about three digits instead of five (Claude's earlier check missed it). Prism take 2, front view: the blade forearms cross over each other; that was Claude's own wording in the prompt ("crossed in front of the chest"), not Dylan's.
+- Image 27 (Ione take 4, edit of take 3: back-view hands): "Yes, make Ione take 4"
+- Image 28 (Prism take 3, edit of take 2: front-view blades uncrossed): "Yes, make Prism take 3"
+- Ione take 4: 2048x1024; back-view hands redrawn with clean, separate fingers and knuckles, no melting; hexagon still on her left wrist (left of the picture), right hand clean; other views look unchanged. Not fully met: only FOUR digits show on each back-view hand, not the five the prompt asked for (the fifth could be read as hidden behind the hand).
+- Prism take 3 passed Claude's check: 2048x1024; front-view blades uncrossed, one on each side of the chest pointing down, clear gap showing the body between them; other three views look unchanged. Note: the blades now hold slightly away from the chest rather than tight against it.
+- Ione take 4: "her hand without crystals still isnt right" (her right hand in the back view)
+- Prism: "Prism passes" → locked sheet `art/refs/prism-sheet-v3.png`
+- Push: "Yes, push after locking"
+- Ione right hand: "One more Codex edit"
+- Image 29 (Ione take 5, edit of take 4: right hand in the back view): "Yes, make take 5"
+- Ione take 5: 2048x1024; right hand in the back view now slim and clean, a mirror of her left, four digits showing (same as the left); other views look unchanged. New finding on zoom, missed by Claude on takes 1-4: the wrist mark has NO cracks; it is a whole hexagon with a small leaf-shaped shard inside (CAST.md: "a cracked hexagon ... (broken, because her bond was half-stripped)").
+- Ione take 5 hand: "still off thumb kinda looks liek a front view" (second miss on that hand)
+- Ione take 6: "Yes, make take 6" (crack the hexagon)
+- Thumb fix: "Add it to take 6" (image 30: crack the hexagon + turn the thumb away)
+- Image 30 attempt (Ione take 6) timed out after 1200s ("codex-imagegen: timed out after 1200s. Raise --timeout or simplify the prompt."); no file saved. Fourth timeout overall in this step.
+- Ione take 6 retry: "Retry the same edit"
+- Ione take 6: 2048x1024; right back-view hand improved (no thumbnail, thumb narrower). Failed Claude's check on the mark: the cracking went too far; it is now broken zigzag lines that no longer read as a hexagon and differ between views. First miss on cracking it.
+- Ione take 6 mark: "looks ok" (Dylan accepts the zigzag-cracked mark as it is; no paint fix)
+- Ione take 6 hand: "other hand thumb still loooks backwards" and "Still off" (third miss on her right hand in the back view). Claude's cause: its own prompts for takes 5 and 6 put the thumb on the side nearest her body; seen from behind, a hand showing its back has the thumb on the outer side, or hidden. Her left hand in the back view has the same inner digit.
+- Image 31 (Ione take 7, edit of take 6: back-view thumbs): "Codex edit, both hands"
+- Ione take 7 passed Claude's check: 2048x1024; both back-view hands now show four fingers plus a thumb on the outer side, mirror images, no fingernails on the thumbs. The blue wrist mark in the back view shifted a little (smaller, still the broken zigzag). Other views compared by eye only: look unchanged.
+- Ione take 7: "You fucked her hands look weird and angled they should look like the other characters hands" (fourth miss on her back-view hands; Ione not locked)
+- Ione hands fix: "Codex edit using Silas as the guide" (image 32; Claude edits from take 6, whose hands and accepted mark are closest, rather than take 7)
+- Image 32 attempt (Ione take 8) timed out after 1200s ("codex-imagegen: timed out after 1200s. Raise --timeout or simplify the prompt."); no file saved. Fifth timeout overall in this step.
+- Ione take 8 retry: "Retry the same edit"
+- Ione take 8: 2048x1024; back-view hands now match the crew (fingers together, thumb on the inner side; compared side by side with Silas); mark looks like take 6. Failed on one drift: her eyes went from grey to blue (CAST.md: "sharp grey eyes"; seen in the front view, side views not zoomed).
+- Ione take 8 hands: "No they still look backwards in the back view" (fifth miss. Take 6 inner thumb: "backwards". Take 7 outer thumb, spread fingers: "weird and angled ... should look like the other characters hands". Take 8 inner thumb, crew shape: "backwards". Claude stopped to ask rather than guess.)
+- Ione hands: "it should look like sela's hands, they have the best looking view from the back for hands, easily distinguished that we are looking at them from behind."
+- Other sheets' back-view hands: "Leave them as they are"
+- Claude's comparison: Sela's thumb sits BEHIND the hand in the darker shadow tone, short, no nail, and the back of her hand is one smooth plane; take 8's thumb is the same bright tone as the hand, in front, with a nail.
+- Image 33 (Ione take 9, edit of take 8: Sela-style back hands + grey eyes): "Yes, make take 9"
+- Ione take 9: 2048x1024; back-view hands closer to Sela's (fingers together, thumb shorter on the inner side, no clear nail), but the thumb is still the bright skin tone, not shadow, and thin lines remain between the fingers. Eyes less blue but still blue-grey in the front view. Other views look unchanged by eye.
+- Ione finish: "I paint the last bits" → take 10 = take 9 with both back-view thumbs in a warm shadow tone, finger lines softened, eyes grey. No Codex use. Checked zoomed in against Sela: reads the same way; a faint streak remains where the finger lines were.
+- Ione take 10: "you used too dark of acolour. it should be a couple shade lighter than her normal hand colour. just undo that and ill accept what we have" → take 11 = take 10 without the darkened thumbs (finger lines softened, eyes grey). No Codex use. Claude read "undo that" as the thumbs only.
+- Locked sheets: `art/refs/ione-sheet-v11.png` and `art/refs/prism-sheet-v3.png`. All 8 crew sheets in this step are done.
+- Left as is: CAST.md still says "a cracked hexagon"; the accepted mark reads as a broken zigzag (noted in STYLE.md).
+- Images used in this step: 33 Codex images, counting Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2, Bram 1-3, Grist 1, Ione 1-9, Prism 1-3 (42 counting the style test), plus 5 timed-out tries that may or may not have used allowance. Silas 4, Grist 2 and Ione 10-11 painted by hand.
