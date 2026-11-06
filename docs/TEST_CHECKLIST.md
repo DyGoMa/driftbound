@@ -13,13 +13,13 @@ The v1 Hoshi Arcade lines moved word for word to `archive/v1-hoshi-arcade/docs/T
 ## Waiting for your play-check (build step 3, phase 1)
 | # | Try this | Expect | Result |
 |---|---|---|---|
-| G1 | Open the site on your phone for the first time | Only "DRIFTBOUND / Adults only. / Are you 18 or older?" with Yes and No; nothing behind it | |
-| G2 | Tap **No** | "Driftbound is for adults. Come back when you're 18." and a small "I tapped by mistake" link | |
-| G3 | Tap **I tapped by mistake** | The question comes back | |
-| G4 | Tap **Yes** | The bare homepage: Salvage 0, Storm Run, and the other three sections marked coming soon | |
-| G5 | Close the browser, reopen the site | Goes straight to the homepage, no question | |
-| G6 | Open the Storm Run page's address directly in a private window | The question comes first | |
-| G7 | Add `/archive/v1-hoshi-arcade/index.html` to the site's address | Page not found (the old game stays at the old link) | |
+| G1 | Open the site on your phone for the first time | Only "DRIFTBOUND / Adults only. / Are you 18 or older?" with Yes and No; nothing behind it | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G2 | Tap **No** | "Driftbound is for adults. Come back when you're 18." and a small "I tapped by mistake" link | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G3 | Tap **I tapped by mistake** | The question comes back | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G4 | Tap **Yes** | The bare homepage: Salvage 0, Storm Run, and the other three sections marked coming soon | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G5 | Close the browser, reopen the site | Goes straight to the homepage, no question | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G6 | Open the Storm Run page's address directly in a private window | The question comes first | works (Dylan 2026-11-05, one answer for all of G1-G7) |
+| G7 | Add `/archive/v1-hoshi-arcade/index.html` to the site's address | Page not found (the old game stays at the old link) | works (Dylan 2026-11-05, one answer for all of G1-G7) |
 
 ## Waiting for your check: reference sheets (build step 2, crew)
 | # | Look at | Check | Result |

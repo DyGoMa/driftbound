@@ -334,3 +334,4 @@
 - Found after Phase 1: the free link was already on, from main (published 2026-11-06 05:52:30 UTC under DyGoMa, not by this chat), showing old Hoshi Arcade with no gate. Live link: "Push and point link here"
 - Sheets and docs (bible: "The site shows an 18+ gate before any content."; earlier answer: "Publish everything"): "Keep publishing them" (a logged exception to that rule: sheets and docs keep their own web addresses with no gate; the v1 archive stays off)
 - Numb time (CAST.md: "Push too far and the arm goes numb for days."; earlier answer: about 5 seconds): "5 seconds in the game only" (the story and CAST.md keep "for days")
+- Phase 1 check: "Works, Phase 2 in a fresh chat" (one answer for all of G1-G7, not marked line by line)

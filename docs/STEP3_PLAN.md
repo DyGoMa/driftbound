@@ -1,6 +1,8 @@
 # Build step 3 plan: Driftbound homepage and Storm Run
 
-Status: approved by Dylan 2026-11-05 ("Start Phase 1"). Phase 1 built, not yet seen running by Dylan. Answers behind this plan: `docs/DECISIONS.md`, heading "build step 3".
+Status: approved by Dylan 2026-11-05 ("Start Phase 1"). Phase 1 confirmed by Dylan ("Works"). Phase 2 is next. Answers behind this plan: `docs/DECISIONS.md`, heading "build step 3".
+
+Free link: `dygoma.github.io/driftbound/` is published from branch `site/step-3-homepage` until merge. A push to that branch should rebuild it (not yet seen: the only build so far was requested by hand). Changing the link's branch does NOT start a build on its own: after the switch to main in Phase 5, request one with `gh api -X POST repos/DyGoMa/driftbound/pages/builds`.
 Claude stops after each phase. The next phase starts only on Dylan's word.
 
 ## Phase 1: Clear out v1, add the gate
