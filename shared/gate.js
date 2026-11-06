@@ -34,15 +34,15 @@
 
   const css = `
     #drift-gate { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; overflow: auto;
-      padding: 24px 16px; background: #14171c; color: #f2f2f2; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; text-align: center; }
+      padding: 24px 16px; background: #0c1026; color: #f5efe2; font-family: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; text-align: center; }
     #drift-gate .box { width: 100%; max-width: 360px; outline: none; }
-    #drift-gate h1 { margin: 0 0 20px; font-size: 38px; font-weight: 900; font-style: italic; letter-spacing: 2px; color: #f2d21b; }
-    #drift-gate p { margin: 0 0 8px; font-size: 20px; font-weight: 700; }
+    #drift-gate h1 { margin: 0 0 20px; font: 400 52px/1.1 "Anton", Impact, "Arial Narrow", sans-serif; letter-spacing: 2px; color: #f4c152; text-shadow: 3px 3px 0 #f0752b; transform: skewX(-8deg); }
+    #drift-gate p { margin: 0 0 8px; font-size: 20px; font-weight: 700; color: #f5efe2; }
     #drift-gate .row { display: flex; gap: 12px; margin-top: 24px; }
     #drift-gate button.answer { flex: 1; min-height: 56px; border: 0; border-radius: 6px; font: inherit; font-size: 20px; font-weight: 900; cursor: pointer; }
-    #drift-gate .yes { background: #f2d21b; color: #14171c; }
-    #drift-gate .no { background: #3a404a; color: #f2f2f2; }
-    #drift-gate button.mistake { margin-top: 24px; padding: 12px; border: 0; background: none; color: #b8bec8; font: inherit; font-size: 16px; text-decoration: underline; cursor: pointer; }
+    #drift-gate .yes { background: #f4c152; color: #0c1026; }
+    #drift-gate .no { background: #333c75; color: #f5efe2; }
+    #drift-gate button.mistake { margin-top: 24px; padding: 12px; border: 0; background: none; color: #b3b6cf; font: inherit; font-size: 16px; text-decoration: underline; cursor: pointer; }
   `;
 
   function showQuestion(gate) {

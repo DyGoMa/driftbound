@@ -4,49 +4,95 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Driftbound</title>
+<meta name="theme-color" content="#0c1026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@500;700;800&display=swap" rel="stylesheet">
 <script src="shared/config.js"></script>
 <script src="shared/gate.js"></script>
-<style>
-  /* Bare look for now: the real homepage style comes in Phase 3. */
-  html { background: #14171c; }
-  body { margin: 0; background: #14171c; color: #f2f2f2; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 16px 16px 48px; }
-  h1 { margin: 8px 0 4px; font-size: 34px; font-weight: 900; font-style: italic; letter-spacing: 2px; color: #f2d21b; }
-  h2 { margin: 28px 0 6px; font-size: 20px; font-weight: 900; }
-  p { margin: 0 0 6px; line-height: 1.4; color: #c9ced6; }
-  a { color: #f2d21b; font-weight: 700; }
-  .soon { color: #8c939e; font-weight: 700; }
-  footer { margin-top: 36px; font-size: 14px; color: #8c939e; }
-</style>
+<link rel="stylesheet" href="home.css">
 </head>
 <body>
-<noscript><p style="color:#f2f2f2;text-align:center;padding:40px 16px">Driftbound is for adults only and needs JavaScript switched on.</p></noscript>
+<noscript><p style="color:#f5efe2;text-align:center;padding:40px 16px">Driftbound is for adults only and needs JavaScript switched on.</p></noscript>
 <template id="page">
-  <div class="wrap">
-    <header>
-      <h1>DRIFTBOUND</h1>
-      <p id="total">Salvage: 0</p>
-    </header>
-    <section>
-      <h2>Games</h2>
-      <p><a href="games/storm-run/index.html">Storm Run</a></p>
+  <header class="topbar">
+    <div class="topbar-row">
+      <a class="logo" href="#top">DRIFTBOUND</a>
+      <div class="salvage">Salvage <b id="total">0</b></div>
+    </div>
+    <div class="nav-wrap">
+      <nav class="nav" aria-label="Sections">
+        <a href="#games">Games</a><a href="#crew-section">Crew</a><a href="#story">Story</a><a href="#videos">Videos</a><a href="#book">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-art" src="art/site/banner-v1-web.webp" width="1600" height="800" alt="Kaito sprints along a cliff edge at dusk with lightning around his arm, while his storm wolf Skarn glides above him. Floating islands drift behind them.">
+      <div class="hero-slant" aria-hidden="true"></div>
+      <div class="hero-text">
+        <h1 class="hero-title">DRIFTBOUND</h1>
+        <div class="hero-pitch">
+          <p class="tagline">The islands move. The maps lie. A salvage crew and their monster partners run from an Empire that wants the Drift pinned down.</p>
+          <a class="btn" href="#games">Enter the Drift</a>
+        </div>
+      </div>
     </section>
-    <section>
-      <h2>Visual novel</h2>
-      <p class="soon">Coming soon</p>
+
+    <section class="section" id="games">
+      <div class="inner">
+        <h2 class="section-title">GAMES</h2>
+        <div class="games">
+          <a class="game-card" href="games/storm-run/index.html">
+            <img class="game-art" src="art/site/pinhold-v1-web.webp" width="1200" height="600" loading="lazy" alt="Pinhold, a floating island nailed in place by giant steel pylons and chains, with a grey watchtower on top.">
+
+            <div class="game-info">
+              <h3>Storm Run</h3>
+              <p>Pinhold is being nailed in place. Kaito and Skarn run the island, jumping Sever troopers and paying for every Surge.</p>
+              <span class="tag soon">IN THE WORKS</span><span class="game-best" id="best"></span>
+            </div>
+          </a>
+          <div class="next-island"><span class="tag soon">COMING SOON</span>More islands, more games</div>
+        </div>
+      </div>
     </section>
-    <section>
-      <h2>Videos</h2>
-      <p class="soon">Coming soon</p>
+
+    <section class="section" id="crew-section">
+      <div class="inner">
+        <h2 class="section-title">THE CREW OF THE GULLWAKE</h2>
+        <div class="crew" id="crew"></div>
+      </div>
     </section>
-    <section>
-      <h2>Monster book</h2>
-      <p class="soon" id="book">Coming soon</p>
+
+    <section class="section">
+      <div class="inner soon-pair">
+        <div id="story" class="soon-card soon-story">
+          <span class="tag soon">COMING SOON</span>
+          <h3>Visual novel</h3>
+          <p>The crew's story, with romance routes.</p>
+        </div>
+        <div id="videos" class="soon-card soon-video">
+          <span class="tag soon">COMING SOON</span>
+          <h3>Videos</h3>
+          <p>Short anime stories from the Drift.</p>
+        </div>
+      </div>
     </section>
-    <footer>Progress is saved in this browser.</footer>
-  </div>
+
+    <section class="section" id="book">
+      <div class="inner">
+        <h2 class="section-title">MONSTER BOOK</h2><span class="book-count" id="book-count"></span>
+        <p class="section-note">Coming soon: catch pals in any game and they show up here.</p>
+        <div class="book" id="book-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Driftbound · adults only · original characters · progress is saved in this browser</footer>
 </template>
 <script src="shared/save.js"></script>
+<script src="shared/crew.js"></script>
 <script src="hub.js"></script>
 </body>
 </html>

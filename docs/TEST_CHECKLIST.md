@@ -21,6 +21,19 @@ The v1 Hoshi Arcade lines moved word for word to `archive/v1-hoshi-arcade/docs/T
 | G6 | Open the Storm Run page's address directly in a private window | The question comes first | works (Dylan 2026-11-05, one answer for all of G1-G7) |
 | G7 | Add `/archive/v1-hoshi-arcade/index.html` to the site's address | Page not found (the old game stays at the old link) | works (Dylan 2026-11-05, one answer for all of G1-G7) |
 
+## Waiting for your play-check (build step 3, new homepage)
+Checked by Claude in headless Chrome (2026-11-05): no sideways scroll and no errors at six sizes from 320 wide to 1920 wide; six crew cards and twelve book slots; no pictures load before Yes; screenshots looked at for phone and computer. Tests don't prove how it looks to you.
+
+| # | Try this | Expect | Result |
+|---|---|---|---|
+| H1 | Open the homepage on your phone and scroll down | Kaito and Skarn banner, DRIFTBOUND title, Storm Run with the Pinhold picture, six crew cards, Visual novel and Videos marked coming soon, 12 mystery slots | |
+| H2 | Tap each word in the top menu | The page jumps to that section, and the section title isn't hidden under the bar | |
+| H3 | Check each crew card against what you know of them | Right face, name, age, role and partner | |
+| H4 | Look at the banner | Kaito and Skarn look right to you; hand mark reads well enough | |
+| H5 | Tap **Enter the Drift**, then the Storm Run card | Jumps to Games, then opens the stand-in page saying the game isn't built yet | |
+| H6 | Open the site in a private window | The gate now uses the new navy and gold | |
+| H7 | Open it on a computer too | Same sections, wider layout, nothing cut off | |
+
 ## Waiting for your check: reference sheets (build step 2, crew)
 | # | Look at | Check | Result |
 |---|---|---|---|
