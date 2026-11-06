@@ -1,0 +1,38 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Image 2 is a guide ONLY for how hands look from behind in the BACK view: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it. Image 3 is a guide ONLY for the chest bar with its white ring and the shade of Sever grey; do NOT copy that character's helmet, face, coat, blade or anything else. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Captain Hekka Dorn, a 33-year-old ADULT woman with a hard adult face and adult proportions, 193 cm, very tall and muscular. Light brown skin, steel-grey eyes. White hair in a very short even buzz cut all over her head.
+Lip scar: one thin pale straight scar running vertically from just under her nose, through both closed lips, down to her chin, on her own LEFT of centre.
+- FRONT view: just to the RIGHT of the centre of her face in the image.
+- LEFT SIDE view: visible near the front of her mouth.
+- RIGHT SIDE view and BACK view: hidden. The right half of her mouth is clean skin.
+
+Outfit, all practical and plain, shown in a plain technical reference sheet with a neutral pose, no sexualized posing or framing:
+- Sever-grey metal plate armour on: a chest plate that is flat and solid, with a matching back plate; shoulder plates; forearm plates on both arms, ending at the wrist; shin plates on both legs over plain black boots.
+- Dark charcoal cloth, with no armour, on the upper arms and on the thighs and knees.
+- A white stand-up collar at the neck.
+- Plain black gloves on both hands.
+- The midriff is the one open gap: bare, muscular skin between the bottom of the chest plate and a black belt at the waist, all the way round her waist in every view.
+- Both hands are empty. There is no weapon, cape or coat anywhere.
+
+Chest bar, front of the chest plate only: one flat black bar runs straight across the chest plate from armpit to armpit. At the centre of the chest, one plain white ring sits on the bar, so the bar cuts straight through the middle of the ring. It is simple geometry and must not look like a letter or any written character.
+- FRONT view: the whole bar and ring, centred on the chest.
+- LEFT SIDE and RIGHT SIDE views: only the end of the bar shows, on the front of the chest; no ring.
+- BACK view: hidden. The back plate is plain grey with no marks.
+
+Old bond scar: one simple closed ring of dull grey raised scar tissue, the size of a palm, on her bare midriff on her own LEFT side. It does NOT glow. It must not look like a letter or any written character.
+- FRONT view: on the RIGHT side of the image.
+- LEFT SIDE view: clearly visible on the side nearest us.
+- RIGHT SIDE view and BACK view: hidden.
+The RIGHT side of her midriff is clean skin.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is the white ring on her chest bar described above.

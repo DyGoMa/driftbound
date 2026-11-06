@@ -1,0 +1,3 @@
+No Codex prompt: take 6 is take 3 (hekka-sheet-v3.png) painted by hand, on Dylan's answer "her chin on the front view looks smudged". Take 5's blend boxes had crossed her jaw outline; these stop above it.
+- Stray lines near the chin blended out with the skin on either side: front view boxes x=313-319, y=127-139 and x=288-292, y=130-136; right-side view box x=1243-1249, y=126-136.
+Nothing else changed.

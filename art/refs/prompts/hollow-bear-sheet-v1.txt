@@ -1,0 +1,35 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fur, fin or colours. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, short stub tail.
+
+Creature: a Hollow bear-beast, a stripped monster rebuilt into a weapon. A huge, heavy original bear-like beast on all four legs, with a broad head, small round ears, thick neck, a shoulder hump and heavy clawed paws. It looks empty and wrong rather than alive. Sharp 2000s anime monster lines, not cute.
+Fur: ash-grey, faded and drained of colour, a clearly different shade from the armour plates.
+Eyes: blank white, with no pupils and no glow.
+
+Armour: bolted plates of Sever-grey metal on three places only:
+- a brow plate across the top of the head, between the ears, leaving the eyes and muzzle clear;
+- one shoulder plate on each shoulder;
+- a line of overlapping plates running down the spine from the neck to the hips.
+No plates on the legs, belly or muzzle.
+
+Core: one round glowing white core set in a dark metal frame in the middle of its chest.
+- FRONT view: fully visible, centred on the chest, just below the collar.
+- LEFT SIDE and RIGHT SIDE views: only the edge of the metal frame and a sliver of white glow, on the front of the chest.
+- BACK view: hidden.
+
+Cables: a few dark rubber cables run from the metal frame up and over each shoulder to the shoulder plates, then along the sides of the spine plates, lying flat against the fur. They look the same on both sides.
+
+Chain: one heavy dark iron collar around the neck, with a few links of chain, as long as one forearm, hanging straight down from the front of the collar. The chain hangs in front of the core's upper edge only slightly and does not hide it. No other chains anywhere.
+- FRONT view: hanging at the centre of the chest.
+- LEFT SIDE and RIGHT SIDE views: hanging straight down from the front of the neck.
+- BACK view: only the collar shows; the chain is hidden.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

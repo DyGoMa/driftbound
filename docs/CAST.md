@@ -93,13 +93,16 @@ The **Meridian Empire** wants to stop the Drift by pinning islands in place with
 ### Director Aurel Vasch — the leader
 - **Age:** 46, man. Tall and thin, neat grey hair, a calm smile.
 - **Look:** white version of the Sever coat, gloves, and a mechanical right arm with a glass chamber holding a stripped bond's glowing core.
+- **Reference sheet details (Dylan, 2026-11-05):** 188 cm, pale skin, pale grey eyes, hair combed back, tiny closed-mouth smile; knee-length white coat, closed and belted in black, both sleeves rolled; flat black bar with a black ring (front only); long black glove on his left arm; right forearm a see-through glass tube with one white core, between steel rings, with bare metal fingers; dark grey trousers, black boots.
 - **Role:** the scientist who invented bond stripping. Ione's former mentor. Believes freeing humans from monsters is mercy.
 
 ### Captain Hekka Dorn — the enforcer
-- **Age:** 33, woman. Very tall, muscular, buzzed white hair, a scar across her lips.
+- **Age:** 33, woman. Very tall, muscular, conventionally attractive, long black hair. (Hair, looks and lip scar changed by Dylan, 2026-11-05; old lines in the archive at the end of this file.)
 - **Look:** heavy grey armour with an open midriff, a bond-cutter lance taller than she is.
 - **Partner:** a chained Hollow bear-beast that used to be her own partner. She stripped it herself to prove her loyalty.
 - **Role:** the Sever's muscle; a rival for Sela.
+- **Reference sheet details (Dylan, 2026-11-05):** 193 cm, light brown skin; thick wavy black hair swept back; grey plates on chest, back, shoulders, forearms and shins, with dark cloth on upper arms and loose work trousers; white collar; black bar and white ring on the chest plate (front only); bare midriff with a dull ring scar on her left side, where her bond was; black gloves, belt and boots. Her lance is for a separate prop sheet later.
+- **Bear reference sheet details (Dylan, 2026-11-05):** about 2.2 m at the shoulder; ash-grey fur; blank white eyes; plates on the brow, shoulders and spine; cables from the core to the shoulder plates; white core set into the chest; iron collar with a short chain end.
 
 ### Silt — the hunter
 - **Age:** 29, man. Wiry, always masked (a smooth white mask with one eye slit), long ragged black coat.
@@ -108,6 +111,7 @@ The **Meridian Empire** wants to stop the Drift by pinning islands in place with
 
 ### Sever troopers
 Faceless grunts in grey coats and visored helmets with bond-cutters. Used in games as the common enemy.
+- **Reference sheet details (Dylan, 2026-11-05):** adult man, about 180 cm, medium skin; grey helmet with a black visor over the eyes, jaw showing; grey coat to the knee, closed and belted, white collar; flat black bar across the chest with a white ring at its centre, cut by the bar (front only; back plain); hooked blade on the belt at the right hip; black gloves, belt and boots; dark grey trousers.
 
 ---
 
@@ -127,3 +131,5 @@ Faceless grunts in grey coats and visored helmets with bond-cutters. Used in gam
 - Sela, replaced 2026-10-31 (build step 2, crew sheets, second change): "- **Bond mark:** a spiral wave just below her left collarbone. (Moved by Dylan, 2026-10-30, so the high collar doesn't hide it; old line in the archive at the end of this file.)"
 - Ione outfit, replaced 2026-10-31 (build step 2, crew sheets): "- **Outfit:** a lab coat worn open and loose off her shoulders, a cropped black turtleneck, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots."
 - Ione outfit, replaced 2026-10-31 (build step 2, crew sheets, second change): "- **Outfit:** a lab coat worn open on her shoulders, sleeves rolled to the elbow, a cropped black turtleneck, high-waisted shorts with a sample-vial belt, dark stockings and buckled boots. (Coat changed by Dylan, 2026-10-31; old line in the archive at the end of this file.)"
+- Hekka, replaced 2026-11-05 (build step 2, villain sheets): "- **Age:** 33, woman. Very tall, muscular, buzzed white hair, a scar across her lips."
+- Hekka, replaced 2026-11-05 (build step 2, villain sheets, second change): "- **Age:** 33, woman. Very tall, muscular, conventionally attractive, long black hair, a scar across her lips. (Hair and looks changed by Dylan, 2026-11-05; old line in the archive at the end of this file.)"

@@ -305,3 +305,78 @@
 - Next step: "can we do both in parallel on different branches?" (villain sheets and step 3)
 - Repo: "i created a new repo for the new name. its driftbound. we should use that from now on and not hoshi-arcade."
 - Move: "Yes, move it" (full history pushed to DyGoMa/driftbound; its main starts from art/ref-sheets-crew; new local folder Documents\driftbound; hoshi-arcade left untouched)
+
+## Build step 2: villain sheets, the Sever (2026-11-05)
+Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
+- Usage screenshots (they did not come through): "Carry on without them"
+- First sheet: "Sever trooper"
+- Chest symbol (CAST.md: "a black bar across the chest (an original symbol: a straight line cutting a circle)" vs. STYLE.md: "no logos, no symbols, no emblems"): "Yes, as the one exception"
+- Symbol shape: "Bar runs flat across, white ring at centre" (back of the coat plain)
+- Bond-cutter on the trooper sheet: "On the belt at the right hip"
+- Trooper coat (CAST.md: "long grey coats"): "To the knee, closed and belted"
+- Trooper head (CAST.md: "faceless grunts", "visored helmets" vs. the pose line "Neutral face, mouth closed"): "Visor over the eyes, jaw showing" (pose line stays word for word)
+- Trooper build: "Average adult man, medium skin"
+- Trooper hands and legs: "Black gloves, belt, boots; dark grey trousers"
+- Image 1 of this step (trooper take 1): "Yes, make the trooper"
+- Trooper take 1 passed Claude's check: 2048x1024; four true views; A-pose with a clear gap in the front and back views; grey helmet, black visor hiding the eyes, adult jaw and closed mouth below it; white collar; closed coat to the knee with a black belt; black bar with a white ring cut by it in the front view, only the bar's end in the side views, back plain; hooked blade on his right hip (left of the picture in front, near us in the right-side view, right of the picture in back, hidden in the left-side view); back-view gloves compared side by side with Sela: smooth back of the hand, fingers together, thumb on the inner side, no nails. Notes: the coat is close to the background grey; the blade reads more as bright steel than a white glow; the model added ear cups on the helmet, a grey belt buckle and a metal clip for the blade; plainer to look at than the crew because the outfit is plain.
+- Trooper: "Trooper passes" → locked sheet `art/refs/trooper-sheet-v1.png`
+- Images used so far in this step: 1 Codex image (trooper 1); 43 counting everything before it, plus the 5 earlier timed-out tries.
+- Next sheet: "Director Vasch"
+- Vasch hands (CAST.md: "gloves" vs. "a mechanical right arm with a glass chamber"): "Left hand gloved, metal hand bare"
+- Vasch arm: "Forearm only, sleeve rolled up"
+- Vasch symbol (the white ring would vanish on a white coat): "Black bar, black ring"
+- Vasch coat: "Same knee-length cut, black belt and boots, grey trousers"
+- Vasch face (CAST.md: "a calm smile" vs. the pose line "Neutral face, mouth closed"): "Tiny closed-mouth smile" (that one phrase swapped for this sheet)
+- Vasch look: "188 cm, pale skin, pale grey eyes, hair combed back"
+- Vasch arm look: "Dark steel, white core on the outer forearm"
+- Vasch glove and cuff: "Black glove, white cuff"
+- Image 2 of this step (Vasch take 1): "Yes, make Vasch"
+- Vasch take 1 failed Claude's check on three points: (a) the file came out 1774x887 (fix 16); (b) his skin reads tan, not "pale"; (c) the chamber reads as a solid white strip, not a glass chamber holding a core. Passed: four true views; grey hair combed back; grey eyes; tiny closed smile; knee-length white belted coat; black bar and black ring in the front view, bar end in the side views, back plain; left hand black glove; right sleeve rolled, dark steel forearm and bare metal fingers on the correct image side per view; back-view glove reads from behind (smooth back of the hand, fingers together, thumb on the inner side).
+- Image 3 of this step (Vasch take 2, edit of take 1: pale skin + chamber with a core, at 2048x1024): "Yes, make take 2"
+- Vasch take 2 passed Claude's check: 2048x1024; skin now pale in all views; chamber now a dark glass window with one glowing white oval core in the front, right-side and back views; eyes still pale grey and hair still grey beside take 1 (compared by eye, zoomed); bar, ring, glove, rolled cuff and metal fingers on the same sides as take 1; back-view glove and metal hand zoomed in. Notes: the skin leans slightly pink; the metal hand's thumb is on the inner side in the back view but its jointed plates show more detail than a plain back of the hand.
+- Vasch take 2: "both sleeves rolled up, one only looks weird"
+- Image 4 of this step (Vasch take 3, edit of take 2: left sleeve rolled to match): "Yes, long black glove to the elbow"
+- Vasch take 3 passed Claude's check: 2048x1024; both sleeves rolled with matching cuffs; long black glove from the left cuff to the fingers, no skin on that arm; back-view left hand still reads from behind (smooth back, fingers together, thumb on the inner side); eyes still pale grey, hair still grey; metal arm, chest bar and ring look unchanged by eye.
+- Vasch take 3: "the arm mechanical arm looks different in all of the views with where the white light is"
+- Claude's side-by-side: the window faces us straight on in the front, right-side and back views, which one window on one side of an arm cannot do. Cause: Claude's own prompt asked for it to show fully in all three.
+- Image 5 of this step (Vasch take 4, edit of take 3: chamber as a see-through tube): "Yes, see-through glass tube"
+- Vasch take 4 passed Claude's check: 2048x1024; clear glass tube between steel rings in the front, right-side and back views; one white core at the same height, halfway along the tube, in all three (compared side by side). Other parts look unchanged by eye. Drift found on zoom: a faint blush on the front-view cheeks; eyes still pale grey, perhaps slightly bluer; hair still grey. Notes: the metal below the tube now stops at a wrist ring, so the forearm is almost all glass; the model doubled the rings (two thin bands each end).
+- Vasch take 4: "Vasch passes as is" → locked sheet `art/refs/vasch-sheet-v4.png`
+- Images used so far in this step: 5 Codex images (trooper 1, Vasch 1-4); 47 counting everything before it, plus the 5 earlier timed-out tries.
+- Next pair: "Captain Hekka + bear"
+- Hekka lance (CAST.md: "a bond-cutter lance taller than she is" vs. the A-pose and fix 12): "Its own prop sheet later"
+- Hekka uniform (CAST.md: "long grey coats with a white collar and a black bar across the chest" vs. "heavy grey armour with an open midriff"): "Armour only, bar and ring on the chest plate"
+- Hekka old bond (Claude found; she stripped her own partner): "A dead grey scar on her bare midriff" (left side, no glow)
+- Hekka look: "193 cm, light brown skin, steel-grey eyes"
+- Hekka armour: "Plate on top and shins, dark cloth between"
+- Hekka lip scar: "Straight up and down, left of centre"
+- Image 6 of this step (Hekka take 1): "Yes, make Hekka"
+- Hekka take 1 failed Claude's check: (a) the file came out 1774x887 (fix 16); (b) the lip scar runs from the forehead through the eye to the chin and misses the lips in the front view (CAST.md: "a scar across her lips"); (c) she reads as a man in face and body (CAST.md: "woman"); (d) the hair is tufted rather than an even buzz cut; (e) baggy trousers. Passed: four true views; bar and white ring on the chest plate, bar end in the side views, back plate plain; ring scar on her left (right of the picture in front, visible in the left-side view, hidden in the others); charcoal cloth and grey plate as asked; back-view gloves read from behind.
+- Hekka look: "can you make her look more conventally attractive with longer hair" (clashes with CAST.md: "buzzed white hair")
+- Hekka hair: "black long hair think of The tracker from Avatar: The Last Airbender who rides a giant creature with a long tongue is June, a professional bounty hunter" (CAST.md updated; old line archived word for word. Claude's prompt uses the general idea only, long straight black hair on a striking adult woman, and does not name or copy that character: World Bible rule 3.)
+- Image 7 of this step (Hekka take 2, fresh): "Yes, make take 2"
+- Hekka hair, clarified while take 2 was running: "take inspiration from The tracker from Avatar: The Last Airbender who rides a giant creature with a long tongue is June, a professional bounty hunter not copy. i like th hair thats why i mentioned it"
+- Hekka take 2: 2048x1024; four true views; reads clearly as an adult woman; long black hair behind the shoulders; chest bar, white ring, armour layout and ring scar sides all correct; back-view gloves read from behind. Failed Claude's check: (a) second miss on the lip scar: two short lines under the mouth, one each side, like tear tracks, and they do not cross the lips (a faint one also shows in the right-side view, which should be clean); (b) Claude's word "fitted" overshot: skin-tight leg cloth with exaggerated hips and rear, which goes against the World Bible's no-sexualized-framing rule. Notes: the ring scar is reddish, not dull grey; the eyes look grey-brown in the front view; the hair is tidier than the style Dylan described.
+- Hekka lip scar: "Paint it by hand last"
+- Hekka hair style: "Thick and loose, swept back from the face"
+- Image 8 of this step (Hekka take 3, edit of take 2: straight trousers and natural hips + hair): "Yes, make take 3"
+- Hekka take 3 passed Claude's check on the two changes: 2048x1024; loose straight trousers, natural hips; thick, wavy black hair swept back with a lock at each temple. Armour, bar, ring and ring scar look unchanged by eye. Eyes moved from grey-brown to blue-grey (fix 24); take 3's lip lines were faded smudges.
+- Hekka take 4 = take 3 with the lip scar painted by hand: one thin pale line through the lips on her left (front and left-side views) and stray chin lines blended out (front and right-side views). No Codex use. First paint attempt was too bright and thick (seen zoomed in, not saved); repainted thinner. Short dark jaw marks remain in the front view.
+- Hekka take 4: "scar on the lip looks weird just remove it" (CAST.md updated; old line archived word for word) → take 5 = take 3 with only the stray chin lines blended out. No Codex use.
+- Hekka take 5: "her chin on the front view looks smudged"
+- Claude's side-by-side with take 3: Claude's own paint boxes crossed her jaw outline and broke it (also in take 4). Take 6 = take 3 with smaller boxes that stop above the jaw; jaw outline whole in the front and right-side views, zoomed in. No Codex use.
+- Hekka take 6: "She's right, on to the bear" (held for the pair check; not locked yet)
+- Bear size: "Bigger than a real bear, shoulder above Hekka's head" (notes only; about 2.2 m at the shoulder)
+- Bear colours: "Ash-grey faded fur, Sever-grey plates"
+- Bear core and armour: "Core in the chest, plates on head, shoulders and back"
+- Bear chains (CAST.md: "a chained Hollow"): "Iron collar with one short chain end"
+- Image 9 of this step (bear take 1): "Yes, make the bear"
+- Bear take 1: 2048x1024; four true views; brow, shoulder and spine plates only; cables; iron collar; blank white eyes; closed mouth. Failed Claude's check: (a) the core reads as a pendant hanging from the chain, sticking out in front of the chest in the side views, not "where the bond used to be"; (b) the stub tail is a round fluffy ball, which looks cute. Notes: fur leans warm grey-brown rather than pure ash-grey; eyes have a slight glow.
+- Image 10 of this step (bear take 2, edit of take 1: core built in + stub tail): "Yes, make take 2"
+- Bear take 2 passed Claude's check: 2048x1024; core and frame now set into the chest, with only an edge and a sliver of glow in the side views; chain short, ending above the frame, not touching it; tail now a rough spiky stub in the side and back views. Head, plates, collar, cables, legs and claws look unchanged by eye. Notes: the tail is a little longer than the "about as long as a paw" asked for; fur still leans warm grey-brown; eyes keep a slight glow; size can't be judged on its own sheet.
+- Pair check (Hekka take 6 + bear take 2): "Both pass" → locked sheets `art/refs/hekka-sheet-v6.png` and `art/refs/hollow-bear-sheet-v2.png`
+- Images used so far in this step: 10 Codex images (trooper 1, Vasch 1-4, Hekka 1-3, bear 1-2); 52 counting everything before it, plus the 5 earlier timed-out tries. Hekka 4-6 painted by hand.
+- Push: "Yes, push the branch"
+- Silt coat (CAST.md: "long ragged black coat"): "To the knee, open at the front, torn hem"
+- Silt weapon (none listed in CAST.md): "One bond-cutter at his right hip"
+- Silt head: "Messy black hair, slit over his right eye, no Sever marks"

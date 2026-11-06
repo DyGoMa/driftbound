@@ -1,0 +1,3 @@
+No Codex prompt: take 5 is take 3 (hekka-sheet-v3.png) painted by hand, on Dylan's answer "scar on the lip looks weird just remove it". Same as take 4 without the scar line.
+- Stray lines near the chin blended out with the skin on either side: front view boxes x=313-319, y=129-145 and x=286-293, y=130-142; right-side view box x=1243-1249, y=126-142.
+Nothing else changed.

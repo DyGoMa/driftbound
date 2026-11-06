@@ -38,5 +38,13 @@ Mark each line **works** or **broken (what happened)**. Only you mark things con
 | R9 | `art/refs/ione-sheet-v11.png` | Broken zigzag mark with crystals on the back of her left wrist; crystals on bare skin up the left side of her neck; white lock on her left; cropped black low-cut V-neck; coat on both shoulders, sleeves rolled | passed by Dylan 2026-11-05 |
 | R10 | `art/refs/prism-sheet-v3.png` | Ice-blue glass mantis-moth; four walking legs (two in each side view); blade forearms folded; clear wings folded flat with rainbow edges; glowing ice-blue eyes; feathery antennae | passed by Dylan 2026-11-05 |
 
+## Waiting for your check: reference sheets (build step 2, villains)
+| # | Look at | Check | Result |
+|---|---|---|---|
+| V1 | `art/refs/trooper-sheet-v1.png` | Grey helmet, black visor over the eyes, jaw showing; white collar; closed grey coat to the knee, black belt; flat black chest bar with a white ring (front only); hooked blade at his right hip; black gloves and boots; dark grey trousers | passed by Dylan 2026-11-05 |
+| V2 | `art/refs/vasch-sheet-v4.png` | Pale skin, pale grey eyes, grey hair combed back, tiny closed smile; white knee-length belted coat; black bar with a black ring (front only); both sleeves rolled; long black glove on his left arm; steel rings and bare metal fingers on his right arm; forearm is a see-through glass tube with one glowing white core, the same in the front, right-side and back views | passed by Dylan 2026-11-05 |
+| V3 | `art/refs/hekka-sheet-v6.png` | Adult woman, very tall and muscular; thick wavy black hair swept back; no lip scar; grey plates with dark cloth on upper arms and legs; loose trousers; white collar; black bar and white ring on the chest plate; bare midriff with a ring scar on her left; no lance | passed by Dylan 2026-11-06 |
+| V4 | `art/refs/hollow-bear-sheet-v2.png` | Big ash-grey bear on all fours; blank white eyes; plates on brow, shoulders and spine only; cables; white core set into the chest (edge only in the side views, hidden from behind); iron collar with a short chain ending above the core; rough stub tail | passed by Dylan 2026-11-06 |
+
 ## Headless smoke test (for workers)
 Serve the folder (`python3 -m http.server 8765`), open each page in Playwright Chromium (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers` in the cloud workspace), collect page errors, and screenshot the title, play and game-over states.
