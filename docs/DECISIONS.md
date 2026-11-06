@@ -302,3 +302,6 @@
 - Locked sheets: `art/refs/ione-sheet-v11.png` and `art/refs/prism-sheet-v3.png`. All 8 crew sheets in this step are done.
 - Left as is: CAST.md still says "a cracked hexagon"; the accepted mark reads as a broken zigzag (noted in STYLE.md).
 - Images used in this step: 33 Codex images, counting Juno 1-5, Ashka 1, Sela 1-5, Vesh 1, Silas 1-3, Hush 1-2, Bram 1-3, Grist 1, Ione 1-9, Prism 1-3 (42 counting the style test), plus 5 timed-out tries that may or may not have used allowance. Silas 4, Grist 2 and Ione 10-11 painted by hand.
+- Next step: "can we do both in parallel on different branches?" (villain sheets and step 3)
+- Repo: "i created a new repo for the new name. its driftbound. we should use that from now on and not hoshi-arcade."
+- Move: "Yes, move it" (full history pushed to DyGoMa/driftbound; its main starts from art/ref-sheets-crew; new local folder Documents\driftbound; hoshi-arcade left untouched)
