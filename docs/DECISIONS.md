@@ -331,3 +331,6 @@
 - Plan (`docs/STEP3_PLAN.md`): "Start Phase 1"
 - Book size (CAST.md: pals "designed later"): "12 slots" (a stand-in number)
 - Sheets and docs on the free link: "Publish everything" (the card said "No extra setting", but that was wrong: keeping the v1 archive off the site, as answered above, still needs one. Claude read this answer as covering sheets and docs only; the archive stays off. Dylan to overrule if he meant the archive too.)
+- Found after Phase 1: the free link was already on, from main (published 2026-11-06 05:52:30 UTC under DyGoMa, not by this chat), showing old Hoshi Arcade with no gate. Live link: "Push and point link here"
+- Sheets and docs (bible: "The site shows an 18+ gate before any content."; earlier answer: "Publish everything"): "Keep publishing them" (a logged exception to that rule: sheets and docs keep their own web addresses with no gate; the v1 archive stays off)
+- Numb time (CAST.md: "Push too far and the arm goes numb for days."; earlier answer: about 5 seconds): "5 seconds in the game only" (the story and CAST.md keep "for days")

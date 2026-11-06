@@ -10,4 +10,4 @@ An adults-only (18+) anime site set in the Drift, a sea of floating islands: sho
 - Every decision and who made it: `docs/DECISIONS.md`
 - The old Hoshi Arcade code: `archive/v1-hoshi-arcade/`
 
-Plain HTML + JavaScript, no build step. Every page loads `shared/gate.js` first and keeps its content in `<template id="page">`. Shared save: `shared/save.js`.
+Plain HTML + JavaScript, no build step. The homepage and every game load `shared/gate.js` first and keeps its content in `<template id="page">`. Shared save: `shared/save.js`.
