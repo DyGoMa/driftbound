@@ -1,4 +1,4 @@
-// Storm Run: the Hollow hound (hollow-hound-sheet-v1.png), in code; Silt on its back is in rider.js.
+// Storm Run: the Hollow hound (hollow-hound-sheet-v1.png), in code, the fallback for art/silt-hound-*.webp; Silt on its back is in rider.js.
 // Poses: run (6 frames), crouch, leap, rear (core shows), yelp, down. Faces right; origin = on the road under its middle.
 window.SR = window.SR || {};
 (function () {
@@ -156,13 +156,16 @@ window.SR = window.SR || {};
         : b.state === 'open' || b.state === 'land' ? 'rear'
           : b.state === 'stagger' ? 'yelp' : b.state === 'fall' ? 'down' : 'run';
     const y = TUNE.groundY - b.alt, open = b.state === 'open' ? 1 : 0, f = name === 'run' ? Math.floor(t * 13) % 6 : 0;
-    const key = 'silt_hound_' + name;
-    if (!Kit.art.draw(c, key, name === 'run' ? Kit.art.frameAt(key, t) : 0, b.x, y, 150, b.flip)) {
-      const armUp = b.throwArm > 0, riding = b.state !== 'fall', pulse = open ? Math.round(sin(t * 12) * 0.5 + 0.5) : 0;
-      SR.stamp(c, bakePose(name, f, armUp, riding, open, pulse), b.x, y, b.flip);
+    const armUp = b.throwArm > 0, pulse = open ? Math.round(sin(t * 12) * 0.5 + 0.5) : 0;
+    let key = 'silt_hound_' + (name === 'run' && armUp ? 'throw' : name), flip = b.flip;
+    if (b.flip && Kit.art.has(key + '_left')) { key += '_left'; flip = false; }   // drawn from his left side, so his blade and eye slit never swap sides
+    if (Kit.art.draw(c, key, name === 'run' ? Kit.art.frameAt(key, t) : 0, b.x, y, 150, flip)) {
+      if (name === 'rear') core(c, SR.coreX(b), TUNE.groundY - SR.coreAlt(), open, pulse);   // the target: drawn by the rules, shut until it can really be hit
+    } else if (!(name === 'run' && armUp && Kit.art.draw(c, 'silt_hound_run', Kit.art.frameAt('silt_hound_run', t), b.x, y, 150, flip))) {
+      SR.stamp(c, bakePose(name, f, armUp, b.state !== 'fall', open, pulse), b.x, y, b.flip);
     }
-    if (b.state === 'open') SR.ringPrompt(c, SR.coreX(b), TUNE.groundY - TUNE.coreAlt, t);
-    if (b.flash > 0) { c.fillStyle = 'rgba(255,255,255,' + Math.min(0.6, b.flash) + ')'; c.beginPath(); c.arc(SR.coreX(b), TUNE.groundY - TUNE.coreAlt, 70 * (1 - b.flash), 0, 7); c.fill(); }
+    if (b.state === 'open') SR.ringPrompt(c, SR.coreX(b), TUNE.groundY - SR.coreAlt(), t);
+    if (b.flash > 0) { c.fillStyle = 'rgba(255,255,255,' + Math.min(0.6, b.flash) + ')'; c.beginPath(); c.arc(SR.coreX(b), TUNE.groundY - SR.coreAlt(), 70 * (1 - b.flash), 0, 7); c.fill(); }
   };
 
   // When Silt is thrown clear at the end.

@@ -1,0 +1,19 @@
+Image 1 is the character reference sheet for Silt, a wiry 29-year-old adult man. Image 2 is the reference sheet for his monster, a Hollow hound. Copy both designs exactly from the RIGHT SIDE views (the third figure in each image, facing right).
+
+Silt: adult man with adult proportions, a smooth blank white mask covering his whole face with a black strap round his head, one short black horizontal eye slit over his RIGHT eye only, messy spiky black hair, a black standing collar, a long black coat belted at the waist and open below the belt, its hem torn into rags, black gloves, dark grey trousers, heavy black boots, and a hooked white metal blade hanging from a clip on the belt at his RIGHT hip, the side nearest us. Five fingers on each hand. No skin showing apart from a sliver of neck.
+
+The hound: a monster, NOT a pet dog, NOT a jackal, NOT a greyhound. Ash-grey shaggy fur with spiky tufts, a heavy wolf-like head with a dark riveted plate on the brow, blank glowing white eyes, long fangs, torn ears, big shoulders, exposed ribs on its flank, big dark riveted armour plates on the neck, shoulder and hip, two thick black cables running along the ribs from the shoulder plate to the hip plate, huge paws with long black claws, a long spiky tail. A round white core is set into the middle of its chest, and from this side we see only its bright edge at the front of the chest.
+
+Make a sprite sheet of one looping full gallop: six frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame the hound is shown whole in a true 90-degree side profile running towards the RIGHT edge of the image, and Silt rides astride its bare back just behind the neck plates, crouched low and leaning forward, his RIGHT side nearest us, his near leg bent against the hound's flank, one gloved hand gripping the plate on the hound's neck, his coat tails and rags streaming out behind him.
+Frame 1: gathered, all four legs bunched under the belly, back arched.
+Frame 2: front legs reaching forward, back legs still pushing, body rising.
+Frame 3: fully stretched in the air, front legs reaching far ahead, back legs far behind, no paw on the ground.
+Frame 4: front paws landing, body level, back legs swinging forward.
+Frame 5: front legs under the chest, back legs coming forward, shoulders dropping.
+Frame 6: back legs reaching under the belly, front legs lifting off, back starting to arch.
+
+Hound and rider stay the same size in all six frames, the body stays at the centre of the cell, and the lowest paw is always on the same line near the bottom of the cell, so the frames loop without jitter. In every cell the hound from nose to tail tip fills about 88 percent of the cell's width, and no part touches a cell edge or crosses into another cell. Nothing is cut off. Silt's head stays inside the cell.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems. Do not use green anywhere on the hound or the rider.

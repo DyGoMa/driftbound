@@ -61,6 +61,15 @@ My own extra runs (scripts in `%TEMP%\kcheck`, `sr-bot.js`, `sr-extra.js`, `sr-s
 
 - Third review (2026-11-06): Skarn's gliding picture made, the one Dylan chose in "3 strips of poses" that had been swapped for the trooper strip. 1 image, first take, no redo (`art/raw/skarn-glide-v1.png`, prompt in `art/prompts/`), 4 frames keyed to `art/skarn-glide.webp`. Looked at against `skarn-sheet-v3.png`: fin spines and solid membrane, broken lightning along the top moving front to back, forked tail with pale tips, pale ruff, blue-grey over the shoulder, yellow eye, fang, black claws. A wash over the picture puts out the fin and eye while the arm is numb. The code Skarn stays as the fallback.
 
+- Fourth pass (Friday batch, 2026-11-06): the boss got pictures. 9 images, all first takes, no redos (`art/raw/silt-hound-*-v1.png`, prompts in `art/prompts/`), from `silt-sheet-v1.png` and `hollow-hound-sheet-v3.png`. One Codex timeout on the first try of the run strip; the same prompt worked on the retry. Status: built, not yet seen by Dylan.
+  - Right-facing (blade and eye slit on his right, as on the sheet): `silt_hound_run`, `silt_hound_throw`, `silt_hound_crouch`, `silt_hound_leap`. Left-facing (blank mask side, no blade, as on the sheet's left view): `silt_hound_crouch_left`, `silt_hound_leap_left`, `silt_hound_rear_left`, `silt_hound_yelp_left`, `silt_hound_down_left` (no Silt).
+  - Boss timings and hit boxes are unchanged. One number moved, with the picture only: the core sits at `coreAltArt` 112 px instead of `coreAlt` 96 (the reared hound stands taller). The code hound still uses 96 when the picture is missing. Silt's cable starts at his hand in the pictures (`cableHandArt`).
+  - The core is drawn in code on top of the reared picture: shut with a white slit while it lands, bare and pulsing when it can be hit.
+  - Checked: `tools/smoke.js storm-run` passed; 40 bot wins of 40 on the boss with the pictures on (all about 22 s, so the seeds barely change this fight and it's weak proof of fairness); every boss state except the run-in looked at in still shots at 844x390, with hit boxes drawn on some; a missed core (crouch and lunge back, facing left); stage 4's distant Silt; pictures blocked, so the code hound and Silt draw and the boss still plays; no page errors. Sprites looked at on flat colour: no green fringe, nothing cut off.
+  - Not checked: how the gallop looks moving. I looked at stills and all 6 frames side by side, not at it playing. The fair-timing script from the third review wasn't rerun. No real phone.
+  - Known flaws: the reared picture is drawn at about 80% of the other poses' scale so the core stays in reach and on screen; the crouch has a low, slightly rat-like head; the core shows as a crack in the yelp from the first hit on; a thin sliver of core shows on the chest in the gallop even though the plates are shut; Silt thrown clear at the end is still the code figure, flatter than the pictures.
+  - Silt's talk portrait stays as it was: it's already a head-and-shoulders picture cut from his sheet, with the slit on his right. No new image needed.
+
 ## What a test can't tell, and needs Dylan's thumb
 - Whether the WAIT then FULL JUMP! timing feels fair and can be hit by a real thumb. A script can only prove the 0.19 to 0.40 s window exists; a phone adds its own touch delay. If it feels late, `jumpCueSecs` is the one number to change.
 - Whether the alarm sound on FULL JUMP! is right. Checked that it plays without error, not how it sounds.
@@ -86,7 +95,8 @@ All in `tuning.js`, marked PROVISIONAL. The ones most likely to change: `jumpSpe
 - Silt seen in the distance on stage 4; radio lines during stages.
 - The talk box during play sits small in the bottom right, in the rock under the road (`sayAt: 'corner'`), clear of the arm, the forks, the boss's pips and the progress bar.
 - Fizzlet's and Boltnip's catch conditions and chances.
-- The hound stays in code for the boss: shoulder height and its proportions come from the sheet; the rider's seat and the throw are mine.
+- The hound stayed in code for the boss at first: shoulder height and its proportions come from the sheet; the rider's seat and the throw are mine. Pictures replaced it in the fourth pass; this code version is now the fallback.
+- Boss pictures (Friday batch): an extra throw strip so the cable wind-up still shows; left-facing takes instead of flipping; Silt's cable hook and how he holds it; each pose's scale.
 - Salvage: 1 per cog, 3 for the high ones.
 - Numb in the game keeps 0.6 of the scars afterwards, so the next numb comes sooner.
 - The trooper run strip took the third image slot first, in place of the Skarn gliding strip Dylan chose. Both exist now, so that's 4 strips where the answer said 3; the Friday answer on pictures is "As many as you need to".

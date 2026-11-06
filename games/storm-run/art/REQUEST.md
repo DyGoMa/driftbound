@@ -1,6 +1,8 @@
 # Storm Run: pictures the game can use
 
-**Made so far (2026-11-06):** `kaito_run`, `kaito_jump`, `kaito_surge`, `kaito_hurt`, `trooper_run`, `skarn_glide`. Raw takes in `art/raw/`, the prompts word for word in `art/prompts/`, keyed with `tools/key-sprite.js`. Still code art, on purpose: the Hollow swooper, Silt and the hound (the core's position has to match the rules), barricades.
+**Made so far (2026-11-06):** `kaito_run`, `kaito_jump`, `kaito_surge`, `kaito_hurt`, `trooper_run`, `skarn_glide`, and the boss (see "What the boss got" below). Raw takes in `art/raw/`, the prompts word for word in `art/prompts/`, keyed with `tools/key-sprite.js`. Still code art, on purpose: the Hollow swooper, barricades, the core itself when the hound rears (so it sits where the rules have it, and stays shut until it can be hit), Silt when he's thrown clear.
+
+**What the boss got, and how it differs from the list below:** made from `silt-sheet-v1.png` and `hollow-hound-sheet-v3.png`. Added `silt_hound_throw` (the gallop with his arm raised, the cable wind-up), and left-facing pictures in place of flipping: `silt_hound_crouch_left`, `silt_hound_leap_left`, `silt_hound_rear_left`, `silt_hound_yelp_left`, `silt_hound_down_left`. Flipping a right-facing picture would put his blade and eye slit on the wrong side. The game draws them all at height 150, so `fill` in `art/sprites.js` sets each picture's scale. The strips were lined up on the front of his mask, with each cell widened first so no tail is cut off. `coreAltArt` in `tuning.js` is the core's height with the reared picture on.
 
 Every picture is optional. The game draws everything in code and looks for these keys first; a missing or broken picture falls back without a sound. To switch one on: save the file in this folder and add its line to `art/sprites.js`. Nothing else needs changing.
 

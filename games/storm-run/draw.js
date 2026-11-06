@@ -90,7 +90,8 @@ window.SR = window.SR || {};
 
   // A hooked cable from Silt's hand, the hook glowing like a bond-cutter.
   function drawCable(c, run, f) {
-    const A_ = A(), b = run.w.boss, g = T.groundY, y = g - (f.lo + f.hi) / 2, up = b.throwArm > 0, sx = b.x + (up ? -46 : 10), sy = g - b.alt - (up ? 138 : 92);   // from his hand
+    const A_ = A(), b = run.w.boss, g = T.groundY, y = g - (f.lo + f.hi) / 2, up = b.throwArm > 0;
+    const hand = A_.has('silt_hound_run') ? T.cableHandArt[up ? 'up' : b.state === 'chase' || b.state === 'enter' ? 'run' : 'low'] : (up ? [-46, 138] : [10, 92]), sx = b.x + hand[0], sy = g - b.alt - hand[1];   // from his hand
     if (f.x < sx) return;
     c.beginPath(); c.moveTo(sx, sy); c.quadraticCurveTo((sx + f.x) / 2, y + 26, f.x - 8, y);
     c.lineWidth = 3.4; c.strokeStyle = A_.INK; c.stroke();

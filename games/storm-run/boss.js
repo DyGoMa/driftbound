@@ -43,12 +43,13 @@ window.SR = window.SR || {};
     const w = run.w, b = w.boss;
     if (b.state !== 'open' || Math.abs(b.x - w.kx) > T.coreReachX) return false;
     SR.surge(run);
-    w.dash = { t: 0, x0: w.kx, alt0: w.k.alt, x1: SR.coreX(b) - 14, alt1: T.coreAlt - T.kaitoTall / 2 };
+    w.dash = { t: 0, x0: w.kx, alt0: w.k.alt, x1: SR.coreX(b) - 14, alt1: SR.coreAlt() - T.kaitoTall / 2 };
     w.inv = Math.max(w.inv, T.dashSecs + T.dashSafety);
     Kit.audio.play('whoosh');
     return true;
   };
   SR.coreX = b => b.x + (b.flip ? -T.coreOffset : T.coreOffset);
+  SR.coreAlt = () => Kit.art.has('silt_hound_rear_left') ? T.coreAltArt : T.coreAlt;   // the reared picture stands taller than the code hound
 
   SR.stepDash = function (run, dt) {
     const w = run.w, d = w.dash, k = w.k;
@@ -64,8 +65,8 @@ window.SR = window.SR || {};
     run.addScore(T.scorePerCore);
     Kit.audio.play('boom'); Kit.audio.play('growl');
     A().shake(10, 0.45);
-    A().burst(SR.coreX(b), T.groundY - T.coreAlt, { n: 36, colors: ['#ffffff', '#f2d21b', '#fff3a8'], speed: 300, life: 0.6, size: 4 });
-    A().floatText(SR.coreX(b), T.groundY - T.coreAlt - 40, b.hp ? 'CORE HIT' : 'CORE BROKEN', '#ffffff', 22);
+    A().burst(SR.coreX(b), T.groundY - SR.coreAlt(), { n: 36, colors: ['#ffffff', '#f2d21b', '#fff3a8'], speed: 300, life: 0.6, size: 4 });
+    A().floatText(SR.coreX(b), T.groundY - SR.coreAlt() - 40, b.hp ? 'CORE HIT' : 'CORE BROKEN', '#ffffff', 22);
     if (line) SR.say(run, line, 2.4);
     if (b.hp <= 0) go(b, 'fall', T.fallSecs); else go(b, 'stagger', T.staggerSecs);
   }

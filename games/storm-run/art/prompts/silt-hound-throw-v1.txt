@@ -1,0 +1,9 @@
+Image 1 is a finished sprite sheet: six frames in a grid of 3 columns and 2 rows of an adult masked rider, Silt, on a monster hound, galloping to the right. Image 2 is Silt's character reference sheet.
+
+Change one thing only, the same way in all six frames: Silt's arm nearest us (his RIGHT arm) no longer holds the neck plate. It is raised high and thrown back behind his head, elbow bent, about to throw, and the black-gloved fist grips a short length of black cable ending in a hooked white metal hook that sticks up and back above his head.
+
+Keep everything else identical in every frame: the hound's pose, size and position, Silt's body, his mask with its one black slit, his hair, belt and hooked blade at his hip, the coat rags, the grid, the frame order and the empty space around each figure. The raised hand and hook stay inside the cell and do not touch the cell's edge. Five fingers on the hand.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background stays one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems. Do not use green anywhere on the hound or the rider.

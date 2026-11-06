@@ -118,7 +118,9 @@ window.TUNE = {
   dashSafety: 0.7,      // PROVISIONAL: seconds of safety after the dash lands
   coreReachX: 300,      // PROVISIONAL: how far the dash reaches
   coreAlt: 96,          // PROVISIONAL: height of the core above the road when the hound rears (matches hound.js)
-  coreOffset: 16,       // PROVISIONAL: and how far in front of the hound's middle it is then (matches hound.js)
+  coreAltArt: 112,      // PROVISIONAL: the same height with the reared picture on (measured: core 661 px above the feet in silt-hound-rear-v1.png, drawn at 0.17)
+  cableHandArt: { up: [0, 133], run: [47, 101], low: [42, 75] },   // PROVISIONAL: where Silt's cable starts with the pictures on, from the hound's middle: arm raised, galloping, crouched or lunging (measured on the pictures)
+  coreOffset: 16,      // PROVISIONAL: and how far in front of the hound's middle it is then (matches hound.js)
   rebound: 420,         // PROVISIONAL: bounce back off the core
   returnRate: 3,        // PROVISIONAL: how fast Kaito drifts back to his spot
 
