@@ -66,6 +66,8 @@
     waiting.splice(0).forEach(fn => fn());
     const title = gate && document.querySelector('h1');
     if (title) { title.tabIndex = -1; title.focus({ preventScroll: true }); }
+    const linked = gate && location.hash && document.getElementById(location.hash.slice(1)); // A link to a section still lands there after the question.
+    if (linked) linked.scrollIntoView();
   }
 
   document.addEventListener('DOMContentLoaded', () => {
