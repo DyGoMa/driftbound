@@ -1,0 +1,6 @@
+Ref: art/site/banner-v1.png (style and colours only). Asked for 2048x1024; see the file for what came back. Timeout 1200.
+
+Wide anime background painting for a game card, with no people or creatures. Image 1 = art style and colour palette only: copy its look of clean black ink lines, flat cel shading and painted sky, but none of its characters. 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+Scene: The Glass Ward, a dead laboratory on a floating island at dusk, deep navy at the top, pale cold gold at the horizon, above a sea of clouds. A grim abandoned research building of steel and broken glass domes sits on the island, overgrown with huge clear crystal growths that split the last light into thin rainbow beams. Rusted pipes and cables hang off the rock. Ice blue and cold white give the picture its accent colours. A few smaller islands drift behind.
+Composition: the main subject fills the middle of the image, in the central 60 percent of the width. Wide and dramatic, seen from slightly below.
+No people, no monsters, no animals. No text, no letters, no numbers, no logos, no symbols, no emblems, no flags, no watermark, no borders.

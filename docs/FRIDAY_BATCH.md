@@ -26,8 +26,8 @@ Authoritative cast: `C:\Users\Dylan\Documents\driftbound-villains\docs\CAST.md` 
 |---|---|---|---|---|---|
 | `storm-run` | Storm Run | Kaito, Skarn | Pinhold (Empire island being pinned by pylons) | sideways | Silt on his Hollow hound |
 | `tide-gap` | Tide Gap | Sela, Vesh | Gaptooth Reach (islands grinding past each other) | upright | Hekka Dorn's Sever cutter |
-| `hot-hand` | Hot Hand | Juno, Ashka | Ashmarket (a gamblers' island under Sever raid) | sideways | Warden Krell (new heavy trooper officer) |
-| `silent-cut` | Silent Cut | Silas, Hush | Lanternreach (smugglers' port at night) | sideways | Ledger Maro (Silas's old boss, sold out to the Sever) |
+| `hot-hand` | Hot Hand | Juno, Ashka | Ashmarket (a gamblers' island under Sever raid) | sideways | Warden Krell (new heavy trooper officer, age 41) |
+| `silent-cut` | Silent Cut | Silas, Hush | Lanternreach (smugglers' port at night) | sideways | Ledger Maro (Silas's old boss, sold out to the Sever, age 52) |
 | `hold-the-deck` | Hold the Deck | Bram, Grist | Keelbreak (the Gullwake in dry dock) | upright | Hekka's Hollow bear, Hekka at the end |
 | `split-light` | Split Light | Ione, Prism | The Glass Ward (a dead bond lab) | upright | Director Vasch |
 
@@ -69,4 +69,4 @@ Upright puzzle, at least 15 levels over 4 sets, then the boss. Tap crystals to t
 `shared/kit/`: `core.js` (fixed-step loop, canvas scaling, input, pause, orientation prompt, `Kit.timeScale`), `ui.js` (title, upgrades, stage select, talk scene with crew portraits, results, ending), `audio.js` (effects, music loop, mute), `art.js` (sprite loader with code-art fallback, ink-and-flat drawing helpers, particles, shake), `game.js` (`Kit.start(def)`, the stage, boss, ending, endless and salvage flow). `shared/save.js` grows: lifetime salvage, spend, per-game stage progress, upgrade levels, fair best, pals, without losing any existing save. `shared/pals.js`, `shared/stories.js`, `shared/games.js` (the list of six; a game shows as playable only when `live: true`). `tools/smoke.js` runs a game in headless Chrome: errors, screenshots, the bot, phone sizes.
 
 ## Calls Claude made (change any)
-Game names other than Storm Run; island names; new minor villains Warden Krell and Ledger Maro; which boss goes where; all pals' names and looks; upgrade names and prices; the Silt and hound details the sheets don't settle; 5 stages per game; "dying restarts the current stage"; salvage rates.
+Game names other than Storm Run; island names; new minor villains Warden Krell (41, 195 cm) and Ledger Maro (52, 172 cm); these two aren't in `CAST.md`, so their ages and heights live here and in `shared/kit/cast.js`; which boss goes where; all pals' names and looks; upgrade names and prices; the Silt and hound details the sheets don't settle; 5 stages per game; "dying restarts the current stage"; salvage rates.

@@ -360,3 +360,5 @@
 - Game shape: "Stages, boss, endless" (Ione's game: puzzle levels with a final boss puzzle)
 - Phone: "Best for each game" (Storm Run stays sideways)
 - Silt and the Hollow hound sheets: "Finish them here" (Claude checks them; that chat stopped; Dylan checks them after they're in use)
+- Images made while fixing the Storm Run review (Friday batch, first takes, no redos, each looked at against its sheet): `games/storm-run/art/raw/` kaito-run-v1, kaito-poses-v1, trooper-run-v1; `art/site/` gaptooth-v1, ashmarket-v1, lanternreach-v1, keelbreak-v1, glassward-v1. 8 images. Prompts beside them.
+- Image made while fixing the third Storm Run review (Friday batch, first take, no redo, looked at against its sheet): `games/storm-run/art/raw/skarn-glide-v1.png`. 1 image, the Skarn gliding strip Dylan chose under "3 strips of poses". Prompt beside it.

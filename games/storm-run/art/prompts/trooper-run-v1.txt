@@ -1,0 +1,15 @@
+Image 1 is the reference sheet for a Sever trooper, an adult man about 180 cm tall. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): grey helmet with a black visor over the eyes, jaw showing, adult jaw; closed and belted grey coat to the knee with a white collar; black gloves, belt and boots; dark grey trousers; a hooked blade clipped on the belt at his right hip.
+
+Make a sprite sheet of one full run cycle: six frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame he is shown full body in a true 90-degree side profile running towards the RIGHT edge of the image, so his RIGHT side is nearest us, leaning forward, arms pumping, the coat tails flying behind him.
+Frame 1: right foot strikes the ground ahead of him, left leg trailing behind.
+Frame 2: passing, right leg under his body, left knee driving forward.
+Frame 3: pushing off the right toe, left knee high.
+Frame 4: left foot strikes the ground ahead of him, right leg trailing behind.
+Frame 5: passing, left leg under his body, right knee driving forward.
+Frame 6: pushing off the left toe, right knee high.
+
+Same character, same size and same head height in all six frames. In every cell he fills about 85 percent of the cell's height, his middle is at the centre of the cell, his lowest foot is on the same baseline near the bottom of the cell, and no part of him touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on his sheet. Do not use green anywhere on the character.

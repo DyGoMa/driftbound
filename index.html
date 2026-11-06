@@ -43,18 +43,8 @@
     <section class="section" id="games">
       <div class="inner">
         <h2 class="section-title">GAMES</h2>
-        <div class="games">
-          <a class="game-card" href="games/storm-run/index.html">
-            <img class="game-art" src="art/site/pinhold-v1-web.webp" width="1200" height="600" loading="lazy" alt="Pinhold, a floating island nailed in place by giant steel pylons and chains, with a grey watchtower on top.">
-
-            <div class="game-info">
-              <h3>Storm Run</h3>
-              <p>Pinhold is being nailed in place. Kaito and Skarn run the island, jumping Sever troopers and paying for every Surge.</p>
-              <span class="tag soon">IN THE WORKS</span><span class="game-best" id="best"></span>
-            </div>
-          </a>
-          <div class="next-island"><span class="tag soon">COMING SOON</span>More islands, more games</div>
-        </div>
+        <div class="games" id="game-grid"></div>
+        <div class="next-island"><span class="tag soon">COMING SOON</span>More islands, more games</div>
       </div>
     </section>
 
@@ -65,9 +55,17 @@
       </div>
     </section>
 
+    <section class="section" id="story">
+      <div class="inner">
+        <h2 class="section-title">STORY CARDS</h2><span class="book-count" id="story-count"></span>
+        <p class="section-note">Salvage from any game opens these. Spending it never closes one again.</p>
+        <div class="stories" id="story-grid"></div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="inner soon-pair">
-        <div id="story" class="soon-card soon-story">
+        <div id="novel" class="soon-card soon-story">
           <span class="tag soon">COMING SOON</span>
           <h3>Visual novel</h3>
           <p>The crew's story, with romance routes.</p>
@@ -83,8 +81,9 @@
     <section class="section" id="book">
       <div class="inner">
         <h2 class="section-title">MONSTER BOOK</h2><span class="book-count" id="book-count"></span>
-        <p class="section-note">Coming soon: catch pals in any game and they show up here.</p>
+        <p class="section-note">Every game hides two pals. Catch one and it stays here for good.</p>
         <div class="book" id="book-grid"></div>
+        <div class="pal-notes" id="pal-notes"></div>
       </div>
     </section>
   </main>
@@ -93,6 +92,10 @@
 </template>
 <script src="shared/save.js"></script>
 <script src="shared/crew.js"></script>
+<script src="shared/games.js"></script>
+<script src="shared/pals.js"></script>
+<script src="shared/stories.js"></script>
 <script src="hub.js"></script>
+<script src="hub-book.js"></script>
 </body>
 </html>

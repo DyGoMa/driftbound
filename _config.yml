@@ -1,4 +1,11 @@
 # GitHub Pages settings. Keeps the v1 code off the public site (Dylan 2026-11-05: "Move, keep off the public site").
 # It stays in the repo, word for word. The old game is still playable at dygoma.github.io/hoshi-arcade/.
+# The Markdown lines: Pages turns any .md file into a page with no 18+ gate. The logged exception covers sheets and docs only (DECISIONS.md),
+# so a game's notes and the kit's guide stay off the site. The * patterns also catch each later game's files.
 exclude:
   - archive
+  - tools
+  - README.md
+  - shared/kit/README.md
+  - games/*/NOTES.md
+  - games/*/art/REQUEST.md
