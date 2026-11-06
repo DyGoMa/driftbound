@@ -1,0 +1,37 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fin or colours. Image 2 is the same line of monster as the one you will draw: copy how its rough spiky fur, heavy riveted metal plates, thick dark rubber cables with clamps, blank white eyes and white chest core are drawn, and its grim, heavy mood; do NOT copy that bear's body shape, collar or chain. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind.
+
+Creature: a Hollow hound-beast, a stripped monster rebuilt into a weapon and ridden as a mount by a hunter. An original, frightening war-hound on all four legs, big enough for an adult man to ride, its shoulder level with his chest. NOT a pet dog, NOT a jackal, NOT a greyhound: a monster. Huge, high, bony shoulders and a very deep ribcage, a thick muscular neck carried low and forward, a tucked-in waist, long powerful legs with big knuckled paws and long black claws. A big, wedge-shaped wolf-like head with a heavy jaw and a low, angry brow. Short, torn, swept-back ears. Mouth closed, but two long fangs from the upper jaw show over the lower lip on each side. It is starved and hard: every rib shows. It looks empty and wrong, a hunter with nothing left inside. Sharp 2000s anime monster lines, not cute, not friendly.
+Fur: dull ash-grey, the same as Image 2, clearly lighter than the background and the armour plates. Short and rough, with spiky ragged tufts on the neck, the chest, the backs of the shoulders and the backs of the legs. Nose, claws and lips are black.
+Eyes: blank white, with no pupils, narrow and slanted under the brow plate, drawn the same way as in Image 2.
+
+Armour: heavy riveted plates of Sever-grey metal, darker than the fur, on four places only:
+- a heavy brow plate from between the ears down the top of the muzzle, jutting over the eyes, leaving the eyes clear;
+- one big plate on each shoulder;
+- one big plate on each hip;
+- a line of overlapping plates down the back of the neck, ending at the shoulders.
+The middle of the back between the shoulders and the hips is bare fur, with no plates, so a rider can sit there. No saddle. No plates on the legs, belly or lower jaw.
+
+Core: one round glowing white core set in a dark metal frame, sunk into the fur in the middle of the chest, with the fur meeting the edge of the frame all the way round.
+- FRONT view: fully visible, centred on the chest, below the throat.
+- LEFT SIDE and RIGHT SIDE views: only the edge of the frame and a thin sliver of white glow, inside the outline of the chest. It does not stick out or dangle.
+- BACK view: hidden.
+
+Cables: thick dark rubber cables, drawn as in Image 2, running from the core's frame up the neck to the brow plate, over each shoulder to the shoulder plate, and along each flank to the hip plate, held down by small metal clamps. They are the same on both sides of the body.
+- BACK view: the cables show over the hips and flanks only.
+No collar. No chains. No straps.
+
+Tail: one long, thin, bony tail with a rough tuft of fur along its top, held straight out behind, level with the back.
+- LEFT SIDE and RIGHT SIDE views: fully visible, straight out behind, level.
+- BACK view: the tail points directly at us, so we see only its round end, one small circle at the top of the rump. Nothing hangs down between the back legs.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
