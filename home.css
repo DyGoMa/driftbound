@@ -96,7 +96,12 @@ footer { margin-top: 32px; padding: 22px 16px 34px; text-align: center; color: v
   .section { padding-top: 44px; }
 }
 @media (min-width: 960px) {
-  .hero-text { display: flex; align-items: center; gap: 48px; padding: 16px max(16px, calc((100vw - 1120px) / 2)) 44px; }
-  .hero-pitch { flex: 1; }
-  .tagline { margin-top: 0; }
+  /* Dylan 2026-11-06: on a computer the banner is only a quarter to a third of the screen. The whole picture stays visible. */
+  .hero { --hero-h: clamp(260px, 33vh, 380px); display: grid; grid-template-columns: minmax(0, 1fr) auto; height: var(--hero-h); background: var(--navy); }
+  .hero-slant { display: none; }
+  .hero-art { grid-column: 2; grid-row: 1; width: calc(var(--hero-h) * 2); height: var(--hero-h); clip-path: polygon(70px 0, 100% 0, 100% 100%, 0 100%); }
+  .hero-text { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; justify-content: center; min-width: 0; padding: 8px 16px 8px max(16px, calc((100vw - 1120px) / 2)); }
+  .hero-title { font-size: clamp(56px, 5.6vw, 84px); text-shadow: 3px 3px 0 var(--orange); }
+  .tagline { margin-top: 8px; font-size: 16px; }
+  .btn { margin-top: 12px; padding: 9px 22px; font-size: 16px; min-height: 0; }
 }

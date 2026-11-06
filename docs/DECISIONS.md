@@ -343,4 +343,20 @@
 - Pinhold take 1 (`art/site/pinhold-v1.png`, style ref: the banner): 2048x1024; floating island with four steel pylons through it, chains, barricades, watchtower, cranes, searchlights, a road across the top; no people, no text. Looked at the full picture, not zoomed in. No redo.
 - Images used so far: 2 in this chat. With the villain chat's 8 logged by 2026-11-05 (trooper, Vasch 1-4, Hekka and others), that's 52 in all, plus the 5 earlier timed-out tries.
 - Publish the new homepage: "Push it live"
+- Homepage check: "looks good on my phone. on my computer the banner takes up the whole page should only be like 1/4 to a 1/3 of it. also the character pictures are blurry."
 - Calls Claude made for the homepage (change any): fonts Anton and Barlow from Google Fonts; the tagline and the Storm Run blurb; the crew one-liners in `shared/crew.js`, shortened from CAST.md; ages shown on the crew cards; "More islands, more games" tile; the Enter the Drift button; banner placed above the title, so the art isn't covered. Crew portraits are small crops from the 2048-wide sheets, so they look a little soft at computer size.
+
+## Your words (2026-11-06, Friday batch: finish the game, make more, fully automated)
+- Request: "It's Friday and I want you to finish the current game we created and make another 2-5. I want you to fully automate it and ask all questions before starting so you can fish it in one go. You will do a review of it before telling me it's done." This replaces "stop after each phase" and the one-yes-per-image rule for this job only.
+- New games: "All 5" (one each for Sela, Juno, Silas, Bram, Ione)
+- Pictures: "As many as you need to. If you hit the limit continue making the game and try again later"
+- Going live: "Live game by game" (main stays as it is until Dylan says otherwise)
+- Homepage fix left in the old chat: "Finish it here" (that chat stopped; its files kept)
+- Pals: "Yes, 12 pals"
+- Salvage: "Both" (unlocks story cards and buys upgrades)
+- Upgrades: "3 per game" (plus a no-upgrades switch for fair high scores)
+- Crew talk: "Short and full flavour"
+- Sound: "Effects plus music"
+- Game shape: "Stages, boss, endless" (Ione's game: puzzle levels with a final boss puzzle)
+- Phone: "Best for each game" (Storm Run stays sideways)
+- Silt and the Hollow hound sheets: "Finish them here" (Claude checks them; that chat stopped; Dylan checks them after they're in use)

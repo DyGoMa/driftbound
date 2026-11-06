@@ -9,7 +9,7 @@ DriftGate.whenPassed(function () {
 
   document.getElementById('crew').innerHTML = DRIFT_CREW.map(c => `
     <article class="crew-card" style="--c1:${c.colour};--c2:${c.colour2}">
-      <div class="crew-art"><img src="art/site/crew/${c.id}-v1.webp" width="360" height="360" loading="lazy" alt="Portrait of ${c.name}"></div>
+      <div class="crew-art"><img src="art/site/crew/${c.id}-v2.webp" width="720" height="720" loading="lazy" alt="Portrait of ${c.name}"></div>
       <div class="crew-info">
         <h3>${c.name}</h3>
         <p class="crew-role">${c.role} · ${c.age}</p>
