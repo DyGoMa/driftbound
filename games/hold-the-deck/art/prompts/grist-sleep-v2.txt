@@ -1,0 +1,13 @@
+Image 1 is a finished game sprite of Grist, an iron rhino-beetle beast the size of a truck, awake. Edit it so he is asleep. Image 2 is his locked reference sheet: keep to its design (dome of riveted dark iron plates with rust streaks, one huge anvil-shaped horn, heavy plated head, six thick armoured legs with big claws, no tail).
+
+Keep identical to Image 1: facing the RIGHT edge of the image in a true 90-degree profile, the same size, the same plates, rivets and rust, and the horn's shape. The horn is a real blacksmith's anvil: a thick stem rising straight up from his head to a FLAT, LEVEL top edge, with two tips, a long pointed one going forward and a shorter one going back. The flat top stays horizontal. The horn is upright, never tipped down or forward, and never a single spike.
+
+Change only these two things:
+1. His eye is shut: one plain curved closed line with no glow and no orange anywhere on his head.
+2. He has settled down to sleep: all six legs folded and bent short under him so the bottom of the shell is close to the ground, and his head (with the horn on it, still upright) has sunk down with it, chin nearly on the ground. Peaceful.
+
+One beast only. He stays at the same width in the image, centred, his feet near the bottom of the image, on one level line. Nothing touches an edge and nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no sleep marks, no letters, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on him.

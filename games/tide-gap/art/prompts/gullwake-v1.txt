@@ -1,0 +1,16 @@
+Draw the Gullwake, a battered, patched wooden salvage ship, as a game sprite seen from high above and a little from behind, almost a top-down view, the whole ship in one piece. The bow points straight UP the picture and comes to a rounded point at the top; the stern is at the bottom. The ship is long and narrow: about two and a half times as long as it is wide, centred, with the left and right sides nearly mirrored.
+
+What is on it, from the bow down:
+- At the very bow, a heavy iron winch, where two short lengths of chain run forward off the bow tip.
+- About a third of the way down from the bow, a CLEAR patch of plain plank deck in the middle, with nothing on it, big enough for a person to stand on.
+- A few wooden crates lashed along the sides of the deck, leaving that middle patch clear.
+- Halfway down, one wooden mast seen from above, with a furled, patched canvas sail lashed to a yard that runs across the ship from side to side, a little wider than the hull. The sail is cream canvas with one rust-orange patch.
+- In front of the cabin, Grist, shown in Image 1: a huge iron rhino-beetle beast with dark riveted iron plates with rust, one anvil-shaped horn and orange eyes. He is asleep on the deck, seen from above, his legs tucked in, his domed plated shell filling the width of the deck, eyes closed.
+- At the stern, a small cabin with a slate-blue roof and a small warm-lit lantern.
+Plank deck in warm tan, hull sides in dark worn brown. Riveted iron patches and mismatched planks on the hull, some scraped, repaired again and again.
+
+NO people aboard. No flags. No water. The ship fills about 94 percent of the image's height, its bow tip near the top, its stern near the bottom, and nothing touches the image edge or is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No water, no wake, no cast shadows, no motion lines, no text, no labels, no numbers, no name on the hull, no logos, no emblems. Do not use green anywhere on the ship.

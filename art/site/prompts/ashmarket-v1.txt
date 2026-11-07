@@ -1,0 +1,6 @@
+Ref: art/site/banner-v1.png (style and colours only). Asked for 2048x1024; see the file for what came back. Timeout 1200.
+
+Wide anime background painting for a game card, with no people or creatures. Image 1 = art style and colour palette only: copy its look of clean black ink lines, flat cel shading and painted sky, but none of its characters. 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+Scene: Ashmarket, a floating gamblers' island at dusk under a raid, deep navy at the top, orange and gold at the horizon, above a sea of clouds. A crowded market town of crooked timber gambling halls, striped awnings, strings of paper lanterns and bridges between rooftops, with fires burning in two of the buildings and embers and smoke rising. Fire orange and ember red give the picture its accent colour. A few smaller islands drift behind.
+Composition: the main subject fills the middle of the image, in the central 60 percent of the width. Wide and dramatic, seen from slightly below.
+No people, no monsters, no animals. No text, no letters, no numbers, no logos, no symbols, no emblems, no flags, no watermark, no borders.

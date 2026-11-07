@@ -1,0 +1,20 @@
+// Silent Cut: tips at the top of the screen. Only in the story, each once, except windedLit, which shows in every mode for as long as he's out of breath in the light. The rest of the words are in words.js.
+SC.WORDS.tips = {
+  hold: 'Hold: creep. Let go: freeze. Behind cover, nothing can see you.',
+  cut: 'Lantern in reach? Tap to cut it down. Glass makes noise.',
+  beam: 'Let the beam go by. Freeze behind cover when it comes back.',
+  strike: 'Close behind him: tap to strike. Never from the front.',
+  two: 'Even one lantern gives you away. Cut them both.',
+  flood: 'Too bright to walk. Double tap: SURGE. Each feather is one.',
+  floodAgain: 'Breath comes back only when frozen, and slowly. Spend it carefully.',
+  longGate: 'Too wide for one dash: two Surges, back to back. Have the breath first.',
+  row: 'Out of breath: no Surge, slow legs, no voice. Freeze in the dark.',
+  windedLit: 'Too bright to rest. Keep walking, then freeze in the dark.',
+  scar: 'Out of breath again this stage, and it scars his voice for the run.',
+  crane: 'Floodlit yard. Keep under a passing crate\'s shadow. Let go, hold, let go.',
+  windedCrane: 'Out of breath, you can\'t keep up with the crates.',
+  boards: 'These boards creak. Troopers walk to the sound.',
+  lure: 'A cut lantern or a creak turns a trooper\'s back. Use it.',
+  maro: 'Strike his back. When the book shuts, get behind cover: his lamp finds you.',
+  endless: 'The lamp line is coming, and it isn\'t stopping. Keep moving.',
+};

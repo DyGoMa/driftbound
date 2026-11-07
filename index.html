@@ -3,81 +3,99 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hoshi Arcade</title>
+<title>Driftbound</title>
+<meta name="theme-color" content="#0c1026">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;900&display=swap" rel="stylesheet">
-<style>
-  :root { --bg: #120c33; --panel: #1f1650; --panel2: #2a1d66; --ink: #1d1430; --text: #f4efff; --muted: #b9addf;
-          --pink: #ff7aa8; --gold: #ffd75e; --orange: #ff8c2e; --teal: #2ec4b6; }
-  * { box-sizing: border-box; }
-  html { background: var(--bg); }
-  body { margin: 0; min-height: 100vh; background: radial-gradient(ellipse 120% 700px at top, #3b1e6e 0%, var(--bg) 100%) no-repeat, var(--bg); color: var(--text);
-         font-family: "M PLUS Rounded 1c", system-ui, sans-serif; }
-  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
-  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 0; }
-  .logo { font-weight: 900; font-size: 26px; letter-spacing: 1px; color: var(--gold); text-shadow: 3px 3px 0 var(--ink), 0 0 18px rgba(255,122,168,.6); }
-  .logo span { color: var(--pink); }
-  .pill { background: var(--panel); border: 2px solid var(--gold); border-radius: 999px; padding: 6px 14px; font-weight: 900; white-space: nowrap; }
-  .hero { position: relative; border-radius: 18px; overflow: hidden; border: 3px solid var(--pink); background: var(--panel); }
-  .hero canvas { display: block; width: 100%; height: 240px; }
-  .hero .cta { position: absolute; left: 16px; bottom: 16px; right: 16px; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px; }
-  .hero h2 { margin: 0; font-size: 30px; font-weight: 900; color: var(--orange); text-shadow: 3px 3px 0 var(--ink); }
-  .hero p { margin: 2px 0 0; font-weight: 700; text-shadow: 2px 2px 0 var(--ink); max-width: 420px; }
-  @media (max-width: 600px) {
-    .logo { font-size: 20px; } .pill { font-size: 13px; padding: 5px 10px; }
-    .hero canvas { height: 200px; }
-    .hero .cta { position: static; padding: 12px 14px 14px; }
-  }
-  .btn { display: inline-block; background: var(--gold); color: var(--ink); font-weight: 900; font-size: 18px; padding: 10px 22px;
-         border-radius: 999px; text-decoration: none; box-shadow: 0 4px 0 #b8892b; }
-  .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #b8892b; }
-  h3 { font-size: 20px; font-weight: 900; margin: 28px 0 10px; color: var(--pink); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-  .card { background: var(--panel); border: 2px solid var(--panel2); border-radius: 14px; overflow: hidden; color: inherit; text-decoration: none; display: block; }
-  a.card:hover { border-color: var(--gold); transform: translateY(-2px); }
-  .card canvas { display: block; width: 100%; aspect-ratio: 4 / 3; background: #2a1652; }
-  .card .info { padding: 8px 10px 10px; }
-  .card b { display: block; font-size: 15px; }
-  .card small { color: var(--muted); font-weight: 500; }
-  .tag { display: inline-block; font-size: 11px; font-weight: 900; padding: 1px 8px; border-radius: 999px; margin-top: 4px; }
-  .tag.live { background: var(--teal); color: var(--ink); } .tag.soon { background: #4a3a80; color: var(--muted); }
-  .locked canvas { filter: grayscale(.7) brightness(.55); }
-  .cast .card canvas { aspect-ratio: 1; }
-  .lore { display: grid; gap: 10px; }
-  .lore div { background: var(--panel); border-left: 5px solid var(--gold); border-radius: 10px; padding: 10px 12px; }
-  .lore div.lock { border-left-color: #4a3a80; color: var(--muted); }
-  .lore b { display: block; }
-  footer { margin-top: 32px; color: var(--muted); font-size: 13px; text-align: center; }
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@500;700;800&display=swap" rel="stylesheet">
+<script src="shared/config.js"></script>
+<script src="shared/gate.js"></script>
+<link rel="stylesheet" href="home.css">
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">HOSHI<span>★</span>ARCADE</div>
-    <div class="pill" id="total">★ 0 Star Shards</div>
+<noscript><p style="color:#f5efe2;text-align:center;padding:40px 16px">Driftbound is for adults only and needs JavaScript switched on.</p></noscript>
+<template id="page">
+  <header class="topbar">
+    <div class="topbar-row">
+      <a class="logo" href="#top">DRIFTBOUND</a>
+      <div class="salvage">Salvage <b id="total">0</b></div>
+    </div>
+    <div class="nav-wrap">
+      <nav class="nav" aria-label="Sections">
+        <a href="#games">Games</a><a href="#crew-section">Crew</a><a href="#story">Story</a><a href="#videos">Videos</a><a href="#book">Book</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <canvas id="banner"></canvas>
-    <div class="cta">
-      <div><h2>Aki Dash</h2><p>The Static is eating the arcade. Run, jump twice, and grab every Star Shard you can.</p></div>
-      <a class="btn" href="games/aki-dash/index.html">Play now ▶</a>
-    </div>
-  </section>
+  <main id="top">
+    <section class="hero">
+      <img class="hero-art" src="art/site/banner-v1-web.webp" width="1600" height="800" alt="Kaito sprints along a cliff edge at dusk with lightning around his arm, while his storm wolf Skarn glides above him. Floating islands drift behind them.">
+      <div class="hero-slant" aria-hidden="true"></div>
+      <div class="hero-text">
+        <h1 class="hero-title">DRIFTBOUND</h1>
+        <div class="hero-pitch">
+          <p class="tagline">The islands move. The maps lie. A salvage crew and their monster partners run from an Empire that wants the Drift pinned down.</p>
+          <a class="btn" href="#games">Enter the Drift</a>
+        </div>
+      </div>
+    </section>
 
-  <h3>Cabinets</h3>
-  <div class="grid" id="cabinets"></div>
+    <section class="section" id="games">
+      <div class="inner">
+        <h2 class="section-title">GAMES</h2>
+        <div class="games" id="game-grid"></div>
+        <div class="next-island"><span class="tag soon">COMING SOON</span>More islands, more games</div>
+      </div>
+    </section>
 
-  <h3>The Crew</h3>
-  <div class="grid cast" id="cast"></div>
+    <section class="section" id="crew-section">
+      <div class="inner">
+        <h2 class="section-title">THE CREW OF THE GULLWAKE</h2>
+        <div class="crew" id="crew"></div>
+      </div>
+    </section>
 
-  <h3>Arcade Stories <small style="color:var(--muted);font-weight:500">(collect shards in any game to unlock)</small></h3>
-  <div class="lore" id="lore"></div>
+    <section class="section" id="story">
+      <div class="inner">
+        <h2 class="section-title">STORY CARDS</h2><span class="book-count" id="story-count"></span>
+        <p class="section-note">Salvage from any game opens these. Spending it never closes one again.</p>
+        <div class="stories" id="story-grid"></div>
+      </div>
+    </section>
 
-  <footer>Hoshi Arcade · every game, one world · progress is saved in this browser</footer>
-</div>
-<script src="shared/cast.js"></script>
+    <section class="section">
+      <div class="inner soon-pair">
+        <div id="novel" class="soon-card soon-story">
+          <span class="tag soon">COMING SOON</span>
+          <h3>Visual novel</h3>
+          <p>The crew's story, with romance routes.</p>
+        </div>
+        <div id="videos" class="soon-card soon-video">
+          <span class="tag soon">COMING SOON</span>
+          <h3>Videos</h3>
+          <p>Short anime stories from the Drift.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="book">
+      <div class="inner">
+        <h2 class="section-title">MONSTER BOOK</h2><span class="book-count" id="book-count"></span>
+        <p class="section-note">Every game hides two pals. Catch one and it stays here for good.</p>
+        <div class="book" id="book-grid"></div>
+        <div class="pal-notes" id="pal-notes"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Driftbound · adults only · original characters · progress is saved in this browser</footer>
+</template>
 <script src="shared/save.js"></script>
+<script src="shared/crew.js"></script>
+<script src="shared/games.js"></script>
+<script src="shared/pals.js"></script>
+<script src="shared/stories.js"></script>
 <script src="hub.js"></script>
+<script src="hub-book.js"></script>
 </body>
 </html>

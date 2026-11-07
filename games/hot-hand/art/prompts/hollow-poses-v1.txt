@@ -1,0 +1,12 @@
+Image 1 is the reference sheet for a Hollow hound, a monster: a stripped beast, ash-grey fur, rangy with big shoulders and a heavy head, torn ears, fangs, blank white eyes with no pupils; dark riveted armour plates on the brow, neck, shoulders and hips, black cables running along the ribs from the shoulder plates to the hip plates and down to the chest; a round white core set into the chest. Copy this design exactly from the RIGHT SIDE view in Image 1 (facing right). It is not a pet dog, not a jackal, not a greyhound. No rider.
+
+Make a sprite sheet of three separate poses side by side in one row of three equal cells. In every cell the hound is seen in a true side profile facing the RIGHT edge of the image.
+Cell 1, BOUND: stretched out flat in mid-leap, forelegs reaching forward, hind legs reaching back, all four paws off the ground. Its chest is CLOSED: two dark armour plates shut together over the chest, hiding the core completely, no white glow.
+Cell 2, OPEN: standing square, head level, the two chest plates swung apart like doors, and the round white core bare and blazing with white light in the middle of its chest. The core must be easy to see from the side: turn the chest slightly towards us if needed.
+Cell 3, CROUCH: crouched low to bite, head low and thrust forward, jaws open with fangs bared, front legs bent, the two chest plates parted, the round white core bare and blazing.
+
+Same creature at the same scale in every cell. It stands about 60 percent of the cell's height in Cell 2, and it takes up no more than 88 percent of the cell's width. Its feet are on the same baseline near the bottom of each cell, apart from Cell 1, where it is in the air with the lowest paw a little above that baseline. The tail stays inside the cell. No part touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems. Do not use green anywhere on the creature.

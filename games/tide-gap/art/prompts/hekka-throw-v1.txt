@@ -1,0 +1,15 @@
+Image 1 is the reference sheet for Captain Hekka Dorn, a very tall muscular grown woman of 33. Copy her design exactly, working from the FRONT view (the first figure): light brown skin, an adult face with blue-grey eyes, thick wavy black hair swept back and falling past her shoulders; a grey chest plate with a white collar, a flat black bar across the chest with a white ring at its centre; grey shoulder plates, dark cloth on her upper arms, grey forearm plates; black gloves; a bare midriff with one dull ring scar on HER LEFT side, which is on the RIGHT of the image since she faces us; black belt; loose dark work trousers; grey shin plates; black boots.
+She holds a bond-cutter lance taller than she is: a long plain dark steel shaft with one hooked blade at the top end, the hooked blade glowing white.
+
+The camera is unusual: high up and in front of her, looking down on her at about 50 degrees, as if from a mast on a ship ahead. She faces us, feet at the bottom of the picture. We see the top of her hair and her face from a little above, and her legs shortened by the angle. She keeps a grown woman's proportions: small head relative to the body, long legs, wide armoured shoulders. Not chibi, not childlike, not a side view. A soldier on duty: no sexualized posing, no arched back, no tilted hips, nothing framed on her body; the view is a plain wide shot of the whole figure.
+
+Make a sprite sheet: two frames side by side, each cell the same size, showing her hurling the lance. The lance stays in HER RIGHT hand, which is on the LEFT of the image.
+Frame 1: wind-up. Her right arm is drawn back and up behind her head on the LEFT of the image, the lance held high and level with its glowing hooked tip pointing towards us and down, her left arm reaching forward for balance, her feet apart, her body twisted.
+Frame 2: release. Her right arm flung forward and down towards us, the lance thrust out in front of her at the camera, glowing hooked tip low and forward, her hair blown back, her weight on her front foot.
+Her boots stay on the same baseline in both frames.
+
+In each cell her body from boots to the top of her hair fills about 70 percent of the cell's height, her middle is at the centre of the cell, and nothing touches a cell edge or crosses into the other cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no deck, no cast shadows, no motion lines, no grid lines, no cell borders, no text, no labels, no numbers, no logos, and no emblems other than the bar and ring on her chest plate. Do not use green anywhere on the figure.

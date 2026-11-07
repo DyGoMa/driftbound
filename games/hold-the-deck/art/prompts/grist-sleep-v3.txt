@@ -1,0 +1,1 @@
+No image-tool run of its own. grist-sleep-v2.png (prompt: grist-sleep-v2.txt) with its colours multiplied R 131/138, G 106/103, B 95/93, to match the measured tone of grist-awake-v1.png.

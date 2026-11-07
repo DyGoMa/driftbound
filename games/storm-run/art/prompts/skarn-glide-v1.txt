@@ -1,0 +1,15 @@
+Image 1 is the reference sheet for Skarn, a storm wolf the size of a horse. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): dark slate-grey fur, a thick shaggy mane with a blue-grey sweep over the shoulder, a pale ruff down the chest, pale lower legs with slate upper legs, big paws with black claws, tall pointed ears, angry glowing yellow eyes, a bared fang, a heavy forked tail with two lobes with pale tips, and a tall solid dark membrane stretched between curved black spines down his back, like a sailfish's sail, with broken yellow lightning crawling along its scalloped top edge.
+
+Make a sprite sheet of one looping glide: four frames in a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame he is shown whole in a true 90-degree side profile, flying towards the RIGHT edge of the image, gliding on an updraft with his body level and stretched out long: both forelegs reaching forward towards the right with the paws relaxed, both hind legs trailing straight out behind towards the left, the forked tail streaming out behind him, the sail standing up from his back, the mane and leg fur blown backwards by the wind. His legs are a real wolf's legs in a real flying leap, not splayed flat like a pelt.
+
+The body, head, legs and sail stay in exactly the same place and the same size in all four frames, so the frames loop without jitter. Only these change:
+Frame 1: tail lobes level, lightning bright along the front half of the sail.
+Frame 2: tail lobes swayed a little upward, lightning bright along the middle of the sail.
+Frame 3: tail lobes level, lightning bright along the back half of the sail.
+Frame 4: tail lobes swayed a little downward, lightning broken into small sparks all along the sail.
+
+In every cell he fills about 80 percent of the cell's width, his body is at the centre of the cell, and no part of him touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no clouds, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems. Do not use green anywhere on the wolf.

@@ -1,0 +1,15 @@
+Image 1 is the reference sheet for a Sever trooper, an adult man about 180 cm tall. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): grey helmet with a round ear cup and a black visor over the eyes, jaw showing, adult jaw; closed and belted grey coat to the knee with a white stand collar, a short flat black bar on the chest; black gloves, black belt, black boots; dark grey trousers. Adult proportions.
+
+Make a sprite sheet of one full walk cycle: six frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame he is shown full body in a true 90-degree side profile walking towards the RIGHT edge of the image, so his RIGHT side is nearest us. He carries a tall narrow steel riot plate in his near hand, held up in front of him, seen edge-on at a slight angle: as tall as from his chin to his shins, narrow, pointed at the bottom, steel grey with a darker bevel and a rim, with one simple mark on its outer face: a flat black bar cutting across a white ring. It stays in the same place relative to his body in all six frames.
+Frame 1: right heel strikes ahead of him, left leg behind.
+Frame 2: right foot flat under him, left leg passing.
+Frame 3: pushing off the right toe.
+Frame 4: left heel strikes ahead of him, right leg behind.
+Frame 5: left foot flat under him, right leg passing.
+Frame 6: pushing off the left toe.
+
+Same character, same size and same head height in every cell. In each cell the figure fills about 85 percent of the cell's height, the middle of the body is at the centre of the cell, the feet are on the same baseline near the bottom of the cell, and no part of the figure touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than the mark on the plate and what is on his sheet. Do not use green anywhere on the character.

@@ -1,0 +1,17 @@
+Draw a military gunboat called a Sever cutter as a game sprite, seen from directly above, a true top-down view, the whole ship in one piece. The bow points straight DOWN the picture and ends in a sharp point at the bottom; the stern is flat, at the top. It is a hard angular steel wedge with straight edges and sharp corners, nothing curved: a wide hexagon-like body about two thirds as wide as it is long, widest in its middle, tapering in straight lines to the bow point. Left and right are mirrored.
+
+What is on the deck, from the stern at the top down to the bow at the bottom:
+- At the far top end, a low dark grey angular bridge with a band of pale blue windows facing down the picture, and one round black funnel on it.
+- A black-and-white Sever mark painted large on the deck in the upper part: a straight flat black bar running left to right, cutting through a white ring at its centre. This is the only symbol.
+- One white stripe painted across the whole deck from side to side, just above the middle of the ship.
+- Along each side edge of the deck, a rack of three or four short dark steel pylons with white tips, lying lengthways.
+- At the bow, near the tip, one heavy dark harpoon gun on a round mount, its barrel pointing down the picture at the bow tip.
+Keep the rest of the deck plain flat steel with only thin panel lines and small rivets. There must be three EMPTY areas of plain deck with nothing on them: one left of centre, one right of centre (both just above the white stripe, either side of the Sever mark), and one on the centre line below the stripe, between the stripe and the harpoon gun.
+
+Steel in cool mid-grey with a darker grey shadow side on the right half and a dark hull edge all around. Clean and well kept: NO people, NO damage, NO glow, NO lit plates, NO smoke, NO water.
+
+The ship fills about 96 percent of the image's height, its bow tip near the bottom, its stern near the top, centred, and nothing touches the image edge or is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No water, no wake, no cast shadows, no motion lines, no text, no labels, no numbers, no name on the hull, no logos, and no emblem other than the one bar-and-ring mark described. Do not use green anywhere on the ship.

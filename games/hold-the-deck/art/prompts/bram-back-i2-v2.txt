@@ -1,0 +1,1 @@
+Hand colour fix on a copy of bram-back-i2-v1.png, no image tool: the edit had drifted the brown cloth redder (STYLE.md fix 24), so the mean of one box of trouser was matched to bram-back-i0-v2.png, brown pixels only.

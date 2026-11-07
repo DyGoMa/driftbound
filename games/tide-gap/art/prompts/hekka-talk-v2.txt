@@ -1,0 +1,3 @@
+No image prompt: not a new drawing. Cut from hekka-sheet-v6.png, front view, 216 x 216 px at x 192, y 8, at full size.
+The sheet's flat grey was removed by a flood fill from the top edge and from the sides above y 160, stopping at the ink lines (grey is: colour spread under 16, brightness 85 to 127), so the shoulder plates, which run off the crop, stay whole. Pixels touching the removed grey fade with how light they are. See-through, like the crew's portraits, so the kit's navy shows behind it.
+v1 (hekka-talk.webp) was the same cut with the grey left in; kept.

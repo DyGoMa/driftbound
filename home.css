@@ -1,0 +1,133 @@
+/* Driftbound homepage: "anime show site" layout in stormy dusk colours (Dylan 2026-11-05). */
+:root {
+  --night: #0c1026; --navy: #141a38; --navy2: #1f2650; --line: #333c75;
+  --orange: #f0752b; --gold: #f4c152; --paper: #f5efe2; --muted: #b3b6cf;
+  --title: "Anton", Impact, "Arial Narrow", sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --slant: 28px;
+}
+* { box-sizing: border-box; }
+html { background: var(--night); scroll-behavior: smooth; scroll-padding-top: 104px; }
+body { margin: 0; background: var(--night); color: var(--paper); font-family: var(--body); font-size: 16px; line-height: 1.45; overflow-x: clip; }
+img { display: block; max-width: 100%; }
+h1, h2, h3, p { margin: 0; }
+a { color: inherit; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Top bar */
+.topbar { position: sticky; top: 0; z-index: 10; background: rgba(12, 16, 38, .96); border-bottom: 3px solid var(--orange); }
+.topbar-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; max-width: 1120px; margin: 0 auto; padding: 8px 16px 2px; }
+.logo { font: 400 28px/1.1 var(--title); letter-spacing: 1.5px; color: var(--gold); text-decoration: none; transform: skewX(-8deg); }
+.salvage { display: flex; align-items: baseline; gap: 6px; padding: 3px 12px; font-weight: 700; font-size: 14px; color: var(--muted); background: var(--navy2); transform: skewX(-8deg); white-space: nowrap; }
+.salvage b { font-size: 18px; color: var(--gold); }
+.nav { display: flex; justify-content: space-between; max-width: 620px; padding: 0 8px 2px; }
+.nav-wrap { max-width: 1120px; margin: 0 auto; }
+.nav a { padding: 10px 8px; font-weight: 700; font-size: 15px; text-decoration: none; color: var(--paper); }
+.nav a:hover, .nav a:focus-visible { color: var(--orange); }
+
+/* Banner */
+.hero { position: relative; background: var(--night) url(art/site/dusk-islands.svg) center / cover no-repeat; }
+.hero-art { width: 100%; height: max(300px, 48vw); object-fit: cover; object-position: center top; }
+.hero-slant { height: var(--slant); margin-top: calc(-1 * var(--slant)); position: relative; background: var(--navy); clip-path: polygon(0 100%, 100% 0, 100% 100%); }
+.hero-text { padding: 12px 16px 40px; background: var(--navy); }
+.hero-title { font: 400 clamp(52px, 16vw, 104px)/1 var(--title); letter-spacing: 2px; color: var(--gold); transform: skewX(-8deg); transform-origin: left; text-shadow: 4px 4px 0 var(--orange); }
+.tagline { margin-top: 12px; max-width: 480px; font-size: 18px; font-weight: 500; }
+.btn { display: inline-block; margin-top: 18px; padding: 12px 26px; min-height: 48px; font-weight: 800; font-size: 18px; color: var(--night); background: var(--gold); text-decoration: none; transform: skewX(-8deg); box-shadow: 5px 5px 0 var(--orange); }
+.btn:hover, .btn:focus-visible { background: var(--paper); }
+.btn:active { transform: skewX(-8deg) translate(3px, 3px); box-shadow: 2px 2px 0 var(--orange); }
+
+/* Sections */
+.section { padding: 32px 16px 12px; }
+.inner { max-width: 1120px; margin: 0 auto; }
+.section-title { display: inline-block; margin-bottom: 18px; padding: 3px 28px 1px 14px; font: 400 28px/1.2 var(--title); letter-spacing: 1px; color: var(--night); background: var(--orange); clip-path: polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%); }
+.section-note { margin: 0 0 16px; color: var(--muted); }
+.tag { display: inline-block; padding: 2px 10px; font-weight: 800; font-size: 13px; letter-spacing: .5px; color: var(--night); background: var(--gold); transform: skewX(-8deg); }
+.tag.soon { color: var(--paper); background: var(--line); }
+
+/* Games */
+.games { display: grid; gap: 14px; }
+.game-card { position: relative; display: block; overflow: hidden; background: var(--navy2) url(art/site/dusk-islands.svg) center / cover no-repeat; text-decoration: none; border-bottom: 5px solid var(--orange); clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--slant)), calc(100% - var(--slant)) 100%, 0 100%); }
+.game-art { width: 100%; height: 170px; object-fit: cover; }
+.game-info { padding: 14px 16px 24px; background: var(--navy); }
+.game-info h3 { font: 400 34px/1.1 var(--title); letter-spacing: 1px; color: var(--gold); }
+.game-info p { margin: 6px 0 10px; max-width: 520px; }
+.game-best { margin-left: 8px; font-weight: 700; color: var(--muted); font-size: 14px; }
+a.game-card:hover h3, a.game-card:focus-visible h3 { color: var(--orange); }
+.game-card.off .game-art { filter: saturate(.85); }
+.game-lead { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-weight: 700; font-size: 14px; color: var(--muted); }
+.game-lead img { flex: none; width: 34px; height: 34px; object-fit: cover; object-position: top; background: var(--navy2); border-bottom: 2px solid var(--c1, var(--orange)); }
+.next-island { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 14px; padding: 12px 16px; text-align: center; color: var(--muted); border: 2px dashed var(--line); }
+
+/* Crew */
+.crew { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.crew-card { display: flex; flex-direction: column; background: var(--navy); border-bottom: 4px solid var(--c1); }
+.crew-art { background: linear-gradient(135deg, var(--c1) 0 48%, var(--navy2) 48% 100%); }
+.crew-art img { width: 100%; height: auto; aspect-ratio: 1; }
+.crew-info { padding: 10px 10px 12px; }
+.crew-info h3 { font: 400 21px/1.15 var(--title); letter-spacing: .5px; }
+.crew-role { font-weight: 700; font-size: 14px; color: var(--gold); }
+.crew-line { margin-top: 6px; font-size: 15px; }
+.crew-partner { margin-top: 6px; font-size: 14px; color: var(--muted); }
+
+/* Visual novel and videos */
+.soon-pair { display: grid; gap: 14px; }
+.soon-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 200px; padding: 18px 16px; overflow: hidden; background: var(--navy2); }
+.soon-card h3 { position: relative; font: 400 30px/1.1 var(--title); letter-spacing: 1px; }
+.soon-card p { position: relative; margin-top: 6px; color: var(--paper); }
+.soon-card .tag { position: absolute; top: 14px; right: 14px; }
+.soon-story { background: repeating-linear-gradient(115deg, transparent 0 58px, var(--night) 58px 66px), linear-gradient(160deg, #3a2f6f, #1f2650); }
+.soon-video { background: repeating-linear-gradient(90deg, var(--night) 0 16px, transparent 16px 32px) top / 100% 12px no-repeat, repeating-linear-gradient(90deg, var(--night) 0 16px, transparent 16px 32px) bottom / 100% 12px no-repeat, linear-gradient(200deg, #7a3a2a, #1f2650); }
+
+/* Monster book */
+.book-count { display: inline-block; margin: 0 0 12px 10px; font-weight: 700; color: var(--gold); white-space: nowrap; }
+.book { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.pal { display: flex; align-items: center; justify-content: center; aspect-ratio: 1; background: var(--navy2); clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); }
+.pal span { font: 400 30px/1 var(--title); color: #5a649f; }
+.pal.caught { background: var(--line); }
+.pal canvas { display: block; width: 74%; height: 74%; }
+.pal-notes { display: grid; gap: 10px; margin-top: 14px; }
+.pal-notes:empty { display: none; }
+.pal-note { display: flex; gap: 12px; align-items: center; padding: 8px 12px; background: var(--navy); border-left: 4px solid var(--gold); }
+.pal-note canvas { flex: none; width: 60px; height: 60px; }
+.pal-note h3 { font: 400 20px/1.15 var(--title); letter-spacing: .5px; color: var(--gold); }
+.pal-note p { font-size: 15px; }
+.pal-note .pal-game { font-size: 13px; font-weight: 700; color: var(--muted); }
+
+/* Story cards */
+.stories { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.story-card { min-width: 0; padding: 10px 12px; background: var(--navy); border-left: 4px solid var(--orange); }
+.story-card b { display: block; font: 400 18px/1.15 var(--title); letter-spacing: .5px; color: var(--gold); overflow-wrap: anywhere; }
+.story-card span { display: block; margin-top: 3px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.story-card summary { list-style: none; min-height: 48px; cursor: pointer; }
+.story-card summary::-webkit-details-marker { display: none; }
+.story-card summary span::after { content: ' · tap to read'; font-weight: 500; }
+.story-card[open] summary span::after { content: ''; }
+.story-card p { margin-top: 8px; }
+.story-card[open] { grid-column: 1 / -1; }
+.story-card.locked { background: repeating-linear-gradient(115deg, var(--navy) 0 18px, #10152f 18px 26px); border-left-color: var(--line); }
+.story-card.locked b { color: #6f78b3; }
+
+footer { margin-top: 32px; padding: 22px 16px 34px; text-align: center; color: var(--muted); font-size: 14px; border-top: 3px solid var(--navy2); }
+
+/* Bigger screens */
+@media (min-width: 720px) {
+  .crew { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .crew-info { padding: 12px 14px 16px; }
+  .crew-info h3 { font-size: 26px; }
+  .soon-pair { grid-template-columns: 1fr 1fr; }
+  .book { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .games { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stories { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pal-notes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .section { padding-top: 44px; }
+}
+@media (min-width: 960px) {
+  /* Dylan 2026-11-06: on a computer the banner is only a quarter to a third of the screen. The whole picture stays visible. */
+  .hero { --hero-h: clamp(260px, 33vh, 380px); display: grid; grid-template-columns: minmax(0, 1fr) auto; height: var(--hero-h); background: var(--navy); }
+  .hero-slant { display: none; }
+  .hero-art { grid-column: 2; grid-row: 1; width: calc(var(--hero-h) * 2); height: var(--hero-h); clip-path: polygon(70px 0, 100% 0, 100% 100%, 0 100%); }
+  .hero-text { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; justify-content: center; min-width: 0; padding: 8px 16px 8px max(16px, calc((100vw - 1120px) / 2)); }
+  .hero-title { font-size: clamp(56px, 5.6vw, 84px); text-shadow: 3px 3px 0 var(--orange); }
+  .tagline { margin-top: 8px; font-size: 16px; }
+  .btn { margin-top: 12px; padding: 9px 22px; font-size: 16px; min-height: 0; }
+}

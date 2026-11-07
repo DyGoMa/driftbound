@@ -1,0 +1,5 @@
+Image 1 is a sprite sheet of four frames of Silas, an adult man, bent over and out of breath. Change only this, in all four frames: his chest is a flat, lean man's chest. Remove the rounded patch of bare skin below his forearm at the front of his body, so nothing there looks like a bust: the white shirt hangs straight and loose from his collar to the red sash, with a narrow flat strip of bare skin at most.
+
+Keep everything else identical: the same four poses in the same places and at the same size, the same hand at his throat, the same open mouth and eyes, hair, sash, chain, knife, trousers, wrappings and boots, the same flat pure chroma-key green (#00FF00) background, no neck marks, no text, no glow.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.

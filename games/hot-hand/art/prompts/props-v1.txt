@@ -1,0 +1,11 @@
+Image 1 is for the art style only: match its clean black ink lines and flat colour. Nothing in Image 1 appears in this picture.
+
+Make two separate objects side by side in one row of two equal cells, both seen from the side.
+Cell 1, POWDER BARROW: a battered two-wheeled wooden barrow, wheels at the right-hand side of the cell and long wooden handles sticking back towards the left, carrying three small wooden kegs with iron hoops stacked in a neat pyramid. Each keg has a plain red warning triangle on it, with nothing inside the triangle. There is a clear gap above the top keg. No fuse, no flame.
+Cell 2, TIPPED CARD TABLE: a round-cornered gambling table tipped over on its edge, seen from the side and slightly from the felt side: the green felt top faces the RIGHT of the image as a tall upright wall, with a brass rim round it, and its turned wooden legs stick out towards the LEFT. One or two blank-faced playing cards are stuck to the felt, with no pips, numbers or letters. It stands on its rim on the same baseline as the barrow's wheels. The felt is a dark muted bottle green, clearly different from the background.
+
+Each object fills about 85 percent of its cell's height or width, whichever is reached first, and stands on the same baseline near the bottom of the cell. No part touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems. Do not use any bright green on the objects.

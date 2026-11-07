@@ -1,0 +1,15 @@
+Image 1 is the locked reference sheet for Bram Torvald, an adult man aged 31, 198 cm, huge and broad, adult proportions and an adult bearded face, kind brown eyes. Copy his design exactly from the FRONT view in Image 1 (the first figure, facing the viewer): shaved head, thick black beard, light-brown skin, heavy dark-brown work dungarees with the left strap down so the bib folds down across his chest, right strap up, leather tool belt with pouches, cargo pockets, big laced boots, white cook's towel over his RIGHT shoulder, black tribal tattoo on his right shoulder, and the square anvil-shaped bond mark glowing orange over his heart.
+
+He faces the viewer straight on in both frames, no three-quarter angle. Because he faces us, his RIGHT side is on the LEFT of the image and his LEFT side is on the RIGHT of the image. Towel, strap and hammer are on the LEFT of the image. The anvil mark and the iron are on the RIGHT of the image.
+
+Iron: dull grey iron patches on his LEFT shoulder and his LEFT forearm only, on the RIGHT of the image, exactly as in the front view of Image 1. STOP THERE: everything else is clean skin.
+
+Make a sprite sheet of 2 frames side by side in one row, both cells the same size.
+Frame 1: standing naturally, feet apart, arms relaxed at his sides, a heavy wooden-handled steel hammer hanging in his right hand (on the LEFT of the image), belt holster empty. Calm, kind, mouth closed.
+Frame 2: the Iron stance: braced, feet wide, both forearms raised in front of his chest and face like a boxer's guard, no hammer. ALL his bare skin, face and head included, is dull iron grey with thin orange glowing heat cracks; the anvil mark still glows orange if it shows. The dungarees, belt and towel stay the same.
+
+Same character, same size and same head height in every frame unless a frame says otherwise. In every cell he fills about 88 percent of the cell's height, his middle is at the centre of the cell, his lowest foot is on the same baseline near the bottom of the cell, and no part of him touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on the character.

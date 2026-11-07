@@ -1,0 +1,9 @@
+Image 1 is a sprite sheet: four frames in a grid of 2 columns and 2 rows of a grown woman, Sela Vey, 28, seen from above and behind, tired and defeated, a closed book hanging from the hand on the RIGHT of the image, which is HER RIGHT hand since we see her from behind. Image 2 is her locked reference sheet; use it only to check her clothes and colours. Edit Image 1. Make only this one change, the same in all four frames:
+
+The closed logbook in her right hand is about twice as large as it is now: a thick, chunky, plain closed book in a warm tan-brown leather, clearly lighter than her boots and her belt, with a band of pale cream page edge showing along its long side. It hangs straight down from her hand, held away from her body so there is a clear gap of green background between the book and both her skirt and her spyglass. It must read as a separate shape when the picture is shown very small. No words, letters or marks on the cover.
+
+Keep everything else identical to Image 1: same woman, same dark brown skin, head hanging low, shoulders down, same silver-blue ponytail with the same wind position in each frame (frame 1 top left: left; frame 2 top right: centre; frame 3 bottom left: right; frame 4 bottom right: centre), same navy cropped jacket, teal skirt, brown pouch on the LEFT of the image, brass spyglass in its holster on the RIGHT of the image, same boots, same size, same feet position in every cell, same high back view, adult proportions. The four frames differ only in the ponytail.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background stays one flat solid pure chroma-key green (#00FF00) with no gradient. No floor, no cast shadows, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems, no written marks on the book.

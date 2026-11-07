@@ -1,0 +1,28 @@
+// Story cards. They unlock from lifetime salvage, so spending salvage never relocks one.
+// Claude's words, in the voices of docs/CAST.md, inside the WORLD_BIBLE hard rules. Thresholds are PROVISIONAL.
+window.DRIFT_STORIES = [
+  { id: 'logbook-1', at: 0, who: 'sela', title: 'First line of the logbook',
+    text: 'The islands move. The maps lie. Anyone who sells you a chart of the Drift is selling you last month. My name is Sela Vey, I captain the Gullwake, and I write everything down, for reasons I will explain when I remember them. That was a joke. Mostly.' },
+  { id: 'pup', at: 25, who: 'sela', title: 'How to make a pup blush',
+    text: 'Step one: stand near him. Step two: there is no step two. Kaito can face a Sever line with a grin on him, then I tell him his jacket suits him and he walks into the mast. I call him pup because he hates it. I keep calling him pup because of the ears. They go red first.' },
+  { id: 'house-rules', at: 60, who: 'bram', title: 'Galley rules',
+    text: 'One. Nobody fights in my galley. Two. Juno, cards are not a food group. Three. Silas, stop calling the stew "sultry". Four. Kaito, you will eat a vegetable if I have to hold you down. Five. If I go quiet and put the towel down, get behind Grist, and bring the pot.' },
+  { id: 'odds', at: 100, who: 'juno', title: 'Juno gives you the odds',
+    text: 'Three to one Kaito starts something before breakfast. Five to one Silas gets slapped by Thursday, and evens he enjoys it. Ten to one you never see me take these gloves off, so don\'t bother asking. Ashka\'s fire goes through my hands, sweetheart. It doesn\'t go round them. Now, are you betting or just looking? Because I charge for looking.' },
+  { id: 'scars', at: 150, who: 'kaito', title: 'Hand to elbow',
+    text: 'It only hurts when it happens, and after, and when it rains. Every big Surge burns another fork up my arm. Go too far and the whole damn thing goes dead for days, and I have to hold my fork with the wrong hand while Juno takes bets on my aim. Skarn looks at me like it\'s my fault. It is my fault. He could still look less smug.' },
+  { id: 'field-notes', at: 220, who: 'ione', title: 'Field notes: on bonding',
+    text: 'A bond is a sustained, mutual exchange between two bodies, which improves with practice and is frequently louder than expected. Silas asked me to read that again slowly. I did not. For the record, I can be very thorough, and most subjects report they could not walk straight afterward. I am of course referring to the nerve damage.' },
+  { id: 'cargo', at: 300, who: 'silas', title: 'Things I have smuggled',
+    text: 'Lamp oil. Silk. A duke\'s wife, in a crate, at her own insistence; she tipped well. Eleven monsters out of Empire pens, the night I stopped pretending I only did it for money. Don\'t repeat that last part. I have a reputation for having no depths at all, and I have worked very hard on it. And if the rasp bothers you, darling, you should have heard me before Hush.' },
+  { id: 'missing-line', at: 400, who: 'sela', title: 'A page in my own hand',
+    text: 'Found this today, in my writing: "Ask him about the song. He will say you made it up. You did not." I don\'t know who he is. I don\'t know the song. The page before it is torn out, and the tear is old. Vesh dragged us through the Gaptooth this morning and I went deep to do it. I wonder what I paid. That is the trouble with the bill. You can\'t read it afterward.' },
+  { id: 'order', at: 550, who: 'trooper', title: 'Sever standing order 12',
+    text: 'A bond-cutter is to be held at the bond mark for a full count of ten. Subjects will scream. Partners will scream louder. Do not stop at the count of five; a half-cut bond does not make a Hollow, it makes a problem. Do not speak to the subject. Do not name the monster. Report any trooper who names the monster. By order of the Director, who reminds you that this is mercy.' },
+  { id: 'bear', at: 700, who: 'ione', title: 'What Hekka did',
+    text: 'People assume Captain Dorn was ordered to strip her partner. She wasn\'t. She walked into my lab with the bear at her heel, put the cutter in my hand, thought better of it, and took it back. Then she did it herself, standing up. It took the full count of ten. The ring on her side has never healed. She walks that animal on a chain now, and it doesn\'t know her, and she feeds it by hand. I wrote the procedure she used. Please stop asking why I don\'t sleep.' },
+  { id: 'mercy', at: 900, who: 'vasch', title: 'A letter to Dr. Raske',
+    text: 'Ione. Your hexagon is cracked, so I know the work I began on you still holds. I don\'t write to threaten you. Look at them: a young fool whose arm is dying, a captain who can\'t remember her own life, a cook turning to iron a joint at a time. They call that love. I call it a wound with a name. When the islands are pinned and the bonds are cut, nobody will have to pay that again. Come home. Bring your notes. You were always my best work.' },
+  { id: 'map', at: 1200, who: 'kaito', title: 'The map that stays right',
+    text: 'Everyone laughs when I say it, so go on. A map of the Drift that stays right. The Empire figures you get one by nailing everything down. Screw that. The islands move, fine. So you learn how they move: every current, every grind, every gap. Sela feels it, Ione can do the sums, Silas knows who\'s lying, and I can run it to check. Takes a lifetime? I\'ve got one. It\'s just got a few scars on it.' },
+];

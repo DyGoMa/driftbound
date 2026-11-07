@@ -1,0 +1,16 @@
+Image 1 is the locked reference sheet for a Sever trooper, an adult man about 180 cm tall. Image 2 is a finished sprite sheet of the same man walking, to match for drawing and colour. Copy his design exactly from the FRONT view in Image 1: round grey helmet with ear cups and black visor, adult jaw showing, white collar, closed knee-length grey coat with black belt, black gloves, dark grey trousers, black boots.
+
+In this sheet two of these troopers carry a battering ram straight at the camera, seen exactly head on, no three-quarter angle. The ram points directly at us: we see the front end of a thick timber beam, capped with a big square iron cap in the middle of the picture, three short iron spikes pointing at us from the cap, with the flat black bar and white ring painted on the cap. One trooper is on each side of the ram, leaning in and shoving it, a hand on the timber. The whole group is about twice as wide as one man.
+
+Make a sprite sheet of 5 frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom. The last cell (bottom right) is left completely empty, plain background.
+Frame 1: pushing forward, the left trooper's boot forward, the right trooper's other boot forward.
+Frame 2: feet passing, both men's boots close together.
+Frame 3: pushing forward, the opposite boots forward.
+Frame 4: feet passing, both men's boots close together.
+Frame 5: straining: both men braced hard, heads down, boots planted wide, the ram shoved forward.
+
+The same size in every frame. In every cell the group fills about 72 percent of the cell's height and about 85 percent of its width, centred, the lowest boots on the same baseline near the bottom of the cell. Nothing touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on them.

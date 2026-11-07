@@ -1,0 +1,11 @@
+Hand colour fix, no new image prompt. Every source take is kept in art/raw/.
+
+hekka-stand-v3.png = hekka-stand-v2.png with skin red x 0.93, and the ring scar taken from bright red to a dull brown-red (about 112, 68, 52).
+hekka-throw-v3.png = hekka-throw-v2.png with skin red x 0.97, and the same scar change.
+sela-talk-v2.png = sela-talk-v1.png with skin red x 0.95.
+
+Why: the edits made the scar bold but too red for "dull", and left the skin brighter than the sheet.
+Measured median skin, red, green, blue:
+Hekka sheet midriff 186, 122, 84. stand v1 202, 126, 86; stand v2 201, 123, 84; stand v3 187, 123, 84. throw v1 197, 121, 78; throw v2 192, 116, 78; throw v3 186, 116, 78.
+Sela sheet face 173, 99, 57. Homepage portrait 212, 113, 54; sela-talk v1 187, 98, 54; v2 178, 98, 54.
+hekka-throw-v4.png = hekka-throw-v2.png with the same fix, the scar rule widened: v3 left red specks in the frame 1 ring. v4 is the take in use.

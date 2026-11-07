@@ -1,0 +1,1 @@
+Hand paint, again from bram-back-i3-v3.png, no image tool, frame 6 only: as v4, with the grey darkened (lightness x 0.82, capped at 160) and a wider catch. Not used on its own: a little amber fringe left at the bottom. Next take: bram-back-i3-v6.
