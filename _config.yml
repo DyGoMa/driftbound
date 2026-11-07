@@ -9,3 +9,5 @@ exclude:
   - shared/kit/README.md
   - games/*/NOTES.md
   - games/*/art/REQUEST.md
+  - docs/manga   # the manga bible holds every spoiler and would publish with no 18+ gate
+  - anime        # episode scripts are Markdown; a gated page for them comes later
