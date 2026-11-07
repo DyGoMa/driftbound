@@ -1,0 +1,13 @@
+Image 1 is the reference sheet for Hush, a silent wind owl-lynx monster: a big cat's body with owl wings. Copy the design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): pale flat owl face disc with one violet eye and a small hooked dark beak, tall lynx ears with black tufts, dark lilac-grey ruff and back, pale fur bib and long pale legs with big paws and dark claws, grey-lilac and dark feathers ending in knife-sharp dark points, a short bobtail with a pale band and dark tip.
+
+Make a sprite sheet of Hush gliding silently: four frames in a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame Hush is seen from the side flying towards the RIGHT edge of the image, wings spread, front legs tucked, back legs trailing behind, head level. The body stays in the same place and at the same size in every cell; only the wings change, in a slow beat.
+Frame 1: wings raised up.
+Frame 2: wings level.
+Frame 3: wings lowered down.
+Frame 4: wings level.
+
+The wing tips never touch a cell edge; the whole animal fits in about 70 percent of the cell's height with wings at their highest and lowest. No part crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems other than what is on the sheet. Do not use green anywhere on the character. No motion lines.

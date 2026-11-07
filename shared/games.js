@@ -11,7 +11,7 @@ window.DRIFT_GAMES = [
   { id: 'hot-hand', title: 'Hot Hand', lead: 'juno', leadName: 'Juno', partner: 'Ashka', island: 'Ashmarket', hold: 'sideways', live: false, status: 'soon',
     art: 'art/site/ashmarket-v1-web.webp', artAlt: 'Ashmarket: a crowded floating market town of timber halls and paper lanterns, with two buildings on fire.',
     blurb: 'The Sever raid a gamblers\' island, and Juno bets on herself. The hotter her hands, the harder she throws, right up until they lock.' },
-  { id: 'silent-cut', title: 'Silent Cut', lead: 'silas', leadName: 'Silas', partner: 'Hush', island: 'Lanternreach', hold: 'sideways', live: false, status: 'soon',
+  { id: 'silent-cut', title: 'Silent Cut', lead: 'silas', leadName: 'Silas', partner: 'Hush', island: 'Lanternreach', hold: 'sideways', live: true, status: 'live',
     art: 'art/site/lanternreach-v1-web.webp', artAlt: 'Lanternreach: a smugglers\' port on a floating island at night, hung with hundreds of lanterns, with searchlights sweeping the mist.',
     blurb: 'A night in his old smuggling port, a debt to settle and every lamp hunting him. Run out of breath and the charming bastard runs out of words.' },
   { id: 'hold-the-deck', title: 'Hold the Deck', lead: 'bram', leadName: 'Bram', partner: 'Grist', island: 'Keelbreak', hold: 'upright', live: false, status: 'soon',

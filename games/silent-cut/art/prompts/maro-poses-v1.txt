@@ -1,0 +1,12 @@
+Image 1 is the character reference sheet for Ledger Maro, a 52-year-old adult man, 172 cm, stout with a round belly. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): same balding head, same face, same plum satin coat, gold belt, white shirt collar, dark trousers and black shoes. Five fingers on each hand. A middle-aged adult face.
+
+Make a sprite sheet of three separate poses side by side, in one row, in three equal cells. In every pose he is shown full body in side profile facing the RIGHT edge of the image, so his RIGHT side is nearest us. The pole is a plain dark wooden pole about as tall as he is plus a head, topped with a small brass lantern with a warm yellow glass.
+Cell 1, READING: standing, head bent down over an open ledger book held in his far (left) hand in front of his belly, his near (right) hand holding the lantern pole upright beside him, the lantern above his head. Absorbed, not looking up.
+Cell 2, LAMP: chin up, wide unpleasant smile with teeth showing, near arm held out in front of him holding the lantern pole out ahead of him at an angle, the lantern ahead and above his head; a closed ledger book tucked under his far arm.
+Cell 3, HURT: reeling backward, mouth open in outrage, one hand clapped to a cut on his shoulder where the plum coat is torn. No pole and no book in this cell. Nothing gory, no blood.
+
+Same character, same size and same head height across the three cells. His body from head to feet fills about 70 percent of the cell's height, so the lantern fits above him. His feet are on the same baseline near the bottom of each cell, his body's middle is near the centre of the cell, and no part touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems other than what is on the sheet. Do not use green anywhere on the character. No motion lines. No writing visible in the ledger: its pages are blank pale paper with faint grey bars.

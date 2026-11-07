@@ -1,0 +1,13 @@
+Image 1 is the character reference sheet for Silas Moreau, a 24-year-old adult man, 183 cm, slim and graceful. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): adult face with a straight nose and defined jaw, pale skin, violet eyes; long dark-teal hair with loose strands round the face, tied low at the neck, the tail hanging down his back; loose white shirt open to the stomach with a loose high collar, sleeves pushed up above the elbow; a wide red sash at the waist with torn hanging ends, a steel chain wound twice around the sash; a curved knife in a dark sheath at his RIGHT hip (the hip nearest us); loose black trousers gathered at the ankle; white cloth wrappings on both forearms and both ankles; black boots. The side of his neck nearest us (his RIGHT side) is clean bare skin with no marks, exactly as in the third figure. Five fingers on each hand. Adult face and adult body, no sexualised posing.
+
+Make a sprite sheet of a slow exhausted shuffle: four frames in a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame he is shown full body in side profile facing the RIGHT edge of the image, so his RIGHT side is nearest us. He is completely out of breath and terrified by it: bent forward at the waist, one hand clutching at the front of his throat, the other arm hanging loose, mouth open gasping with no sound, eyes wide and desperate, hair strands falling forward over his face. No glow at all anywhere.
+Frame 1: feet apart, right foot ahead.
+Frame 2: feet passing, legs close together.
+Frame 3: feet apart, left foot ahead.
+Frame 4: feet passing, legs close together.
+
+Same character, same size and same head height in all four frames. His head stays at one height in all frames, his lowest foot is on the same baseline near the bottom of the cell, his middle is at the centre of the cell, and no part of him touches a cell edge or crosses into another cell. If he stood up straight he would fill about 84 percent of the cell's height. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no symbols, no emblems other than what is on the sheet. Do not use green anywhere on the character. No motion lines, no sweat drops.
