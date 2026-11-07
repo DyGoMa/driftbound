@@ -2,7 +2,7 @@
 
 Dylan: "put it in for a plan for friday so i can use it to use up the last of my usage"; then on 2026-11-07: merge to main, check consistency across main + games + pals + anime + manga, manga instead of visual novel, videos called anime, each section its own page, an image list for the week, accounts with login and email reset, an online count, high scores (daily, weekly, monthly, all time) on a page and inside the games.
 
-Everything is on branch **main** in `C:\Users\Dylan\Documents\driftbound`, committed, **not pushed**. The free link still serves the old branch `site/step-3-homepage` (Phase 6 moves it).
+Everything is on branch **main** in `C:\Users\Dylan\Documents\driftbound`, pushed on 2026-11-07 (Dylan: "Push and switch the link now"). The free link https://dygoma.github.io/driftbound/ now serves main: every page answered 200 after the build; the spoiler docs and episode scripts answer 404 as intended.
 
 ## Where it stands (real numbers, 2026-11-07)
 - **Site:** home hub plus Games, Crew, Story, Manga (shelf), Anime (20 episodes listed), Monster Book, each its own page with one shared header. Checked at 375 px: no console errors, no sideways scroll. Not yet seen by Dylan.
@@ -30,7 +30,7 @@ Everything is on branch **main** in `C:\Users\Dylan\Documents\driftbound`, commi
 12. **Images per day** for the week (the budget line in IMAGE_REQUESTS.md), and whether all of Issue 1 (Batch B) comes before the 50 covers (Batch C).
 13. **Lettering:** pictures without text, balloons drawn by the reader (recommended), or text baked in.
 14. **Supabase:** Dylan creates the free project before Friday (ACCOUNTS_PLAN.md, "What Dylan does first"), or accounts wait.
-15. **Publishing:** after Friday's fixes, push main and point the free link at main?
+15. **Publishing:** done 2026-11-07 (main is live). After Friday's fixes: push again on Dylan's yes, then check the live link on a phone.
 
 ## Phase 0: before Friday (Dylan, no usage)
 - Create the Supabase project and paste the URL and anon key into `shared/config.js` (or decide to wait).
@@ -58,9 +58,8 @@ Batch A (sheets the first ten issues need), then B (all of Issue 1) or C (the 50
 ## Phase 5: more script, if usage remains (Fable, 2 agents per script)
 Episodes 21 to 30; side stories 52 to 54 (decision 10); nothing past Issue 48 until Dylan extends the outline.
 
-## Phase 6: publish (main session only, on Dylan's yes; see memory: helpers can't push)
-- `git push origin main`.
-- Point the free link at main: `gh api -X PUT repos/DyGoMa/driftbound/pages -f source[branch]=main -f source[path]=/`, then `gh api -X POST repos/DyGoMa/driftbound/pages/builds`.
+## Phase 6: publish again (main session only, on Dylan's yes; see memory: helpers can't push)
+- The link already points at main (switched 2026-11-07 with `gh api -X PUT repos/DyGoMa/driftbound/pages -f source[branch]=main -f source[path]=/`). After Friday: `git push origin main`, then watch `gh run list --limit 1` until the Pages build says success (a failed build leaves the old site up; the 2026-11-07 failure was merge markers left in `_config.yml`).
 - Open https://dygoma.github.io/driftbound/ on a phone: gate, home hub, each page, the shelf, Issue 1. Update `docs/TEST_CHECKLIST.md` with what Dylan should try.
 
 ## Starter prompt for the Friday chat
