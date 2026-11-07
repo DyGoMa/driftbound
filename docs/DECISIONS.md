@@ -669,3 +669,10 @@ None of this is in `CAST.md`, and `CAST.md` was not touched. Where it lives is i
 - **Vasch:** began stripping Ione himself, at a count of ten, and stopped at five because she was taking notes. Kept her desk and chair. Copied her notes the night she ran, and asked her to bring them only so she'd come home. His arm's chamber is "eleven years' work". Ione's game cracks it; he leaves by the back way, alive.
 - **Sever troopers:** standing order 12, a bond-cutter held at the bond mark for a full count of ten (`shared/stories.js`).
 - **New kinds of foe:** a Hollow flyer in Storm Run; small Hollow hounds in Hot Hand; hook-men, plate-carriers, runners, window shooters, powder carts and rams across the games.
+
+## Your words (2026-11-07, after the Friday batch report)
+Card answers, word for word:
+- Main branch: "Wait until I've played (Recommended)". Main stays at c37f11f; the live link keeps serving `site/step-3-homepage`.
+- Silt and hound sheets: "Show me them first (Recommended)". The villain branch is not uploaded until you approve them.
+- Pal names Glimmick and Cinderbun (close to Glimmet and Cinderace): "Rename both (Recommended)". Looks stay the same; you pick the new names.
+- Winning stage 1 again wipes lasting damage: "Keep it for now (Recommended)". Judge it after your play-check.
