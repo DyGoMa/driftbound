@@ -45,8 +45,9 @@ html.kit-page, html.kit-page body { height: 100%; margin: 0; overflow: hidden; o
 .kit-menu { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-content: center; }
 .kit-menu .wide { grid-column: 1 / -1; }
 .kit-wide .kit-title-in { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; }
+.kit-tall .kit-title-in { max-width: 620px; }   /* an upright game's title menu stays near its play area on a computer */
 .kit-small { font-size: 12px; font-weight: 700; opacity: .85; display: block; }
-@media (max-height: 340px) { .kit-name { font-size: 40px; } .kit-tagline { display: none; } .kit-btn { min-height: 42px; font-size: 15px; padding: 4px 8px; } .kit-btn.main { font-size: 16px; } .kit-screen { padding-top: 8px; padding-bottom: 8px; } .kit-menu { gap: 6px; } }
+@media (max-height: 340px) { .kit-name { font-size: 40px; } .kit-tagline { display: none; } .kit-btn { min-height: 44px; font-size: 15px; padding: 4px 8px; } .kit-btn.main { font-size: 16px; } .kit-screen { padding-top: 8px; padding-bottom: 8px; } .kit-menu { gap: 6px; } }
 
 /* Stage select and upgrades */
 .kit-stages { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 8px; }
@@ -56,6 +57,19 @@ html.kit-page, html.kit-page body { height: 100%; margin: 0; overflow: hidden; o
 .kit-done { color: var(--gold); font-weight: 800; }
 .kit-btn.main .kit-done { color: inherit; }
 .kit-back { position: sticky; bottom: 0; z-index: 1; flex: none; }   /* a long list scrolls under it, so Back never falls off the screen */
+/* def.stageRows: a long list that comes in sets of 4 keeps rows of 4, with a boss on its own row, and packs tighter on a short phone so all of it fits above Back. */
+.kit-stages.rows { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.kit-stages.rows .kit-boss-row { grid-column: 1 / -1; }
+@media (max-height: 640px) {
+  .kit-screen:has(.kit-stages.rows) { padding-top: 4px; padding-bottom: 4px; }
+  .kit-center:has(> .kit-stages.rows) { gap: 3px; }
+  .kit-center:has(> .kit-stages.rows) .kit-head { font-size: 20px; }
+  .kit-center:has(> .kit-stages.rows) .kit-sub { font-size: 11px; line-height: 1.15; }
+  .kit-stages.rows { gap: 2px 6px; }
+  .kit-stages.rows .kit-btn { min-height: 44px; }
+  .kit-stages.rows .kit-set { margin-top: 0; font-size: 11px; line-height: 1.1; }
+  .kit-center:has(> .kit-stages.rows) .kit-btn:not([data-stage]) { min-height: 44px; }
+}
 .kit-stages .kit-boss { color: var(--orange); }
 .kit-stages .kit-btn[disabled] .kit-boss { color: inherit; }
 .kit-set { grid-column: 1 / -1; margin-top: 4px; font-weight: 800; font-size: 13px; letter-spacing: 1px; color: var(--muted); text-transform: uppercase; }
@@ -67,6 +81,7 @@ html.kit-page, html.kit-page body { height: 100%; margin: 0; overflow: hidden; o
 .kit-pips i.on { background: var(--gold); }
 .kit-up .kit-btn { font-size: 15px; min-height: 44px; }
 .kit-note { padding: 6px 10px; font-weight: 700; font-size: 14px; color: var(--night); background: var(--gold); }
+.kit-unlock { font-weight: 800; font-size: 15px; color: var(--gold); }   /* plain words, not a filled bar: right above a button, a bar looks like a second button */
 
 /* Talk scene */
 .kit-talk { justify-content: flex-end; background: linear-gradient(transparent 30%, rgba(12, 16, 38, .75)); cursor: pointer; touch-action: manipulation; }
@@ -83,6 +98,9 @@ html.kit-page, html.kit-page body { height: 100%; margin: 0; overflow: hidden; o
 .kit-say .kit-portrait { width: 40px; height: 40px; border: 0; }
 .kit-say b { font: 400 14px/1 var(--title); letter-spacing: .5px; color: var(--c1, var(--gold)); }
 .kit-say span { display: block; font-size: 14px; font-weight: 700; line-height: 1.2; }
+/* def.compactSay: on the narrowest phones a talk box at the top takes the room left of the pause button, tighter still with browser bars showing, for a game with a thin strip above its play. */
+@media (max-width: 360px) { .kit-compact-say .kit-say { left: 6px; transform: none; max-width: calc(100% - 60px); gap: 6px; padding: 4px 8px 4px 4px; } .kit-compact-say .kit-say .kit-portrait { width: 32px; height: 32px; } .kit-compact-say .kit-say b { font-size: 13px; } .kit-compact-say .kit-say span { font-size: 13px; line-height: 1.15; } }
+@media (max-width: 360px) and (max-height: 500px) { .kit-compact-say .kit-say { top: 4px; gap: 5px; padding: 2px 8px 2px 3px; } .kit-compact-say .kit-say .kit-portrait { width: 28px; height: 28px; } .kit-compact-say .kit-say b { font-size: 12px; } .kit-compact-say .kit-say span { font-size: 12px; line-height: 1.12; } }
 .kit-say.at-bottom { top: auto; bottom: max(10px, env(safe-area-inset-bottom)); }
 .kit-say.at-corner { top: auto; left: auto; right: max(8px, env(safe-area-inset-right)); bottom: max(4px, env(safe-area-inset-bottom)); transform: none; max-width: min(50%, 420px); gap: 6px; padding: 2px 8px 2px 2px; }
 .kit-say.at-corner .kit-portrait { width: 34px; height: 34px; }
@@ -125,6 +143,7 @@ html.kit-page, html.kit-page body { height: 100%; margin: 0; overflow: hidden; o
 }
 @media (min-width: 1000px) and (min-height: 640px) {
   #kit-root { font-size: 19px; }
+  .kit-small { font-size: 16px; opacity: .95; }
   .kit-btn { min-height: 58px; font-size: 20px; }
   .kit-btn.main { font-size: 23px; }
   .kit-head { font-size: 48px; }

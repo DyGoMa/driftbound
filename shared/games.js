@@ -17,7 +17,7 @@ window.DRIFT_GAMES = [
   { id: 'hold-the-deck', title: 'Hold the Deck', lead: 'bram', leadName: 'Bram', partner: 'Grist', island: 'Keelbreak', hold: 'upright', live: false, status: 'soon',
     art: 'art/site/keelbreak-v1-web.webp', artAlt: 'Keelbreak: a floating shipyard at dusk, with a battered wooden salvage ship propped up in dry dock under huge cranes.',
     blurb: 'The Gullwake is in dry dock and boarders want the galley. Bram turns to iron to stop them, and the iron doesn\'t all come back off.' },
-  { id: 'split-light', title: 'Split Light', lead: 'ione', leadName: 'Ione', partner: 'Prism', island: 'The Glass Ward', hold: 'upright', live: false, status: 'soon',
+  { id: 'split-light', title: 'Split Light', lead: 'ione', leadName: 'Ione', partner: 'Prism', island: 'The Glass Ward', hold: 'upright', live: true, status: 'live',
     art: 'art/site/glassward-v1-web.webp', artAlt: 'The Glass Ward: a dead laboratory on a floating island, its broken glass domes overgrown with huge crystals that split the light into rainbows.',
     blurb: 'Ione goes back to the dead lab she helped build. Bounce Prism\'s beam through Hollow cores, and mind the crystal each shot grows.' },
 ];

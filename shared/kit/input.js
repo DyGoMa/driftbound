@@ -14,7 +14,7 @@
 
   const I = Kit.input = {
     down: false, pressed: false, released: false, tap: false, doubleTap: false,
-    x: 0, y: 0, dx: 0, dy: 0, startX: 0, startY: 0, held: 0, axisX: 0, axisY: 0, presses: 0,
+    x: 0, y: 0, dx: 0, dy: 0, startX: 0, startY: 0, held: 0, axisX: 0, axisY: 0, presses: 0, resets: 0,
     key: code => keys.has(code),
     keyPressed: code => fresh.has(code),
   };
@@ -56,7 +56,7 @@
   // Forget everything: used whenever play starts or resumes, so a menu tap can never leak into the game.
   I.reset = function () {
     queue.length = 0; keys.clear(); fresh.clear(); fingers.clear(); thumb = null;
-    I.down = false; I.held = 0; I._end(); sinceTap = 99;
+    I.down = false; I.held = 0; I._end(); sinceTap = 99; I.resets++;   // resets lets a game tell "the kit forgot the thumb" (pause, catch, ask) from a real lift
   };
 
   // What a test bot presses. Same queue as a real thumb.

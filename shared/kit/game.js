@@ -12,6 +12,7 @@
     Kit.def = def;
     Kit.audio.load();
     Kit.mount(def);
+    if (def.compactSay) document.documentElement.classList.add('kit-compact-say');
     Kit.art.loadSprites();
     Kit.onStep = onStep;
     Kit.onDraw = onDraw;

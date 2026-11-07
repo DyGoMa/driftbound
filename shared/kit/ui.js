@@ -93,13 +93,13 @@
       const head = st.set && st.set !== lastSet ? `<div class="kit-set">${esc(st.set)}</div>` : '';
       lastSet = st.set || lastSet;
       const label = many ? (st.boss ? 'BOSS' : String(i + 1)) : `${i + 1}. ${esc(st.name || 'Stage ' + (i + 1))}`;
-      return `${head}<button type="button" class="kit-btn ${i === next ? 'main' : ''}" data-stage="${i}" ${i === next ? 'data-primary' : ''} ${open ? '' : 'disabled'}>
+      return `${head}<button type="button" class="kit-btn ${i === next ? 'main' : ''} ${st.boss ? 'kit-boss-row' : ''}" data-stage="${i}" ${i === next ? 'data-primary' : ''} ${open ? '' : 'disabled'}>
         <span class="${st.boss ? 'kit-boss' : ''}">${label}</span>${done ? '<span class="kit-done" aria-label="cleared">✓</span>' : ''}</button>`;
     }).join('');
     const s = UI.show('stages', `<div class="kit-center" style="max-width:720px">
       <h2 class="kit-head">STORY</h2>
       ${carrying ? '<p class="kit-sub">What this run has cost you stays with you. Only stage 1 starts a new run.</p>' : ''}
-      <div class="kit-stages ${many ? 'many' : ''}">${btns}</div>
+      <div class="kit-stages ${many ? 'many' : ''} ${many && def.stageRows ? 'rows' : ''}">${btns}</div>
       ${g.finished ? '<button type="button" class="kit-btn main" data-kit="see-ending" data-primary>See how it ends</button>' : ''}
       <button type="button" class="kit-btn kit-back" data-kit="back">Back</button></div>`);
     s.querySelectorAll('[data-stage]').forEach(b => b.addEventListener('click', () => { Kit.audio.play('tap'); pick(+b.dataset.stage); }));
@@ -165,7 +165,7 @@
     const s = UI.show('ending', `<div class="kit-center">
       <h2 class="kit-head">${esc(card.title || 'THE END, FOR NOW')}</h2>
       ${card.text ? `<p>${esc(card.text)}</p>` : ''}
-      ${def.endless !== false ? `<div class="kit-note">${unlockedNow ? 'Endless is open now.' : 'Endless is open.'}</div>` : ''}
+      ${def.endless !== false ? `<p class="kit-unlock">${unlockedNow ? 'Endless is open now.' : 'Endless is open.'}</p>` : ''}
       <button type="button" class="kit-btn main" data-kit="done" data-primary>Back to the menu</button></div>`);
     on(s, '[data-kit="done"]', () => { Kit.audio.play('tap'); done(); });
   };

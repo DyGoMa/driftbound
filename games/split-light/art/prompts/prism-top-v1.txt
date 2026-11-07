@@ -1,0 +1,17 @@
+Image 1 is the reference sheet for Prism, a glass mantis-moth monster about the size of a large dog. The sheet has no top view, so build one from its parts, keeping every part and colour from the sheet: pale ice-blue faceted crystal body with black ink outlines, two big round faceted blue eyes on the sides of a narrow pointed head, two long feather antennae with rainbow-tinted tips, a long thin neck, a chevron-plated chest, two blade-like forearms with saw teeth on their inner edges, four thin jointed walking legs, two long leaf-shaped crystal wings with rainbow rims (pink, yellow, green, blue), and a long segmented abdomen.
+
+Show Prism seen from DIRECTLY ABOVE, a flat top-down view, like an insect pinned in a specimen case: the head points straight UP the picture and the abdomen points straight DOWN. Left and right sides are mirror images of each other. The feather antennae reach forward and outward from the head. The blade forearms are folded forward, one on each side of the neck, not crossed. The two wings are folded back along the body, lying side by side, pointing down the picture, with the tip of the abdomen just showing between their ends. Two thin legs stick out to each side.
+
+Make a sprite sheet of four frames in a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. The four frames are the same drawing with the same pose, size and position. They differ ONLY in these two small ways:
+Frame 1: the rainbow rims run pink, yellow, green, blue from shoulder to wing tip. Antennae straight.
+Frame 2: the rainbow colours have slid a little along the rims towards the wing tips. Antenna tips lean very slightly outward.
+Frame 3: the rainbow colours have slid further along the rims. Antennae straight.
+Frame 4: the rainbow colours have slid further again. Antenna tips lean very slightly inward.
+
+In every cell Prism fills about 88 percent of the cell's height, from the antenna tips to the abdomen tip, the body's centre line is exactly on the vertical middle of the cell, and no part touches a cell edge or crosses into another cell. Nothing is cut off.
+
+Paint the wings as solid, opaque pale blue crystal facets: they look like glass but the background must not show through them anywhere.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the sheet. Do not use green anywhere on the subject.

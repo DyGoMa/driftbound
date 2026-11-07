@@ -30,6 +30,8 @@ Kit.start({
   titleDraw(ctx, view, t) { },                       // optional animated title background
   titleArt: 'art/title.webp',                        // optional picture behind the title
   sayAt: 'top',                                      // optional: where run.say's box goes: 'top', 'bottom' or 'corner' (small, bottom right). Default: top when held sideways, bottom when upright. It stays up for seconds at a time, so keep your read-outs out from under it
+  compactSay: true,                                  // optional: on phones 360 px wide and under, a talk box at the top takes the room left of Pause, tighter
+  stageRows: true,                                   // optional: a stage list of more than 8 in rows of 4, a boss on its own row, packed to fit on a short phone
   test: { maxSeconds: 300, idleSeconds: 120, idleNeverLoses: false },   // see section 8
 
   init(run) { run.w = { x: 100, foes: [] }; },       // a fresh attempt: build your world in run.w
@@ -63,7 +65,7 @@ Beating the last stage opens Endless at once, whatever the player taps next. A r
 Salvage rate to aim for, so story cards and upgrades pace evenly across games: **a stage clear pays about 15 to 40 salvage in all.**
 
 ## 4. Input (read in `update`, in logical game coordinates)
-`input.down`, `.pressed`, `.released`, `.tap`, `.doubleTap`, `.held` (seconds), `.x`, `.y`, `.dx`, `.dy`, `.startX`, `.startY`, `.axisX`, `.axisY` (arrows and WASD, -1 to 1), `.key('KeyP')`, `.keyPressed('KeyP')`.
+`input.down`, `.pressed`, `.released`, `.tap`, `.doubleTap`, `.held` (seconds), `.x`, `.y`, `.dx`, `.dy`, `.startX`, `.startY`, `.axisX`, `.axisY` (arrows and WASD, -1 to 1), `.key('KeyP')`, `.keyPressed('KeyP')`, `.resets` (counts each time the kit forgot the thumb at a pause, catch or choice, so a game can tell that from a real lift).
 - One thumb at a time, but two thumbs on the glass still work: a new finger ends the old press and is a fresh press. When it lifts, a finger still down takes over as `.down` at its own position with no new `.pressed` and `.held` from 0, and it can't make a `.tap`. Space and Enter act as the thumb, pressing at its last position.
 - A double tap also fires `.tap` on its first tap, and `.tap` again with `.doubleTap` on the second. A game using both must wait a moment on a single tap, or make the first tap harmless.
 - Tapping a thing in the world: compare `input.x, input.y` when `input.tap` is true.
@@ -81,7 +83,7 @@ Look: black ink outline, flat colour, one shadow tone. Never bare rectangles or 
 - **Juice:** `A.burst(x, y, { n, color, colors, speed, life, size, gravity, angle, spread })`, `A.floatText(x, y, '+5', color, size)`, `A.shake(mag, secs)`. The kit steps and draws these after your `render`.
 
 ## 6. Talk
-`{ who, text }`. Speakers: `kaito sela juno silas bram ione` (their homepage portraits), `skarn vesh ashka hush grist prism` (their bond mark), `silt` (cut from his sheet), `vasch hekka krell maro trooper` (code bust). New one: `Kit.speakers.add('deckhand', { name: 'Deckhand', colour: '#c05a22', person: 'trooper' })`. Lines must match the voices in `CAST.md`. Pals are never in flirting or innuendo.
+`{ who, text }`. Speakers: `kaito sela juno silas bram ione` (their homepage portraits), `skarn vesh ashka hush grist prism` (their bond mark), `silt` (cut from his sheet), `hekka` (a code portrait from her sheet), `vasch krell maro trooper` (code bust). New one: `Kit.speakers.add('deckhand', { name: 'Deckhand', colour: '#c05a22', person: 'trooper' })`. Lines must match the voices in `CAST.md`. Pals are never in flirting or innuendo.
 
 ## 7. Sound
 `Kit.audio.play(name)`: `tap back buy denied jump surge land step hit hurt pickup throw fire swing clang whoosh splash dive beam chime crack alarm boom bet eat growl win lose catch`. Your own: `Kit.audio.define('zap', [{ w: 'square', f: [800, 200], d: 0.1, v: 0.2, at: 0 }])` (`w` a wave or `'noise'`; `f` start and end Hz; `d` seconds; `v` volume). Every action needs an effect. Starts after the first tap; mute is remembered across games; both handled.
