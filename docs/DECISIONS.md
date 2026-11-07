@@ -676,3 +676,4 @@ Card answers, word for word:
 - Silt and hound sheets: "Show me them first (Recommended)". The villain branch is not uploaded until you approve them.
 - Pal names Glimmick and Cinderbun (close to Glimmet and Cinderace): "Rename both (Recommended)". Looks stay the same; you pick the new names.
 - Winning stage 1 again wipes lasting damage: "Keep it for now (Recommended)". Judge it after your play-check.
+- New pal names, your picks: snail "Prismule (Recommended)", ember dumpling "Kindlekin". Only the shown names changed; the save ids stay `glimmick` and `cinderbun`, so caught pals are kept. Older notes keep the old names word for word.

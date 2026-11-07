@@ -138,13 +138,13 @@
     pal('boltnip', 'Boltnip', 'storm-run', 'a tiny gecko with a kite-tail that sparks', 'Flies its own tail in a gale and is always surprised where it lands.'),
     pal('bobbin', 'Bobbin', 'tide-gap', 'a jellyfish shaped like a striped buoy', 'Bobs next to any boat and expects to be counted as crew.'),
     pal('mopclaw', 'Mopclaw', 'tide-gap', 'a shy crab wearing a mop-head as a shell', 'Hides under its mop. Leaves the deck very clean by accident.'),
-    pal('cinderbun', 'Cinderbun', 'hot-hand', 'a warm ember dumpling with tiny feet', 'Toasty to hold. Trots after anyone who smells of soup.'),
+    pal('cinderbun', 'Kindlekin', 'hot-hand', 'a warm ember dumpling with tiny feet', 'Toasty to hold. Trots after anyone who smells of soup.'),
     pal('dicemite', 'Dicemite', 'hot-hand', 'a beetle-mite with a lucky pip-marked shell', 'Rolls over to show a new number. It is always the number you needed yesterday.'),
     pal('tuftle', 'Tuftle', 'silent-cut', 'a puff of shadow fur with two big eyes', 'You only find it by the eyes. It has been behind you for an hour, being friendly.'),
     pal('lamplick', 'Lamplick', 'silent-cut', 'a moth that licks lantern glass', 'Gets dizzy on lamp oil fumes. Harbour keepers blame it for every dim light.'),
     pal('rivetling', 'Rivetling', 'hold-the-deck', 'a little iron hedgehog studded with rivets', 'Curls up in the toolbox and gets used as a mallet. Seems pleased.'),
     pal('spoonling', 'Spoonling', 'hold-the-deck', 'a begging stowaway with a ladle tail', 'Sits up by the pot and holds its tail out for seconds. Then thirds.'),
-    pal('glimmick', 'Glimmick', 'split-light', 'a snail with a faceted crystal shell', 'Throws tiny rainbows on the wall, very slowly, for anyone who waits.'),
+    pal('glimmick', 'Prismule', 'split-light', 'a snail with a faceted crystal shell', 'Throws tiny rainbows on the wall, very slowly, for anyone who waits.'),
     pal('shardle', 'Shardle', 'split-light', 'a round glass chick that chimes', 'Rings when it hops. Cannot sneak, and has never once tried.'),
   ];
 

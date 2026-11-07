@@ -89,7 +89,7 @@ split-light: 228 ok, 0 failed. Last line: PASSED: split-light
 | HH8 | Beat Krell on The Vault Steps: throw into each vent when it opens | Shields blow, Krell is open for a few seconds. Three rounds. The line charges if it reaches you | |
 | HH9 | Finish the ending | The ending plays and Endless opens | |
 | HH10 | Try the upgrades: Cool Palms, Bigger Flame, Loaded Deck | Each does what it says | |
-| HH11 | Find Cinderbun: from stage 2, stay hot for a while, then tap it with the bar at gold if it comes | Rare. Caught. Too cold says so | |
+| HH11 | Find Kindlekin (was Cinderbun): from stage 2, stay hot for a while, then tap it with the bar at gold if it comes | Rare. Caught. Too cold says so | |
 | HH12 | Find Dicemite: from stage 2, start a wave with the most the house takes on the bet, then tap it on a six | Rare. Caught. Three wrong tries and it runs | |
 | HH13 | Watch and listen | Juno, Ashka and the fire move well. Krell looks right to you. Music and effects sound right | |
 
@@ -142,7 +142,7 @@ split-light: 228 ok, 0 failed. Last line: PASSED: split-light
 | SL8 | Beat Director Vasch's three boards | He talks throughout and counts to ten: at ten he fires for you. Resets use your 3 points of nerve. Tense, not unfair. Takes a few tries | |
 | SL9 | Finish the ending | The ending plays. There is no Endless button in this game | |
 | SL10 | Try the upgrades: Steady Hand, Shard Scraper, Second Look | Each button shows only once bought, and does what it says | |
-| SL11 | Find Glimmick: from Set 2, don't fire for a good while, then tap it if it crawls by | Rare. Caught | |
+| SL11 | Find Prismule (was Glimmick): from Set 2, don't fire for a good while, then tap it if it crawls by | Rare. Caught | |
 | SL12 | Find Shardle: from Set 3, fire one shot of 5 or more bounces, then tap it if it hops | Rare. Caught | |
 | SL13 | Watch and listen | Prism reads as Prism from above, Ione's arm reads as crystal growing, Vasch looks right. Music and effects sound right | |
 

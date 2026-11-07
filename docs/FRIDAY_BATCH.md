@@ -56,13 +56,13 @@ Upright puzzle, at least 15 levels over 4 sets, then the boss. Tap crystals to t
 | Boltnip | a tiny gecko with a kite-tail that sparks | Storm Run |
 | Bobbin | a jellyfish shaped like a striped buoy | Tide Gap |
 | Mopclaw | a shy crab wearing a mop-head as a shell | Tide Gap |
-| Cinderbun | a warm ember dumpling with tiny feet | Hot Hand |
+| Kindlekin (was Cinderbun, renamed 2026-11-07) | a warm ember dumpling with tiny feet | Hot Hand |
 | Dicemite | a beetle-mite with a lucky pip-marked shell | Hot Hand |
 | Tuftle | a puff of shadow fur with two big eyes | Silent Cut |
 | Lamplick | a moth that licks lantern glass | Silent Cut |
 | Rivetling | a little iron hedgehog studded with rivets | Hold the Deck |
 | Spoonling | a begging stowaway with a ladle tail | Hold the Deck |
-| Glimmick | a snail with a faceted crystal shell | Split Light |
+| Prismule (was Glimmick, renamed 2026-11-07) | a snail with a faceted crystal shell | Split Light |
 | Shardle | a round glass chick that chimes | Split Light |
 
 ## Shared kit contract (built first, used by all)
