@@ -1,6 +1,16 @@
 # Build step 3 plan: Driftbound homepage and Storm Run
 
-Status: approved by Dylan 2026-11-05 ("Start Phase 1"). Phase 1 confirmed by Dylan ("Works"). Phase 3 (the homepage) was moved ahead of Phase 2 on Dylan's request and is built, not yet seen by Dylan; its banner and Pinhold art, 2 of Phase 4's 4 images, are made. Phase 2 is next, then Phase 4's 3 pose strips. Storm Run's card says "IN THE WORKS" until Phase 2 changes it to a play button. Answers behind this plan: `docs/DECISIONS.md`, heading "build step 3".
+Status: approved by Dylan 2026-11-05 ("Start Phase 1"). Answers behind this plan: `docs/DECISIONS.md`, heading "build step 3". The Friday batch (`docs/DECISIONS.md`, heading "Friday batch") replaced "stop after each phase" for that job only, and took Phase 2 much further than planned.
+
+| Phase | Status (2026-11-06) |
+|---|---|
+| 1. Clear out v1, add the gate | **Confirmed by Dylan** ("Works, Phase 2 in a fresh chat") |
+| 2. Rough Storm Run | **Built, not yet seen by Dylan.** Went past "rough with stand-ins": a whole game on the shared kit, with pals, upgrades, a boss and an ending |
+| 3. The real homepage | **Built.** Dylan on the phone: "looks good on my phone". His fix for computer (banner too tall, blurry crew pictures) and the Friday additions (six game cards, story cards, the real monster book) are built, not yet seen by Dylan. Lines H1 to H7 in the checklist aren't marked yet |
+| 4. The new pictures | **Made.** Dylan has seen the banner on the homepage. Not yet seen by him: Pinhold in the game, Kaito run strip, Kaito jump, Surge and hurt strip, Skarn gliding strip, plus a trooper strip that wasn't in the plan and five more island pictures. Every take kept |
+| 5. Finish | **Part done.** README, checklist, worker brief and the provisional list (`docs/PROVISIONAL.md`) are done. **Not done, and each waits on Dylan's yes:** pushing these docs, merging to main, pointing the free link at main, the prompt for build step 4 |
+
+Not done in any phase: Dylan's play-check of the five new games and Storm Run. See `docs/TEST_CHECKLIST.md`.
 
 Free link: `dygoma.github.io/driftbound/` is published from branch `site/step-3-homepage` until merge. A push to that branch rebuilds it in about a minute (seen 2026-11-06). Changing the link's branch does NOT start a build on its own: after the switch to main in Phase 5, request one with `gh api -X POST repos/DyGoMa/driftbound/pages/builds`.
 Claude stops after each phase. The next phase starts only on Dylan's word.
@@ -58,4 +68,4 @@ Claude stops after each phase. The next phase starts only on Dylan's word.
 - Folders: `games/storm-run/`, save code named `DriftSave`.
 - Numbers: game numbers in `games/storm-run/tuning.js` (the existing pattern); the two site numbers (30 days, book size) in `shared/config.js`.
 - Sound mute setting gets a new Driftbound name too.
-- No pals to catch in Storm Run yet, since CAST.md says pals are designed later. The save keeps a space for them.
+- Pals: Storm Run started with none. Dylan's Friday batch answer "Yes, 12 pals" replaced that, so it now has two, Fizzlet and Boltnip.
