@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Driftbound manga shelf</title>
+<meta name="theme-color" content="#0c1026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@500;700;800&display=swap" rel="stylesheet">
+<script src="../shared/config.js"></script>
+<script src="../shared/gate.js"></script>
+<link rel="stylesheet" href="shelf.css">
+</head>
+<body>
+<noscript><p style="color:#f5efe2;text-align:center;padding:40px 16px">Driftbound is for adults only and needs JavaScript switched on.</p></noscript>
+<template id="page">
+  <header class="cabin">
+    <nav class="cabin-bar"><a class="back" href="../index.html"><span aria-hidden="true">‹</span> Driftbound home</a></nav>
+    <div class="cabin-hero">
+      <div class="porthole" aria-hidden="true"><div class="sky"><i class="sun"></i><i class="isle a"></i><i class="isle b"></i><i class="isle c"></i><i class="rain"></i></div></div>
+      <div class="cabin-text">
+        <p class="kicker">Aboard the Gullwake</p>
+        <h1>THE MANGA SHELF</h1>
+        <p class="lede">Every issue of Driftbound, spine-out on the captain's shelf. Pull one down and read it page by page, right to left.</p>
+        <a class="btn" id="continue" href="#" hidden></a>
+      </div>
+    </div>
+    <p class="art-note"><b>Art in progress.</b> Every word and panel is here; the pictures are placeholders with notes on what will be drawn.</p>
+  </header>
+
+  <main class="room">
+    <div class="case" id="case" aria-label="Bookshelf"></div>
+    <aside class="detail" id="detail" aria-live="polite" aria-label="Selected issue"></aside>
+  </main>
+  <div class="backdrop" id="backdrop" hidden></div>
+  <footer class="foot">Driftbound · adults only · reading progress is saved in this browser</footer>
+</template>
+<script src="common.js"></script>
+<script src="art/manifest.js"></script>
+<script src="catalog.js"></script>
+<script src="shelf-detail.js"></script>
+<script src="shelf.js"></script>
+</body>
+</html>

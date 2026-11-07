@@ -9,6 +9,7 @@ exclude:
   - shared/kit/README.md
   - games/*/NOTES.md
   - games/*/art/REQUEST.md
+<<<<<<< HEAD
   # Any other .md in a game's folder: old notes kept word for word (NOTES-before-review-3.md, NOTES-archive.md) are notes too.
   - games/*/*.md
   # Working files the site never loads: image prompts and raw art. Each would otherwise sit at its own address with no gate.
@@ -17,3 +18,7 @@ exclude:
   - games/*/art/raw
   - art/site/prompts
   - art/site/crew/*-raw.png
+=======
+  - docs/manga   # the manga bible holds every spoiler and would publish with no 18+ gate
+  - anime        # episode scripts are Markdown; a gated page for them comes later
+>>>>>>> manga/series-1
