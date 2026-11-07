@@ -2,7 +2,6 @@
 window.TG = window.TG || {};
 (function () {
   const T = TUNE, W = () => TG.WORDS;
-  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
   const HISTORY = 90;   // steps of the head's path kept; Vesh's body and the hull both read it
 
   TG.yOf = (w, at) => w.shipYNow - (at - w.dist);
@@ -16,7 +15,7 @@ window.TG = window.TG || {};
       dive: { state: 'up', t: 0, air: 0, warned: false }, pull: { x: 0, y: 0, log: [] }, armed: false, airMax: T.diveSecs + T.divePerLevel * run.up('dive'), windup: 0, downT: 0,
       hullMax: T.hull + T.hullPerLevel * run.up('hull'), hullLeft: 0, inv: 0, hurtT: 0, shuntTo: null, cleanGate: true, scrapeTo: 0, scrapeX: 0,
       rocks: [], gates: [], items: [], bands: [], drops: [], lances: [], laid: { end: T.firstGate - T.layFrom, lane: 180, safe: null },
-      dropT: T.dropFirst, lanceT: T.lanceFirst, calm: 0, bobbin: null, bobbinTried: false, mop: null, mopDone: false, pagesGot: 0, dives: 0, knocks: 0,
+      dropT: T.dropFirst, lanceT: T.lanceFirst, calm: 0, bobbin: null, bobbinTried: false, mop: null, mopDone: false, pagesGot: 0, dives: 0, knocks: 0, heldSalvage: 0,
       pagesLeft: (s.pagesAt || []).length, pageAt: (s.pagesAt || []).map(f => f * s.length), nextPage: s.pagesEvery || 0, say: [], scene: [], showing: null, sayGap: 0, radioI: 0, radio: (s.radio || []).slice(), wash: 0, lastSteer: 0, diveUnlocked: !s.lockDive,
       boss: boss ? TG.bossNew() : null, bookFx: null, deadT: 0, testInfo: { dives: 0, knocks: 0, lines: 0 },
     };
@@ -125,35 +124,6 @@ window.TG = window.TG || {};
     }
   }
 
-  // ---- Steering. The thumb moves an aim; the head chases it; the hull follows the head's path a moment later.
-  function steer(run, w, input, dt) {
-    if (input.down && !input.pressed) w.targetX += input.dx * T.dragGain;
-    if (input.axisX) w.targetX += input.axisX * T.keySteer * dt;
-    if ((Math.abs(input.dx) > T.steerSoundMove || input.axisX) && run.time - w.lastSteer > T.steerSoundGap) { w.lastSteer = run.time; Kit.audio.play('steer'); }
-    const band = TG.bandHere(w);
-    if (band) {
-      w.targetX += band.dir * band.force * dt; w.headX += band.dir * band.force * dt;
-      if (!w.saidBand) { w.saidBand = true; TG.sayNow(run, W().bandLine); }
-    }
-    if (w.dist < w.scrapeTo) w.targetX = w.scrapeX;
-    w.targetX = clamp(w.targetX, T.minX, T.maxX);
-    const dh = clamp((w.targetX - w.headX) * T.headRate, -T.headMax, T.headMax);
-    w.headX = clamp(w.headX + dh * dt, T.minX - 6, T.maxX + 6);
-    w.trail.pop(); w.trail.unshift(w.headX);
-    const lagged = w.trail[Math.min(HISTORY - 1, Math.round(T.towDelay * 60))];
-    const before = w.shipX;
-    if (w.shuntTo !== null) {
-      const d = w.shuntTo - w.shipX, step = Math.sign(d) * Math.min(Math.abs(d), T.shunt * dt);
-      w.shipX += step;
-      if (Math.abs(d) < 2) { w.targetX = w.headX = w.shipX; w.trail.fill(w.shipX); w.shuntTo = null; }
-    } else {
-      w.shipX += clamp((lagged - w.shipX) * T.shipRate, -T.shipMax, T.shipMax) * dt;
-      if (band) w.shipX += band.dir * band.force * dt * T.bandHullShare;
-    }
-    w.shipX = clamp(w.shipX, T.minX, T.maxX);
-    w.lean += (((w.shipX - before) / dt) / T.shipMax - w.lean) * Math.min(1, dt * 7);
-  }
-
   // ---- One whole step.
   TG.step = function (run, dt, input) {
     const w = run.w;
@@ -175,7 +145,7 @@ window.TG = window.TG || {};
     if (w.bookFx) w.bookFx.t += dt;
     if (w.diveHintDelay > 0) { w.diveHintDelay -= dt; if (w.diveHintDelay <= 0) w.diveHintT = T.diveHintSecs; }
     if (w.diveHintT > 0) w.diveHintT -= dt;
-    steer(run, w, input, dt);
+    TG.steer(run, w, input, dt);
     TG.diveStep(run, w, input, dt);
     if (w.dive.state === 'up') TG.surfaceHit(run, w, T.rockInset);
     if (run.w !== w || run.over) return;
@@ -204,7 +174,8 @@ window.TG = window.TG || {};
   function finishStage(run, w) {
     run.carry.hullLost = w.hullMax - w.hullLeft;
     TG.talkKeep(run, w);
-    run.addSalvage(run.stage.clearSalvage);
+    run.addSalvage(run.stage.clearSalvage + w.heldSalvage);
+    w.heldSalvage = 0;
     run.addScore(T.scoreClear + T.scoreLine * TG.linesLeft(run));
     Kit.audio.play('splash');
     run.win();

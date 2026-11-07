@@ -7,8 +7,9 @@ window.HD = window.HD || {};
   const KEY = 'hd_tries_lost', losses = () => DriftSave.getSetting(KEY, {}) || {};
   HD.triesLost = run => (run.endless ? 0 : run.dry ? (T.dryLost || 0) : losses()[run.index] || 0);
   const mercy = run => (run.boss ? Math.min(T.boss.mercyMax, T.boss.mercyPerLoss * HD.triesLost(run)) : T.mercyPerLoss * Math.min(T.mercyMax, HD.triesLost(run)));
-  // A try only earns the extra Guts if it paid something: a volley taken on the chin with Iron never once held earns nothing, so dying can't stand in for the grey. Full iron has no Iron to hold, so it always counts.
-  const earnedMercy = run => !run.w.tookVolley || run.w.ironUses > 0 || HD.locked(run);
+  // A try only earns the extra Guts if it was a real try. Hardly a swing landed: nothing, so idling till he drops buys nothing. A volley taken on the chin with Iron never once held: nothing, so dying can't stand in for the grey. Full iron has no Iron to hold, so that part never applies.
+  HD.foughtTry = run => run.w.swingsHit >= T.mercyMinSwings;
+  HD.earnedMercy = run => HD.foughtTry(run) && (!run.w.tookVolley || run.w.ironUses > 0 || HD.locked(run));
   HD.stageWon = run => {
     if (run.dry) return;
     const l = losses();
@@ -24,7 +25,7 @@ window.HD = window.HD || {};
   HD.newBram = function (run) {
     const guts = T.guts + T.apronPerLevel * run.up('apron') + mercy(run);
     return { mercy: mercy(run), lanePos: 1, target: 1, arriveSwing: false, cd: 0, swingBuf: 0, swingT: 0, lungeT: 0, stepT: 0,
-      ironOn: false, ironT: 0, holdOk: true, thumbDown: false, swingOnLift: false, liftFrom: 0, lastWhiff: -99, tookVolley: false, lockTold: false, hurtT: 0, inv: 0, fastT: 0, fastMul: 1, eatT: 0, flakeT: 0, hitStop: 0, staggerT: 0, whiffRun: 0,
+      ironOn: false, ironT: 0, holdOk: true, thumbDown: false, swingOnLift: false, liftFrom: 0, lastWhiff: -99, tookVolley: false, chinned: 0, swingsHit: 0, lockTold: false, hurtT: 0, inv: 0, fastT: 0, fastMul: 1, eatT: 0, flakeT: 0, hitStop: 0, staggerT: 0, whiffRun: 0,
       guts, gutsMax: guts,
       temper: 0, temperFill: 1 + T.temperPerLevel * run.up('temper'), grist: null, gristAway: 0, slashT: 0, zzzT: 0 };
   };
@@ -110,7 +111,7 @@ window.HD = window.HD || {};
   function landSwing(run) {
     const w = run.w, lane = w.target, n = HD.hitLane(run, lane, HD.hitPower(run), 'swing');
     w.slashT = 0.16;
-    if (n) { w.whiffRun = 0; return; }
+    if (n) { w.whiffRun = 0; w.swingsHit++; return; }
     w.cd = Math.max(w.cd, HD.swingTime(run) * T.whiffMul - T.swingWindup);
     if (run.time - w.lastWhiff > T.whiffForget) w.whiffRun = 0;   // the streak is about sweeping the lanes blind, not one miss a while ago
     w.staggerT = T.whiffStagger + T.whiffRunAdd * Math.min(T.whiffRunMax, w.whiffRun);
@@ -176,7 +177,7 @@ window.HD = window.HD || {};
     A().shake(7, 0.3);
     const x = why === 'door' ? null : HD.laneX(w.lanePos, 440);
     if (x !== null) A().burst(x, 440, { n: 18, colors: ['#f0752b', '#ffffff', '#f4c152'], speed: 170, life: 0.45, size: 3 });
-    if (w.guts <= 0) { if (!run.over && earnedMercy(run)) lostATry(run); run.lose(); }
+    if (w.guts <= 0) { if (!run.over && HD.earnedMercy(run)) lostATry(run); run.lose(); }
     return true;
   };
 })();

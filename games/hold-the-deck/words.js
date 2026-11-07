@@ -129,6 +129,11 @@ HD.WORDS = {
   // The try took every volley on the chin and never held for Iron. Dying earned nothing this time.
   noHoldLose: { who: 'ione', text: 'You took every one of those on the chin. The Iron was right there, Bram. Dying isn\'t a cheaper option.' },
 
+  // The third volley on the chin in one try: down, whatever the Guts said.
+  ribsLose: { who: 'ione', text: 'Third one on the same ribs. No soup mends that, and no apron. That\'s what the Iron\'s for, Bram.' },
+  // Hardly a swing landed. Nothing earned, and she says so.
+  noFightLose: { who: 'ione', text: 'You barely swung, Bram. I don\'t strap ribs that did nothing. No extra Guts.' },
+
   mercy: { who: 'ione', text: 'Strap those ribs. I\'ll lie about it when I\'m back. One more Guts.' },
 
   // Said once each, when it first happens. adult: true means there's a joke in it, so it keeps quiet while a pal's on deck (batch rule).
@@ -139,6 +144,7 @@ HD.WORDS = {
     grist: { who: 'bram', text: 'There he is. Press the old lump in the corner. He goes up my lane.' },
     volley: { who: 'ione', text: 'All three lanes! No walking out of that. Hold for Iron, or take it.' },
     volleyLocked: { who: 'ione', text: 'All three lanes, and no Iron left. Brace. Anvils dent less than you do.' },
+    ribs: { who: 'ione', text: 'Two on the same ribs, by the sound. A third stops you, soup or no soup.' },
     through: { who: 'bram', text: 'Oi! Not in my galley!' },
   },
 
@@ -156,7 +162,7 @@ HD.WORDS = {
     },
   },
 
-  warn: { hook: 'HOOK', drop: 'CRATE', wall: 'CRATE', rope: 'BOARDER', paw: 'PAW', swipe: 'CLAWS', charge: 'BEAR', volley: 'ALL LANES: HOLD!', volleyHeld: 'BRACE!', volleyLocked: 'NOWHERE TO GO!' },
+  warn: { hook: 'HOOK', drop: 'CRATE', wall: 'CRATE', rope: 'BOARDER', paw: 'PAW', swipe: 'CLAWS', charge: 'BEAR', volley: 'ALL LANES: HOLD!', volleyLast: 'HOLD OR YOU\'RE DOWN!', volleyHeld: 'BRACE!', volleyLocked: 'NOWHERE TO GO!' },
   waveName: (i, n) => `WAVE ${i + 1} OF ${n}`,
   endlessWave: i => `WAVE ${i + 1}`,
 

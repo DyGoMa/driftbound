@@ -1,6 +1,7 @@
 // Silent Cut: everything anyone says. Voices from CAST.md. Full flavour inside the World Bible hard rules. Pals stay out of the jokes.
 // Silas's lines go through SC.voice when he speaks in play: they break up as his breath runs low, and go blank at empty. Nobody else's do.
 // Between play, a line's rough (rasp 1 or 2) and rags (rasp 3) are what he says once the run has scarred his voice. They keep whatever the next speaker answers. Blank is only for out of breath, and for the ending.
+// adult: true on a line, and everything in quipsAdult, is flirting or innuendo. Batch rule: pals are never in it, so these keep quiet while a pal is in the world (SC.palAround, pals.js). A flirty line added to a list said in play or on the lose screen needs the mark.
 window.SC = window.SC || {};
 SC.WORDS = {
   tagline: 'Every lamp in Lanternreach is hunting him. Run out of breath and the charming bastard runs out of words.',
@@ -13,7 +14,7 @@ SC.WORDS = {
         { who: 'juno', text: 'So he\'s sneaking off alone at night to go through his old boss\'s books. Five says he flirts with the first guard.' },
         { who: 'silas', text: 'Darling, I\'ll flirt with the first guard and then I\'ll cut him. Come along, Hush.' },
       ],
-      radio: [{ who: 'juno', text: 'Well? Did you flirt with him yet?' }, { who: 'silas', text: 'Patience. I like to get to know a man from behind first.' }, { who: 'bram', text: 'Are you eating, lad? There\'s a stall on the second steps does a fair fish.' }],
+      radio: [{ who: 'juno', text: 'Well? Did you flirt with him yet?', adult: true }, { who: 'silas', text: 'Patience. I like to get to know a man from behind first.', adult: true }, { who: 'bram', text: 'Are you eating, lad? There\'s a stall on the second steps does a fair fish.' }],
       winLine: { who: 'silas', text: 'A year gone, and they still haven\'t fixed that bottom step. Sentimental, really.', rough: 'A year gone... still haven\'t fixed that step. Sentimental.', rags: 'Still... that step. Sentimental.' } },
     { name: 'Oil Row',
       talk: [
@@ -22,7 +23,7 @@ SC.WORDS = {
         { who: 'ione', text: 'I did ask. The reports mostly mention the talking.' },
         { who: 'kaito', text: 'Why does HE get the sneaking job? I can sneak! I\'m a GREAT sneak!' },
       ],
-      radio: [{ who: 'sela', text: 'I can see Oil Row from here. It\'s getting darker one lamp at a time. Subtle.' }, { who: 'silas', text: 'A little mood lighting never hurt anyone, Captain.' }],
+      radio: [{ who: 'sela', text: 'I can see Oil Row from here. It\'s getting darker one lamp at a time. Subtle.' }, { who: 'silas', text: 'A little mood lighting never hurt anyone, Captain.', adult: true }],
       winLine: { who: 'silas', text: 'Oil Row, dark for the first time in forty years. The landlords will be livid.', rough: 'Oil Row, dark... first time in forty years. Landlords will be livid.', rags: 'Oil Row... dark. Landlords... livid.' } },
     { name: 'Crane Yard',
       talk: [
@@ -31,7 +32,7 @@ SC.WORDS = {
         { who: 'juno', text: 'Bullshit. Who\'d climb in a crate with you?' },
         { who: 'silas', text: 'A duke\'s wife. Her idea. She tipped.', rough: 'A duke\'s wife... Her idea. She tipped.', rags: 'Duke\'s wife. She... tipped.' },
       ],
-      radio: [{ who: 'juno', text: 'How much did she tip? I\'m running a book on it.' }, { who: 'silas', text: 'Enough to buy the crate, darling. I kept it.' }],
+      radio: [{ who: 'juno', text: 'How much did she tip? I\'m running a book on it.', adult: true }, { who: 'silas', text: 'Enough to buy the crate, darling. I kept it.', adult: true }],
       winLine: { who: 'silas', text: 'Keep up with the cargo, they said. I was the cargo.', rough: 'Keep up with the cargo, they said... I was the cargo.', rags: 'Keep up... they said. I was... the cargo.' } },
     { name: 'The Long Boards',
       talk: [
@@ -80,17 +81,17 @@ SC.WORDS = {
 
   loseLines: [
     { who: 'sela', text: 'Three alarms, Silas. The whole port\'s up. Come back and do it quietly.' },
-    { who: 'juno', text: 'Pay up, boys. He got caught with his shirt open.' },
-    { who: 'silas', text: 'Ah. I\'ve been noticed. In fairness, darling, who wouldn\'t look?' },
+    { who: 'juno', text: 'Pay up, boys. He got caught with his shirt open.', adult: true },
+    { who: 'silas', text: 'Ah. I\'ve been noticed. In fairness, darling, who wouldn\'t look?', adult: true },
     { who: 'ione', text: 'The shadow was working perfectly. You left it.' },
     { who: 'bram', text: 'Back you come, lad. Nobody\'s cross. Try it slower.' },
     { who: 'kaito', text: 'HA! Even I could\'ve... no, okay. No, I couldn\'t.' },
     { who: 'hush', text: 'Hush lands beside you, blinks once, and says nothing. As usual, it hurts.' },
-    { who: 'trooper', text: 'Stop right there! ...Is that shirt regulation?' },
+    { who: 'trooper', text: 'Stop right there! ...Is that shirt regulation?', adult: true },
   ],
   // Lost to the lamp line itself. The boss's list covers it there.
   lineLose: [
-    { who: 'juno', text: 'You stood about so long the whole lamp line caught up. Pretty doesn\'t count as cover, Silas.' },
+    { who: 'juno', text: 'You stood about so long the whole lamp line caught up. Pretty doesn\'t count as cover, Silas.', adult: true },
     { who: 'sela', text: 'That line only walks, Silas. You had the whole street to stay ahead of it.' },
     { who: 'bram', text: 'They walked right up on you, lad. Can\'t stand about, not on that street.' },
     { who: 'ione', text: 'A row of men walking at a steady pace caught a man who was supposed to be walking. I\'ll want that explained.' },
@@ -108,12 +109,21 @@ SC.WORDS = {
 
   // Silas in play. Breath low, and these break up; breath gone, and they're "...".
   quips: {
-    strike: ['Shh. There we are, darling.', 'Sleep well, handsome.', 'Nothing personal. Lovely coat.', 'You\'ve a beautiful back. I do mean that.', 'Don\'t get up. I\'ll see myself out.', 'Quiet, now. That\'s the way.', 'Call me.'],
-    cut: ['Lights down. So much more flattering.', 'There. Now it\'s a proper evening.', 'Forty years that lamp\'s been up. Rude of it.', 'Nobody looks their best in lamplight, darling.'],
-    surge: ['Excuse me, passing through.', 'And gone, darling.', 'Mm. That one cost me.'],
-    alarm: ['Ah. They\'ve noticed me. They always do.', 'Not my best angle.', 'All right, all right, I\'m flattered.'],
+    strike: ['Don\'t get up. I\'ll see myself out.', 'Quiet, now. That\'s the way.'],
+    cut: ['There. Now it\'s a proper evening.', 'Forty years that lamp\'s been up. Rude of it.'],
+    surge: ['Excuse me, passing through.', 'Mm. That one cost me.'],
+    alarm: ['Ah. They\'ve noticed me. They always do.'],
+    close: [],
+    breathBack: ['Don\'t all cheer at once.'],
+  },
+  // The same moments, his flirting. Said along with the lists above, unless a pal is in the world.
+  quipsAdult: {
+    strike: ['Shh. There we are, darling.', 'Sleep well, handsome.', 'Nothing personal. Lovely coat.', 'You\'ve a beautiful back. I do mean that.', 'Call me.'],
+    cut: ['Lights down. So much more flattering.', 'Nobody looks their best in lamplight, darling.'],
+    surge: ['And gone, darling.'],
+    alarm: ['Not my best angle.', 'All right, all right, I\'m flattered.'],
     close: ['Close enough to kiss.', 'Missed me, darling.', 'That was almost romantic.'],
-    breathBack: ['...there it is. Did you miss me?', 'Where was I? Oh yes. Handsome.', 'Don\'t all cheer at once.'],
+    breathBack: ['...there it is. Did you miss me?', 'Where was I? Oh yes. Handsome.'],
   },
 
   // The last thing out of him before his voice goes. Cut off on purpose.
@@ -122,7 +132,7 @@ SC.WORDS = {
   // The crew's turn to talk, when his voice goes.
   windedCrew: [
     { who: 'sela', text: 'Silas? ...He\'s gone quiet. Nobody panic. Silas, stop moving and breathe.' },
-    { who: 'juno', text: 'Say something filthy. Come on. ...Shit, he really can\'t.' },
+    { who: 'juno', text: 'Say something filthy. Come on. ...Shit, he really can\'t.', adult: true },
     { who: 'bram', text: 'Stand still, lad. Stand still and breathe. Please.' },
     { who: 'ione', text: 'Bond debt. He\'ll have his voice back if he stops moving. He won\'t enjoy the silence.' },
     { who: 'kaito', text: 'Hey! HEY, pretty boy! ...Why isn\'t he insulting me? I don\'t like this.' },
@@ -135,7 +145,7 @@ SC.WORDS = {
   ],
   // When going out of breath again scars his voice for the run: one for each scar.
   tornCrew: [
-    { who: 'ione', text: 'That wheeze is new. That\'s the bond taking its cut, Silas. It stays with you for the rest of the job.' },
+    { who: 'ione', text: 'That wheeze is new. That\'s the bond\'s cut, Silas, and it stays for the rest of the job.' },
     { who: 'bram', text: 'That\'s not breathing, lad, that\'s a saw. No more dashes. Please.' },
     { who: 'sela', text: 'You sound like a dead man on my radio, Silas. Whatever\'s left, save it for the book.' },
   ],

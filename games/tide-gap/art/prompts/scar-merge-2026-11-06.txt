@@ -1,0 +1,11 @@
+Hand work, no new image prompt. Every source take is kept in art/raw/.
+
+hekka-stand-v7.png = hekka-stand-v4.png with only the ring scar copied in from hekka-stand-v5.png.
+hekka-throw-v8.png = hekka-throw-v5.png with only the ring scar copied in from hekka-throw-v6.png.
+hekka-hurt-v4.png = hekka-hurt-v2.png with only the ring scar copied in from hekka-hurt-v3.png.
+Each copied ring had its saturated red moved to a dull dark brown-red (about 92, 50, 40), with a soft oval edge on plain skin.
+
+hekka-stand-v6.png and hekka-throw-v7.png are a first try: v5 and v6 with the same red change over the whole picture. It also touched her face lines, and v5 had turned her eyes brown. Kept, not used.
+
+Why: the edits made the ring read at 51 px, but drifted her eye colour (frame 1 of stand) and came out too red for "dull".
+Prompts for the edits: hekka-stand-v5.txt, hekka-throw-v6.txt, hekka-hurt-v3.txt.

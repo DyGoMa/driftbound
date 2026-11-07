@@ -46,7 +46,7 @@ window.HD = window.HD || {};
     const litFor = lane => seen.filter(x => x.lane === lane).reduce((a, x) => Math.min(a, x.total - x.t), Infinity);
     // A volley can't be walked out of. It holds for one unless it can afford the Guts with a bowl still to come. A locked Bram has no choice.
     const noMoreBowls = w.boss ? w.boss.phase === 3 : (!run.endless && w.wave >= run.stage.waves.length - 1);
-    const takeVolley = seen.some(x => x.kind === 'volley') && (locked || (!B.ironAll && !noMoreBowls && w.guts > T.volleyHurt + B.volleySpare));
+    const takeVolley = seen.some(x => x.kind === 'volley') && (locked || (!B.ironAll && !noMoreBowls && w.guts > T.volleyHurt + B.volleySpare && w.chinned < T.volleyChinMax - 1));
     const danger = takeVolley ? Infinity : litFor(here);
 
     // The pal test: stay Iron until Rivetling arrives, or walk to Spoonling.

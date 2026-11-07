@@ -104,18 +104,21 @@ window.SL = window.SL || {};
   // His count: how far he has got, 0 to 10. The first shot of an attempt gets longer, to read the board.
   SL.countOf = function (w) {
     const spec = w.L.spec;
-    return spec.count ? Math.min(10, w.countT / (spec.count + (w.boardFired ? 0 : T.countReadSecs)) * 10) : 0;
+    return spec.count ? Math.min(T.countTo, w.countT / (spec.count + (w.boardFired ? 0 : T.countReadSecs)) * T.countTo) : 0;
   };
 
-  // He counts while you stand there. At ten he fires for you, with the crystals as they stand: it costs the shot and grows like any other. The clock's rules still hold: it waits while the beam flies and on a dead board.
+  // He counts while you stand there. At ten he fires for you, with the crystals as they stand: it costs the shot and grows like any other. On a dead board he has nothing to fire, so at ten he resets it for you, for the same point of nerve Reset costs: a boss nobody plays must end in a loss (FRIDAY_BATCH.md). It waits while the beam flies.
   function stepCount(run, dt) {
     const w = run.w, B = W.bossSay;
-    if (!w.L.spec.count || SL.busy(w) || w.dead || run.over || !SL.alive(w.S) || w.S.shots <= 0) return;
+    if (!w.L.spec.count || SL.busy(w) || run.over || !SL.alive(w.S) || (w.S.shots <= 0 && !w.dead)) return;
     const before = Math.floor(SL.countOf(w));
     w.countT += dt;
     const now = Math.floor(SL.countOf(w));
     if (now === before) return;
-    if (now >= 10) { SL.say(run, B.countFire); SL.fire(run); return; }
+    if (now >= T.countTo) {
+      if (w.dead) { SL.bossFail(run); return; }
+      SL.say(run, B.countFire); SL.fire(run); return;
+    }
     if (now >= T.countLoudFrom) AU().play('count');
     if (now === T.countTeachAt && !w.boss.countTaught) { w.boss.countTaught = true; SL.say(run, B.countTeach); }
     if (now === T.countLoudFrom) SL.say(run, B.countLate);

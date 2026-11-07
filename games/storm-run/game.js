@@ -41,6 +41,7 @@
         foes: [], coins: [], pal: null, boltTried: false, pending: null, nextArrival: T.firstArrival, lastTall: -99, radioI: 0,
         boss: boss ? SR.bossNew() : null,
       };
+      ['win', 'lose'].forEach(n => { const end = run[n]; run[n] = d => { SR.palLeaves(run); end(d); }; });
     },
     update(dt, run, input) {
       const pressed = input.pressed || input.keyPressed('ArrowUp') || input.keyPressed('KeyW');

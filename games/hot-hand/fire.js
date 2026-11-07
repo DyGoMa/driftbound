@@ -7,13 +7,21 @@ window.HH = window.HH || {};
   HH.fx = (run, fn) => { if (!run.dry) fn(Kit.art); };
   HH.sfx = (run, name) => { if (!run.dry) Kit.audio.play(name); };
   // The talk box in play shows one line at a time and a new one wipes the old, so lines wait their turn: each gets sayHold seconds up, and one that has waited too long gives way to what's newer.
-  HH.say = (run, l, secs, teachKey) => { if (l) { run.w.sayQ.push({ l, secs, at: run.time, teachKey }); HH.stepSay(run); } };
+  HH.say = (run, l, secs, teachKey) => { if (l && !(l.adult && run.w.pal)) { run.w.sayQ.push({ l, secs, at: run.time, teachKey }); HH.stepSay(run); } };   // batch rule: pals are never in flirting or innuendo, so a joke keeps quiet while one is out
+  // A pal has come out: a joke waiting its turn goes, and one that's showing comes down, so its own line goes straight up.
+  HH.sayForPal = function (run, l) {
+    const w = run.w;
+    w.sayQ = w.sayQ.filter(e => !e.l.adult);
+    if (w.sayUp && w.sayUp.adult && run.time < w.sayUpTo) { w.sayUp = null; w.sayNext = 0; if (!run.dry) Kit.ui.sayClear(); }
+    HH.say(run, l);
+  };
   HH.stepSay = function (run) {
     const w = run.w, q = w.sayQ;
     if (!q.length || run.time < w.sayNext) return;
     while (q.length > 1 && run.time - q[0].at > T.sayStale) q.shift();
     const e = q.shift();
     w.sayNext = run.time + T.sayHold;
+    w.sayUp = e.l; w.sayUpTo = run.time + (e.secs || T.saySecs);
     run.say(e.l.who, e.l.text, e.secs || T.saySecs, 'corner');
     if (e.teachKey) { const taught = DriftSave.getSetting('hotHandTaught', {}); taught[e.teachKey] = 1; DriftSave.setSetting('hotHandTaught', taught); }
   };
@@ -76,7 +84,7 @@ window.HH = window.HH || {};
     HH.fx(run, A => { A.shake(9, 0.5); const h = HH.hand(w); A.burst(h.x, h.y, { n: 26, colors: ['#ffe46a', '#ff8a2a', '#ff3a1e'], speed: 240, life: 0.7, size: 5 }); });
     if (w.hp > 0) HH.sayOne(run, W.lock, 'lockI');
   };
-  HH.sayOne = (run, list, key) => { const w = run.w; w[key] = (w[key] === undefined ? run.int(0, list.length - 1) : w[key] + 1); HH.say(run, list[w[key] % list.length]); };
+  HH.sayOne = (run, list, key) => { const w = run.w, pool = w.pal ? list.filter(l => !l.adult) : list; w[key] = (w[key] === undefined ? run.int(0, pool.length - 1) : w[key] + 1); HH.say(run, pool[w[key] % pool.length]); };
 
   // Everything that hurts Juno comes through here. src: { why, warnAt } so the fairness script can read how long the warning was.
   HH.hurt = function (run, n, src) {

@@ -162,6 +162,32 @@ window.SR = window.SR || {};
     }
   }
 
+  // ---- Stage 4: a far row of rooftops, with Silt a long way off along them, keeping pace behind Kaito. In the scene, so the yard stands in front and the stage's haze falls over him. Sizes are looks only.
+  const ROOF_H = 62, ROOF_BACK = 22, SILT_SCALE = 0.24;   // height of the flat roofs he runs along; room above them for the peaks behind
+  function roofs() {
+    return SR.bake('roofs', 720, ROOF_BACK + ROOF_H, 0, ROOF_BACK, c => {
+      const A_ = A(), wall = '#3c3d58', back = '#34354f', top = '#55567a', rnd = SR.scatter(31);
+      for (let x = 0; x < 720; x += 120) { // pitched roofs and chimneys further back, so it reads as a town and not a wall
+        A_.poly(c, [[x + 8, 1], [x + 30, -16], [x + 88, -16], [x + 110, 1]], back, 1);
+        A_.slab(c, x + 96, -21, 8, 14, back, 1);
+      }
+      A_.poly(c, [[0, 0], [720, 0], [720, ROOF_H], [0, ROOF_H]], wall, 0);
+      for (let x = 0; x < 720; x += 120) { // one building to each 120 px, with a few lit windows
+        A_.line(c, x, 0, x, ROOF_H, 1.2);
+        for (let i = 0; i < 5; i++) if (rnd() < 0.6) A_.slab(c, x + 14 + i * 20, 12 + (i % 2) * 14, 7, 5, 'rgba(240,200,104,.55)', 0);
+      }
+      A_.poly(c, [[0, 0], [720, 0], [720, 4], [0, 4]], top, 0);
+      A_.line(c, 0, 0, 720, 0, 1.4);
+    });
+  }
+  function farSilt(c, view, off, t) {
+    const y = T.groundY - ROOF_H, x = view.left + 72 + Math.sin(t * 0.22) * 25;
+    SR.strip(c, roofs(), view, off * 0.3, y - ROOF_BACK);
+    c.save(); c.translate(x, y - Math.abs(Math.sin(t * 6)) * 2); c.scale(SILT_SCALE, SILT_SCALE);
+    SR.drawHound(c, { state: 'chase', x: 0, alt: T.groundY, flip: false, throwArm: 0, flash: 0, t: 1, total: 1 }, t);
+    c.restore();
+  }
+
   // The whole background. off = road scrolled so far; which = stage number.
   SR.drawScene = function (c, view, off, t, which, stage) {
     const A_ = A(), g = T.groundY;
@@ -169,6 +195,7 @@ window.SR = window.SR || {};
     const far = pylons(view);
     SR.strip(c, far, view, off * 0.18, g - far.h);
     beams(c, view, off * 0.18, t);
+    if (stage && stage.silt) farSilt(c, view, off, t);
     SR.strip(c, yard(), view, off * 0.5, g - 104);
     if (stage && stage.wash) { c.fillStyle = 'rgba(10,12,40,' + stage.wash + ')'; c.fillRect(view.left, view.top, view.right - view.left, g - view.top); }
     SR.strip(c, road(), view, off, g);

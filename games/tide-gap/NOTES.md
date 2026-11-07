@@ -2,40 +2,60 @@
 
 Status: built, not yet seen running by Dylan. Pictures on for all 12 keys in `art/REQUEST.md` (built, not yet seen by Dylan); the code art stays as the fallback. `live` not set.
 
+## New pictures: Hekka at the sheet's proportions, Sela's bigger book (2026-11-06)
+Built, not yet seen by Dylan. Replaces "Hekka's picture is left stocky" under the fourth review. Old files all kept; old numbers in a comment in `art/sprites.js`.
+| Key | File in use | Raw take it's cut from |
+|---|---|---|
+| `hekka_stand` | `art/hekka-stand-v3.webp` | `raw/hekka-stand-v7.png` |
+| `hekka_throw` | `art/hekka-throw-v3.webp` | `raw/hekka-throw-v8.png` |
+| `hekka_hurt` | `art/hekka-hurt-v2.webp` | `raw/hekka-hurt-v4.png` |
+| `sela_empty` | `art/sela-empty-v3.webp` | `raw/sela-empty-v3.png` |
+
+The webp numbers are the ones asked for; raw numbers carry on from what was already in `raw/`. Seven new generated pictures: stand v4, throw v5, hurt v2, sela-empty v3, then one scar edit each (stand v5, throw v6, hurt v3). The edits turned Hekka's stand eyes brown and the scar too red, so the takes in use are the first takes with only the scar copied in and dulled by hand (`art/prompts/scar-merge-2026-11-06.txt`). Stand v6 and throw v7 are a first hand try that also touched her face lines; kept, not used.
+
+Checked in headless Chrome at 390x844: all four keys decode, no page errors, no missing files; looked at each pose zoomed in on the cutter and Sela steady against empty on stage 1. `node tools/smoke.js tide-gap` passed.
+
+Flaws left in: the blade reads as bright white steel, not glowing, the same as Hold the Deck's `hekka-front`. `hekka_hurt` has a graze on the cheek, sweat drops and a small mark at the collar that nobody asked for (the model's). Her ring is washed out in `hekka_hurt` while the hit flash is up. The book sits on the deck's wood, so it reads by its outline and cream pages more than by colour. Her raised lance crosses the corner of the right-hand plate in `hekka_throw`.
+
+**Calls Claude made here (change any):** Hekka stands at 27 px from the cutter's middle, not 31, picture only, because the new wider boots hung over the hull's edge by about 3 to 4 px in throw and hurt (`cutter.js`; the code figure stays at 31). `hekka_hurt` is drawn about 47 px rather than 51, so her armour stays the same size as when standing. Book colour lighter than asked, tan with cream page edge, so it reads apart from her boots. Still a thumb's call: whether the pose change reads during play.
+
+Play-check: reach the boss and watch Hekka stand, throw and get hit; then drown every line of the logbook and look for the book in Sela's right hand.
+
 ## How it's laid out
 | File | What's in it |
 |---|---|
 | `index.html` | The kit's page, as it comes, with this game's scripts at the end |
-| `tuning.js` | Every number, each marked PROVISIONAL or with its source |
+| `tuning.js`, `tuning-stages.js` | Every number, each marked PROVISIONAL or with its source. The second file has the boss, the stages, endless and the bots' numbers |
 | `words.js` | Talk scenes, radio, lose lines, pal lines, boss lines, upgrade blurbs, hints |
 | `memory.js` | The logbook: the six memories and what the crew say when each goes, the found pages, what a Dive costs |
 | `ending.js` | The ending, written from what's left in the book |
 | `game.js` | `Kit.start(...)`: joins words, numbers and rules, own sound effects, music. Read this first |
 | `course.js` | Rock shapes and hit edges, the five kinds of gate, laying the course. Runs under plain node too |
 | `talk.js` | Talk in play: calls that play at once, remarks that go stale, scenes that are never dropped |
-| `sail.js` | One step: steering, knocks, planks that last, shut teeth, gates passed, stage end |
+| `sail.js`, `steer.js` | One step: knocks, planks that last, shut teeth, gates passed, stage end. Steering is in the second file |
 | `dive.js` | The Dive: the pull, the hold, the air, and what happens when the kit forgets the thumb |
 | `hazards.js` | Salvage, drowned caches, pages, rip currents, boulders, lances, the fairness rule for where a danger may land, pals |
 | `boss.js` | Hekka's cutter: a state machine, logic only |
 | `bot.js`, `botfair.js` | The test bot (reads the course's sums) and the no-foresight player (sees late, sees only what's on screen) |
-| `sea.js`, `cliffs.js`, `rockart.js`, `vesh.js`, `ship.js`, `cutter.js`, `hud.js`, `draw.js` | All the drawing. Nothing in a run changes in these |
+| `sea.js`, `cliffs.js`, `rockart.js`, `arrows.js`, `vesh.js`, `ship.js`, `cutter.js`, `dangers-art.js`, `hud.js`, `hud-book.js`, `draw.js` | All the drawing. Nothing in a run changes in these |
 | `test/passable.js` | Proves every gap can be sailed with no Dive, and that a Dive with no upgrade gets under every rock. Plain node |
 | `test/fairness.js` | Proves the warnings give real time, and measures what a lost line costs. Headless Chrome |
 | `test/moments.js` | Real drag, real hold, keys, what carries, upgrades, empty book, ending, pals. Headless Chrome |
 | `test/pull.js` | Can a steering sweep spend a memory, and does a real pull still Dive. Plain node |
 | `test/talk.js` | Does talk arrive when it applies, and does every memory scene play. Headless Chrome |
+| `test/prices.js` | Copies at the boss, gold on a wreck, Mopclaw's line, lose lines on a blank book, the strip against Pause, gentle pulls by real touch. Headless Chrome |
 | `art/sprites.js`, `art/REQUEST.md`, `art/raw/`, `art/prompts/` | The pictures in use with their measured numbers, what was asked for and which take won, every take, every prompt |
 
 ## What a player does
 Every second you're dragging: Vesh's head goes where you steer, the hull swings after it a moment later, so you steer ahead of yourself. You're reading gold arrows on rocks that haven't moved yet and lining up for a gap that isn't there yet, with cogs along the good line and pages off to one side.
 
-- **The Dive:** pull the thumb DOWN and keep it on (30 logical px inside 0.25 s, at least twice as much down as across, from a thumb that hasn't been travelling sideways for the last 0.14 s), with a ring and DIVE on the hull for 0.1 s. Steering only uses sideways, so a resting, jittering or pausing thumb can never spend a memory, a steering sweep on the thumb's natural arc doesn't either, and it works from a thumb already on the glass. Air lasts 2.6 s. Let go to rise. Come up under a rock and it's a knock; "STEER OUT!" shows while there's time to do something about it. On stage 1 it opens when Ione explains it, about a third of the way in, and the how-to follows her line.
+- **The Dive:** pull the thumb DOWN and keep it on (30 logical px inside 0.6 s, at least twice as much down as the thumb has swung across, from a thumb that hasn't been travelling sideways for the last 0.14 s), with a thin ring and a soft sound on the way down, then a ring and DIVE on the hull for 0.1 s. Steering only uses sideways, so a resting, jittering or pausing thumb can never spend a memory, a steering sweep on the thumb's natural arc doesn't either, and it works from a thumb already on the glass. Air lasts 2.6 s. Let go to rise. Come up under a rock and it's a knock; "STEER OUT!" shows while there's time to do something about it. On stage 1 it opens when Ione explains it, about a third of the way in, and the how-to follows her line.
 - **Shut teeth:** two rocks meet with no surface way through, marked SHUT, called by the crew first time on each stage. Dive under it for a line (and the 15 salvage hidden in the crack), or scrape through for a plank. Stages 1, 2 and 3 have one, stage 4 two. A blank book isn't asked: stage 3's tooth and stage 4's last only come if something can pay for a Dive.
 - **Planks last:** what a stage knocks off the hull stays off for the rest of the story run, so a scrape costs something you'll miss. Bram keeps her on at least 2 planks at the start of a stage, and puts everything back for the boss. A story run with no Tougher Hull can scrape 4 teeth at most, each stage after the first on thinner margin, and it can't reach the boss without a Dive on stage 4.
 - **The bond cost:** the logbook at the top of the screen, six real lines in her hand. Each Dive drowns one: the words slide down the page and run, a blue smear stays, and a moment later the crew find out. Bram asks about the soup. Silas starts on the coat and thinks better of it. When the line about Kaito goes, she calls him Kaito from then on, in talk scenes and radio, and he notices.
 - **Every lost line weakens the arrows:** how far ahead they show goes 480, 400, 320, 225, 165, 120, then nothing (px from the bow, 6 lines down to 0). With 5 or 6 lines you also get a dashed gold edge showing exactly where the rock will stop. Under 3 lines the arrows thin to one chevron and start to flicker. Each lost line also makes her miss more gates altogether, with no arrow at all: none at 6 lines, 1 in 10 at 5, 2 at 4, 35% at 3, half at 2, 70% at 1. At zero they're gone, Dives stop, and pressing gets "I've nothing left to give him." In the boss each lost line takes 0.04 s off the red lanes' warning, and the chain arrows come later (below).
 - **Sela on the deck follows the book:** spyglass up with 4 to 6 lines, reading with her head bent at 1 to 3, the closed book hanging from her hand at 0, arms up in a Dive.
-- **Pages** off the safe line fill a smear with a line she'd forgotten writing. What drowned stays drowned, and it stays in `run.carry`, so it lasts through Next stage, Menu and reload. Dying puts back what the stage began with. Pause then Restart doesn't: what's drowned stays drowned.
+- **Pages** off the safe line fill a smear with a line she'd forgotten writing. What drowned stays drowned, and it stays in `run.carry`, so it lasts through Next stage, Menu and reload. Dying puts back what the stage began with, except the line that caught Mopclaw, and it leaves any cache gold from that attempt on the bottom. Pause then Restart doesn't: what's drowned stays drowned, and its gold comes along.
 
 **What changes stage to stage:**
 1. *The Narrows:* wide, slow, gaps that slide and close, one island drifting across. Dive explained partway.
@@ -48,7 +68,39 @@ Every second you're dragging: Vesh's head goes where you steer, the hull swings 
 
 **Pals:** Bobbin comes to a clean helm: from stage 2, after 18 s with no knock and no Dive, a 25% chance once per attempt; it bobs alongside for 7 s and you stay within 52 px for 1.1 s. Mopclaw hides under a rock with a mop tuft showing: from stage 3, a 40% chance once per attempt, and only a Dive reaches it, so catching it costs a line.
 
-**Upgrades:** Tougher Hull (one more plank, each level, and planks last, so it's worth more than it was), Longer Dive (0.4 s more air, each level: a wider start, not the only way under), Spare Logbook (each level, the sea burns one copy per story run before a real line; a burned copy stays burned across stages).
+**Upgrades:** Tougher Hull (one more plank, each level, and planks last, so it's worth more than it was), Longer Dive (0.4 s more air, each level: a wider start, not the only way under), Spare Logbook (each level, the sea burns one copy per story run before a real line; a burned copy stays burned across stages; no copy pays at the boss).
+
+## Fourth review: what a Dive costs, the pull, the ramp (2026-11-06)
+Built, not yet seen running by Dylan. Scripts and headless Chrome only; no person has played it. Output: `%TEMP%\kcheck\final\tg-fix\` (`base-*.txt` before, `after-*.txt` after), shots in `shots\`. The review's own human-like player for this game wasn't kept, so `tg-fix\human.js` is my rebuild of it: `botfair.js`, plus thumb wobble and attention lapses. Its numbers are close in shape, not equal.
+
+**Spare Logbook.** No copy pays at the boss. The review's script (Hull 3, Spare 3, scrape every tooth), before: every finished run `lines 6 lost[] copies 3`. After: `wwwww tries 11111 lines 3 lost[coat,cards,soup] copies 0`. Runs that still show 6 are `wwwl`: that script never Dives, so it can stick on stage 4, before and after. Ione says so once as the cutter arrives, if you have copies left. Copies still pay on stages 1 to 4 and in endless. Cost left alone: 145 + 145 salvage.
+
+**Wrecking to keep the prize.** Cache gold now waits for the stage clear. The salvage count shows it at once, but dying leaves it behind and gives the line back. Restart and Quit don't give the line back, so its gold comes along, paid into the next attempt. The line that catches Mopclaw stays gone after a wreck. Real screens, `test/prices.js`: Dive 5 held, wreck banks only the 4 from cogs, try again 6 lines and no gold; catch, wreck, try again: 5 lines, pal kept.
+
+**The pull.** `pullWindow` 0.25 to 0.6. A thin ring and a soft sound show a pull on its way. 'Across' is now how wide the thumb swung over the stretch, not just where it ended, so a longer window doesn't let a dodge through. `test/pull.js`: long sweeps 0 of 90,450 fire (same), short sweeps 27 of 37,872 (was 54), pulls from rest 112 of 112, the review's nine gentle pulls 9 of 9 (from 40 px in 0.3 s down they did nothing), dodging while sliding at up to 60 px/s 0 of 60, sliding at 90 px/s 2 of 20 (noted, that's nearly a pull). Real CDP touch, 48 CSS px in 482 ms: Dived 8 of 8 (the review: 0 of 8). Held still 2.5 s: up, 6 lines, no ring. Slower than about 50 CSS px/s still doesn't fire, but the ring shows. **A plain hold still never Dives**: see the calls.
+
+**The ramp: only partly fixed.** `boss.warn` 1.35, 1.2, 1.1 to 1.3, 1.14, 1.06 and `boss.gap` 1.55, 1.3, 1.1 to 1.5, 1.24, 1.06. That's the most `test/fairness.js` lets through: 1.3, 1.12, 1 made a 0.5 s player never win on 2 lines. It's a small move, close to script noise. Tries over 8 story runs, stages 1 to 5, my rebuilt player, no upgrades, before and after these two numbers. Two runs of the same code can differ this much: at 0.30 s, stage 4 gave 13 and 19.
+```
+         before            after
+0.30 s   8,8,8,19,8        8,8,8,18,9
+0.35 s   8,8,8,13,11       8,8,9,17,12
+0.40 s   8,8,9,13,14       8,8,9,22,21
+0.45 s   8,8,8,14,13       8,8,9,22,15
+0.50 s   8,8,12,19,24      8,8,10,23,15
+```
+**At 0.30 s the boss still falls first try, and it's still easier than stage 4.** I could not fix that with numbers. Everything that made a 0.30 s script lose walled a 0.5 s one. Boss wins of 16 by lines coming in: `pylonSpeed` 175 gives 0.30 s 16, 12, 10, 5, 7 for 6, 4, 3, 1, 0 lines, but 0.50 s 3, 1, 0, 0, 0. Longer volleys gave 0.50 s about 10 boss tries a run and left 0.30 s at 1. A script with a fixed delay is a cliff, and it never lets go under the wrong spot, never misreads, never panics. Stage 3's dip is left as it is: tighter numbers barely moved it (20, 20, 19 wins of 20), and the script hardly feels fog. Dylan's thumb decides; knobs: `boss.pylonSpeed`, `boss.warn`, `boss.gap`, `boss.warnPerLine`.
+
+**Also:** the boss's strip stops short of Pause (320x568 edge 265.3, Pause 268; 375x667 319.9, Pause 323). Sela drawn 46 px (was 36) and Hekka 51 (was 40), `selaH`, `selaFeet`, `hekkaH`. A blank book has six lose lines with no repeat running (8 deaths: 5 different, 0 running). Scripts split with lines moved word for word, checked by comparing every line before and after: `tuning.js` 200, `hud.js` 147, `rockart.js` 198, `cutter.js` 178, `sail.js` about 184. `test/moments.js` stays at 293, test only.
+
+**Calls Claude made here (change any):**
+- Copies don't pay at the boss, and Ione's new line saying so. Other ways to do this: copies pay only one plate, or a copy costs more.
+- Cache gold waits for the clear. The count on screen can drop on a wreck. The other way was keeping the line drowned when a cache was taken, but a tooth always hides a cache, so a stuck player's book would drain on retries.
+- Quit from stage 1 forfeits held gold. Quit from a later stage pays it into the next attempt; closing the tab loses it, and the line stays gone.
+- Salvage for a Dive still pays over the kit's 15 to 40 on stages 3 and 4 (the review saw 72 to 73). Not changed: it's the call below, and a wreck no longer pays it.
+- **Plain hold stays off, against the spec's "Hold to Dive".** An earlier review showed a plain hold spending memories by accident. If Dylan wants it, the middle way is a long hold only while a Dive is being asked for (SHUT or plates open), at the risk of a thumb resting there.
+- Five new lose lines, in the crew's voices.
+- Sela and Hekka's new sizes. Sela's head now ends about at the bow. Hit edges don't change.
+- Hekka's picture is left stocky until a new picture exists.
 
 ## Third review: bond cost, talk, arc (2026-11-06)
 Built, not yet seen running by Dylan. All three findings were checked first by re-running the review's own scripts on the old code; each one held, with the same numbers. Everything here is scripts and headless Chrome. No person has played it. Full output: `%TEMP%\kcheck\tide-gap\fix3\` (before: `base-*.txt`, after: `after-*.txt`, `fair2.txt`).
@@ -162,7 +214,7 @@ Found and fixed earlier, so they don't get re-learned: a fan of two lances could
 - A real phone: only Chrome pretending to be one has run this. Weakest-device speed is unmeasured on a real device.
 
 ## Provisional numbers to confirm
-All in `tuning.js`, marked PROVISIONAL. Talk-box seconds, effect sizes and looks-only numbers stay beside their drawing; they don't touch play. New in the third review: `pullQuiet`, `pullQuietPx`, `pullSlant` (2), `hullRepair` (0), `hullFloor` (2), `sense[].miss`, `sense[].lead`, `boss.warn` (1.35, 1.2, 1.1), `boss.warnPerLine` (0.04), `boss.pylonSpeed` (112), `boss.cableClear` (0.75), `boss.fallTalkMax` (14), the `talk*` numbers, stage 2 and 3 `moveFrom`, `shut` and `shutPaid`. Likeliest to change: `pullPx`, `pullWindow`, `diveWindup`, `diveSecs`, `shut` per stage, `shutPaid`, `boss.warnPerLine`, `dropWarn`, `dragGain`, `towDelay`, `hull`, `sense`, `stages[].speed`, `gap`, `moveFrom`, `spacing`, `bandForce`, `boss.warn`, `boss.gap`, `boss.open`, `boss.openLance`, `boss.chainGap`, `bobbinChance`, `mopChance`. Spec-sourced: "at zero they're gone" (`sense[0]`); nothing else is a number Dylan has given.
+All in `tuning.js`, marked PROVISIONAL. Talk-box seconds, effect sizes and looks-only numbers stay beside their drawing; they don't touch play. New in the fourth review: `pullWindow` (0.6), `pullShowFrom`, `selaH`, `selaFeet`, `hekkaH`, `boss.warn` (1.3, 1.14, 1.06), `boss.gap` (1.5, 1.24, 1.06). New in the third review: `pullQuiet`, `pullQuietPx`, `pullSlant` (2), `hullRepair` (0), `hullFloor` (2), `sense[].miss`, `sense[].lead`, `boss.warn` (1.35, 1.2, 1.1), `boss.warnPerLine` (0.04), `boss.pylonSpeed` (112), `boss.cableClear` (0.75), `boss.fallTalkMax` (14), the `talk*` numbers, stage 2 and 3 `moveFrom`, `shut` and `shutPaid`. Likeliest to change: `pullPx`, `pullWindow`, `diveWindup`, `diveSecs`, `shut` per stage, `shutPaid`, `boss.warnPerLine`, `dropWarn`, `dragGain`, `towDelay`, `hull`, `sense`, `stages[].speed`, `gap`, `moveFrom`, `spacing`, `bandForce`, `boss.warn`, `boss.gap`, `boss.open`, `boss.openLance`, `boss.chainGap`, `bobbinChance`, `mopChance`. Spec-sourced: "at zero they're gone" (`sense[0]`); nothing else is a number Dylan has given.
 
 ## Calls Claude made (change any)
 - **"For good" and "restore a line".** The spec says a Dive loses a line for good and a page restores a line. I read them together: the drowned memory never comes back; a page fills the row with a *different* memory she'd forgotten writing. Original lines drown first, in a fixed order; found pages go last. This is the one to check.
@@ -177,7 +229,7 @@ All in `tuning.js`, marked PROVISIONAL. Talk-box seconds, effect sizes and looks
 - **Fan into lance (third review).** Lanes now clear 0.75 s before the next lance lands (was 0.5). At 0.5 every script player took the same hit there whatever the book said.
 - **Who hears what when (third review).** Which lines are calls, remarks or scenes is mine (`talk.js` and its callers). The cutter sinking for up to 14 s while a scene plays is mine.
 - **Salvage for a Dive kept.** The review named it as part of the problem. I left the 15 per tooth as what a line buys, now that a line costs more. Stage 3 and 4 clears with a Dive still pay over the kit's 15 to 40.
-- **Pause then Restart no longer undoes a line,** against the kit's README, which says Restart puts back what the stage began with. Dying still does. Quit and pick stage 1 still starts clean, so a stage 1 Dive for salvage can still be repeated that way; that's the kit's rule, left alone.
+- **Pause then Restart no longer undoes a line,** against the kit's README, which says Restart puts back what the stage began with. Dying still does. Quit and pick stage 1 still starts a clean book (the kit's rule), but since the fourth review the gold from that quit attempt is forfeited, so it can't be farmed. Old wording: `NOTES-archive.md`.
 - The Dive opens with Ione's line on stage 1, about a third of the way in. A resting thumb costs nothing at any point now.
 - Air went from 1.5 s to 2.6 s and long rocks got shorter, so a Dive really does get under any rock. Longer Dive buys a wider start.
 - A page in the boss only falls when the book can't pay for the next Dive, so the three Dives cost three lines that stay gone.
@@ -218,7 +270,7 @@ No new pictures: the third review's report says "NEEDS PICTURE: none", and its n
 
 ## Noticed, not touched
 - With the pictures on, Hekka's lance is in her right hand (image left), per `art/REQUEST.md`. The code figure in `cutter.js` holds it on image right, her left, if the picture ever goes missing.
-- On 320x568 the pause button sits over the top-right corner of the book. The top row's text is kept clear of it.
+- On 320x568 the pause button sits over the top-right corner of the book. The top row's text is kept clear of it. (On stages. The boss's strip no longer runs under it, since the fourth review.)
 - Vasch, the trooper, Krell and Maro still use the kit's side-on bust in talk scenes.
 - The title's dim overlay comes from the kit's own title style; the Gaptooth picture is much darker there than on the talk screens.
 - `CAST.md` says the logbook is her signature prop; Sela's belt pouch for it is on the sheet, but at 36 px it can't be seen.

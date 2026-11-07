@@ -4,7 +4,7 @@ SR.WORDS = {
   tagline: 'Pinhold is being nailed in place. Run it, steal the chart, and pay for every Surge.',
 
   stages: [
-    { name: 'The Pin Road', hint: 'Tap: short hop. Hold: full jump. Tap in the air: Surge.',
+    { name: 'The Pin Road', hint: 'Hold to jump: safest. Quick tap: short hop. Tap in the air: Surge.',
       talk: [
         { who: 'sela', text: 'Over the wall, down the road, take the survey chart from the tower, back to the ship. No heroics, pup.' },
         { who: 'kaito', text: 'Heroics? I\'m just gonna run really fast and yell at anyone in the way.' },
@@ -22,7 +22,7 @@ SR.WORDS = {
       ],
       radio: [{ at: 0.5, who: 'sela', text: 'Mind the arm, pup. I can see it glowing from up here.' }],
       winLine: { who: 'silas', text: 'See? Pacing. I\'ll make a gentleman of you yet.' } },
-    { name: 'Searchlight Row', hint: 'Hollows: stay down when they pass high, hop when they dive.',
+    { name: 'Searchlight Row', hint: 'Hollows: stay down if they pass high. Hold to jump if they dive.',
       talk: [
         { who: 'bram', text: 'Those things in the air were somebody\'s partners once. Don\'t look at the eyes, lad. Just keep moving.' },
         { who: 'kaito', text: 'What if one swoops me?' },

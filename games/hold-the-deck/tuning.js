@@ -35,6 +35,7 @@ window.TUNE = {
   apronPerLevel: 1,     // PROVISIONAL: Thick Apron, Guts per level
   mercyPerLoss: 1,      // PROVISIONAL: dying on a stage leaves one more Guts for the next try at it, so grey is never a wall you can only escape by starting the story again
   mercyMax: 3,          // PROVISIONAL: up to this many. Back to none once the stage is won
+  mercyMinSwings: 3,    // PROVISIONAL: a try only earns the extra Guts (and on the bear, its wounds) if this many swings landed on something, so standing idle till he drops buys nothing. Kept low: slow thumbs' losing tries land 1 to 5 at the least, and they're who the Guts are for (NOTES.md)
 
   // ---- Iron: the bond cost. Lasts the whole story run through run.carry.iron, 0 to 1
   holdSecs: 0.34,       // PROVISIONAL: how long a thumb stays down before Iron starts. Above the kit's 0.28 s tap (shared/kit/input.js), so a press can't be both a tap and an Iron; short enough for every warning (test/fairness.js)
@@ -106,6 +107,7 @@ window.TUNE = {
   // A volley: every lane lit at once, so walking can't save him. Only Iron stops it, or he takes it. This is what makes the bond cost a choice you can't skip: Guts now, or grey for good.
   volleyWarn: 1.5,      // PROVISIONAL: reaction, then holdSecs, with time to spare (test/fairness.js)
   volleyHurt: 3,        // PROVISIONAL: Guts if it lands. More than a bowl of broth pays back, and more volleys come in a stage than 5 Guts and the bowls can pay for, so stages 2 to 4 each ask for some Iron
+  volleyChinMax: 3,     // PROVISIONAL: the third volley taken on the chin in one try drops him, however many Guts he has. It's where the no-upgrades sums already put it (5 Guts, two bowls of 2, 3 a volley), so Thick Apron and Big Pot help with everything except buying the grey off. Full iron doesn't count
   volleyHurtLocked: 1,  // PROVISIONAL: at full iron there's no Iron stance, but he's mostly anvil, so it hurts less. Keeps a fully grey Bram winnable
   temperVolley: 0.3,    // PROVISIONAL: stopping a volley riles Grist up
 

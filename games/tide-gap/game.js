@@ -3,6 +3,7 @@
   const T = TUNE, W = TG.WORDS;
 
   Kit.audio.define('steer', [{ w: 'noise', f: [500, 1400], d: 0.16, v: 0.05 }]);
+  Kit.audio.define('pulling', [{ w: 'sine', f: [150, 210], d: 0.12, v: 0.07 }]);
   Kit.audio.define('windup', [{ w: 'sine', f: [180, 420], d: 0.3, v: 0.12 }]);
   Kit.audio.define('drown', [{ w: 'sine', f: [880, 110], d: 0.8, v: 0.2 }, { w: 'noise', f: [700, 160], d: 0.7, v: 0.14 }, { w: 'triangle', f: [523, 494], d: 0.5, v: 0.1, at: 0.25 }]);
   Kit.audio.define('page', [{ w: 'noise', f: [3000, 5200], d: 0.1, v: 0.12 }, { w: 'triangle', f: [988, 988], d: 0.14, v: 0.14, at: 0.08 }, { w: 'triangle', f: [1319, 1319], d: 0.2, v: 0.14, at: 0.18 }]);
@@ -56,6 +57,7 @@
   }
   const BASE_TALK = W.stages.map(s => s.talk);
   let liveBook = null;   // the book as this attempt has left it, for Restart
+  let lastLose = null;   // this game's own lose lines never repeat twice running; the kit's rule only covers its own list
 
   const stages = T.stages.map((s, i) => Object.assign({}, s, W.stages[i]));
 
@@ -70,8 +72,9 @@
     loseLines: W.loseLines,
     loseLine(run) {
       if (run.boss) return null;
-      if (TG.linesLeft(run) === 0) return W.emptyLose;
-      if (run.w.lastCause === 'rock' && Math.random() < T.rockLoseChance) return W.rockLose;
+      if (TG.linesLeft(run) === 0) { const fresh = W.emptyLose.filter(l => l !== lastLose); return (lastLose = fresh[Math.floor(Math.random() * fresh.length)]); }
+      if (run.w.lastCause === 'rock' && lastLose !== W.rockLose && Math.random() < T.rockLoseChance) return (lastLose = W.rockLose);
+      lastLose = null;
       return null;
     },
     upgrades: W.upgrades,
@@ -96,8 +99,10 @@
         run.carryAtStart = JSON.parse(JSON.stringify(liveBook.carry));
       }
       TG.bookIn(run);
+      // Gold from a Dive waits for the clear (hazards.js). Leaving by Restart or Quit doesn't give the line back, so its gold comes along. Dying forfeits it, and so does quitting stage 1, since picking stage 1 starts a clean book.
+      if (!run.dry && liveBook && liveBook.run && !liveBook.run.over && liveBook.run.w.heldSalvage && (Kit.ui.screen === 'paused' || liveBook.index > 0)) { run.addSalvage(liveBook.run.w.heldSalvage); liveBook.run.w.heldSalvage = 0; }
       if (!run.dry && !run.endless) {
-        liveBook = { index: run.index, carry: run.carry };
+        liveBook = { index: run.index, carry: run.carry, run };
         if (run.index > 0) DriftSave.setStoryCarry('tide-gap', run.carry);   // what a pick from the list carries follows this attempt
       }
       if (!run.endless && !run.dry) { const i = run.index; rewriteTalk(run, BASE_TALK[i]); }

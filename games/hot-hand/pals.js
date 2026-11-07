@@ -8,7 +8,7 @@ window.HH = window.HH || {};
     const w = run.w;
     w.pal = { id, kind: 'pal', x: w.jx + side * (run.stage.both ? T.palStartMid : T.palStart), y: id === 'dicemite' ? T.lanes[1].y : T.lanes[2].y, dir: -side, t: 0, secs: id === 'cinderbun' ? T.cinderSecs : T.diceSecs, pip: 1, pipT: 0, miss: 0, hop: 0, h: 50, w: 50 };
     HH.sfx(run, 'squeak');
-    HH.say(run, W.palAppear[id]);
+    HH.sayForPal(run, W.palAppear[id]);
   }
 
   HH.tryCinderbun = function (run) {

@@ -71,6 +71,7 @@ window.SL = window.SL || {};
     if (!SL.canFire(w)) { AU().play('denied'); return; }
     w.scraping = false; w.resetArm = 0; w.sayQ = null;
     const res = SL.shoot(w.L, w.S, w.perch, w.lean);
+    SL.noteScars(run, SL.after(w.L, w.S, res).g);   // the growth goes in the book as the shot leaves, with the shot itself, so a Restart or closed tab with the beam in the air doesn't dodge it
     w.history.push({ S: w.S, lean: Object.assign({}, w.lean), perch: w.perch, clockT: w.clockT, fired: w.boardFired, score: w.held, chamber: w.boss ? w.boss.chamber : 0 });
     w.beam = { res, t: 0, next: 0, speed: T.beamCells, n: 0, tail: T.beamTailSecs };
     if (res.length / w.beam.speed < T.beamMinSecs) w.beam.speed = res.length / T.beamMinSecs;
@@ -113,8 +114,8 @@ window.SL = window.SL || {};
     }
     SL.noteCrush(run, before.g.concat(res.growth), w.S);
     armLine(run);
-    SL.palAfterShot(run, res);
     SL.checkWay(run);
+    SL.palAfterShot(run, res);
   };
 
   // A core on a rail crushes any growth it lands on (rules.js). Growths never just vanish: this is the crunch, the burst and the word for it.
@@ -154,7 +155,8 @@ window.SL = window.SL || {};
   function armLine(run) {
     const spent = (run.carry.spent || 0) + run.w.fired + run.w.boardFired;
     const said = run.carry.armSaid || 0, next = W.arm[said];
-    if (next && spent >= next.at) { run.carry.armSaid = said + 1; SL.say(run, next, T.sayLong); }
+    // One of these flirts, and pals stay out of that: it waits for the next shot with no pal about.
+    if (next && spent >= next.at && !run.w.pal) { run.carry.armSaid = said + 1; SL.say(run, next, T.sayLong); }
   }
 
   function boardCleared(run) {

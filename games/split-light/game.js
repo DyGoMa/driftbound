@@ -53,11 +53,12 @@
     sayAt: 'top',   // the strip above the board, clear of the board, the shots row, Ione's window and the buttons
     compactSay: true,   // the kit's tighter talk box on the narrowest phones, so it stays in that strip and clear of Pause
     stageRows: true,    // the 17 stages are 4 to a set: rows of 4, the boss on its own row
-    test: { maxSeconds: 200, idleSeconds: 60, idleNeverLoses: true },   // a puzzle waits for you: with nobody playing, nothing happens on a level. On the boss Vasch's count fires for you at about 45 s, which never wins it; 60 s here so the smoke test sees that
+    test: { maxSeconds: 200, idleSeconds: 60, idleNeverLoses: true },   // a puzzle waits for you: with nobody playing, nothing happens on a level. On the boss Vasch's count fires for you at about 45 s, which never wins it; 60 s here so the smoke test sees that. His count then loses the boss for nobody, which takes minutes: test/review-boss.js proves it
 
     init(run) {
       SL.newWorld(run);
       SL.openTally(run);   // the score adds up over a story run, each stage counted once, so Best means a whole run
+      SL.palLeavesAtEnd(run);
     },
     update(dt, run, input) { SL.step(run, dt, input); },
     render: SL.render,

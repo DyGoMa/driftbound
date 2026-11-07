@@ -78,12 +78,12 @@ window.SC = window.SC || {};
       c.globalAlpha = 1;
     }
     if (s.grace > 0 && Math.floor(t * 14) % 2) c.globalAlpha = 0.55;
-    // The squat picture is lower than most cover: lifted so his head and shoulders show over it. His feet are behind the cover. Not in a doorway, which hides nothing.
+    // The squat picture, or code figure, is lower than most cover: lifted so his head and shoulders show over it. His feet are behind the cover. Not in a doorway, which hides nothing.
     const cov = key === 'silas_hide' && SC.coverAt(w, x), lift = cov && cov.kind !== 'door' ? T.hideLiftArt : 0;
     if (!A_.draw(c, key, frame, x, g - lift, h, flip)) {
       if (pose === 'surge') A_.person(c, 'silas', { x, y: g, h, pose, t, glow: 1.2 });
       else if (pose === 'throw') A_.person(c, 'silas', { x, y: g, h, pose, t, flip, phase: 1 - Math.max(0, s.strikeT) / T.strikeSecs });
-      else if (typeof pose === 'object') A_.person(c, 'silas', { x, y: g, h, pose, t, flip });
+      else if (typeof pose === 'object') A_.person(c, 'silas', { x, y: g - lift, h, pose, t, flip });
       else A_.personFast(c, 'silas', { x, y: pose === 'down' ? g + T.downDrop : g, h, pose, t, flip });
     }
     c.globalAlpha = 1;

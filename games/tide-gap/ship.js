@@ -114,7 +114,7 @@ window.TG = window.TG || {};
     });
     // Sela at the bow
     const st = TG.selaState(run);
-    if (!A_.draw(ctx, POSE[st], A_.frameAt(POSE[st], t), 0, -18, 36)) selaCode(ctx, 0, -18, 0.74, st, t, w.lean);
+    if (!A_.draw(ctx, POSE[st], A_.frameAt(POSE[st], t), 0, T.selaFeet, T.selaH)) selaCode(ctx, 0, T.selaFeet, T.selaH * 0.74 / 36, st, t, w.lean);
     ctx.restore();
     ctx.globalAlpha = 1;
     // Under water: a dome of held-back sea, her Surge, and the mark blazing teal.

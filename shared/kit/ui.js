@@ -71,7 +71,7 @@
         <p class="kit-sub">Salvage to spend: <b data-kit="salvage" style="color:var(--gold)">${Math.floor(save.salvage)}</b></p>
         ${g.fair ? '<div class="kit-note">The No-upgrades switch is on, so these rest until you turn it off.</div>' : ''}
         ${rows}
-        <button type="button" class="kit-btn main" data-kit="back" data-primary>Back</button></div>`);
+        <button type="button" class="kit-btn main kit-back" data-kit="back" data-primary>Back</button></div>`);
       s.querySelectorAll('[data-up]').forEach(b => b.addEventListener('click', () => {
         const u = def.upgrades.find(x => x.id === b.dataset.up), list = u.prices || prices, lvl = DriftSave.upgradeLevel(def.id, u.id);
         const r = DriftSave.buyUpgrade(def.id, u.id, list[lvl], list.length);

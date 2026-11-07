@@ -32,6 +32,7 @@ window.SC = window.SC || {};
     const A_ = A(), g = T.groundY, pulse = 1 + Math.sin(t * 12) * 0.1;
     let x, y, col;
     if (tg.kind === 'cut') { x = tg.o.x + 8; y = g - SC.LANTERN_ALT; col = '#ffe39a'; }
+    else if (tg.kind === 'moth') { x = tg.o.x; y = g - tg.o.alt - 20; col = '#ffe39a'; }
     else if (tg.kind === 'maro') { x = tg.o.x; y = g - 56; col = '#ff8a4a'; }
     else { x = tg.o.x; y = g - 50; col = '#ff8a4a'; }
     A_.circle(c, x, y, 19 * pulse, null, 3.4, A_.INK); A_.circle(c, x, y, 19 * pulse, null, 2, col);
@@ -117,7 +118,7 @@ window.SC = window.SC || {};
     for (const r of w.ring) { c.globalAlpha = 1 - r.age / 0.55; A_.ellipse(c, r.x, g + 8, r.r, Math.max(2, r.r * 0.09), null, 2.6, '#e7b98a'); c.globalAlpha = 1; }
     if (w.pagesT > 0 && w.boss) drawPages(c, w.pagesX, g, T.pagesSecs - w.pagesT, t);
     if (!run.over) {
-      const tg = SC.target(w);
+      const tg = SC.target(w) || SC.mothTarget(w);
       if (tg && s.strikeT <= 0) targetMark(c, tg, s, t);
       eye(c, s.x, g - 108, s.seen, s.hidden, s.grace);
     }

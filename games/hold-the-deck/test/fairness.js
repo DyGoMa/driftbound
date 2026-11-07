@@ -4,8 +4,9 @@
 //  B. Dodging only: the thumb ignores boarders and answers each warning at once, by walking or by holding for Iron, at several reaction times and iron levels. Any hit from a warning is a fairness failure.
 //  C. Whole stages with a person-like thumb, at no iron, half iron and full iron, including the boss. Full iron has no Iron stance left, so that's the proof a fully grey Bram can still win.
 //  D. The same with a new player's slower thumb. E. The boss on one meal only, to show the meals do different things.
-//  F. Iron can't be skipped: never holding must lose stage 2 on, and the bear. G. No cliff in the grey round the old 60% line. H. A blind sweep of the lanes must not win past stage 1, nor clean.
+//  F. Iron can't be skipped: never holding must lose stage 2 on, and the bear, with every upgrade and the most extra Guts dying can give too. Upgrades must still help a thumb that does hold. G. No cliff in the grey round the old 60% line. H. A blind sweep of the lanes must not win past stage 1, nor clean.
 //  I. Whole stories, retries and all: stage 4 must not take more tries than the bear, for a thumb that holds for its volleys.
+//  J. Real result screens: dying with nothing pressed earns no extra Guts and no wounds on the bear. A try that fought and held does.
 // Exit code 0 only if A and B pass and C's bar is met.
 const http = require('http'), fs = require('fs'), path = require('path'), os = require('os');
 const PW = [process.env.PW_PATH, 'playwright-core', path.join(os.tmpdir(), 'kcheck', 'pw', 'node_modules', 'playwright-core'), 'C:/Users/Dylan/AppData/Local/Temp/kcheck/pw/node_modules/playwright-core'].filter(Boolean);
@@ -57,17 +58,20 @@ const say = (ok, s) => { console.log((ok ? 'ok   ' : 'FAIL ') + s); if (!ok) fai
   // The late-seeing thumb (test/thumb.js) on stage i. meal: broth, pepper or tonic only; otherwise broth if two Guts down, or pepper.
   const THUMB = { miss: 0.05, holdAt: 5 };                                              // sees 0.3 to 0.4 s late, about 3 taps a second, a wrong lane 6% of the time, misses 1 warning in 20
   const NEW_THUMB = { lag: 0.55, gap: 0.34, wrong: 0.1, miss: 0.05, holdAt: 5 };        // sees 0.55 s late, under 3 taps a second, a wrong lane 10% of the time
+  // up: upgrade levels as if bought. lost: tries already lost, so the game's own sums give the extra Guts.
   const thumb = (i, seeds, opt, o = {}) => page.evaluate(([i, seeds, opt, o]) => {
-    const keepBot = Kit.def.bot, keepAsk = Kit.def.botAsk, keepGuts = TUNE.guts, order = { broth: 0, pepper: 1, tonic: 2 };
+    const keepBot = Kit.def.bot, keepAsk = Kit.def.botAsk, keepGuts = TUNE.guts, order = { broth: 0, pepper: 1, tonic: 2 }, keepUp = DriftSave.upgradeLevel;
+    if (o.up) DriftSave.upgradeLevel = (g, id) => o.up[id] || 0;
+    if (o.lost) TUNE.dryLost = o.lost;
     Kit.def.botAsk = (spec, run) => (o.meal ? order[o.meal] : (run.w.gutsMax - run.w.guts >= 2 ? 0 : 1));
     if (o.guts) TUNE.guts = o.guts;
     const out = [];
     for (let s = 1; s <= seeds; s++) {
       Kit.def.bot = HDThumb(opt);
-      const r = __kit.runStage(i, { bot: true, seed: s * 104729 + i * 13, renderEvery: 0, carry: { iron: o.iron || 0 }, continued: true, maxSeconds: 420 });
+      const r = __kit.runStage(i, { bot: true, fair: !o.up, seed: s * 104729 + i * 13, renderEvery: 0, carry: { iron: o.iron || 0 }, continued: true, maxSeconds: 420 });
       out.push({ result: r.result, seconds: r.seconds, salvage: r.salvage, info: r.info });
     }
-    Kit.def.bot = keepBot; Kit.def.botAsk = keepAsk; TUNE.guts = keepGuts;
+    Kit.def.bot = keepBot; Kit.def.botAsk = keepAsk; TUNE.guts = keepGuts; DriftSave.upgradeLevel = keepUp; delete TUNE.dryLost;
     return out;
   }, [i, seeds, opt, o]);
 
@@ -133,11 +137,17 @@ const say = (ok, s) => { console.log((ok ? 'ok   ' : 'FAIL ') + s); if (!ok) fai
     const wins = rs.filter(r => r.result === 'win').length, iron = rs.reduce((a, r) => a + (r.info.iron || 0), 0) / rs.length, secs = rs.reduce((a, r) => a + r.seconds, 0) / rs.length;
     console.log(`     ${meal} (8 Guts): ${wins}/${rs.length} wins, about ${Math.round(secs)} s, iron at the end ${iron.toFixed(2)}, Guts left when it won ${rs.filter(r => r.result === 'win').map(r => r.info.guts).join(',')}`);
   }
-  console.log('\nF. Iron can\'t be skipped: the same thumb never holding, and never dying its way to extra Guts, since a try that never holds earns none.');
+  console.log('\nF. Iron can\'t be skipped: the same thumb never holding. The third volley on the chin drops him whatever he\'s got, so upgrades and extra Guts don\'t change it.');
   for (const i of [1, 2, 3, 4]) {
     const rs = await thumb(i, SEEDS, Object.assign({}, THUMB, { never: true }));
     const wins = rs.filter(r => r.result === 'win').length;
     say(wins / rs.length <= 0.25, `stage ${i + 1}, never Iron: ${wins}/${rs.length} wins`);
+    for (const [name, up, lost] of [['Apron 3, Pot 3', { apron: 3, pot: 3 }, 0], ['all three at 3, and 3 tries lost', { apron: 3, temper: 3, pot: 3 }, 3]]) {
+      const ru = await thumb(i, SEEDS, Object.assign({}, THUMB, { never: true }), { up, lost }), wu = ru.filter(r => r.result === 'win').length;
+      say(wu === 0 && ru.every(r => r.info.iron === 0), `stage ${i + 1}, never Iron, ${name}: ${wu}/${ru.length} wins`);
+    }
+    const plain = await thumb(i, SEEDS, THUMB, { iron: 0.3 }), rich = await thumb(i, SEEDS, THUMB, { iron: 0.3, up: { apron: 3, temper: 3, pot: 3 } }), won = rs_ => rs_.filter(r => r.result === 'win').length;
+    say(won(rich) >= won(plain) - 1, `stage ${i + 1}, the same thumb holding, from iron 0.3: upgrades still help,${won(plain)}/${SEEDS} without, ${won(rich)}/${SEEDS} with`);
   }
   console.log('\nG. No wall or cliff in the grey: the boss at iron either side of the old cliff, same thumb but never missing a warning (a noisy number otherwise). No big jump up as the grey rises.');
   const by = {};
@@ -167,6 +177,23 @@ const say = (ok, s) => { console.log((ok ? 'ok   ' : 'FAIL ') + s); if (!ok) fai
   // The batch: "boss takes a few tries". Only runs that got to the bear count. PROVISIONAL bar. Scripts don't learn between tries, and a person does.
   const bearTries = nov.filter(o => o.tries.length === 5).map(o => o.tries[4]);
   say(bearTries.length > 0 && bearTries.every(n => n > 0 && n <= 8) && mid(bearTries) <= 5, `the new thumb beats the bear in a few tries, whatever the grey: ${bearTries.join(',')}`);
+  console.log('\nJ. Real result screens, raised speed.');
+  const tryOnce = (i, bot) => page.evaluate(async ([i, bot]) => {
+    if (bot) { Kit.def.bot = HDThumb(bot); } __kit.timeScale = 8; __kit.jump(i, {}); __kit.bot(!!bot);
+    const r = __kit.run(), info = { gutsMax: r.w.gutsMax, hpMul: r.w.boss ? r.w.boss.hpMul : 1 };
+    while (__kit.state().screen !== 'result') await new Promise(f => setTimeout(f, 30));
+    return Object.assign(info, { swings: __kit.run().w.swingsHit, uses: __kit.run().w.ironUses, lost: (DriftSave.getSetting('hd_tries_lost', {}) || {})[i] || 0 });
+  }, [i, bot]);
+  await page.evaluate(() => { DriftSave.setSetting('hd_tries_lost', {}); });
+  for (const i of [1, 4]) {
+    const seen = [];
+    for (let n = 0; n < 3; n++) seen.push(await tryOnce(i, null));
+    say(seen.every(s => s.gutsMax === 5 && s.hpMul === 1 && s.lost === 0), `stage ${i + 1}, nothing pressed, 3 deaths: ${JSON.stringify(seen)}`);
+  }
+  await page.evaluate(() => { window.__keepBot = Kit.def.bot; });
+  const fought = await tryOnce(4, NEW_THUMB), next = await tryOnce(4, null);   // the new player's thumb, which section D shows doesn't beat the bear on 5 Guts
+  await page.evaluate(() => { Kit.def.bot = window.__keepBot; __kit.bot(false); DriftSave.setSetting('hd_tries_lost', {}); });
+  say(fought.swings >= 3 && fought.uses > 0 && fought.lost === 1 && next.gutsMax === 7 && next.hpMul < 1, `the bear, a try that fought and held: ${JSON.stringify(fought)}, the next try: ${JSON.stringify(next)}`);
   await browser.close(); server.close();
   console.log(failed ? `\nFAILED ${failed}` : '\nPASSED');
   process.exit(failed ? 1 : 0);

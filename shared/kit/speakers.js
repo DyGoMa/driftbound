@@ -2,7 +2,7 @@
 // Crew use their homepage pictures. Everyone else is drawn in code until a picture exists: people as a bust, partners as their bond mark.
 // To add one from a game: Kit.speakers.add('deckhand', { name: 'Deckhand', colour: '#c05a22', person: 'trooper' }).
 (function () {
-  const crew = (name, colour, id) => ({ name, colour, img: 'art/site/crew/' + id + '-v2-small.webp', person: id });   // 216 px copies of the homepage pictures, stepped down so small portraits stay clean
+  const crew = (name, colour, id, pic) => ({ name, colour, img: 'art/site/crew/' + (pic || id + '-v2') + '-small.webp', person: id });   // 216 px copies of the homepage pictures, stepped down so small portraits stay clean
   const partner = (name, colour, mark) => ({ name, colour, mark });
   const villain = (name, colour, person) => ({ name, colour, person });
 
@@ -71,7 +71,7 @@
 
   const S = Kit.speakers = {
     kaito: crew('Kaito', '#f2d21b', 'kaito'),
-    sela: crew('Sela', '#35c4cc', 'sela'),
+    sela: crew('Sela', '#35c4cc', 'sela', 'sela-v3'),   // her sheet's skin colour; same picture as the homepage (shared/crew.js)
     juno: crew('Juno', '#ef6a1f', 'juno'),
     silas: crew('Silas', '#a78bf0', 'silas'),
     bram: crew('Bram', '#d08a52', 'bram'),

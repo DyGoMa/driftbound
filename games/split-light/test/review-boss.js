@@ -68,7 +68,7 @@ const { start, check, finish, HELP } = require('./harness');
     const left = w.S.shots;
     const second = secs(60, () => w.S.shots < left || w.beam);
     __land(r);
-    // Two untouched shots can leave the board dead, where his count waits. So: one shot on the plan, then most of his count, then Undo.
+    // Two untouched shots can leave the board dead, where his count ends in a reset instead. So: one shot on the plan, then most of his count, then Undo.
     __kit.jump(16, { fair: false, seed: 4 });
     const r2 = __kit.run(), w2 = r2.w, secs2 = n => { let g = 0; while (g++ < n * 60) __step(r2); };
     w2.boss.opened = true;
@@ -85,8 +85,10 @@ const { start, check, finish, HELP } = require('./harness');
   check(count.second > 29 && count.second < 31, `and after that every ${count.second} s`);
   check(count.before > 8 && count.after < 1, `Undo starts his count again: ${count.before} back to ${count.after}`);
   check(count.firedLater === count.firedAfter, `so he doesn't fire the same shot straight back (${count.firedAfter} shots, ${count.firedLater} after waiting)`);
-  const idle = await page.evaluate(() => { const o = __kit.runStage(16, { bot: false, seed: 9, maxSeconds: 900, renderEvery: 0 }); return { result: o.result, score: o.score }; });
-  check(idle.result !== 'win', `the boss with nobody playing for 900 s doesn't win: ${JSON.stringify(idle)}`);
+  for (const seed of [1, 2, 3, 9]) {
+    const idle = await page.evaluate(s => { const o = __kit.runStage(16, { bot: false, seed: s, maxSeconds: 900, renderEvery: 0 }); return { result: o.result, seconds: o.seconds, score: o.score }; }, seed);
+    check(idle.result === 'lose', `the boss with nobody playing is lost, seed ${seed}: ${JSON.stringify(idle)}`);
+  }
 
   const crush = await page.evaluate(() => {
     __kit.jump(16, { fair: true, seed: 3 });

@@ -134,7 +134,9 @@ window.TG = window.TG || {};
       if (Math.abs(it.at - w.dist) > T().hullHalfLen + T().grabAhead || Math.abs(it.x - w.shipX) > reach) continue;
       if (it.type === 'cache') {
         if (!down) continue;
-        it.done = true; run.addSalvage(T().cacheValue); run.addScore(T().scoreCache); Kit.audio.play('pickup');
+        // On a stage this gold is the price of a line, so it waits for the clear: dying puts the line back and leaves the gold on the bottom. Endless has no retry to undo anything.
+        it.done = true; if (run.endless) run.addSalvage(T().cacheValue); else w.heldSalvage += T().cacheValue;
+        run.addScore(T().scoreCache); Kit.audio.play('pickup');
         Kit.art.floatText(it.x, w.shipYNow - 30, '+' + T().cacheValue, Kit.art.GOLD, 15);
       } else if (it.type === 'cog') {
         if (w.dive.state !== 'up') continue;
@@ -172,7 +174,7 @@ window.TG = window.TG || {};
     const m = w.mop;
     if (m && !m.caught) {
       if (!m.said && m.at - w.dist < T().mopCallAt) { m.said = true; TG.sayNow(run, TG.WORDS.palAppear.mopclaw); }
-      if (w.dive.state === 'down' && Math.abs(m.at - w.dist) < T().hullHalfLen + T().mopAlong && Math.abs(m.x - w.shipX) < T().mopNear) { m.caught = true; run.catchPal('mopclaw'); }
+      if (w.dive.state === 'down' && Math.abs(m.at - w.dist) < T().hullHalfLen + T().mopAlong && Math.abs(m.x - w.shipX) < T().mopNear) { m.caught = true; TG.keepPaid(run); run.catchPal('mopclaw'); }
     }
   };
 })();

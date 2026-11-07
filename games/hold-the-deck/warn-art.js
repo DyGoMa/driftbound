@@ -30,7 +30,7 @@ window.HD = window.HD || {};
     if (x.kind === 'volley') {
       if (x.what === 'hook') drawHook(c, run, x);
       if (x.what === 'crate') drawFallingCrate(c, x, u, left);
-      if (x.lane === 1) HD.plate(c, 180, HD.yOf(0.55) - 20, HD.locked(run) ? W.warn.volleyLocked : w.ironOn ? W.warn.volleyHeld : W.warn.volley, !w.ironOn, left / x.total);
+      if (x.lane === 1) HD.plate(c, 180, HD.yOf(0.55) - 20, HD.locked(run) ? W.warn.volleyLocked : w.ironOn ? W.warn.volleyHeld : w.chinned >= T.volleyChinMax - 1 ? W.warn.volleyLast : W.warn.volley, !w.ironOn, left / x.total);
       return;
     }
     const here = HD.inLane(w, x.lane), py = HD.yOf(0.55), px = HD.laneX(x.lane, py);

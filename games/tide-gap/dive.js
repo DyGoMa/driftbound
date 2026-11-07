@@ -16,13 +16,21 @@ window.TG = window.TG || {};
     p.log.push(p.x, p.y);
     const window = Math.round(T.pullWindow * 60) * 2, before = Math.round(T.pullQuiet * 60) * 2;
     while (p.log.length > window + before) p.log.shift();
-    for (let i = Math.max(0, p.log.length - window); i < p.log.length; i += 2) {
-      const down = p.y - p.log[i + 1], across = Math.abs(p.x - p.log[i]);
-      if (down < T.pullPx || down < across * T.pullSlant) continue;
-      let quiet = true;
-      for (let j = Math.max(0, i - before); j < i; j += 2) if (Math.abs(p.log[j] - p.log[i]) > T.pullQuietPx) quiet = false;
-      if (quiet) return true;
+    // Walking back from now, 'across' is how wide the thumb has swung over the stretch, not just where it ended up, so a dodge left and right while sliding down isn't a pull however long the stretch.
+    const first = Math.max(0, p.log.length - window);
+    let lo = p.x, hi = p.x, best = 0;
+    p.got = 0;
+    for (let i = p.log.length - 2; i >= first; i -= 2) {
+      lo = Math.min(lo, p.log[i]); hi = Math.max(hi, p.log[i]);
+      const down = p.y - p.log[i + 1];
+      if (down <= 0 || down < (hi - lo) * T.pullSlant) continue;
+      let quiet = true, lo2 = lo, hi2 = hi;
+      for (let j = Math.max(0, i - before); j < i; j += 2) { if (Math.abs(p.log[j] - p.log[i]) > T.pullQuietPx) quiet = false; lo2 = Math.min(lo2, p.log[j]); hi2 = Math.max(hi2, p.log[j]); }
+      if (!quiet || down < (hi2 - lo2) * T.pullSlant) continue;
+      if (down >= T.pullPx) { p.got = 1; return true; }
+      best = Math.max(best, down / T.pullPx);
     }
+    p.got = best;   // how much of a pull there is so far, 0 to 1: the HUD and a soft sound show it, so a gentle pull that hasn't got there yet doesn't feel dead
     return false;
   }
   TG.pulled = pulled;   // for test/pull.js
@@ -49,6 +57,10 @@ window.TG = window.TG || {};
     const d = w.dive, holding = input.down || keyHeld(input);
     noticeReset(w, input);
     const wasPulled = pulled(w, input);
+    // A pull on its way: only worth showing when the Dive could happen.
+    const showing = d.state === 'up' && input.down && !w.armed && w.diveUnlocked && w.pull.got >= T.pullShowFrom;
+    if (showing && !w.pullShow) Kit.audio.play('pulling');
+    w.pullShow = showing ? w.pull.got : 0;
     if (d.state === 'up') {
       if (!holding) w.armed = false;
       else if (wasPulled || keyFresh(input)) w.armed = true;

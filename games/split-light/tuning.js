@@ -2,8 +2,14 @@
 // Answers are in docs/DECISIONS.md ("Friday batch") and docs/FRIDAY_BATCH.md ("Split Light"). Dylan's thumb has not tried any of these yet.
 window.TUNE = {
   // ---- Screen layout (logical 360 x 640, the kit's upright size)
-  cell: 54,             // PROVISIONAL: board cell, px. 48 CSS px at 320 x 568. The canvas scale follows the visible height, so at 320 x 454 (browser bars showing) it is 38 CSS px: under the 44 px rule, and known. 7 rows, Ione's window and the buttons don't fit any bigger without a new layout. NOTES.md says so
+  cellBase: 54,         // PROVISIONAL: board cell, px. 48 CSS px at 320 x 568
+  cellCss: 44,          // the 44 px tap rule (FRIDAY_BATCH.md: big targets): the canvas scale follows the visible height, so on a short screen (320 x 454, browser bars showing) the cell grows to keep this many CSS px, and what's under the board goes into one row (SL.shortRow in control.js)
+  cellMax: 63,          // PROVISIONAL: the most it may grow: 7 rows of this still leave that one row its 44 px. Good down to about 447 CSS px tall
+  get cell() { return Math.min(this.cellMax, Math.max(this.cellBase, Math.ceil(this.cellCss / Kit.view.scale - 1e-6))); },   // whole px, read live: a phone's browser bars can come and go in play
   top: 98,              // PROVISIONAL: top of the board. Above it is the strip the talk box uses, so it never covers the board or the read-outs
+  shortEdge: 6,         // PROVISIONAL: on a short screen, the gap from the screen's edge to the one row under the board
+  shortIoneW: 108,      // PROVISIONAL: Ione's window in that row
+  shortButtonW: 70,     // PROVISIONAL: Retry, Undo and Scrape in that row, at most. 49 CSS px wide at 320 x 454. FIRE takes the rest
   rows: 7,              // PROVISIONAL: tallest board in the levels
   bossRows: 6,          // PROVISIONAL: tallest boss board, leaving room for Vasch's window beside Ione's
   hudH: 26,             // PROVISIONAL: the shots-and-par row under the board
@@ -66,6 +72,7 @@ window.TUNE = {
   correctShowSecs: 1.6, // PROVISIONAL: how long a crystal he turned stays marked
   waitTalkSecs: 12,     // PROVISIONAL: seconds of no shot before Vasch remarks on it. Was 26: his count now takes over from there
   countReadSecs: 15,    // PROVISIONAL: extra seconds on his count for the first shot of an attempt at a board, to read it. Each board's own count: in levels.js
+  countTo: 10,          // shared/stories.js: "a full count of ten". At this he fires for you; on a dead board he resets it, for a point of nerve, so a boss nobody plays is lost
   countTeachAt: 2,      // PROVISIONAL: the count he's at when he explains it, once per attempt
   countLoudFrom: 7,     // PROVISIONAL: from this count on it ticks, and he says so
   bossCount: 30,        // PROVISIONAL: seconds he takes to count to ten before he fires for you, on all three boards
@@ -103,7 +110,7 @@ window.TUNE = {
   shardleChance: 0.35,  // PROVISIONAL: chance each time
   shardleSecs: 9,       // PROVISIONAL: how long it hops around before it's gone
   shardleHops: 8,       // PROVISIONAL: hops in that time
-  shardleStops: [0.2, 0.6], // PROVISIONAL: where along the top of the board it lands, as shares of the way across
+  shardleStops: [0.2, 0.6], // PROVISIONAL: where along the bottom of the board it lands, as shares of the way across
   shardleHopH: 18,      // PROVISIONAL: how high it hops, px
   palRadius: 32,        // PROVISIONAL: how close a tap counts, logical px (over 44 CSS px across on every phone in the test)
   palTapUp: 14,         // PROVISIONAL: how far above a pal's feet its tap circle sits, px
@@ -111,7 +118,7 @@ window.TUNE = {
   glimmickBelow: 8,     // PROVISIONAL: how far under the board it crawls, px
   shardleX0: 40,        // PROVISIONAL: the left end of Shardle's hops, px
   shardleX1Pad: 60,     // PROVISIONAL: how far from the right edge they end, px
-  shardleAbove: 2,      // PROVISIONAL: how far above the board it lands, px
+  shardleBelow: 2,      // PROVISIONAL: how far under the board's bottom edge its feet land, px. Along the bottom, where no talk box ever goes (they sit in the strip above the board) and the thumb is near
   botPals: false,       // test only: the pal test turns this on
 
   // ---- Talk

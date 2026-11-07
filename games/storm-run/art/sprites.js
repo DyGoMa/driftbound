@@ -6,6 +6,8 @@ window.DRIFT_SPRITES = {
   kaito_surge: { src: 'art/kaito-surge.webp', frames: 1, feet: 0.91, cx: 0.505, fill: 0.84 },
   kaito_hurt:  { src: 'art/kaito-hurt.webp', frames: 1, feet: 0.963, cx: 0.475, fill: 0.84 },
   trooper_run: { src: 'art/trooper-run.webp', frames: 6, cols: 3, fps: 12, feet: 0.97, cx: 0.5, fill: 0.84 },
+  // Drawn facing left, never flipped: his left side, so no blade (trooper-sheet-v1.png). fill 0.834: this strip's head-to-foot is 0.913 of a frame against trooper_run's 0.920, so 0.84 x 0.913 / 0.920 draws him the same size.
+  trooper_run_left: { src: 'art/trooper-run-left.webp', frames: 6, cols: 3, fps: 12, feet: 0.967, cx: 0.5, fill: 0.834 },
   skarn_glide: { src: 'art/skarn-glide.webp', frames: 4, cols: 2, fps: 9, feet: 0.849, cx: 0.5025, fill: 0.783 },
   // The boss. The game draws these at height 150, so fill sets each picture's scale: chosen so hound and Silt stay about the same size from pose to pose (art/REQUEST.md).
   // _left pictures are drawn facing left from his sheet's left view: no blade, no eye slit, which is what that side shows. Flipping a right-facing one would put both on the wrong side.

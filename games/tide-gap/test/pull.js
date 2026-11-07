@@ -70,7 +70,28 @@ for (const stop of STOPS) {
 }
 console.log('Steer, stop, then pull 100 CSS px in 0.25 s, by length of the stop: ' + stops.join(', '));
 
+// ---- Gentle pulls from a resting thumb. The review's list, in CSS px and seconds: all did nothing at a 0.25 s window from 40 px in 0.3 s down.
+const GENTLE = [[60, 0.1], [40, 0.15], [40, 0.25], [40, 0.3], [48, 0.445], [40, 0.4], [60, 0.5], [80, 0.7], [120, 1]];
+const gentleMissed = GENTLE.filter(([dist, secs]) => { const a = [195, 560], b = [195, 560 + dist]; return fires(hold(a, 0.3).concat(line(a, b, secs), hold(b, 0.1))) < 0; });
+console.log(`Gentle pulls from rest: ${GENTLE.length - gentleMissed.length} of ${GENTLE.length} fired` + (gentleMissed.length ? ', missed ' + JSON.stringify(gentleMissed) : ''));
+
+// ---- A thumb dodging left and right while it slides slowly down the glass isn't a pull, and neither is a resting thumb creeping or trembling.
+let dodgeTried = 0, dodgeFired = 0, quick = 0; const dodgeBad = [];
+for (const amp of [25, 40, 60, 90]) for (const period of [0.4, 0.6, 0.8, 1.2, 1.6]) for (const slide of [20, 40, 60, 90]) {
+  const p = []; for (let i = 0; i < 3 * 60; i++) { const t = i / 60; p.push([195 + amp * Math.sin(t * Math.PI * 2 / period), 500 + slide * t]); }
+  const hit = fires(p) >= 0;
+  if (slide === 90) { if (hit) quick++; continue; }   // 90 px/s down is nearly a gentle pull itself (48 px in 0.445 s is 108): noted, not a failure
+  dodgeTried++; if (hit) { dodgeFired++; if (dodgeBad.length < 6) dodgeBad.push(`${amp} px, every ${period} s, sliding ${slide} px/s`); }
+}
+console.log(`Dodging while sliding down at up to 60 px/s: ${dodgeFired} of ${dodgeTried} fired. Sliding at 90 px/s: ${quick} of 20 fired (noted, not a failure)`); dodgeBad.forEach(b => console.log('  ' + b));
+const rest = []; for (let i = 0; i < 5 * 60; i++) rest.push([195 + Math.sin(i * 0.9) * 3, 560 + Math.sin(i * 0.37) * 3 + i * 0.05]);   // trembling, and creeping 3 CSS px a second
+const restFired = fires(rest) >= 0;
+console.log('A resting thumb trembling and creeping for 5 s: ' + (restFired ? 'FIRED' : 'nothing'));
+
 const fails = [];
+if (gentleMissed.length) fails.push(`${gentleMissed.length} gentle pulls did nothing`);
+if (dodgeFired) fails.push(`${dodgeFired} dodges spent a memory`);
+if (restFired) fails.push('a resting thumb spent a memory');
 if (fired) fails.push(`${fired} steering sweeps spent a memory`);
 if (pullsFired < pullsTried) fails.push(`${pullsTried - pullsFired} real pulls did nothing`);
 if (fresh < 0) fails.push('press and pull missed');

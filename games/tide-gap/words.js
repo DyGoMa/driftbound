@@ -93,7 +93,15 @@ TG.WORDS = {
     { who: 'kaito', text: 'That rock MOVED! I saw it! Shit. Okay. Again!' },
     { who: 'vesh', text: 'Vesh hauls the wreck back up the channel by the tow chain, and sighs a long line of bubbles.' },
   ],
-  emptyLose: { who: 'ione', text: 'No arrows, no Dives, and a blank book. You did that blind. Do it again, with your eyes open.' },
+  // A retry puts the empty book back, so these come round again and again.
+  emptyLose: [
+    { who: 'ione', text: 'No arrows, no Dives, and a blank book. You did that blind. Do it again, with your eyes open.' },
+    { who: 'kaito', text: 'So you can\'t feel the rocks anymore. Fine. I\'ll yell when I see one. Get up!' },
+    { who: 'juno', text: 'Blank book, blind helm, and you still took the bet. Shit, Captain, I\'d marry you. Again.' },
+    { who: 'silas', text: 'Nothing left in the book, darling? Then nobody can say you\'ve done this before. Again.' },
+    { who: 'bram', text: 'Empty book, full pot. Eat something, Captain, and we\'ll go at it again. It\'s the onions, shut up.' },
+    { who: 'sela', text: 'I don\'t remember losing that one. Good. Again.' },
+  ],
   rockLose: { who: 'sela', text: 'I felt that one coming, too. Bit late.' },
 
   radioEmpty: { who: 'sela', text: 'Nothing. I can\'t feel them. Whatever you\'ve got, Vesh, use it.' },
@@ -108,6 +116,7 @@ TG.WORDS = {
   boss: {
     start: { who: 'hekka', text: 'Lances first. Then we\'ll talk about your mother.' },
     open: { who: 'ione', text: 'Her keel plates are glowing. She\'s reloading. Under the hull, Captain, now!' },
+    noCopies: { who: 'ione', text: 'My copies are no use here. Vesh is too close to her iron to be fooled. From now on he takes the real thing.' },
     hit: [
       { who: 'hekka', text: 'That was a good plate. You\'ll forget you did it.' },
       { who: 'kaito', text: 'THAT\'S how you read a book, you armoured bitch!' },
@@ -144,6 +153,6 @@ TG.WORDS = {
   upgrades: [
     { id: 'hull', name: 'Tougher Hull', blurb: 'Bram\'s patches. One more plank to lose.' },
     { id: 'dive', name: 'Longer Dive', blurb: 'More air under the rock.' },
-    { id: 'spare', name: 'Spare Logbook', blurb: 'A copy in Ione\'s hand. Each level, the sea takes one copy per run before it takes a real line.' },
+    { id: 'spare', name: 'Spare Logbook', blurb: 'A copy in Ione\'s hand. Each level, one copy per run burns before a real line. Not at the boss.' },
   ],
 };

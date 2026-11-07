@@ -137,7 +137,7 @@ window.SL = window.SL || {};
   // ---- The board's frame and floor, made once for each size.
   SL.boardBake = function (cols, rows) {
     const W = cols * T.cell, H = rows * T.cell;
-    return SL.bake('board' + cols + 'x' + rows, W + 24, H + 24, 12, 12, c => {
+    return SL.bake('board' + cols + 'x' + rows + '@' + T.cell, W + 24, H + 24, 12, 12, c => {
       const a = A();
       a.poly(c, [[-9, -9], [W + 9, -9], [W + 9, H + 9], [-9, H + 9]], '#3a3f55', 2.6);
       a.poly(c, [[-9, H + 3], [W + 9, H + 3], [W + 9, H + 9], [-9, H + 9]], '#262a3f', 0);

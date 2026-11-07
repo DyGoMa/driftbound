@@ -10,6 +10,10 @@ Every picture is optional: the game looks for these keys first, and a missing or
 
 Locked sheets: `sela-sheet-v5.png`, `vesh-sheet-v1.png`, `hekka-sheet-v6.png`, in `C:\Users\Dylan\Documents\driftbound-villains\art\refs\`, with `STYLE.md` there.
 
+**Fourth review (2026-11-06):** Sela is now drawn 46 px tall and Hekka 51 (`selaH`, `hekkaH` in `tuning.js`), not the 36 and 40 in the table below. Wanted, not made: `hekka_stand`, `hekka_throw` and `hekka_hurt` again at the sheet's proportions. The current ones read about 1 head to 5.5 bodies against about 1 to 7.5 on `hekka-sheet-v6.png` and in Hold the Deck's `hekka-front.webp`, by eye. Keep the old files as they are.
+
+**Made (2026-11-06, after the fourth review):** `hekka_stand`, `hekka_throw`, `hekka_hurt` at the sheet's proportions, and `sela_empty` with a bigger book: `hekka-stand-v3.webp`, `hekka-throw-v3.webp`, `hekka-hurt-v2.webp`, `sela-empty-v3.webp`. Old files kept. Takes and flaws in `NOTES.md`. These Hekka pictures use a camera only a little above her, not the "high up" one below, because that view is what shortened her legs.
+
 ## How a strip must be made
 - Equal frames on a **transparent background**, WebP or PNG. The image tool can't go wider than 3:1 and has no real transparency, so make wide strips as a grid, on flat `#00FF00`, and put them through `tools/key-sprite.js` (same way as `games/storm-run/art/`).
 - About 512 px tall per frame is plenty.

@@ -124,6 +124,7 @@ window.SC = window.SC || {};
     if (T.botPals === 'tuftle' && s.hidden && !w.tufTried) { if (input.down) input.sim.release(); return true; }
     if (T.botPals === 'tuftle' && w.tuf) { if (input.down) input.sim.release(); return true; }
     if (T.botPals === 'lamplick' && w.moth && w.moth.state === 'lick' && Math.abs(w.moth.l.x - s.x) <= w.reach) { tapNow(); return true; }
+    if (T.botPals === 'lamplick' && SC.mothTarget(w)) { tapNow(); return true; }
     return false;
   };
 })();

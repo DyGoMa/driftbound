@@ -41,7 +41,9 @@
     loseLines: W.loseLines,
     loseLine(run) {
       const w = run.w;
+      if (!HD.foughtTry(run)) return W.noFightLose;   // says why this try earned nothing
       if (w.tookVolley && !w.ironUses && !HD.locked(run)) return W.noHoldLose;   // took them all on the chin: says why this try earned nothing
+      if (w.chinned >= T.volleyChinMax && !HD.locked(run)) return W.ribsLose;   // down with Guts to spare: says why
       if (run.boss && HD.triesLost(run) >= T.boss.adviceFrom && HD.triesLost(run) % 2 === 0 && (run.carry.iron || 0) >= T.ironLineAt) return W.boss.advice;   // deep in the grey and stuck on the bear: says what can be done, every other try
       if (!run.boss && HD.locked(run)) return W.lockedLose;
       if (!w.pal) return null;
@@ -101,7 +103,7 @@
       if (run.over) return;
       if (HD.palStep(run, dt)) return;
       const b = w.boss;
-      w.testInfo = { guts: w.guts, gutsMax: w.gutsMax, iron: Math.round((run.carry.iron || 0) * 1000) / 1000, ironUses: w.ironUses, kills: w.kills, throughs: w.throughs, hitsTaken: w.hitsTaken, hurtBy: w.hurtBy, hitLog: w.hitLog, charges: w.charges, blocks: w.blocks, meals: w.meals, wave: w.wave, phase: b ? b.phase : null, bear: b ? b.state : null, warnLog: w.warnLog, caught: w.caughtNow || null };
+      w.testInfo = { guts: w.guts, gutsMax: w.gutsMax, iron: Math.round((run.carry.iron || 0) * 1000) / 1000, ironUses: w.ironUses, chinned: w.chinned, swingsHit: w.swingsHit, kills: w.kills, throughs: w.throughs, hitsTaken: w.hitsTaken, hurtBy: w.hurtBy, hitLog: w.hitLog, charges: w.charges, blocks: w.blocks, meals: w.meals, wave: w.wave, phase: b ? b.phase : null, bear: b ? b.state : null, warnLog: w.warnLog, caught: w.caughtNow || null };
     },
 
     render: HD.render,

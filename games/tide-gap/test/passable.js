@@ -4,7 +4,7 @@
 const path = require('path'), fs = require('fs'), vm = require('vm');
 global.window = global;
 const dir = path.resolve(__dirname, '..');
-['tuning.js', 'words.js', 'memory.js', 'course.js', 'hazards.js', 'dive.js', 'sail.js'].forEach(f => vm.runInThisContext(fs.readFileSync(path.join(dir, f), 'utf8'), { filename: f }));
+['tuning.js', 'tuning-stages.js', 'words.js', 'memory.js', 'course.js', 'hazards.js', 'dive.js', 'sail.js'].forEach(f => vm.runInThisContext(fs.readFileSync(path.join(dir, f), 'utf8'), { filename: f }));
 const T = TUNE, TG = global.TG, SEEDS = +process.argv[2] || 300, STEP = 1 / 60;
 
 function mulberry(seed) { let a = seed >>> 0; return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }

@@ -29,8 +29,10 @@ window.SR = window.SR || {};
     const w = run.w, v = w.speed, vf = w.speed + extraOf(type);
     if (run.rng() > T.coinChance) return;
     const x = w.kx + (foeX - w.kx) * (v / vf);
-    const row = T.coinRows[type];
-    row.forEach((alt, i) => w.coins.push({ x: x + (i - (row.length - 1) / 2) * 24, alt, big: type === 'tall' }));
+    // The bait: over a foe a plain jump clears, high salvage that only an extra Surge reaches. Past the foe, where a Surged jump is at its top.
+    const bait = (type === 'low' || type === 'trooper') && run.rng() < (run.stage.bait || 0);
+    const row = T.coinRows[bait ? 'bait' : type];
+    row.forEach((alt, i) => w.coins.push({ x: x + (bait ? T.baitAhead : 0) + (i - (row.length - 1) / 2) * 24, alt, big: bait || type === 'tall' }));
   }
 
   SR.spawnStep = function (run) {
@@ -63,6 +65,13 @@ window.SR = window.SR || {};
     w.pal = { id, x: T.spawnX - T.palSpawnBack, alt };
     SR.say(run, SR.WORDS.palAppear[id], 2.6);
   }
+  // A pal stays out of the crew's jokes (FRIDAY_BATCH.md), and the result panel's line can be one: any pal still on the road bolts when the stage ends.
+  SR.palLeaves = function (run) {
+    const p = run.w.pal;
+    if (!p) return;
+    run.w.pal = null;
+    A().burst(p.x, T.groundY - p.alt - 18, { n: 10, color: '#d9d3c4', speed: 90, life: 0.3, size: 2.4, gravity: 60 });
+  };
   SR.palOnNumb = function (run) {
     const w = run.w;
     if (run.boss || w.pal || run.hasPal('fizzlet')) return;
@@ -72,7 +81,7 @@ window.SR = window.SR || {};
   SR.palStep = function (run, dt) {
     const w = run.w;
     if (!run.boss && !w.pal && !w.boltTried && !run.hasPal('boltnip') && (run.endless || run.index >= T.boltnipFromStage)
-      && w.scar <= 0 && run.time - w.lastSurge >= T.boltnipCalm && run.time >= T.boltnipCalm) {
+      && w.scar <= T.boltnipScar && run.time - w.lastSurge >= T.boltnipCalm && run.time >= T.boltnipCalm) {
       w.boltTried = true;
       if (run.rng() < T.boltnipChance) spawnPal(run, 'boltnip', T.boltnipAlt);
     }

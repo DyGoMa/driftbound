@@ -1,6 +1,6 @@
 # Hot Hand: notes
 
-Status: built, not yet seen running by Dylan. All 24 pictures in `art/REQUEST.md` are made and on (see "The pictures" below), and `live` is still false.
+Status: built, not yet seen running by Dylan. All 24 pictures in `art/REQUEST.md` are made and on (see "The pictures" below). It's live: `shared/games.js` has `live: true, status: 'live'`.
 
 ## How it's laid out
 | File | What's in it |
@@ -40,6 +40,63 @@ You stand behind an upturned card table and tap whatever you want burned. There'
 | 3 The Long Table | Rain: she cools 1.25 times as fast. As tough as the alley, and they come faster. Shooters in the top windows. Powder carts | Quick hands to stay hot. Windows open and shut. Light a cart when his mates are near it, or kill the pusher and leave it as a bomb |
 | 4 The Pit | Juno in the middle, foes from both sides, fire: she cools at 0.7 times. Hollow hounds | Slow cooling makes every throw count, and marks matter most. Hollows can only be hit when they stop and the core shows |
 | 5 The Vault Steps | Krell's line of three shields marching on her | Three vents open in turn. Feed each with fire (hot fills fastest) until it blows. All three down, and Krell's in the open for 6 to 7 s. Three rounds, with a bet between them. Quench cans take your heat from round 2. If the line reaches you it charges: 3 hits, half of her 6 |
+
+## What was checked after the final review's fixes (2026-11-06, late)
+Changed: the pal rule on the words, the money for Restart and Quit in the beat after a wave, and `coolPerLevel`. The boss's numbers did not change, so every section below still holds for a fair run. Sections below that quote upgraded runs ("cooling 1 to 1.45") were measured at the old `coolPerLevel`. Status: built, not yet seen running by Dylan. Scripts and screenshots: `%TEMP%\kcheck\final\hh-fix`.
+
+`node tools/smoke.js hot-hand`: PASSED, 165 ok. `node games/hot-hand/tools/fairness.js --seeds 20`: PASSED.
+
+**Pals and jokes.** 12 lines carry `adult: true` and one bet quip moved to `adultQuips`. Before and after, same script, with Cinderbun forced out through the real `HH.tryCinderbun`:
+| Where | Before | After |
+|---|---|---|
+| Lines said in play, every list, 40 locks and busts | 33 kinds, 8 of them jokes | 25 kinds, 0 jokes (no pal out: 32 kinds, 8 jokes, so they still play) |
+| Lose lines, 2,000 draws each | burn list includes Silas; other hits go to the kit's full list | burn: 4 lines, 0 jokes; other hits: 6 lines, 0 jokes (no pal out: as before) |
+| Real burn-out to the real lose screen, pal out | "Nobody laid a finger on you, darling. All your own work." | "You set YOURSELF on fire?! Ha! ...That's still ten you owe me." |
+| Lock in play beside the pal | "Too much, too soon, darling. We don't talk about it." | "Forty-two degrees. Your hands have stopped taking orders." |
+| A joke is showing when the pal arrives | stays up beside it, and the next joke follows | comes down, Bram's "An ember dumpling, lass!" goes up, the waiting joke is gone |
+| Bet card, real clicks, 8 cards | Silas's "pretty, darling" 1 of 8 | 0 of 8 (no pal out: 1 of 8) |
+| Stage 3 win screen, pal out | "...never been more jealous of a jacket." | "Soaked to the skin and still smoking. Very nicely done." (no pal out: the jacket line) |
+
+Whole stages on the real loop, bot playing, both pals made to come and left uncaught, 12 attempts: 85 talk boxes, 55 with a pal out, 0 jokes among those, 11 jokes with no pal out. 12 result screens, 4 with a pal out, 0 jokes. The card wasn't in that run, as the bot answers cards without showing them. Screenshots looked at: `after-lock-pal.png`, `after-lose-burn-pal.png`, `after-win-pal.png`.
+
+**Money in the beat after a wave.** Real run at 667x375, real pause button, real menu button. The review only ran Quit; Restart lost the money the same way, measured:
+```
+             before                     after
+Quit         table 4, total 0 -> 0      table 4, total 0 -> 4, hiding the tab afterwards stays at 4
+Restart      table 4, total 0 -> 0      table 4, total 0 -> 4, hiding the tab afterwards stays at 4
+Hide, Quit   total 0 -> 4 -> 4          total 0 -> 4 -> 4 (paid once)
+Mid-wave Quit, read-out 4                total 0 -> 0, unchanged: walking out mid-wave still forfeits it (see "Calls Claude made")
+```
+
+**Cool Palms: `coolPerLevel` 0.15 to 0.1, so level 3 cools 1.3 times, not 1.45.** The review's own human model, 40 seeds a cell, wins, burns a run in brackets. It uses `Math.random`, and repeat runs of the same fair setup differ by up to 9 of 40 at the boss, so read small moves as noise.
+| Who | Upgrades | Stage 4, 0.15 | Stage 4, 0.1 | Boss, 0.15 | Boss, 0.1 |
+|---|---|---|---|---|---|
+| Never above heat 69 | Cool 3 | 18 (0) | 13 (0) | 19 (0) | 16 (0) |
+| Never above heat 69 | Cool 3, Flame 3 | 36 (0) | 32 (0) | 20 (0) | 8 (0) |
+| Never above heat 69 | all three | 38 (0) | 34 (0) | 24 (0) | 14 (0) |
+| Ignores the bar, 2.2 taps/s | Cool 3, Flame 3 | 40 (1.4) | 37 (1.8) | 21 (2.8) | 16 (3.5) |
+| Ignores the bar, 4 taps/s | Cool 3, Flame 3 | 40 (1.4) | 39 (2.0) | 0 (5.0) | 0 (5.0) |
+| Average, plays near the top | Cool 3 | 40 (0.7) | 38 (1.1) | 33 (1.1) | 31 (1.8) |
+| Good, plays near the top | all three | 40 (0.1) | 40 (0.1) | 40 (0.6) | 40 (0.9) |
+
+So this helps and doesn't finish it. The boss now charges more for skipping the top of the bar, but with Cool 3 and Flame 3 someone who never goes above 69 still clears stage 4 most of the time, and stages 2 and 3 are 40/40 either way. Most of what's left is the two upgrades together: Flame 3 alone gets that player only 9 of 40 on stage 4, Cool 3 alone 13. The next number would be `warmBurn`, Bigger Flame's burn on WARM throws. It's left alone because its upgrade blurb promises the burn and at much under 36 px (`squadGap`) it wouldn't reach a squad. Dylan's call.
+
+**The boss: reviewed, no number changed.** The finding is right as far as a bot can say it: a player model that never throws over the red line wins most first tries. I tried to fix it and every number I tried hit the other players harder, so I put it back. Fair run, 100 seeds a cell, wins; "red line" is the review's mouse run as a model (0.32 s, 10% misses, never over 84):
+| Setting | Red line | Good | Average | Newbie |
+|---|---|---|---|---|
+| As it is, third run of it | 91 | 95 | 50 | 6 |
+| As it is, other runs | 95, 92 | 93, 90 | 42, 41 | 2, 1 |
+| `marchSecs` third 15.5 (was 16.5) | 85, 93 | 89, 86 | 32, 35 | 2, 0 |
+| `marchSecs` third 15 | 85 | 80 | 35 | 2 |
+| `marchSecs` 15, 13, 14 | 84 | 75 | 29 | 3 |
+| `ramHurt` 4 | 84 | 71 | 28 | 1 |
+| `krellHp` 14, 17, 20 | 89 | 73 | 24 | 0 |
+| `exposeSecs` 6, 5.5, 5 | 92 | 85 | 29 | 0 |
+| `krellHp` and `exposeSecs` both | 87 | 68 | 20 | 0 |
+
+The fairness bots at today's numbers, 20 seeds: plain 20, clean 19, quick 16, steady 15, average 12, slow 1. All these bots know the rules from their first frame and read the bar perfectly, and a person doesn't, so a real first try may go worse than any of this. Needs Dylan's thumb; `marchSecs` and `ramHurt` are the numbers.
+
+Not checked: a real phone, feel, sound, a real thumb on any of this. `tools/smoke.js` covers the other games' pages only when run for them; only Hot Hand's files changed.
 
 ## What was checked after the boss's third round was fixed (2026-11-06, night)
 Only the boss changed, so the sections below still hold for stages 1 to 4 and everything else. Status: built, not yet seen running by Dylan.
@@ -291,6 +348,16 @@ All in `tuning.js`, marked PROVISIONAL. The ones most likely to change: `throwHe
 - **Rounds 1 and 2 keep their length,** about 40 s for a retry, and "dying restarts the current stage" stands. The difference is that round 2 now holds real danger, so a retry isn't just a walk to the only hard part. Average bot's deaths in round 2 went from 5 of 38 to 36 of 128.
 - **The trade-off:** a thumb that never goes red now almost always wins first try (clean 191/200). The number to change if that's too easy: `marchSecs`, third value. At 15.5, 200 seeds: clean 175, steady 123, average 56, patient 14.
 
+### Calls made fixing the final review (2026-11-06, late)
+- **What counts as a joke while a pal is out.** Besides the two lines the review caught: every line where Silas says "darling" (he flirts with everyone), Kaito's "Happens to the best of us", Juno's "feel my hands", Ione's "your pulse says you're enjoying this", "something kind about your hands" and "a very large dose", Silas's "hold 'em". Swearing stays, as the rule doesn't name it. The list is the `adult: true` marks in `words.js`.
+- **A joke that gets skipped isn't said later that attempt.** That includes Silas's first-time "Top windows, darling" tip, which comes back next attempt as it was never marked as taught. Bram's and Sela's warnings aren't affected.
+- **One new line:** Silas on the stage 3 win screen with a pal out: "Soaked to the skin and still smoking. Very nicely done."
+- **A pal's arrival takes down a joke that's showing,** even if it has only just gone up. Same as Hold the Deck.
+- **Restart and Quit pay the table in the beat after a wave is cleared,** through the same function as a hidden tab. Quit in the beat after the last wave pays too, but the stage doesn't count as won, as it hasn't happened yet. Mid-wave, walking out still forfeits, as above.
+- **Done from `game.js`, with no kit change:** a click listener in the capture phase runs before the kit's button handler banks, the same trick as the hidden-tab listener. So the kit's `def.onBank` idea in "Kit notes" would now cover both.
+- **Cool Palms is weaker:** 1.1, 1.2, 1.3 times (was 1.15, 1.3, 1.45), same price, same blurb. A level is smaller for anyone who bought it, and it's the review's bar-skipping players it's aimed at. Back to `coolPerLevel: 0.15` if it stops feeling worth buying.
+- **The boss's numbers stayed,** see above.
+
 ## The pictures (2026-11-06)
 20 images made with Codex on the ChatGPT plan, 15 keyed into use, plus `trooper_run` copied from Storm Run. Superseded takes kept: `juno-idle-v1` (stiff), `juno-poses-v1` (raised knee looked posed), `krell-stand-v1` (feet together).
 One short usage limit hit at about 1:01 PM; it had already cleared by the retry, nothing lost.
@@ -325,6 +392,7 @@ One edit in `shared/kit`: in `kit.css`, on screens under 340 px tall, `.kit-btn`
 - A flame's fire position over Juno's pictures is measured from the pictures (`picHands`), for frame 1 of each strip; a person may want to nudge it.
 
 ## Noticed, not touched
+- A pal pops into being on screen, 400 px from Juno (x 466 on the street, 240 px in the Pit), rather than walking in from the edge, though `palStart`'s comment says "comes in". Seen in the numbers and in `%TEMP%\kcheck\final\hh-fix\after-lock-pal.png`. Not checked in motion.
 - "ASHKA -12" floats at a fixed spot over Juno, so it can land on Ashka, orange on her red. Same kind of thing as the hurt number; the review didn't name it. Seen in `fix2\p568-pit-ashka.png`.
 - Two or three "+1 TABLE" from one kill (a marked, hot, hot-hand kill) start on the same spot, so they read as one.
 - `art/REQUEST.md` still lists `shield_man` with the first numbers it was asked for; `art/sprites.js` is what the game uses.
@@ -436,3 +504,7 @@ Other runs:
 - `marchSecs: [17, 15, 13],      // PROVISIONAL: seconds from start to ram`
 - `ventNeed: [9, 11, 13],  // PROVISIONAL: pressure that blows a shield`
 - `ram: { who: 'sela', text: 'They\'re about to charge! Blow those vents!' },`
+
+### Lines replaced by the final review's fixes (2026-11-06, late)
+- Status: built, not yet seen running by Dylan. All 24 pictures in `art/REQUEST.md` are made and on (see "The pictures" below), and `live` is still false.
+- `coolPerLevel: 0.15,   // PROVISIONAL: Cool Palms: extra cooling per level`

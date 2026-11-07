@@ -3,6 +3,7 @@
 window.SL = window.SL || {};
 (function () {
   const T = TUNE, A = () => Kit.art;
+  const COUNT_LABEL_ROOM = 108;   // how tall FIRE must be to fit its own word, the words "HIS COUNT" and the row of ten. Shorter (a short screen), the words go
 
   // Word-wraps a line of body text. Returns how many lines it took.
   function wrap(c, s, x, y, maxW, lh, o) {
@@ -61,7 +62,8 @@ window.SL = window.SL || {};
     a.poly(c, [[b.x + s, y], [b.x + b.w, y], [b.x + b.w - 1.5, y + 4], [b.x + s - 1.5, y + 4]], !b.on ? '#2c3254' : b.main ? '#ff9a55' : '#3d4880', 0);
     a.poly(c, pts, null, 2.4);
     const size = b.id === 'fire' ? 34 : b.w < 80 ? 16 : 20;
-    a.text(c, b.label, b.x + b.w / 2, y + b.h / 2, { size, color: !b.on ? '#6d7290' : b.lit ? a.INK : a.PAPER, align: 'center', lw: b.on && !b.lit ? 3 : 0, ink: !!(b.on && !b.lit) });
+    const lines = b.label.split('\n'), mid = b.count && b.h < COUNT_LABEL_ROOM ? (b.h - 20) / 2 : b.h / 2;   // FIRE sits above his count when the button is short
+    lines.forEach((s, i) => a.text(c, s, b.x + b.w / 2, y + mid + (i - (lines.length - 1) / 2) * size * 1.08, { size, color: !b.on ? '#6d7290' : b.lit ? a.INK : a.PAPER, align: 'center', lw: b.on && !b.lit ? 3 : 0, ink: !!(b.on && !b.lit) }));
     if (b.main && (b.id === 'retry' || b.pulse)) { c.globalAlpha = 0.45 + Math.sin(t * 6) * 0.35; a.poly(c, pts, null, 3.4, '#ffffff'); c.globalAlpha = 1; }
   }
 
@@ -69,9 +71,9 @@ window.SL = window.SL || {};
   function countRow(c, run, t) {
     const w = run.w, a = A(), b = SL.buttons(run).find(x => x.id === 'fire');
     if (!w.L.spec.count || run.over) return;
-    const n = Math.floor(SL.countOf(w)), y = b.y + b.h - 15, gap = (b.w - 30) / 9;
-    a.text(c, 'HIS COUNT', b.x + b.w / 2, y - 15, { size: 13, color: b.on ? a.PAPER : '#6d7290', align: 'center' });
-    for (let i = 0; i < 10; i++) {
+    const n = Math.floor(SL.countOf(w)), y = b.y + b.h - 15, gap = (b.w - 30) / (T.countTo - 1);
+    if (b.h >= COUNT_LABEL_ROOM) a.text(c, 'HIS COUNT', b.x + b.w / 2, y - 15, { size: 13, color: b.on ? a.PAPER : '#6d7290', align: 'center' });
+    for (let i = 0; i < T.countTo; i++) {
       const lit = i < n, hot = n >= T.countLoudFrom && Math.floor(t * 6) % 2 === 0;
       hex(c, b.x + 13 + i * gap, y, 4.8, lit ? (hot ? a.GOLD : '#ffffff') : '#1a1f3c', 1.4);
     }
@@ -84,7 +86,8 @@ window.SL = window.SL || {};
     if (w.boss) {
       SL.ioneWindow(c, run, 4, panelY, 108, rowY - panelY - T.fireRowGap);
       SL.vaschWindow(c, run, 248, panelY, 108, rowY - panelY - T.fireRowGap);
-    } else SL.ioneWindow(c, run, 6, panelY, 108, T.screenBottom - panelY);
+    } else if (SL.shortRow(run)) SL.ioneWindow(c, run, view.left + T.shortEdge, panelY, T.shortIoneW, T.screenBottom - panelY);
+    else SL.ioneWindow(c, run, 6, panelY, 108, T.screenBottom - panelY);
     SL.buttons(run).forEach(b => button(c, b, w.press === 'b:' + b.id && b.on, t));
     countRow(c, run, t);
     if (w.scraping && !run.over) A().text(c, 'TAP A GROWTH TO SCRAPE IT', 180, T.top - 12, { size: 15, color: A().ORANGE, align: 'center' });

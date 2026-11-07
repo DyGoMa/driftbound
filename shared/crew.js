@@ -3,7 +3,8 @@
 window.DRIFT_CREW = [
   { id: 'kaito', name: 'Kaito Brask', age: 21, role: 'The hero', partner: 'Skarn, storm wolf', colour: '#f2d21b', colour2: '#c8302c',
     line: 'Loud, reckless, never backs down. Out to draw the first map of the Drift that stays right.' },
-  { id: 'sela', name: 'Sela Vey', age: 28, role: 'The captain', partner: 'Vesh, sea serpent-dragon', colour: '#1f9aa3', colour2: '#d9a93a',
+  // pic: her skin as on her sheet ("dark brown skin", CAST.md). Cut from games/tide-gap/art/raw/sela-talk-v2.png. Take it out to go back to sela-v2, which is kept.
+  { id: 'sela', name: 'Sela Vey', age: 28, role: 'The captain', partner: 'Vesh, sea serpent-dragon', colour: '#1f9aa3', colour2: '#d9a93a', pic: 'sela-v3',
     line: 'Calm, teasing, and reads the Drift better than any chart. Calls Kaito "pup".' },
   { id: 'juno', name: 'Juno Calloway', age: 23, role: 'The sharpshooter', partner: 'Ashka, fire raptor', colour: '#ef6a1f', colour2: '#f5f0e6',
     line: 'Bets on everything. Brave to the point of stupid.' },

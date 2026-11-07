@@ -22,8 +22,8 @@ window.TUNE = {
   kaitoTall: 68,        // PROVISIONAL: and height. A little under his 85 px, so the head can graze
 
   // ---- The bond cost (DECISIONS.md, build step 3)
-  scarPerSurge: 0.26,   // PROVISIONAL: four quick Surges reach the top
-  scarFade: 0.035,      // PROVISIONAL: "scars fade slowly"; a full arm takes about 28 s to clear
+  scarPerSurge: 0.3,    // PROVISIONAL: four quick Surges reach the top. Was 0.26
+  scarFade: 0.015,      // PROVISIONAL: "scars fade slowly"; a full arm takes about 67 s to clear, longer than a stage, so Surges add up. Was 0.035 (28 s), when one Surge had gone before the next was needed and the arm hardly climbed
   numbSecs: 5,          // Dylan's answer: "5 seconds in the game only" (the story keeps "for days")
   numbAfter: 0.6,       // PROVISIONAL: the scars left when the feeling comes back, so the next numb comes quicker
   coolPerLevel: 0.35,   // PROVISIONAL: Cool Scars, extra fade speed per level
@@ -39,10 +39,10 @@ window.TUNE = {
 
   // ---- Foes. hw = half width, hi = top of the hit box above the road, extra = speed on top of the road's
   foes: {
-    low: { hw: 16, hi: 32, extra: 0 },       // PROVISIONAL: a hop clears it
+    low: { hw: 13, hi: 26, extra: 0 },       // PROVISIONAL: a hop clears it. Box smaller than the 40 x 32 px drawing, so a new player's quick tap has room (0.20 s at stage 1 speed, 0.47 s for a hold). Was hw 16, hi 32: 0.13 s and 0.40 s
     trooper: { hw: 11, hi: 70, extra: 40 },  // PROVISIONAL: a full jump clears it; runs at you
     tall: { hw: 18, hi: 124, extra: 0 },     // PROVISIONAL: 4 px over a full jump's peak, so it takes a Surge
-    swoop: { hw: 20, thick: 22, extra: 80 }, // PROVISIONAL: a Hollow; flies faster than the road
+    swoop: { hw: 16, thick: 16, extra: 80 }, // PROVISIONAL: a Hollow; flies faster than the road. Was hw 20, thick 22: a dive left a tap 0.10 s, a hold 0.40 s; now 0.17 s and 0.45 s at stage 3 speed
   },
   swoopHigh: 178,       // PROVISIONAL: height a Hollow cruises at
   swoopSpan: 300,       // PROVISIONAL: px either side of Kaito over which it drops to its low point
@@ -51,18 +51,19 @@ window.TUNE = {
   swoopDiveChance: 0.5, // PROVISIONAL: chance a Hollow dives instead of passing high
   pairGap: 62,          // PROVISIONAL: px between two troopers side by side
   after: { low: 0.9, trooper: 1.15, tall: 1.8, swoop: 1.2, pair: 1.3 },   // PROVISIONAL: seconds of room after each, whatever the stage's gap
-  tallEvery: 7,         // PROVISIONAL: seconds between tall barricades, about what the scars can fade
+  tallEvery: 5,         // PROVISIONAL: at least this many seconds between tall barricades, faster than the scars can fade. Was 7
   firstArrival: 3.2,    // PROVISIONAL: seconds of clear road at the start of a stage
   endClear: 150,        // PROVISIONAL: px of road left clear before the finish
 
   // ---- Salvage. Kit aim: a stage clear pays about 15 to 40 in all
   coinValue: 1,         // PROVISIONAL
   bigCoinValue: 3,      // PROVISIONAL: the high ones that cost a Surge to reach
-  coinChance: 0.35,     // PROVISIONAL: chance of a pattern with each foe
+  coinChance: 0.35,     // PROVISIONAL: chance of a pattern with each foe (stages[].bait: chance that a low's or a trooper's pattern is the high bait instead)
   grabRadius: 30,       // PROVISIONAL: px from Kaito's middle
   pullPerLevel: 34,     // PROVISIONAL: Salvage Pull, extra reach per level
   pullSpeed: 520,       // PROVISIONAL: how fast pulled salvage flies in
-  coinRows: { low: [58, 70, 58], trooper: [108, 128, 108], pair: [100, 122, 134, 122, 100], tall: [204], swoop: [24, 24, 24] },   // PROVISIONAL: heights of the salvage that comes with each foe
+  coinRows: { low: [58, 70, 58], trooper: [108, 128, 108], pair: [100, 122, 134, 122, 100], tall: [204], swoop: [24, 24, 24], bait: [204, 204] },   // PROVISIONAL: heights of the salvage that comes with each foe. bait: out of reach of a full jump, so only an extra Surge gets it
+  baitAhead: 50,        // PROVISIONAL: px past the foe the bait sits, where a jump Surged near its top is highest
 
   // ---- Score
   scorePerFoe: 25,      // PROVISIONAL
@@ -71,10 +72,11 @@ window.TUNE = {
   scorePerCore: 500,    // PROVISIONAL
 
   // ---- Pals. Rare, and each asks the opposite thing of your arm
-  fizzletChance: 0.3,   // PROVISIONAL: chance each time the arm goes numb, from stage 2
+  fizzletChance: 0.15,  // PROVISIONAL: chance each time the arm goes numb, from stage 2. Was 0.3, when going numb was unusual
   fizzletFromStage: 1,  // PROVISIONAL: index, 1 = stage 2
   boltnipChance: 0.25,  // PROVISIONAL: chance once per attempt, when the arm has been clean a while
-  boltnipCalm: 14,      // PROVISIONAL: seconds with no Surge and no scars above base
+  boltnipCalm: 14,      // PROVISIONAL: seconds with no Surge
+  boltnipScar: 0.1,     // PROVISIONAL: and the scars this low or lower, nearly back to base. Was 0: with the slower fade it almost never came
   boltnipFromStage: 2,  // PROVISIONAL: index, 2 = stage 3
   boltnipAlt: 200,      // PROVISIONAL: height it flies at; out of reach of a full jump, so catching it costs a Surge
   palRadius: 20,        // PROVISIONAL
@@ -127,12 +129,12 @@ window.TUNE = {
   // ---- The five stages. Words are in words.js. length in metres.
   stages: [
     { length: 700, speed: 225, gap: [1.5, 2.4], mix: { low: 5, trooper: 3 }, clearSalvage: 12, wash: 0 },        // PROVISIONAL: about 31 s, easy
-    { length: 850, speed: 245, gap: [1.4, 2.2], mix: { low: 4, trooper: 4, tall: 3 }, clearSalvage: 12, wash: 0.06 }, // PROVISIONAL: about 35 s
-    { length: 950, speed: 265, gap: [1.3, 2.1], mix: { low: 3, trooper: 4, tall: 2, swoop: 4 }, clearSalvage: 14, wash: 0.14, rain: 34 }, // PROVISIONAL: about 36 s
-    { length: 1100, speed: 285, gap: [1.2, 1.9], mix: { low: 3, trooper: 4, tall: 3, swoop: 4, pair: 2 }, clearSalvage: 16, wash: 0.22, rain: 60, flash: 7, silt: true },            // PROVISIONAL: about 39 s
+    { length: 850, speed: 245, gap: [1.4, 2.2], mix: { low: 4, trooper: 4, tall: 3 }, bait: 0.5, clearSalvage: 12, wash: 0.06 }, // PROVISIONAL: about 35 s
+    { length: 950, speed: 265, gap: [1.3, 2.1], mix: { low: 3, trooper: 4, tall: 2, swoop: 4 }, bait: 0.5, clearSalvage: 14, wash: 0.14, rain: 34 }, // PROVISIONAL: about 36 s
+    { length: 1100, speed: 285, gap: [1.2, 1.9], mix: { low: 3, trooper: 4, tall: 3, swoop: 4, pair: 2 }, bait: 0.5, clearSalvage: 16, wash: 0.22, rain: 60, flash: 7, silt: true },            // PROVISIONAL: about 39 s
     { boss: true, speed: 300, clearSalvage: 26, wash: 0.1, rain: 70, flash: 5 },                                      // PROVISIONAL: "takes a few tries" (spec)
   ],
-  endless: { speed: 240, ramp: 1.1, maxSpeed: 370, gap: [1.2, 2], gapMin: 0.55, gapShrink: 0.004, mix: { low: 3, trooper: 4, tall: 2, swoop: 4, pair: 2 }, clearSalvage: 0, wash: 0.14, rain: 40 },  // PROVISIONAL
+  endless: { speed: 240, ramp: 1.1, maxSpeed: 370, gap: [1.2, 2], gapMin: 0.55, gapShrink: 0.004, mix: { low: 3, trooper: 4, tall: 2, swoop: 4, pair: 2 }, bait: 0.5, clearSalvage: 0, wash: 0.14, rain: 40 },  // PROVISIONAL
 
   // ---- Test bot only
   botLook: 1.6,         // seconds the bot looks ahead

@@ -58,7 +58,8 @@ window.TG = window.TG || {};
     return c;
   };
   TG.linesLeft = run => run.carry.rows.filter(r => !r.lost).length;
-  TG.spareLeft = run => Math.max(0, run.up('spare') - run.carry.sparesUsed);
+  // Spare copies work on stages 1 to 4 and in endless. At the Last Tooth only a real line pays: three copies paid for the boss's three plates exactly, and a whole story cost nothing.
+  TG.spareLeft = run => (run.boss ? 0 : Math.max(0, run.up('spare') - run.carry.sparesUsed));
   TG.senseNow = run => T.sense[Math.min(T.sense.length - 1, TG.linesLeft(run))];
   TG.senseFeels = (run, r) => !r.gate || r.gate.feel >= TG.senseNow(run).miss;
   TG.hasLost = (run, id) => run.carry.lost.includes(id);
@@ -70,7 +71,7 @@ window.TG = window.TG || {};
   // What one Dive costs. Returns the row index that drowned, or -1 if a spare copy paid.
   TG.drown = function (run) {
     const c = run.carry, w = run.w;
-    if (TG.spareLeft(run) > 0) { c.sparesUsed++; w.bookFx = { kind: 'spare', t: 0 }; Kit.audio.play('crack'); return -1; }
+    if (TG.spareLeft(run) > 0) { c.sparesUsed++; w.lastPaid = { spare: true }; w.bookFx = { kind: 'spare', t: 0 }; Kit.audio.play('crack'); return -1; }
     // Originals go first, in the order of the list; pages she found last of all.
     let i = -1;
     for (const m of TG.MEMORIES) { i = c.rows.findIndex(r => r.id === m.id); if (i >= 0) break; }
@@ -79,9 +80,19 @@ window.TG = window.TG || {};
     const row = c.rows[i], mem = byId(row.id);
     w.bookFx = { kind: 'drown', row: i, text: row.text, t: 0 };
     c.rows[i] = { lost: row.id || 'page' };
+    w.lastPaid = { row: i, lost: row.id || 'page', mem: mem ? mem.id : null };
     if (mem) { c.lost.push(mem.id); TG.queueLines(run, mem.after, 2.2); }
     Kit.audio.play('drown');
     return i;
+  };
+
+  // A Dive that bought something you keep for good: dying no longer puts this one line back. Only Mopclaw does this, since a catch can't be undone. Cache gold waits for the stage clear instead (hazards.js).
+  TG.keepPaid = function (run) {
+    const s = run.carryAtStart, d = run.w.lastPaid;
+    if (!d) return;
+    if (!s.rows) Object.assign(s, { rows: TG.MEMORIES.map(m => ({ id: m.id, text: m.text })), lost: [], pagesFound: 0, sparesUsed: 0 });
+    if (d.spare) s.sparesUsed++;
+    else { s.rows[d.row] = { lost: d.lost }; if (d.mem && !s.lost.includes(d.mem)) s.lost.push(d.mem); }
   };
 
   // A page fills the first blank row with a line she'd forgotten. No blank row: it's kept for what it's worth.

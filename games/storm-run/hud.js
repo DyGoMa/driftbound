@@ -147,7 +147,9 @@ window.SR = window.SR || {};
     }
     if (run.stage.hint && t < 7) {
       c.globalAlpha = Math.min(1, 7 - t);
-      A_.text(c, run.stage.hint, 190, 350, { size: 13, body: true, color: A_.PAPER, lw: 3 });
+      // On the boss the corner talk box opens over the rock while this shows, so the hint goes up under the pips.
+      if (run.boss) A_.text(c, run.stage.hint, view.w / 2, 42, { size: 13, body: true, color: A_.PAPER, lw: 3, align: 'center' });
+      else A_.text(c, run.stage.hint, 190, 350, { size: 13, body: true, color: A_.PAPER, lw: 3 });
       c.globalAlpha = 1;
     }
   };

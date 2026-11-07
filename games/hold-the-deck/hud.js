@@ -52,6 +52,14 @@ window.HD = window.HD || {};
     A_.salvage(c, x + 8, top + 58, 8, 0);
     A_.text(c, String(Math.floor(run.salvage)), x + 21, top + 58, { size: 18, color: A_.GOLD });
     A_.text(c, 'Score ' + Math.floor(run.score), x + 58, top + 58, { size: 14 });
+    if (!HD.locked(run) && (run.boss || run.stage.volley)) ribs(c, w, x + 132, top + 58);
+  }
+
+  // Volleys taken on the chin this try. The last mark is the one that drops him.
+  function ribs(c, w, x, y) {
+    const A_ = A();
+    A_.text(c, 'RIBS', x, y, { size: 14, color: w.chinned ? '#ff8a6a' : '#8d93b5' });
+    for (let i = 0; i < T.volleyChinMax; i++) A_.line(c, x + 32 + i * 7, y + 5, x + 36 + i * 7, y - 5, 3, i < w.chinned ? '#ff5a3a' : '#8d93b5');
   }
 
   // The bear's strength, in three parts, one per phase.

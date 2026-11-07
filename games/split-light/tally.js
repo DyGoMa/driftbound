@@ -18,7 +18,7 @@ window.SL = window.SL || {};
   };
   SL.shotsAlready = run => (run.dry ? 0 : book().spent[run.index] || 0);
   SL.noteShots = function (run) { if (!run.dry) write(b => { b.spent[run.index] = run.w.fired + run.w.boardFired; }); };
-  SL.noteScars = function (run) { if (!run.dry && !run.w.boss) write(b => { b.scars[run.index] = run.w.S.g.slice(); }); };
+  SL.noteScars = function (run, g) { if (!run.dry && !run.w.boss) write(b => { b.scars[run.index] = (g || run.w.S.g).slice(); }); };
   SL.scarsLogged = run => (run.dry || run.w.boss ? [] : book().scars[run.index] || []);
   SL.forgetShots = () => DriftSave.setSetting(KEY, { spent: {}, scars: {} });   // tests only: a clean page
   SL.replaying = run => !run.dry && run.index < DriftSave.game(run.def.id).cleared;

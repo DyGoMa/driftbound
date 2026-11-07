@@ -51,9 +51,10 @@
     loseLines: W.loseLines,
     loseLine(run) {
       const w = run.w;
-      if (w.s.winded) return pickLose(run.stage.windedLose || W.windedLose);   // only he goes blank; the rest have plenty to say about it
-      if (w.lostBy === 'line' && !run.boss) return pickLose(W.lineLose);   // only when that's what lost it; the boss keeps his own list
-      return voiceLine(pickLose(run.stage.loseLines || W.loseLines), w.rasp);
+      // palSafe: a pal still in the world stays behind this screen, and pals are never in flirting or innuendo (batch rule).
+      if (w.s.winded) return pickLose(SC.palSafe(w, run.stage.windedLose || W.windedLose));   // only he goes blank; the rest have plenty to say about it
+      if (w.lostBy === 'line' && !run.boss) return pickLose(SC.palSafe(w, W.lineLose));   // only when that's what lost it; the boss keeps his own list
+      return voiceLine(pickLose(SC.palSafe(w, run.stage.loseLines || W.loseLines)), w.rasp);
     },
     upgrades: W.upgrades,
     palLines: W.palLines,
@@ -89,6 +90,7 @@
         w.alert = Math.min(E.alertMax, E.alert + w.t * E.alertRamp);
         if (Math.floor(w.t) !== Math.floor(w.t - dt)) SC.growEndless(w, run.rng);
       }
+      w.tapMoth = c.act && !c.surge && !!SC.mothTarget(w);   // read before the step: a tap goes to whatever had the ring
       SC.step(w, dt, c);
       if (s.x > x0) run.addScore((s.x - x0) * T.scorePerPx);
       const wonNow = w.won;

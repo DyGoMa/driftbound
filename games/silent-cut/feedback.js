@@ -27,9 +27,12 @@ window.SC = window.SC || {};
   };
   // A quip only when nobody's talking, unless it matters.
   const pick = list => list[Math.floor(Math.random() * list.length)];
+  // His flirting stays out of it while a pal is in the world (batch rule).
+  const quipsFor = (run, kind) => (SC.palAround(run.w) ? W().quips[kind] : W().quips[kind].concat(W().quipsAdult[kind]));
   function quip(run, kind, whole) {
     if (run.w.say > 0 || Math.random() > T.quips[kind]) return;
-    SC.say(run, 'silas', pick(W().quips[kind]), S.quip, whole);
+    const list = quipsFor(run, kind);
+    if (list.length) SC.say(run, 'silas', pick(list), S.quip, whole);
   }
 
   // Next line of the stage's own radio, by how far along the street he is.
@@ -38,7 +41,12 @@ window.SC = window.SC || {};
     if (!list || !isFinite(w.exitX) || w.radioI >= list.length) return;
     const l = list[w.radioI || 0];
     if (!l) return;
-    if (w.s.x / w.exitX >= l.at && w.say <= 0) { w.radioI = (w.radioI || 0) + 1; SC.say(run, l.who, l.text, S.radio); }
+    if (w.s.x / w.exitX >= l.at && w.say <= 0) {
+      w.radioI = (w.radioI || 0) + 1;
+      // A joke skipped for a pal stays skipped, and so does its answer, even if the pal has gone by then.
+      if (l.adult && (SC.palAround(w) || w.radioHushed)) w.radioHushed = true;
+      else SC.say(run, l.who, l.text, S.radio);
+    }
   }
 
   function tips(run) {
@@ -115,7 +123,7 @@ window.SC = window.SC || {};
         case 'alarm':
           au('bell'); au('alarm'); A().shake(5, 0.3); w.flash = 0.7;
           A().floatText(s.x - w.cam, g - 112, 'ALARM ' + e.n + ' OF ' + T.maxAlarms, '#ff7a5a', 22);
-          if (Math.random() < T.quips.alarmSilas) SC.say(run, 'silas', pick(W().quips.alarm), S.alarm);
+          if (Math.random() < T.quips.alarmSilas) SC.say(run, 'silas', pick(quipsFor(run, 'alarm')), S.alarm);
           else { const l = pick(W().alarmCrew); SC.say(run, l.who, l.text, S.alarm); }
           break;
         case 'maroTurn': au('page'); if (w.say <= 0 && Math.random() < T.quips.maroTurn) { const l = pick(W().maro.turn); SC.say(run, l.who, l.text, S.maroTurn); } break;
@@ -155,7 +163,7 @@ window.SC = window.SC || {};
     if (w.crewAfter > 0 && (w.crewAfter -= Kit.STEP) <= 0) {
       // In the light, "stand still" would lose him the stage: there they tell him to get out of it first.
       const lit = s.winded && s.lastLit && !s.hidden;
-      const l = w.crewTorn ? W().tornCrew[w.crewTorn - 1] : run.boss ? W().maro.winded : pick(lit ? W().windedCrewLit : W().windedCrew);
+      const l = w.crewTorn ? W().tornCrew[w.crewTorn - 1] : run.boss ? W().maro.winded : pick(SC.palSafe(w, lit ? W().windedCrewLit : W().windedCrew));
       SC.say(run, l.who, l.text, S.crew);
     }
     if (w.maroAfterT > 0 && (w.maroAfterT -= Kit.STEP) <= 0 && w.maroAfter) SC.say(run, w.maroAfter.who, w.maroAfter.text, S.maroLine);

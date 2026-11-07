@@ -5,6 +5,8 @@
   // Added before Kit.start so these run before the kit banks what the run has earned.
   document.addEventListener('visibilitychange', () => { if (document.hidden) HH.cashOnHide(current); });
   addEventListener('pagehide', () => HH.cashOnHide(current));
+  // Restart or Quit in the beat after a wave is cleared: that wave's table is earned, so it's paid the same way. Capture, so this runs before the kit's button handler banks.
+  document.addEventListener('click', e => { if (e.target.closest && e.target.closest('[data-kit="restart"],[data-kit="quit"]')) HH.cashOnHide(current); }, true);
 
   // Krell's talk portrait: art/krell-portrait.webp, facing front like the crew's (img is from the site root, as the kit's are).
   // If it can't load: head and shoulders of his own picture (krell_stand), cut at draw time. If that isn't there either, the kit's code bust.
@@ -26,9 +28,15 @@
     endingCard: W.endingCard,
     loseLines: W.loseLines,
     // A burn gets its own lines, never the same one twice running. At the boss only some of the time, so Krell's own lines still come up. null: the kit picks from the usual lists.
+    // A pal still out shows behind this screen, so then the jokes stay out (batch rule). Bosses have no pals, so the street's list is the one to filter.
     loseLine(run) {
-      if (run.w.lastHurt !== 'burn' || (run.boss && Math.random() < T.krellGetsBurnLoss)) return null;
-      const list = W.burnLose.filter(l => l !== lastBurnLine);
+      const pal = run.w.pal;
+      if (run.w.lastHurt !== 'burn' || (run.boss && Math.random() < T.krellGetsBurnLoss)) {
+        if (!pal) return null;
+        const clean = W.loseLines.filter(l => !l.adult);
+        return clean[Math.floor(Math.random() * clean.length)];
+      }
+      const list = W.burnLose.filter(l => l !== lastBurnLine && !(pal && l.adult));
       lastBurnLine = list[Math.floor(Math.random() * list.length)];
       return lastBurnLine;
     },

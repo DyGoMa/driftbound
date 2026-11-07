@@ -1,4 +1,5 @@
 // Hot Hand: everything anyone says. Voices from CAST.md. Full flavour inside the World Bible hard rules. Pals stay out of the jokes.
+// adult: true means flirting or innuendo, so the line keeps quiet while a pal is out (batch rule). fire.js, game.js and table.js check it.
 window.HH = window.HH || {};
 HH.WORDS = {
   tagline: 'Ashmarket is under raid and they flipped her table. Throw fire, hold the top of the heat, and bet on yourself.',
@@ -11,7 +12,7 @@ HH.WORDS = {
         { who: 'juno', text: 'I said ten minutes and a sure thing, Captain. Got the sure thing. Tell Bram I\'m bringing home the keel money, and a few of these boys, well done.' },
         { who: 'ashka', text: 'Ashka lands on your shoulder, drops a burnt playing card, and stares at the nearest trooper.' },
       ],
-      radio: [{ wave: 0, at: 6, who: 'juno', text: 'Come on, boys. Who wants to feel my hands?' }, { wave: 1, at: 2, who: 'juno', text: 'Hotter hands, harder throws. Just stay off the red.' }, { wave: 2, at: 3, who: 'sela', text: 'Keep them warm. The plates don\'t care about cold fire.' }],
+      radio: [{ wave: 0, at: 6, who: 'juno', adult: true, text: 'Come on, boys. Who wants to feel my hands?' }, { wave: 1, at: 2, who: 'juno', text: 'Hotter hands, harder throws. Just stay off the red.' }, { wave: 2, at: 3, who: 'sela', text: 'Keep them warm. The plates don\'t care about cold fire.' }],
       winLine: { who: 'juno', text: 'Three waves, one singed eyebrow, and I\'m still up on the night.' } },
 
     { name: 'Dice Alley', hint: 'Narrow street: they bunch up. A HOT throw burns whoever stands next to the target.',
@@ -21,7 +22,7 @@ HH.WORDS = {
         { who: 'kaito', text: 'Ten says you cook your own hands before the end of the alley!' },
         { who: 'juno', text: 'Ten says you cry when I do, Sparky. Make it twenty. You\'re adorable when you\'re broke.' },
       ],
-      radio: [{ wave: 1, at: 7, who: 'kaito', text: 'That\'s my ten looking safer every second!' }, { wave: 2, at: 8, who: 'ione', text: 'Your pulse says you\'re enjoying this. That\'s not ideal.' }],
+      radio: [{ wave: 1, at: 7, who: 'kaito', text: 'That\'s my ten looking safer every second!' }, { wave: 2, at: 8, who: 'ione', adult: true, text: 'Your pulse says you\'re enjoying this. That\'s not ideal.' }],
       winLine: { who: 'kaito', text: 'Okay, you still have hands. Doesn\'t mean I\'m paying!' } },
 
     { name: 'The Long Table', hint: 'Rain cools you fast, so throw fast. Watch the top windows.',
@@ -31,8 +32,9 @@ HH.WORDS = {
         { who: 'silas', text: 'Shooters behind the top-floor shutters, darling, and rain coming in. It will cool you off faster than you\'d like.' },
         { who: 'juno', text: 'Nothing\'s ever cooled me off faster than you saying "darling".' },
       ],
-      radio: [{ wave: 0, at: 8, who: 'silas', text: 'A little more wrist, darling. People are watching.' }, { wave: 2, at: 6, who: 'bram', text: 'Powder carts near the kegs, lass! Mind your eyebrows!' }],
-      winLine: { who: 'silas', text: 'Soaked to the skin and still smoking. I have never been more jealous of a jacket.' } },
+      radio: [{ wave: 0, at: 8, who: 'silas', adult: true, text: 'A little more wrist, darling. People are watching.' }, { wave: 2, at: 6, who: 'bram', text: 'Powder carts near the kegs, lass! Mind your eyebrows!' }],
+      winLine: { who: 'silas', adult: true, text: 'Soaked to the skin and still smoking. I have never been more jealous of a jacket.' },
+      winLineClean: { who: 'silas', text: 'Soaked to the skin and still smoking. Very nicely done.' } },
 
     { name: 'The Pit', hint: 'They come from both sides. It\'s all on fire: you cool slowly here.',
       talk: [
@@ -41,7 +43,7 @@ HH.WORDS = {
         { who: 'ione', text: 'That\'s a portable cutting rig. They strip the first one in front of everyone, and the rest come quietly. I wrote that page of the manual.' },
         { who: 'juno', text: 'Ashka. Mark everything that moves. I\'m all in.' },
       ],
-      radio: [{ wave: 0, at: 5, who: 'krell', text: 'You\'re on my count now, Calloway. Keep burning.' }, { wave: 2, at: 9, who: 'ione', text: 'Finish this and I\'ll say something kind about your hands.' }],
+      radio: [{ wave: 0, at: 5, who: 'krell', text: 'You\'re on my count now, Calloway. Keep burning.' }, { wave: 2, at: 9, who: 'ione', adult: true, text: 'Finish this and I\'ll say something kind about your hands.' }],
       winLine: { who: 'bram', text: 'That\'s the last of the cages, lass. You look awful. I\'m so proud I could weep.' } },
 
     { name: 'The Vault Steps', hint: 'Shields are solid. Throw into a vent when it opens, as hot as you dare.',
@@ -81,31 +83,31 @@ HH.WORDS = {
     { who: 'juno', text: 'Ow. Okay. Double or nothing.' },
     { who: 'sela', text: 'Up, Juno. You still owe me for the last time.' },
     { who: 'kaito', text: 'Ha! You owe me ten! ...You okay? You\'re okay. TEN.' },
-    { who: 'silas', text: 'When they say "hold \'em", darling, they don\'t mean the blade.' },
+    { who: 'silas', adult: true, text: 'When they say "hold \'em", darling, they don\'t mean the blade.' },
     { who: 'bram', text: 'Come on, lass. There\'s stew. You can\'t eat lying down.' },
-    { who: 'ione', text: 'Cause of failure: confidence. It\'s often fatal, and yours is a very large dose.' },
+    { who: 'ione', adult: true, text: 'Cause of failure: confidence. It\'s often fatal, and yours is a very large dose.' },
     { who: 'ashka', text: 'Ashka lands on your chest, screams in your face, and doesn\'t stop until you get up.' },
     { who: 'juno', text: 'I meant to do that. Nobody look at me.' },
   ],
   burnLose: [
     { who: 'ione', text: 'You cooked yourself. There wasn\'t a scratch from the enemy on that one. I\'ll note the temperature.' },
     { who: 'bram', text: 'You\'ve gone and cooked yourself, lass. That\'s my job, and I use a pot.' },
-    { who: 'silas', text: 'Nobody laid a finger on you, darling. All your own work.' },
+    { who: 'silas', adult: true, text: 'Nobody laid a finger on you, darling. All your own work.' },
     { who: 'kaito', text: 'You set YOURSELF on fire?! Ha! ...That\'s still ten you owe me.' },
     { who: 'juno', text: 'Okay. That one was me. My hands, my fault, my eyebrows.' },
   ],
 
   lock: [
     { who: 'ione', text: 'Forty-two degrees. Your hands have stopped taking orders.' },
-    { who: 'kaito', text: 'Hands gone? Ha! Happens to the best of us! Not me, though.' },
+    { who: 'kaito', adult: true, text: 'Hands gone? Ha! Happens to the best of us! Not me, though.' },
     { who: 'juno', text: 'Shit shit shit HOT. Ow. Worth it. Ow.' },
-    { who: 'silas', text: 'Too much, too soon, darling. We don\'t talk about it.' },
+    { who: 'silas', adult: true, text: 'Too much, too soon, darling. We don\'t talk about it.' },
     { who: 'ashka', text: 'Ashka shrieks and beats her wings over your hands.' },
   ],
   bust: [
     { who: 'juno', text: 'Shit. There goes the pot.' },
     { who: 'kaito', text: 'HA! Bust! Tell me that didn\'t hurt!' },
-    { who: 'silas', text: 'Never mind, darling. It was only money.' },
+    { who: 'silas', adult: true, text: 'Never mind, darling. It was only money.' },
     { who: 'ashka', text: 'Ashka looks at the chips. Ashka looks at you.' },
     { who: 'sela', text: 'That was the keel money, Juno. I was counting.' },
   ],
@@ -121,7 +123,7 @@ HH.WORDS = {
     plate: { who: 'juno', text: 'Plate! Cold fire just bounces. Get your hands WARM first.' },
     runner: { who: 'sela', text: 'Runners! They don\'t stop for a chat.' },
     hook: { who: 'sela', text: 'Hook-man! When it flies, tap it in the air and burn it.' },
-    sniper: { who: 'silas', text: 'Top windows, darling. Tap them while the shutters are open.' },
+    sniper: { who: 'silas', adult: true, text: 'Top windows, darling. Tap them while the shutters are open.' },
     cart: { who: 'bram', text: 'Powder cart! Light it when his mates are close, lass.' },
     hollow: { who: 'ione', text: 'A Hollow. Plates shut when it moves. Tap when it stops.' },
     mark: { who: 'ashka', text: 'Ashka marks one: hit it for no heat, and she cools you.' },
@@ -163,9 +165,9 @@ HH.WORDS = {
       'Sela: "Juno. The keel money." Juno: "I heard you."',
       'Juno: "Nobody ever got rich cashing in."',
       'Kaito: "Don\'t do it!" Juno: "Now I have to."',
-      'Silas: "Quit while you\'re pretty, darling."',
       'Bram: "There\'s stew either way, lass."',
     ],
+    adultQuips: ['Silas: "Quit while you\'re pretty, darling."'],   // left out while a pal is out (table.js)
     cash: 'Cash in',
     half: 'Bet half',
     all: 'Let it ride',

@@ -27,6 +27,14 @@
     });
     Kit.audio.music(def.music || null);
     title();
+    // Browser Back or Forward can bring this page out of memory without running it again. The save may have moved on since (another game, a spend), so the menus read it again.
+    addEventListener('pageshow', e => {
+      if (!e.persisted) return;
+      const on = UI().screen;
+      if (on === 'title') title();
+      else if (on === 'stages') stages();
+      else if (on === 'upgrades') UI().upgrades(def, title);
+    });
     if (Kit._testReady) Kit._testReady(hooks);
   }
 
@@ -216,7 +224,8 @@
   function ending(openedNow) {
     const before = DriftSave.game(def.id).finished;
     DriftSave.finishStory(def.id);
-    UI().talk(def.ending, () => UI().ending(def, !!openedNow || !before, title), 'ending-talk');
+    Kit.audio.music(def.music || null);   // the fight is over: the boss theme stops here, not at the title
+    UI().talk(def.ending,() => UI().ending(def, !!openedNow || !before, title), 'ending-talk');
   }
 
   // ---- Test hooks. Only installed under ?test (test.js).

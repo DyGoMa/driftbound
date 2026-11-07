@@ -43,6 +43,7 @@ Kit.start({
 });
 ```
 The kit handles the rest: title menu (Story, Endless, Upgrades, No-upgrades switch, Sound, Back to Driftbound, salvage and bests), stage select, talk before each stage, results, retry without the talk, ending (replayable from the stage list), endless unlock, saving, pause button, hidden-tab pause, wrong-way-phone prompt and pause.
+The ending talk and card play under `def.music`, not `bossMusic`. If the browser's Back or Forward restores the page from memory, the title, stage list and upgrades read the save again.
 Beating the last stage opens Endless at once, whatever the player taps next. A run counts as fair with the No-upgrades switch on, or when no upgrade for this game has been bought yet.
 
 ## 3. The `run` object (one attempt at one stage)

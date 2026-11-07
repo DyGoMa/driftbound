@@ -1,6 +1,45 @@
 # Silent Cut: notes
 
-Status: built, not yet seen running by Dylan. Pictures are in for all 19 keys (see "Pictures" just below); built, not yet seen by Dylan. `live` stays false.
+Status: built, not yet seen running by Dylan. Pictures are in for all 19 keys (see "Pictures" further down); built, not yet seen by Dylan. Switched on in the shared game list (`shared/games.js`: `live: true`, `status: 'live'`). The old wording of this line is in `NOTES-archive.md`.
+
+## Review fixes (2026-11-06, sixth pass: pal gate, Lamplick, small ones)
+6 findings, each reproduced first; all held up. 5 fixed in this folder. The scar reset is in `shared/kit/game.js`, so it's left for Dylan, below. No kit file changed. No images made. This section wins over the older ones below, including the Lamplick lines in "What was built" and "Calls", and the `tornCrew` note in the fourth pass.
+
+**Pal gate (blocker).** Silas's flirting could fire with Lamplick on screen. Now, while a pal is in the world, flirting and innuendo keep quiet: in play, on the radio, in the crew's out-of-breath lines and on the lose screen. "In the world" means from the start of an attempt until the moth is caught or flies off, on screen or not, and while Tuftle's eyes are open.
+- `words.js`: `quips` holds his clean lines; his flirting moved word for word to `quipsAdult`. `adult: true` marks the rest: 3 lose lines, 1 lamp-line lose line, Juno's "Say something filthy" out-of-breath line, and the radio pairs. No line was reworded for this.
+- `pals.js`: `SC.palAround`, `SC.palSafe`. A radio joke skipped for a pal stays skipped, and so does its answer.
+- Also found while checking: stage talk scenes play over the frozen street, and the moth could sit on a lantern in view behind "Ask anyone who's woken up next to me" (stage 2's first two lanterns are at x 190 and 310). The moth's lantern is now always at least 700 px from where he starts (`mothOffStart`), so it's off screen until play starts.
+
+**Lamplick takes a tap now.** Before, walking through the dizzy moth caught it. Now the dizzy moth gets a TAP ring while it's in the chain's reach, and a tap on it catches it. Walking under it does nothing. Same 15% chance, same 5 s, same lines. The catch comes 0.56 s after the tap (`strikeCalm`), because that's how long it takes to know a tap wasn't a Surge's first half. I tried "stand still and it lands on you" first and dropped it: the human-like player stands about anyway on stage 2, so it still caught it 21 of 40 at a 1.5 s stand and 21 of 40 at 3 s, and a player trying for it got caught out more (40, then 18 of 40). `palRadius` is gone, nothing reads it.
+
+**Smaller.** `tornCrew`'s first line shortened to two lines on the smallest phone. Was: "That wheeze is new. That's the bond taking its cut, Silas. It stays with you for the rest of the job." Now: "That wheeze is new. That's the bond's cut, Silas, and it stays for the rest of the job." With a picture missing, the code figure hiding behind cover is lifted by the same `hideLiftArt` as the picture, so his head shows.
+
+### What was checked, real output
+`node tools/smoke.js silent-cut`: exit 0, `PASSED: silent-cut`. `node games/silent-cut/fairness.js --seeds 40`: exit 0, `FAIR: everything above held`. Scripts in `%TEMP%\kcheck\final\scfix\`, not part of the repo.
+```
+Before: { say: 'Silas\nClose enough to kiss.', moth: 'lamplick' }
+After, every quip chance forced to 1, 60 draws of each moment plus the crew's out-of-breath lines: no pal 28 lines, 16 of them flirting. Moth 12 lines, 0 flirting. Tuftle 12 lines, 0 flirting
+Radio. Stage 2, moth: Sela's line only, no "mood lighting". Stage 3, Tuftle: neither of the crate pair, also when he's gone after the first would have played. No pal: all of them
+Lose lines, 400 draws. No pal: normal 8, lamp line 5, out of breath 6 lines. Moth or Tuftle: 5, 4, 6, none flirting. Real lose screen with the moth in the world, 3 tries: Hush, Ione, Bram, then Kaito in the screenshot; none flirting
+Lamplick, human-like player and the reviewer's seeds. Ignores pals, caught: stage 2 2 of 40 (was 40), stage 4 5 of 40 (was 24). Taps 0.4 s after the ring: stage 2 40 of 40, stage 4 24 of the 24 that cut its lantern. Moth placed, stage 2: x 1080, 1170, 1360, 1450, 1540 only
+Wins with the moth about, same player: stage 2 26 of 40 ignoring, 28 going for it, 23 of 40 with no moth at all on the same seeds; stage 4 19, 19, 16. So it costs nothing
+Real mouse, normal speed, 844x390 and 568x320, chance forced to 1: tap cuts its lantern, ring on, Bram's line. Walk on 2.2 s: moth keeps up, not caught, ring still on. Tap: catch screen 660 and 646 ms later, saved. Tap, 350 ms, double tap beside it: 1 Surge, not caught. Left alone: flies off after 5 s
+Talk box, all 60 play lines. Worst top edge: 568x320 CSS 259.81, logical 292 (was 246, logical 277). 667x375 logical 300, 844x390 logical 302
+```
+Screenshots looked at (`%TEMP%\kcheck\final\scfix\`): TAP ring on the moth at both sizes, the talk scene with the moth placed, the catch screen, a lose screen, the torn line in the box at 568x320, the code figure hiding at the start crates and in crates, tarp and sacks at the left, middle and right, pictures and code side by side at the edges.
+
+Not checked: a real phone or thumb. Whether the moth's ring reads, whether 0.56 s from tap to catch feels like lag, whether people notice the chirp and flicker. Sound by ear. Motion: still frames only.
+
+**Calls made (change any):**
+- **Lamplick's catch is a tap on a TAP ring.** Spec only says "a rare catch with a game-specific condition". A player who sees the ring will likely tap it, so the moth is still found by anyone who cuts that lantern; it's just no longer free. For harder: take the ring off, or shorten `lamplickSecs`.
+- **The moth is never on the first lanterns of a stage.** Endless can start with none far enough along: 2 of 12 seeds had no moth with the chance forced to 1. Stage 3 has no lanterns, so no moth there, as before.
+- **Which lines count as flirting is my reading.** Marked: "darling" and "handsome" lines, "Lovely coat", "Not my best angle", "I'm flattered", "mood lighting", the crate and "from behind" jokes, the shirt lines, "Pretty doesn't count as cover". Left as they are: Kaito's "pretty boy", "Ah. They've noticed me. They always do.", "Don't all cheer at once."
+- With a pal about, a close call gets no line from Silas: all three were flirting and I didn't write a new one.
+- Stage win lines and stage talk are not gated: none of the win lines on stages with pals flirts, and the moth is off screen during talk.
+
+**For Dylan, not changed: voice scars can be wiped for free.** `shared/kit/game.js`, `pickStage` and `bank`. Reproduced: saved run with rasp 3, boss picked, chest and rasp `[0.7, 3]`. Stage 1, win, Menu, stage 5: `[1, 0]`, saved carry `undefined`. Kit README section 3 describes this on purpose ("so nobody is stuck with a ruined run"), and it's the same rule for every game, so it isn't this game's to change. See "calls" in the batch report.
+
+**Noticed, not touched:** at the far edge of a low cover (sacks, barrels), the hiding figure floats about 20 px off the road. It's the lift, and the picture has always done the same; the code figure now matches it.
 
 ## Picture: `silas_strike` with an empty sheath (2026-11-06)
 Answers the "NEEDS PICTURE" note in the fifth pass below. Status: built, not yet seen by Dylan.

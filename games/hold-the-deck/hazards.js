@@ -134,9 +134,21 @@ window.HD = window.HD || {};
       A().floatText(cx, y - 80, 'CLANG!', '#ffffff', 26);
       HD.addTemper(run, temper);
       if (what === 'crate') HD.dropCog(run, cx, y - 40, T.dropSalvage);
-    } else if (here) { w.tookVolley = w.tookVolley || !HD.locked(run); HD.hurt(run, HD.locked(run) ? T.volleyHurtLocked : T.volleyHurt, 'volley'); }
+    } else if (here) tookVolley(run, cx, y);
     else if (what === 'hook') { w.stuck.push({ lane: x.lane, age: 0, jig: run.rng() }); if (w.stuck.length > 4) w.stuck.shift(); }
     else if (what === 'crate') HD.dropCog(run, cx, y - 20, T.dropSalvage);
+  }
+
+  // A volley on the chin. Guts pay for the first ones, however many he's bought. The last one (volleyChinMax) drops him whatever he's got, so no upgrade buys the grey off. It counts even in the moment of safety after a hit, or that would be a way round it. Full iron has no Iron to hold, so there it only dents him.
+  function tookVolley(run, x, y) {
+    const w = run.w;
+    if (HD.locked(run)) { HD.hurt(run, T.volleyHurtLocked, 'volley'); return; }
+    w.tookVolley = true; w.chinned++;
+    const last = w.chinned >= T.volleyChinMax;
+    if (last) w.inv = 0;
+    A().floatText(x, y - 80, 'RIBS ' + w.chinned + ' OF ' + T.volleyChinMax, '#ff8a6a', 22);
+    HD.hurt(run, last ? w.guts : T.volleyHurt, 'volley');
+    if (!run.over && w.chinned === T.volleyChinMax - 1) HD.first(run, 'ribs', true);
   }
 
   function fireDrop(run, x) {

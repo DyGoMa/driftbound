@@ -20,7 +20,7 @@ const KEYS = ['ione_bust', 'vasch_bust', 'prism_top', 'prism_fire', 'room_0', 'r
       out.pause = Math.min(p.width, p.height);
       return out;
     });
-    check(sizes.cell >= (size === 'short' ? 38 : 44), `${size}: board cell ${sizes.cell.toFixed(1)} CSS px${size === 'short' ? ' (known: under 44 with browser bars showing on a 320 px phone; see tuning.js)' : ''}`);
+    check(sizes.cell >= 44, `${size}: board cell ${sizes.cell.toFixed(1)} CSS px`);
     check(sizes.smallest >= 44, `${size}: smallest button (${sizes.what}) ${sizes.smallest.toFixed(1)} CSS px across`);
     check(sizes.pal >= 44, `${size}: pal tap circle ${sizes.pal.toFixed(1)} CSS px across`);
     check(sizes.pause >= 40, `${size}: pause button ${sizes.pause.toFixed(1)} CSS px (the kit's own)`);

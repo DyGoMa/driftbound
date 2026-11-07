@@ -5,17 +5,26 @@ window.SL = window.SL || {};
 
   // The bottom row's height: taller on short screens, where the scale would take it under the 44 px rule.
   SL.rowH = () => Math.max(T.buttonRowH, Math.min(T.buttonRowMax, T.buttonRowCss / Kit.view.scale));
+  // A short screen on a level: the board has grown to keep its cells at the tap rule (T.cell), so Ione's window, FIRE, Retry and any upgrade buttons share one row, across the extra width a short screen has. The boss's boards are a row shorter and keep the usual layout.
+  SL.shortRow = run => !run.w.boss && T.cell > T.cellBase;
 
   // The buttons, with where they are. The first row is FIRE beside Ione; under it, Retry and any upgrade buttons.
   SL.buttons = function (run) {
     const w = run.w, L = w.L, boss = !!w.boss, room = (boss ? T.bossRows : T.rows) * T.cell;
     const rowH = SL.rowH(), panelY = T.top + room + T.hudH + T.panelGap, rowY = T.screenBottom - rowH, list = [];
     const dead = w.dead;
-    if (boss) list.push({ id: 'fire', label: 'FIRE', x: T.bossFireX, y: panelY, w: T.bossFireW, h: rowY - panelY - T.fireRowGap, on: SL.canFire(w), main: !dead });
+    if (boss) list.push({ id: 'fire', label: 'FIRE', x: T.bossFireX, y: panelY, w: T.bossFireW, h: rowY - panelY - T.fireRowGap, on: SL.canFire(w), main: !dead, count: true });
     else list.push({ id: 'fire', label: 'FIRE', x: T.fireX, y: panelY, w: T.fireW, h: rowY - panelY - T.fireRowGap, on: SL.canFire(w), main: !dead, pulse: run.index === 0 && w.touched && !w.boardFired });
-    const row = [{ id: 'retry', label: !boss ? 'RETRY' : w.resetArm > 0 ? 'AGAIN: -1 NERVE' : 'RESET', on: !boss || w.boardFired > 0, main: dead, lit: w.resetArm > 0 }];
+    const row = [{ id: 'retry', label: !boss ? 'RETRY' : w.resetArm > 0 ? 'AGAIN\n-1 NERVE' : 'RESET', on: !boss || w.boardFired > 0, main: dead, lit: w.resetArm > 0 }];   // two lines: on one it ran past both edges of the button once Undo and Scrape were bought
     if (w.undoTotal) row.push({ id: 'undo', label: 'UNDO ' + w.undos, on: w.undos > 0 && w.history.length > 0 });
     if (w.scrapeTotal) row.push({ id: 'scrape', label: 'SCRAPE ' + w.scrapes, on: w.scrapes > 0 && w.S.g.length > 0 && w.S.shots > 0, lit: w.scraping });
+    if (SL.shortRow(run)) {
+      const v = Kit.view, y = panelY, h = T.screenBottom - panelY, right = v.right - T.shortEdge, fx = v.left + T.shortEdge + T.shortIoneW + T.rowGap, room = right - fx - row.length * T.rowGap;
+      const bw = Math.min(T.shortButtonW, room / (row.length + 1)), fw = room - row.length * bw;   // barely short means barely any extra width: then FIRE and the rest share it evenly
+      Object.assign(list[0], { x: fx, y, w: fw, h });
+      row.forEach((b, i) => list.push(Object.assign(b, { x: fx + fw + T.rowGap + i * (bw + T.rowGap), y, w: bw, h })));
+      return list;
+    }
     const x0 = boss ? T.bossRowX0 : T.rowX0, x1 = boss ? T.bossRowX1 : T.rowX1, gap = T.rowGap, bw = (x1 - x0 - gap * (row.length - 1)) / row.length;
     row.forEach((b, i) => list.push(Object.assign(b, { x: x0 + i * (bw + gap), y: rowY, w: bw, h: rowH })));
     return list;

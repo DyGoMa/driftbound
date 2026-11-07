@@ -148,7 +148,7 @@ window.TUNE = {
   endlessPurse: 2,      // PROVISIONAL: the table's floor in Endless, per wave
 
   // ---- Upgrades
-  coolPerLevel: 0.15,   // PROVISIONAL: Cool Palms: extra cooling per level
+  coolPerLevel: 0.1,    // PROVISIONAL: Cool Palms: extra cooling per level. Was 0.15, which let a bought-up player mostly ignore the bar. Runs in NOTES.md
   lockPerLevel: 0.15,   // PROVISIONAL: Cool Palms: seconds off the lock per level
   flamePerLevel: 0.25,  // PROVISIONAL: Bigger Flame: wider burn per level
   warmBurn: 44,         // PROVISIONAL: Bigger Flame, level 2 up: WARM throws burn this far too

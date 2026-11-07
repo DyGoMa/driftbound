@@ -77,8 +77,10 @@ window.SR = window.SR || {};
       if (f.x < Kit.view.left - 80 || f.x > Kit.view.right + 80) continue;
       if (f.type === 'low' || f.type === 'tall') barricade(c, f.type === 'tall', f.x);
       else if (f.type === 'trooper') {
-        if (!A_.draw(c, 'trooper_run', A_.frameAt('trooper_run', t + f.x * 0.003), f.x, g, tH, true))
-          A_.personFast(c, 'trooper', { x: f.x, y: g, h: tH, pose: 'run', t: t + f.x * 0.003, flip: true });
+        // He faces left, so we see his left side: no blade (trooper-sheet-v1.png). A flipped strip puts the blade on the wrong hip, so a true left-facing strip goes first when it exists (art/REQUEST.md).
+        const ft = t + f.x * 0.003;
+        if (!A_.draw(c, 'trooper_run_left', A_.frameAt('trooper_run_left', ft), f.x, g, tH) && !A_.draw(c, 'trooper_run', A_.frameAt('trooper_run', ft), f.x, g, tH, true))
+          A_.personFast(c, 'trooper', { x: f.x, y: g, h: tH, pose: 'run', t: ft, flip: true });
       } else if (f.type === 'swoop') {
         const b = SR.box(f, f.x), y = g - b.lo - 11, dives = f.low < T.swoopOverLow;
         // A dive throws a hot warning on the road, and the Hollow tips nose-down as it drops.
@@ -115,16 +117,6 @@ window.SR = window.SR || {};
     const A_ = A(), w = run.w, t = run.time, g = T.groundY, which = run.endless ? 2 : run.index;
     SR.drawScene(c, view, w.scroll, t, which, run.stage);
     const k = w.k, y = g - k.alt;
-
-    // Silt, a long way off on the rooftops, keeping pace (stage 4).
-    if (run.stage.silt) {
-      const u = (run.time * 0.04) % 1, sx = view.left + 40 + u * 240;
-      c.globalAlpha = 0.85;
-      c.save(); c.translate(sx, g - 8 - Math.abs(Math.sin(t * 6)) * 4); c.scale(0.34, 0.34);
-      SR.drawHound(c, { state: 'chase', x: 0, alt: TUNE.groundY, flip: false, throwArm: 0, flash: 0, t: 1, total: 1 }, t);
-      c.restore();
-      c.globalAlpha = 1;
-    }
 
     for (const co of w.coins) if (co.x < view.right + 20) A_.salvage(c, co.x, g - co.alt, co.big ? 11 : 8, t * 3 + co.x * 0.02);
     // Skarn glides above and behind (Dylan's answer), dipping to catch him when Skarn's Catch fires.
@@ -186,12 +178,17 @@ window.SR = window.SR || {};
   SR.titleDraw = function (c, view, t) {
     const A_ = A();
     if (!pic) { pic = new Image(); pic.src = Kit.url('art/site/pinhold-v1-web.webp'); }
+    const g = view.bottom - 22, h = 74, kx = view.left + (view.right - view.left) * 0.38;
     if (pic.complete && pic.naturalWidth) {
       const W = view.right - view.left, H = view.bottom - view.top, s = Math.max(W / pic.naturalWidth, H / pic.naturalHeight);
       c.drawImage(pic, view.left + (W - pic.naturalWidth * s) / 2, view.top + (H - pic.naturalHeight * s) / 2, pic.naturalWidth * s, pic.naturalHeight * s);
-    } else SR.drawScene(c, view, t * 200, t, 0, null);
-    const g = view.bottom - 22, h = 74, kx = view.left + (view.right - view.left) * 0.38;
-    SR.strip(c, SR.titleRoad(), view, t * 220, g);
+      SR.strip(c, SR.titleRoad(), view, t * 220, g);
+    } else {   // the code island, moved down so its own road is the one they run on
+      const d = g - T.groundY;
+      c.save(); c.translate(0, d);
+      SR.drawScene(c, Object.assign({}, view, { top: view.top - d, bottom: view.bottom - d }), t * 220, t, 0, null);
+      c.restore();
+    }
     if (!A_.draw(c, 'kaito_run', A_.frameAt('kaito_run', t), kx, g, h)) A_.personFast(c, 'kaito', { x: kx, y: g, h, pose: 'run', t });
     SR.drawSkarn(c, kx - 136, g - 52 + Math.sin(t * 2.2) * 4, t, {});   // far enough behind that his front paw clears Kaito
   };

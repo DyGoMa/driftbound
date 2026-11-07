@@ -33,7 +33,8 @@ window.HDThumb = function (opt) {
     const tap = l => tapAt(T.midX + (l - 1) * 100, o.tapY);
     const grist = () => tapAt(T.btn.x + T.btn.w / 2, T.btn.y + T.btn.h / 2);
     const ready = HD.canCharge(w), iron = run.carry.iron || 0;
-    if (volley && stillVolley && iron < 1 && !o.never && (w.guts <= o.holdAt || v.boss)) { input.sim.press(T.midX + (w.target - 1) * 100, o.tapY); m.holding = true; m.last = now; return; }
+    const wantHold = w.chinned >= T.volleyChinMax - 1 || (o.justEnough ? w.guts <= T.volleyHurt : (w.guts <= o.holdAt || v.boss));   // the plate says HOLD OR YOU'RE DOWN for the one that would drop it, and every thumb here heeds that (a guess about people). justEnough: takes all it can afford on the chin
+    if (volley && stillVolley && iron < 1 && !o.never && wantHold) { input.sim.press(T.midX + (w.target - 1) * 100, o.tapY); m.holding = true; m.last = now; return; }
     if (lit(w.target) && !volley) { const opts = [0, 1, 2].filter(l => !lit(l)).sort((a, b) => Math.abs(a - w.target) - Math.abs(b - w.target)); if (opts.length) tap(opts[0]); return; }
     if (ready && v.boss && (v.boss.st === 'stand' || v.boss.st === 'far') && !lit(w.target)) { grist(); return; }
     if (ready && !v.boss && v.foes.filter(f => f.l === w.target && f.d > 0.05).length >= 2) { grist(); return; }
@@ -65,7 +66,7 @@ window.HDStory = function (opt, seed, maxTries = 14) {
         res = __kit.runStage(st, { bot: true, seed: seed * 7907 + st * 131 + tries * 17, renderEvery: 0, carry: { iron }, continued: true, maxSeconds: 420 });
         if (res.result === 'win') break;
         const i = res.info || {};
-        if (i.ironUses > 0 || !(i.hurtBy && i.hurtBy.volley) || iron >= 1) paid++;
+        if ((i.swingsHit || 0) >= TUNE.mercyMinSwings && (i.ironUses > 0 || !(i.hurtBy && i.hurtBy.volley) || iron >= 1)) paid++;   // bram.js, HD.earnedMercy
       }
       out.tries.push(res.result === 'win' ? tries : -tries);
       out.hurt.push(res.info && res.info.hurtBy); out.uses.push(res.info && res.info.ironUses); out.secs.push(res.seconds);

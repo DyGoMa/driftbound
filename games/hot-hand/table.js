@@ -122,7 +122,7 @@ window.HH = window.HH || {};
     if (w.hp > 0) { if (run.boss) HH.say(run, W.bustBoss); else HH.sayOne(run, W.bust, 'bustI'); }
   };
 
-  // The tab is being hidden while the wave's money is on the table (the card is up, or the wave has just been won and the card is about to come): it's earned, so it's paid now, before the kit banks. Then the card has to change: there's nothing left to bet, and it says so.
+  // The tab is being hidden while the wave's money is on the table (the card is up, or the wave has just been won and the card is about to come): it's earned, so it's paid now, before the kit banks. Then the card has to change: there's nothing left to bet, and it says so. Restart and Quit in that beat pay through here too (game.js), and then there's no card.
   function hiddenCard(run, paid) {
     run.ask({ title: W.bet.hiddenTitle, text: W.bet.hiddenBody(paid), options: [{ label: W.bet.hiddenGo, value: 0 }] }, o => placeBet(run, o));
   }
@@ -152,13 +152,15 @@ window.HH = window.HH || {};
       if (table > 0) { run.addSalvage(table); HH.sfx(run, 'cash'); HH.fx(run, A => A.floatText(320, 90, '+' + table + ' SALVAGE', A.GOLD, 24)); }
       w.table = 0;
       w.phase = 'done';
+      if (w.pal && run.stage.winLineClean) run.stage = Object.assign({}, run.stage, { winLine: run.stage.winLineClean });   // the pal shows behind the win screen, so no joke there (batch rule)
       run.win(run.boss ? T.bossWinBeat : undefined);
       return;
     }
     if (w.cashedOnHide) { w.phase = 'asking'; hiddenCard(run, w.cashedPaid); return; }
     const x = HH.betX(run), limit = HH.betLimit(run), all = Math.min(table, limit), half = Math.floor(all / 2);
-    w.quipI = (w.quipI === undefined ? run.int(0, W.bet.quips.length - 1) : w.quipI + 1);
-    const body = (w.wonLast ? W.bet.won(w.wonLast) : '') + (w.lostLast ? W.bet.lost(w.lostLast) : '') + W.bet[run.boss ? 'last' : 'body'](table, x) + (table > limit ? ' ' + W.bet.limit(limit) : '') + ' ' + W.bet.quips[w.quipI % W.bet.quips.length];
+    const quips = w.pal ? W.bet.quips : W.bet.quips.concat(W.bet.adultQuips);   // a pal still out shows behind the card (batch rule)
+    w.quipI = (w.quipI === undefined ? run.int(0, quips.length - 1) : w.quipI + 1);
+    const body = (w.wonLast ? W.bet.won(w.wonLast) : '') + (w.lostLast ? W.bet.lost(w.lostLast) : '') + W.bet[run.boss ? 'last' : 'body'](table, x) + (table > limit ? ' ' + W.bet.limit(limit) : '') + ' ' + quips[w.quipI % quips.length];
     const opts = [
       { label: W.bet.cash, blurb: W.bet.cashBlurb(table), value: 0 },
       { label: W.bet.half, blurb: W.bet.ridesBlurb(table - half, half, Math.round(half * x)), value: half, disabled: half < 1 },

@@ -55,7 +55,7 @@ window.TUNE = {
   // ---- The chain-blade (spec: "Tap when close behind a trooper to strike")
   reach: 66,            // PROVISIONAL: px, for a strike and for cutting a lantern
   strikeSecs: 0.3,      // PROVISIONAL: how long he stands still to throw the chain
-  strikeCalm: 0.56,     // PROVISIONAL: seconds after a strike or a cut on Maro in which a tap can't start or finish a Surge. Just over doubleGap + tapMax, the latest a double tap's second tap can lift
+  strikeCalm: 0.56,     // PROVISIONAL: seconds after a strike or a cut on Maro in which a tap can't start or finish a Surge. Just over doubleGap + tapMax, the latest a double tap's second tap can lift. Also how long a tap on the dizzy moth waits before it's a catch, for the same reason
   cutSecs: 0.18,        // PROVISIONAL: and to cut a lantern
   chainWindup: 0.2,     // PROVISIONAL: looks only. Share of a strike with the knife wound up behind his hand
   chainFly: 0.25,       // PROVISIONAL: looks only. Share of a strike or cut the knife takes to reach its target
@@ -109,16 +109,16 @@ window.TUNE = {
   scoreStreak: 40,      // PROVISIONAL: extra per trooper when strikes come in a row
   streakSecs: 5,        // PROVISIONAL: seconds a strike keeps a streak going
 
-  // ---- Pals. Both reward the opposite of hurrying, so they stay rare
+  // ---- Pals. Each takes something done on purpose, so they stay rare
   tuftleFromStage: 1,   // PROVISIONAL: index, 1 = stage 2
   tuftleStill: 18,      // PROVISIONAL: seconds frozen in cover, with no alarm so far this stage, before the eyes may open. Longer than waiting for one Surge or two, so it's a choice to sit on, not something that happens while getting breath back
   tuftleChance: 0.25,   // PROVISIONAL: chance when that happens; once per cover
   tuftleStay: 2.4,      // PROVISIONAL: stay frozen this much longer and it climbs on
   lamplickFromStage: 1, // PROVISIONAL: index, 1 = stage 2
   lamplickChance: 0.15, // PROVISIONAL: chance one lantern per attempt has the moth on it
-  lamplickSecs: 5,      // PROVISIONAL: cut that lantern, then reach the dizzy moth within this many seconds
+  lamplickSecs: 5,      // PROVISIONAL: cut that lantern, then tap the dizzy moth within this many seconds. It gets a TAP ring while it's in the chain's reach
+  mothOffStart: 700,    // PROVISIONAL: its lantern is at least this far from where he starts, so it's off screen during the talk scene, even on a wide phone (the street shows to about 590 px)
   tuftleEyesBack: 22,   // PROVISIONAL: looks only. px behind him the eyes open
-  palRadius: 24,        // PROVISIONAL
   mothHear: 340,        // PROVISIONAL: px ahead of him the moth's lantern starts to chirp and gets its line. It stops once he can't reach the lantern any more
   mothDrift: 150,       // PROVISIONAL: px per second a dizzy moth wobbles after him if he cut its lantern from past it, since he can't walk back. Faster than the quickest creep (113, with Softer Boots), so it always gets to him inside lamplickSecs
   mothStartAlt: 90,     // PROVISIONAL: px up it falls from when its lantern's cut
@@ -147,7 +147,7 @@ window.TUNE = {
   maroCoinAhead: 40,    // PROVISIONAL: px past him the first coin lands, where Silas is walking next
   maroCoinGap: 26,      // PROVISIONAL: px between coins
 
-  hideLiftArt: 20,      // PROVISIONAL: looks only. px the hiding picture is raised behind cover, so his head shows over crates up to 68 px high
+  hideLiftArt: 20,      // PROVISIONAL: looks only. px the hiding picture, or the code figure if the picture's missing, is raised behind cover, so his head shows over crates up to 68 px high
   hushSpeed: 260,       // PROVISIONAL: looks only. px per second Hush flies to the next safe place
   sceneInk: 0.55,       // PROVISIONAL: looks only. Ink on code-drawn props and streets, as a share of the kit's, so they sit nearer the pictures' fine lines. 1 puts the old heavy lines back. For Dylan's eye
   floatClear: 42,       // PROVISIONAL: looks only. px beside him that "creak" and "+1" float, so they don't cover him

@@ -116,7 +116,7 @@ window.TG = window.TG || {};
     }
     if (b.state === 'enter') {
       b.y = B.startY + (B.cutterY - B.startY) * Math.min(1, b.t / B.enterSecs);
-      if (b.t >= B.enterSecs) { b.state = 'volley'; b.t = 0; b.move = 0; b.moveT = B.firstMove; TG.sayNow(run, W().start); }
+      if (b.t >= B.enterSecs) { b.state = 'volley'; b.t = 0; b.move = 0; b.moveT = B.firstMove; TG.sayNow(run, W().start); if (run.up('spare') > run.carry.sparesUsed) TG.sayOne(run, W().noCopies, 0, T.talkStaleLong); }
     } else if (b.state === 'volley') {
       b.moveT -= dt;
       feelChain(run, w);

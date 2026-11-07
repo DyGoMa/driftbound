@@ -1,14 +1,25 @@
-// Silent Cut: the two hidden pals. Tuftle only comes to someone sitting perfectly still in the dark. Lamplick is on one lantern: cut it down, then catch the dizzy moth.
+// Silent Cut: the two hidden pals. Tuftle only comes to someone sitting perfectly still in the dark. Lamplick is on one lantern: cut it down, then tap the dizzy moth to catch it.
 window.SC = window.SC || {};
 (function () {
   const T = TUNE, W = () => SC.WORDS;
 
-  // Called when a stage starts. One lantern may have the moth on it.
+  // Batch rule: pals are never in flirting or innuendo. While one is in the world, lines marked adult in words.js keep quiet. Lamplick is in the world from the start of an attempt until it's caught or flies off, on screen or not.
+  SC.palAround = w => !!(w.moth || w.tuf);
+  SC.palSafe = (w, list) => (SC.palAround(w) ? list.filter(l => !l.adult) : list);
+
+  // Called when a stage starts. One lantern may have the moth on it, never one on screen at the start, because the talk scene plays over the frozen street.
   SC.palInit = function (run) {
     const w = run.w, first = SC.nextCover(w, w.s.x);
     if (first) w.hush.x = w.hush.tx = first.x;   // Hush is already waiting at the first safe place
     if (run.hasPal('lamplick') || run.boss || (!run.endless && run.index < T.lamplickFromStage)) return;
-    if (run.rng() < T.lamplickChance && w.lanterns.length) w.moth = { id: 'lamplick', l: w.lanterns[Math.floor(run.rng() * w.lanterns.length)], state: 'lick', x: 0, alt: 0, t: 0, said: false };
+    const far = w.lanterns.filter(l => l.x - w.s.x >= T.mothOffStart);
+    if (run.rng() < T.lamplickChance && far.length) w.moth = { id: 'lamplick', l: far[Math.floor(run.rng() * far.length)], state: 'lick', x: 0, alt: 0, t: 0, said: false };
+  };
+
+  // What a tap can catch: the dizzy moth, in the chain's reach, when nothing else has the TAP ring. Kept out of SC.target, so the rules and the test bot's plans never reach for it.
+  SC.mothTarget = function (w) {
+    const m = w.moth;
+    return m && m.state === 'dizzy' && Math.abs(m.x - w.s.x) <= w.reach && !SC.target(w) ? { kind: 'moth', o: m } : null;
   };
 
   SC.palStep = function (run) {
@@ -39,7 +50,13 @@ window.SC = window.SC || {};
     m.t -= dt;
     m.alt = Math.max(T.mothRestAlt, m.alt - T.mothFall * dt);
     if (m.x < s.x) m.x = Math.min(s.x, m.x + T.mothDrift * dt);   // he can't walk back, and the chain cuts from past it, so it wobbles after him: "catch it" can always be done
-    if (Math.abs(m.x - s.x) < T.palRadius) { w.moth = null; run.catchPal('lamplick'); return; }
+    // It takes a tap of his own, on the TAP ring. Walking under it or through it does nothing. And a Surge's first tap is no catch: it waits to see no second tap is coming.
+    if (w.tapMoth && !m.tapT) m.tapT = T.strikeCalm;
+    if (m.tapT > 0) {
+      if (s.dash > 0) m.tapT = 0;
+      else if ((m.tapT -= dt) <= 0) { w.moth = null; run.catchPal('lamplick'); return; }
+      return;
+    }
     if (m.t <= 0) w.moth = null;
   };
 })();
