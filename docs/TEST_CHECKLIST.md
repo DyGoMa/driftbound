@@ -31,7 +31,7 @@ split-light: 228 ok, 0 failed. Last line: PASSED: split-light
 | S8 | Open a different game's Upgrades | The same salvage total to spend, and that game's own three upgrades | |
 | S9 | Turn the No-upgrades switch on, then play | Your upgrades do nothing, and a score counts as Fair best | |
 | S10 | Catch any pal (how: each game's list below) | A catch moment and a crew line, and the title says 1 of 2 | |
-| S11 | Go to the Monster book on the homepage | That pal is shown, with the count going up out of 12. The rest stay mystery slots | |
+| S11 | Go to the Monster book on the homepage | That pal is shown, with the count going up out of 12. The rest stay mystery slots | **works** (Dylan 2026-11-07: "I see them in the book") |
 | S12 | Replay where you caught it | It never comes back | |
 | S13 | Turn Sound off in one game, then open another | Still off. Turn it on: sound comes back, and only after a tap | |
 | S14 | Close the browser partway through a story, then reopen | The stages you've won are still open | |
@@ -142,7 +142,7 @@ split-light: 228 ok, 0 failed. Last line: PASSED: split-light
 | SL8 | Beat Director Vasch's three boards | He talks throughout and counts to ten: at ten he fires for you. Resets use your 3 points of nerve. Tense, not unfair. Takes a few tries | |
 | SL9 | Finish the ending | The ending plays. There is no Endless button in this game | |
 | SL10 | Try the upgrades: Steady Hand, Shard Scraper, Second Look | Each button shows only once bought, and does what it says | |
-| SL11 | Find Prismule (was Glimmick): from Set 2, don't fire for a good while, then tap it if it crawls by | Rare. Caught | |
+| SL11 | Find Prismule (was Glimmick): from Set 2, don't fire for a good while, then tap it if it crawls by | Rare. Caught | **works** (Dylan 2026-11-07: "I got prismule so it works"; pal chance was already 1 by then) |
 | SL12 | Find Shardle: from Set 3, fire one shot of 5 or more bounces, then tap it if it hops | Rare. Caught | |
 | SL13 | Watch and listen | Prism reads as Prism from above, Ione's arm reads as crystal growing, Vasch looks right. Music and effects sound right | |
 
