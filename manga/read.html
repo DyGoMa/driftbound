@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Driftbound manga</title>
+<meta name="theme-color" content="#0c1026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,500;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet">
+<script src="../shared/config.js"></script>
+<script src="../shared/gate.js"></script>
+<link rel="stylesheet" href="reader.css">
+<link rel="stylesheet" href="reader-ink.css">
+</head>
+<body class="reader">
+<noscript><p style="color:#f5efe2;text-align:center;padding:40px 16px">Driftbound is for adults only and needs JavaScript switched on.</p></noscript>
+<template id="page">
+  <header class="rbar">
+    <a class="rbar-back" href="index.html" aria-label="Back to the shelf"><span aria-hidden="true">‹</span> Shelf</a>
+    <h1 class="rbar-title"><span id="issue-no"></span> <span id="issue-title">Loading…</span></h1>
+    <button type="button" class="rbar-gear" id="settings-btn" aria-expanded="false" aria-controls="settings" aria-label="Reading settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2.2"/><circle cx="8" cy="17" r="2.2"/></svg>
+    </button>
+    <div class="settings" id="settings" hidden>
+      <p class="set-label">Reading direction</p>
+      <div class="set-row">
+        <button type="button" data-dir="rtl">Right to left<small>like printed manga</small></button>
+        <button type="button" data-dir="ltr">Left to right<small>like a western comic</small></button>
+      </div>
+      <p class="set-label">Art notes on the placeholders</p>
+      <div class="set-row">
+        <button type="button" data-notes="on">Show</button>
+        <button type="button" data-notes="off">Hide art notes</button>
+      </div>
+      <button type="button" class="set-done" data-close="1">Done</button>
+    </div>
+  </header>
+
+  <main class="stage" id="stage" aria-label="Pages. Use the arrow keys or tap the sides to turn."></main>
+  <p class="spread-note" id="spread-note" hidden>Two-page spread · turn your phone for the spread, or tap to zoom</p>
+  <div class="hint" id="hint" hidden aria-live="polite"><i aria-hidden="true"></i><p><b></b><span></span></p></div>
+
+  <footer class="rfoot">
+    <input type="range" id="slider" class="slider" min="0" max="0" value="0" step="1" aria-label="Jump to page">
+    <span class="count" id="count"></span>
+  </footer>
+
+  <div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-label="Panel close-up" hidden>
+    <div class="zoom-sheet">
+      <button type="button" class="zoom-close" aria-label="Close">Close <span aria-hidden="true">✕</span></button>
+      <div class="zoom-body"></div>
+    </div>
+  </div>
+</template>
+<script src="common.js"></script>
+<script src="../shared/kit/speakers.js"></script>
+<script src="art/manifest.js"></script>
+<script src="catalog.js"></script>
+<script src="layouts.js"></script>
+<script src="read-geom.js"></script>
+<script src="read-balloons.js"></script>
+<script src="read-fit.js"></script>
+<script src="read-panel.js"></script>
+<script src="read-pages.js"></script>
+<script src="read-book.js"></script>
+<script src="read-view.js"></script>
+<script src="read-input.js"></script>
+<script src="read-zoom.js"></script>
+<script src="read-boot.js"></script>
+</body>
+</html>

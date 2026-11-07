@@ -24,6 +24,7 @@ a { color: inherit; }
 .nav-wrap { max-width: 1120px; margin: 0 auto; }
 .nav a { padding: 10px 8px; font-weight: 700; font-size: 15px; text-decoration: none; color: var(--paper); }
 .nav a:hover, .nav a:focus-visible { color: var(--orange); }
+@media (max-width: 370px) { .nav a { padding: 10px 4px; font-size: 14px; } }   /* six links still fit on a 320 px phone */
 
 /* Banner */
 .hero { position: relative; background: var(--night) url(art/site/dusk-islands.svg) center / cover no-repeat; }
