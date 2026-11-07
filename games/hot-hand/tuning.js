@@ -167,12 +167,12 @@ window.TUNE = {
 
   // ---- Pals. Rare, and each asks for the thing the game is about
   cinderHot: 14,        // PROVISIONAL: seconds at HOT or better in one attempt before Cinderbun comes to the warmth
-  cinderChance: 0.12,   // PROVISIONAL: chance when that happens, once per attempt
+  cinderChance: 1,   // Dylan 2026-11-07 "Always when you do it" (was 0.12): chance when that happens, once per attempt
   cinderCatch: 78,      // PROVISIONAL: the heat it must be touched at: the HOT HAND band (edgeAt) or above, so it can't be caught by accident
   cinderFromStage: 1,   // PROVISIONAL: index, 1 = stage 2
   cinderSecs: 9,        // PROVISIONAL: how long it stays before it wanders off
   diceStake: 6,         // PROVISIONAL: at least this riding when a wave starts: the house's whole limit...
-  diceChance: 0.12,     // PROVISIONAL: ...and this chance Dicemite comes for a look
+  diceChance: 1,     // Dylan 2026-11-07 "Always when you do it" (was 0.12): ...and this chance Dicemite comes for a look
   diceFromStage: 1,     // PROVISIONAL: index, 1 = stage 2
   diceSecs: 9,          // PROVISIONAL: how long it stays
   dicePipSecs: 0.42,    // PROVISIONAL: its shell rolls a new number this often. Tap on a six

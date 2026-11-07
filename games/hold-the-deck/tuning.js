@@ -171,11 +171,11 @@ window.TUNE = {
     mix: [ { grunt: 5, pair: 1 }, { grunt: 4, runner: 2, cutter: 2, rope: 1, pair: 1 }, { grunt: 3, runner: 2, wall: 2, drop: 3, cutter: 2, pair: 2 }, { grunt: 2, runner: 3, shield: 3, cutter: 2, drop: 3, wall: 1, ram: 1, rush: 2, pair: 3, line: 1 } ] },   // PROVISIONAL
 
   // ---- Pals. Each asks something odd of the player
-  rivetChance: 0.4,     // PROVISIONAL: chance once per attempt from stage 3, when Iron has been held rivetHold seconds
+  rivetChance: 1,     // Dylan 2026-11-07 "Always when you do it" (was 0.4): chance once per attempt from stage 3, when Iron has been held rivetHold seconds
   rivetHold: 1.3,       // PROVISIONAL: longer than any block needs. With the walk, a hold for Rivetling costs about 18% iron
   rivetFromStage: 2,    // PROVISIONAL: index, 2 = stage 3
   rivetWalk: 2.0,       // PROVISIONAL: seconds it takes to shuffle over to him. Let go before that and it rolls away
-  spoonChance: 0.6,     // PROVISIONAL: chance when a meal is wasted (broth at full Guts, tonic with no iron to shift). From stage 2
+  spoonChance: 1,     // Dylan 2026-11-07 "Always when you do it" (was 0.6): chance when a meal is wasted (broth at full Guts, tonic with no iron to shift). From stage 2
   spoonFromStage: 1,    // PROVISIONAL: index, 1 = stage 2
   spoonSecs: 7,         // PROVISIONAL: how long it begs before it gives up
   palForce: false,      // the pal test sets true

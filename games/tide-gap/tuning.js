@@ -182,14 +182,14 @@ window.TUNE = {
 
   // ---- Pals
   bobbinCalm: 18,       // PROVISIONAL: seconds with no knock and no Dive before it may come up
-  bobbinChance: 0.25,   // PROVISIONAL: chance, once per attempt, when that's met
+  bobbinChance: 1,   // Dylan 2026-11-07 "Always when you do it" (was 0.25): chance, once per attempt, when that's met
   bobbinFromStage: 1,   // PROVISIONAL: index, 1 = stage 2
   bobbinSecs: 7,        // PROVISIONAL: how long it stays alongside
   bobbinNear: 52,       // PROVISIONAL: px from the hull that counts as alongside
   bobbinHold: 1.1,      // PROVISIONAL: seconds alongside to catch it
   bobbinOff: 110,       // PROVISIONAL: px from the hull where it comes up
   bobbinX: [50, 310],   // PROVISIONAL: how far out it may come up
-  mopChance: 0.4,       // PROVISIONAL: chance, once per attempt, of a mop tuft on a rock
+  mopChance: 1,       // Dylan 2026-11-07 "Always when you do it" (was 0.4): chance, once per attempt, of a mop tuft on a rock
   mopFromStage: 2,      // PROVISIONAL: index, 2 = stage 3
   mopGate: 3,           // PROVISIONAL: which gate of the stage may hide it
   mopInset: 26,         // PROVISIONAL: px it sits behind a side rock's edge

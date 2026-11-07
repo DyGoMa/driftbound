@@ -103,11 +103,11 @@ window.TUNE = {
   // ---- Pals (FRIDAY_BATCH.md: rare, each with its own condition; the conditions and chances are Claude's calls)
   glimmickFromSet: 1,   // PROVISIONAL: Glimmick comes from Set 2 on, to anyone who waits
   glimmickWait: 24,     // PROVISIONAL: seconds with no shot before it can come
-  glimmickChance: 0.3,  // PROVISIONAL: chance, once per attempt
+  glimmickChance: 1,  // Dylan 2026-11-07 "Always when you do it" (was 0.3): chance, once per attempt
   glimmickSecs: 22,     // PROVISIONAL: how long it takes to crawl across
   shardleFromSet: 2,    // PROVISIONAL: Shardle comes from Set 3 on, to a long shot
   shardleBounces: 5,    // PROVISIONAL: bounces in one shot that wake it
-  shardleChance: 0.35,  // PROVISIONAL: chance each time
+  shardleChance: 1,  // Dylan 2026-11-07 "Always when you do it" (was 0.35): chance each time
   shardleSecs: 9,       // PROVISIONAL: how long it hops around before it's gone
   shardleHops: 8,       // PROVISIONAL: hops in that time
   shardleStops: [0.2, 0.6], // PROVISIONAL: where along the bottom of the board it lands, as shares of the way across

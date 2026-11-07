@@ -161,7 +161,17 @@ async function runSize(browser, base, size) {
     check(await page.locator('[data-kit="endless"]:not([disabled])').count() === 1, `${label}: Endless is open after the ending`);
     await page.evaluate(() => { __kit.timeScale = 16; });
     await press(page, '[data-kit="endless"]');
-    const ended = await waitFor(page, () => __kit.state().screen === 'result', null, 90000, 'an idle endless run to end');
+    // Since pals always come when earned (Dylan 2026-11-07), a still player can catch one here (Silent Cut's Tuftle).
+    // Tap OK on the catch moment like a person, then forget that pal so the catch check below starts fresh.
+    let caughtIdle = [];
+    for (let i = 0; i < 4 && await waitFor(page, () => ['result', 'catch'].includes(__kit.state().screen), null, 90000, 'an idle endless run to end') && await screen(page) === 'catch'; i++) {
+      await page.waitForTimeout(500);   // the screen's tap guard
+      await page.locator('[data-kit="catch-ok"]').click();
+      caughtIdle = await page.evaluate(() => DriftSave.load().pals);
+    }
+    if (caughtIdle.length) await page.evaluate(() => { const k = 'driftbound-save-v1', d = JSON.parse(localStorage.getItem(k)); d.pals = []; localStorage.setItem(k, JSON.stringify(d)); });
+    if (caughtIdle.length) notes.push(`${label}: the idle player caught ${caughtIdle.join(', ')} in endless (then forgotten for the catch check)`);
+    const ended = await screen(page) === 'result';
     if (ended) { const best = await page.evaluate(id => DriftSave.game(id).best, st0.game); await shot(page, label, 'endless-result'); notes.push(`${label}: idle endless ended, best ${best}`); }
     await page.evaluate(() => { __kit.timeScale = 1; __kit.title(); });
     const bot = await page.evaluate(() => __kit.runStage(0, { bot: true, endless: true, seed: 11, maxSeconds: 60 }));

@@ -112,10 +112,10 @@ window.TUNE = {
   // ---- Pals. Each takes something done on purpose, so they stay rare
   tuftleFromStage: 1,   // PROVISIONAL: index, 1 = stage 2
   tuftleStill: 18,      // PROVISIONAL: seconds frozen in cover, with no alarm so far this stage, before the eyes may open. Longer than waiting for one Surge or two, so it's a choice to sit on, not something that happens while getting breath back
-  tuftleChance: 0.25,   // PROVISIONAL: chance when that happens; once per cover
+  tuftleChance: 1,   // Dylan 2026-11-07 "Always when you do it" (was 0.25): chance when that happens; once per cover
   tuftleStay: 2.4,      // PROVISIONAL: stay frozen this much longer and it climbs on
   lamplickFromStage: 1, // PROVISIONAL: index, 1 = stage 2
-  lamplickChance: 0.15, // PROVISIONAL: chance one lantern per attempt has the moth on it
+  lamplickChance: 1, // Dylan 2026-11-07 "Always when you do it" (was 0.15): chance one lantern per attempt has the moth on it
   lamplickSecs: 5,      // PROVISIONAL: cut that lantern, then tap the dizzy moth within this many seconds. It gets a TAP ring while it's in the chain's reach
   mothOffStart: 700,    // PROVISIONAL: its lantern is at least this far from where he starts, so it's off screen during the talk scene, even on a wide phone (the street shows to about 590 px)
   tuftleEyesBack: 22,   // PROVISIONAL: looks only. px behind him the eyes open

@@ -72,9 +72,9 @@ window.TUNE = {
   scorePerCore: 500,    // PROVISIONAL
 
   // ---- Pals. Rare, and each asks the opposite thing of your arm
-  fizzletChance: 0.15,  // PROVISIONAL: chance each time the arm goes numb, from stage 2. Was 0.3, when going numb was unusual
+  fizzletChance: 1,  // Dylan 2026-11-07 "Always when you do it" (was 0.15): chance each time the arm goes numb, from stage 2. Was 0.3, when going numb was unusual
   fizzletFromStage: 1,  // PROVISIONAL: index, 1 = stage 2
-  boltnipChance: 0.25,  // PROVISIONAL: chance once per attempt, when the arm has been clean a while
+  boltnipChance: 1,  // Dylan 2026-11-07 "Always when you do it" (was 0.25): chance once per attempt, when the arm has been clean a while
   boltnipCalm: 14,      // PROVISIONAL: seconds with no Surge
   boltnipScar: 0.1,     // PROVISIONAL: and the scars this low or lower, nearly back to base. Was 0: with the slower fade it almost never came
   boltnipFromStage: 2,  // PROVISIONAL: index, 2 = stage 3

@@ -677,3 +677,4 @@ Card answers, word for word:
 - Pal names Glimmick and Cinderbun (close to Glimmet and Cinderace): "Rename both (Recommended)". Looks stay the same; you pick the new names.
 - Winning stage 1 again wipes lasting damage: "Keep it for now (Recommended)". Judge it after your play-check.
 - New pal names, your picks: snail "Prismule (Recommended)", ember dumpling "Kindlekin". Only the shown names changed; the save ids stay `glimmick` and `cinderbun`, so caught pals are kept. Older notes keep the old names word for word.
+- Pal check: after seeing the hints, "Make pals easier to find", then "Always when you do it (Recommended)". All 12 chances are now 1 (old values kept in each tuning.js comment). Each pal still needs its own condition and still comes once per attempt. Side effect: Silent Cut's Tuftle comes to anyone who sits still 18 s in cover, so a player who does nothing will catch it; the shared test now taps OK on that catch.
