@@ -18,4 +18,4 @@ exclude:
   - art/site/prompts
   - art/site/crew/*-raw.png
   - docs/manga   # the manga bible holds every spoiler and would publish with no 18+ gate
-  - anime        # episode scripts are Markdown; a gated page for them comes later
+  - anime/episodes   # episode scripts are Markdown with no 18+ gate. (Plain "anime" also hid anime.html: Jekyll matches excludes by prefix.)
