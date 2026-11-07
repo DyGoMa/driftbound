@@ -1,0 +1,33 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's body, fin or colours. Image 2 is a guide ONLY for how a Hollow's bolted metal plates, dark rubber cables and white chest core are drawn; do NOT copy that bear's body, fur, colour, collar or chain. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind.
+
+Creature: a Hollow hound-beast, a stripped monster rebuilt into a weapon and ridden as a mount. An original, large, lean hound-like beast on all four legs, big enough for an adult man to ride: long straight legs, a deep chest, a tucked-in waist, a long strong neck, a long narrow muzzle, tall pointed ears, a long thin tail and blunt clawed paws. Hungry and fast, every rib faintly showing. It looks empty and wrong rather than alive. Sharp 2000s anime monster lines, not cute.
+Fur: very short, thin, dull bone-pale grey, clearly lighter than both the background and the armour plates. Nose, claws and the inside of the ears are dark.
+Eyes: blank white, with no pupils and no glow, each with a thin black ink outline so it stands out from the pale fur.
+
+Armour: bolted plates of Sever-grey metal, darker than the fur, on four places only:
+- a narrow brow plate running from between the ears down the top of the muzzle, leaving the eyes clear;
+- one plate on each shoulder;
+- one plate on each hip;
+- a short line of overlapping plates down the back of the neck, ending at the shoulders.
+The middle of the back between the shoulders and the hips is bare fur, with no plates, so a rider can sit there. No saddle. No plates on the legs, belly or lower jaw.
+
+Core: one round glowing white core set in a dark metal frame, sunk into the fur in the middle of the chest, with the fur meeting the edge of the frame all the way round.
+- FRONT view: fully visible, centred on the chest, below the throat.
+- LEFT SIDE and RIGHT SIDE views: only the edge of the frame and a thin sliver of white glow, inside the outline of the chest. It does not stick out or dangle.
+- BACK view: hidden.
+
+Cable veins: thin dark rubber cables that branch out from the metal frame like veins, lying flat on the fur and looking as if they grow into the body. They run up the neck to the brow plate, over each shoulder to the shoulder plate, along each flank to the hip plate, and a little way down the top of each leg, getting thinner as they go. They look the same on both sides of the body.
+- BACK view: the cables show over the hips and flanks only.
+No collar. No chains. No straps.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.

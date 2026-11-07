@@ -1,0 +1,4 @@
+No Codex prompt: take 4 is take 3 (hekka-sheet-v3.png) painted by hand, on Dylan's answer "Paint it by hand last".
+- One thin pale scar line painted through her lips, a little to her own left of centre: front view x=310, y=122 to 141; left-side view x=718, y=122 to 139 (colour 226,186,154 at about two-thirds opacity, 1.25 px wide).
+- Stray lines near the chin blended out with the skin on either side: front view boxes x=313-319, y=129-145 and x=286-293, y=130-142; right-side view box x=1243-1249, y=126-142.
+Nothing else changed.
