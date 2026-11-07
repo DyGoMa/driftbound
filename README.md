@@ -1,11 +1,13 @@
 # Driftbound
 
-An adults-only (18+) anime site set in the Drift, a sea of floating islands. Six short browser games, one for each lead and partner, with story cards and a monster book of 12 hidden pals on the homepage. A visual novel and motion-comic videos come later. It all shares one cast and one save, and salvage earned in any game counts everywhere.
+An adults-only (18+) anime site set in the Drift, a sea of floating islands. Six short browser games, one for each lead and partner; story cards; a monster book of 12 hidden pals; a manga of 51 issues on a virtual bookshelf (scripts and placeholder panels, pictures to come; some issues will later play as visual novels); and an anime section with 20 episode scripts (video to come). Each section is its own page. It all shares one cast and one save, and salvage earned in any game counts everywhere.
 
 The games: Storm Run (`storm-run`), Tide Gap (`tide-gap`), Hot Hand (`hot-hand`), Silent Cut (`silent-cut`), Hold the Deck (`hold-the-deck`), Split Light (`split-light`).
 
 - World and hard rules: `docs/WORLD_BIBLE.md`
-- Cast, partners and villains: `docs/CAST.md` (until the villains branch is merged, the newer copy is in `Documents\driftbound-villains\docs\`)
+- Cast, partners and villains: `docs/CAST.md`
+- Manga and anime: `docs/manga/SERIES_BIBLE.md` (the outline, spoilers), `docs/manga/SCRIPT_FORMAT.md`, `docs/manga/ANIME_FORMAT.md`, `docs/manga/CANON.md` (the register every medium follows), `docs/manga/FRIDAY_PLAN.md` (what is left), `docs/manga/IMAGE_REQUESTS.md` (pictures to make)
+- Check the issues and rebuild the shelf catalog: `node tools/manga-check.js --catalog`; the shelf and reader: `node tools/manga-smoke.js`; the episode list: `node tools/anime-list.js`
 - The six games' spec: `docs/FRIDAY_BATCH.md`
 - Numbers waiting for Dylan to confirm: `docs/PROVISIONAL.md`
 - How a build session runs: `docs/ORCHESTRATOR.md`

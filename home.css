@@ -132,3 +132,29 @@ footer { margin-top: 32px; padding: 22px 16px 34px; text-align: center; color: v
   .tagline { margin-top: 8px; font-size: 16px; }
   .btn { margin-top: 12px; padding: 9px 22px; font-size: 16px; min-height: 0; }
 }
+
+/* Separate pages (Dylan 2026-11-07: each section its own page) */
+.nav a.on { color: var(--orange); box-shadow: inset 0 -3px 0 var(--orange); }
+.page-head { padding-bottom: 0; }
+.page-head .section-note { margin-top: 8px; max-width: 640px; }
+.page-head + .section { padding-top: 16px; }
+.hub-cards { display: grid; gap: 14px; }
+.hub-card { position: relative; display: grid; grid-template-columns: 112px minmax(0, 1fr); min-height: 112px; background: var(--navy); text-decoration: none; border-bottom: 5px solid var(--orange); clip-path: polygon(0 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%); }
+.hub-art { width: 112px; height: 100%; object-fit: cover; }
+.hub-info { padding: 12px 14px 16px; }
+.hub-info h2 { font: 400 28px/1.1 var(--title); letter-spacing: 1px; color: var(--gold); }
+.hub-count { margin: 2px 0 6px; font-weight: 800; font-size: 14px; color: var(--orange); }
+.hub-info p { font-size: 15px; }
+.hub-card:hover h2, .hub-card:focus-visible h2 { color: var(--orange); }
+.ep-list { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.ep { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 10px 12px; background: var(--navy); border-left: 4px solid var(--gold); }
+.ep-num { font: 400 30px/1 var(--title); color: var(--gold); }
+.ep-info h3 { font: 400 20px/1.15 var(--title); letter-spacing: .5px; }
+.ep-info p { margin-top: 4px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.ep-read { padding: 8px 12px; min-height: 40px; display: inline-flex; align-items: center; font-weight: 800; font-size: 14px; color: var(--night); background: var(--gold); text-decoration: none; transform: skewX(-8deg); white-space: nowrap; }
+@media (min-width: 720px) {
+  .hub-cards { grid-template-columns: 1fr 1fr; }
+  .hub-card { grid-template-columns: 160px minmax(0, 1fr); min-height: 150px; }
+  .hub-art { width: 160px; }
+}
+@media (max-width: 400px) { .ep { grid-template-columns: 40px minmax(0, 1fr); } .ep-read { grid-column: 2; justify-self: start; } }

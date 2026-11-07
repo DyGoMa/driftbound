@@ -174,7 +174,9 @@ Checked by Claude in headless Chrome (2026-11-05): no sideways scroll and no err
 
 | # | Try this | Expect | Result |
 |---|---|---|---|
-| H1 | Open the homepage on your phone and scroll down | Kaito and Skarn banner, DRIFTBOUND title, Storm Run with the Pinhold picture, six crew cards, Visual novel and Videos marked coming soon, 12 mystery slots | |
+| H1 | Open the homepage on your phone and scroll down | Kaito and Skarn banner, DRIFTBOUND title, then six cards: Games, The Crew, Story Cards, Manga, Anime, Monster Book, each with a count. (Was one long page; split 2026-11-07. Old wording: "Storm Run with the Pinhold picture, six crew cards, Visual novel and Videos marked coming soon, 12 mystery slots".) | |
+| H1b | Tap each nav link: Games, Crew, Story, Manga, Anime, Book | Each opens its own page with the same top bar; the current one is underlined orange; Back returns to the home page | |
+| H1c | Manga: tap a book, Read, turn pages by tapping the left side; Anime: tap "Read issue 1" | Reader opens on the cover; pages turn; the Anime link lands on Issue 1 | |
 | H2 | Tap each word in the top menu | The page jumps to that section, and the section title isn't hidden under the bar | |
 | H3 | Check each crew card against what you know of them | Right face, name, age, role and partner | |
 | H4 | Look at the banner | Kaito and Skarn look right to you; hand mark reads well enough | |

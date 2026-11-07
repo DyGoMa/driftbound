@@ -1,6 +1,6 @@
 # Driftbound: World Bible (v2, 2026-10-30)
 
-Replaces the Hoshi Arcade bible (kept word for word in `archive/v1-hoshi-arcade/docs/`). Every game, visual novel scene, video and image must match this file. Workers read it before building anything.
+Replaces the Hoshi Arcade bible (kept word for word in `archive/v1-hoshi-arcade/docs/`). Every game, manga issue, anime episode and image must match this file. Workers read it before building anything.
 
 ## Hard rules (never broken)
 1. **Every character is an adult.** Stated ages 21+, adult faces and bodies in every image. No school settings and no childlike designs for anyone in a romance or fan-service moment.
@@ -27,8 +27,8 @@ They're mostly cool 2000s-style beasts with sharp lines and some menace, plus a 
 | Section | What it is | How it's made |
 |---|---|---|
 | Games | Short browser games, each set on a different island | Plain HTML + JavaScript |
-| Visual novel | Story with romance routes for the leads | Small custom engine, tied to the shared save and pals |
-| Videos | Short anime stories | Motion comics: AI stills, camera moves, subtitles, music |
+| Manga | The crew's story as a weekly manga on a virtual bookshelf (`manga/`), read page by page; some issues will later play as visual novels with choices and romance routes | Scripts in `manga/issues/`, placeholder panels until the art exists; a small custom reader. (Renamed by Dylan, 2026-11-07: "the visual novel section on the site will be manga instead ... Some of the manga will be visual novels"; old line in the archive at the end of this file.) |
+| Anime | Short anime episodes, 10 to 15 minutes, one per manga issue | Scripts in `anime/episodes/`; motion comics: AI stills, camera moves, subtitles, music. (Renamed by Dylan, 2026-11-07: "Video section called anime"; old line in the archive.) |
 | Monster book | Collected pals | Reads the shared save |
 
 ## Art
@@ -38,6 +38,17 @@ AI images through the game-image-gen skill (ChatGPT plan), locked to one referen
 1. The cast, partners and villains on paper (names, looks, ages, bonds), then Dylan's OK.
 2. Reference sheets for each character and partner, self-checked and redone where needed, then Dylan's check.
 3. Rebuild the homepage as Driftbound with the 18+ gate, and remake Aki Dash in the new style. The v1 code moves to `archive/v1-hoshi-arcade/`.
-4. A visual novel prototype: engine plus one short scene.
-5. The first motion-comic episode.
+4. The manga: scripts for the whole run, then the bookshelf and reader, then the pictures. (Was "a visual novel prototype"; old line in the archive.)
+5. The first anime episode as a motion comic. (Old line in the archive.)
 6. More games, one per island.
+
+---
+
+## Archive: replaced lines (word for word)
+- Site sections, replaced 2026-11-07 (Dylan: manga instead of visual novel, videos called anime):
+  - "| Visual novel | Story with romance routes for the leads | Small custom engine, tied to the shared save and pals |"
+  - "| Videos | Short anime stories | Motion comics: AI stills, camera moves, subtitles, music |"
+- Build order, replaced 2026-11-07:
+  - "4. A visual novel prototype: engine plus one short scene."
+  - "5. The first motion-comic episode."
+- Line 3, replaced 2026-11-07: "Every game, visual novel scene, video and image must match this file."

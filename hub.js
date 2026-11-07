@@ -1,10 +1,10 @@
-// Homepage: fills in the salvage total, the game cards and the crew cards. Runs only after the 18+ gate.
-// Story cards and the Monster book are in hub-book.js.
+// Fills the game cards (games.html) and the crew cards (crew.html). Each part runs only if its box is on the page.
+// Runs only after the 18+ gate. Story cards and the Monster book are in hub-book.js; the home page counts are in hub-home.js.
 DriftGate.whenPassed(function () {
   fillFromSave();
-  // Back from a game can bring this page out of the browser's memory without running it again, so what the save says goes back in.
-  addEventListener('pageshow', e => { if (e.persisted) fillFromSave(); });
-  document.getElementById('crew').innerHTML = DRIFT_CREW.map(c => `
+  addEventListener('pageshow', e => { if (e.persisted) fillFromSave(); });   // Back from a game: the save may have changed
+  const crew = document.getElementById('crew');
+  if (crew) crew.innerHTML = DRIFT_CREW.map(c => `
     <article class="crew-card" style="--c1:${c.colour};--c2:${c.colour2}">
       <div class="crew-art"><img src="art/site/crew/${crewPic(c.id)}.webp" width="720" height="720" loading="lazy" alt="Portrait of ${c.name}"></div>
       <div class="crew-info">
@@ -23,12 +23,11 @@ function crewPic(id) {
 }
 
 function fillFromSave() {
+  const grid = document.getElementById('game-grid');
+  if (!grid) return;
   const save = DriftSave.load();
   const leads = Object.fromEntries(DRIFT_CREW.map(c => [c.id, c]));
-
-  document.getElementById('total').textContent = Math.floor(save.salvage);
-
-  document.getElementById('game-grid').innerHTML = DRIFT_GAMES.map(g => {
+  grid.innerHTML = DRIFT_GAMES.map(g => {
     const rec = save.games[g.id], lead = leads[g.lead];
     const tag = g.live ? '<span class="tag">PLAY</span>' : `<span class="tag soon">${g.status === 'in-the-works' ? 'IN THE WORKS' : 'COMING SOON'}</span>`;
     const best = rec && rec.best ? `<span class="game-best">Your best: ${Math.floor(rec.best)}${rec.fairBest ? ` · fair ${Math.floor(rec.fairBest)}` : ''}</span>` : '';
