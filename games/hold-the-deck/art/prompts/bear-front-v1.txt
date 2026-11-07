@@ -1,0 +1,17 @@
+Image 1 is the locked reference sheet for Hekka's Hollow bear, a stripped monster about 2.2 metres at the shoulder. Copy its design exactly from the FRONT view in Image 1 (the first figure, head-on): ash-grey fur, blank white glowing eyes, dark riveted brow plate, riveted iron collar with a short chain end hanging down, dark shoulder plates, two cables from each shoulder plate down to a round white core in a steel ring set into the middle of the chest, big dark claws.
+
+It faces straight at the camera in every frame: head-on, no three-quarter angle, no side view.
+
+Make a sprite sheet of 6 frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom.
+Frame 1: standing on all fours, head-on and massive, as in the sheet's front view, menacing.
+Frame 2: its foreleg on the LEFT of the image raised high, claws spread, about to come down; the other foreleg planted.
+Frame 3: its foreleg on the RIGHT of the image raised high, claws spread, about to come down; the other foreleg planted.
+Frame 4: roaring, head thrown up, mouth wide open with fangs, core blazing with a white glow; both forelegs planted.
+Frame 5: slumped forward, exhausted, head hanging low to one side so nothing guards the chest, core blazing with a white glow, both forelegs planted.
+Frame 6: collapsed flat on the deck facing us, chin on the ground, eyes dim, core dark grey and unlit.
+
+In frames 1 to 5 the core stays in the same place in the cell, in the middle across, and the bear is the same size. In every cell the bear's paws are on the same baseline near the bottom of the cell, frames 1 to 5 fill about 80 percent of the cell's height, its middle is at the centre of the cell, and no part of it touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on the bear.

@@ -1,0 +1,17 @@
+Image 1 is the locked reference sheet for a Sever trooper, an adult man about 180 cm tall. Image 2 is a finished sprite sheet of the same man walking, to match for size, drawing and colour. Copy his design exactly from the FRONT view in Image 1: round grey helmet with ear cups and a black visor over the eyes, adult jaw and mouth showing, white stand-up collar; closed grey coat with a black belt; a flat black bar across the chest with a white ring at its centre, cut by the bar; black gloves, dark grey trousers, black boots.
+
+He comes straight at the camera in every frame: head-on, facing the viewer, no three-quarter angle, no side view. Because he faces us, his RIGHT hand is on the LEFT of the image.
+In this sheet he is sprinting at the camera. His coat skirt is hitched up and tucked short into the belt, so the coat ends at the hips and his trousers show. He leans in towards us, arms pumping, his hooked bond-cutter blade held low in his RIGHT hand (LEFT of the image).
+
+Make a sprite sheet of 5 frames in a grid of 3 columns and 2 rows, every cell the same size, read left to right, top to bottom. The last cell (bottom right) is left completely empty, plain background.
+Frame 1: sprinting, his left boot driving forward and low in the picture, right boot kicked up behind him, his right arm back, left arm forward.
+Frame 2: both knees close together, one foot just leaving the ground.
+Frame 3: sprinting, his right boot driving forward and low in the picture, left boot kicked up behind him, his left arm back, right arm forward.
+Frame 4: both knees close together, one foot just leaving the ground.
+Frame 5: striking: stopped, feet planted, the blade raised high in his right hand (LEFT of the image), glowing white.
+
+Same character, same size and same head height in every frame. In every cell he fills about 84 percent of the cell's height, his middle is at the centre of the cell, his lowest foot is on the same baseline near the bottom of the cell, and no part of him touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on the character.

@@ -14,7 +14,7 @@ window.DRIFT_GAMES = [
   { id: 'silent-cut', title: 'Silent Cut', lead: 'silas', leadName: 'Silas', partner: 'Hush', island: 'Lanternreach', hold: 'sideways', live: true, status: 'live',
     art: 'art/site/lanternreach-v1-web.webp', artAlt: 'Lanternreach: a smugglers\' port on a floating island at night, hung with hundreds of lanterns, with searchlights sweeping the mist.',
     blurb: 'A night in his old smuggling port, a debt to settle and every lamp hunting him. Run out of breath and the charming bastard runs out of words.' },
-  { id: 'hold-the-deck', title: 'Hold the Deck', lead: 'bram', leadName: 'Bram', partner: 'Grist', island: 'Keelbreak', hold: 'upright', live: false, status: 'soon',
+  { id: 'hold-the-deck', title: 'Hold the Deck', lead: 'bram', leadName: 'Bram', partner: 'Grist', island: 'Keelbreak', hold: 'upright', live: true, status: 'live',
     art: 'art/site/keelbreak-v1-web.webp', artAlt: 'Keelbreak: a floating shipyard at dusk, with a battered wooden salvage ship propped up in dry dock under huge cranes.',
     blurb: 'The Gullwake is in dry dock and boarders want the galley. Bram turns to iron to stop them, and the iron doesn\'t all come back off.' },
   { id: 'split-light', title: 'Split Light', lead: 'ione', leadName: 'Ione', partner: 'Prism', island: 'The Glass Ward', hold: 'upright', live: true, status: 'live',

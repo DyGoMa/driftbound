@@ -1,0 +1,20 @@
+Image 1 is the locked reference sheet for Bram Torvald, an adult man aged 31, 198 cm, huge and broad, adult proportions. Copy his design exactly from the BACK view in Image 1 (the fourth figure, seen from directly behind): shaved head and light-brown skin, the black beard just showing at the edges of the jaw; black tribal tattoos across both shoulders and the upper back; heavy dark-brown work dungarees with cargo pockets, leather tool belt, big laced boots; the back bib runs diagonally up to the strap on his right shoulder and is buckled there; the white cook's towel hangs over his RIGHT shoulder.
+
+We are directly behind him in EVERY frame, looking at his back, as he walks away from us. No three-quarter angle, no side view, his face never shows. Because we are behind him, his RIGHT side is on the RIGHT of the image and his LEFT side is on the LEFT of the image. The towel and the strap are on the RIGHT of the image. The hammer is in his RIGHT hand, on the RIGHT of the image, and the belt holster is empty: it is a heavy wooden-handled steel hammer, the same kind as the one on his belt on the sheet, about as long as his forearm so it can be read at small size.
+
+Iron: dull grey iron patches on his LEFT shoulder cap and his LEFT forearm only, on the LEFT of the image, exactly as in the back view of Image 1. STOP THERE: the rest of the left arm, the whole right arm and the whole back are clean skin.
+
+Make a sprite sheet of 7 frames in a grid of 4 columns and 2 rows, every cell the same size, read left to right, top to bottom. The last cell (bottom right) is left completely empty, plain background.
+Frame 1: standing, feet apart, hammer hanging in his right hand.
+Frame 2: mid-step walking away from us, one boot lifted, the other planted.
+Frame 3: hammer cocked out wide to his right (right of the image) at shoulder height, ready to swing.
+Frame 4: hammer swept across at shoulder height to his left (left of the image), follow-through, body turning a little but we still see his back.
+Frame 5: the Iron stance: braced, feet wide, both forearms raised up in front of his head so we see his elbows out to the sides, no hammer. In this frame only ALL his bare skin, his head and neck, is dull iron grey with thin orange glowing heat cracks. The dungarees and towel stay the same.
+Frame 6: hurt: thrown back towards us, arms flung out to the sides, hammer still in his right hand.
+Frame 7: down on both knees, head low, both hands flat on the ground, no hammer. Knees on the baseline.
+
+Same character, same size and same head height in every frame unless a frame says otherwise. In every cell he fills about 82 percent of the cell's height, his middle is at the centre of the cell, his lowest foot is on the same baseline near the bottom of the cell, and no part of him touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on the character.

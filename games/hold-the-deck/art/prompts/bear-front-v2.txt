@@ -1,0 +1,2 @@
+No image-tool run of its own. A hand composite on bear-front-v1.png: frames 0, 3, 4, 5 unchanged; frames 1 and 2 replaced by the two cells of bear-front-raise-v2.png (prompts: bear-front-raise-v1.txt, then bear-front-raise-v2.txt).
+Each new cell scaled 0.725 and moved so the core sits on v1's (256, 282) in its 512 px cell. Fur tone multiplied R 157/165, G 139/134, B 133/128 to match v1's measured fur, the white core left alone.

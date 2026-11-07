@@ -1,0 +1,11 @@
+Image 1 is two cells side by side of a finished game sprite: Hekka's Hollow bear, a monster seen head-on, one foreleg up in each cell. Image 2 is its locked reference sheet, for the paws. Edit Image 1.
+
+Change only these two things, in both cells:
+1. The planted foot that has no claws (bottom left of the left cell, bottom right of the right cell) gets the same four long dark claws as the other planted foot, as on the sheet's paws. Both feet on the ground then have claws, on the same baseline.
+2. The raised foreleg goes higher: the elbow bent and the whole paw lifted above the top of the bear's head, claws hooking down towards us, about to come down. Same paw seen from its furred back, same long dark claws spread wide. No palm, no pad, no toe pads, no soft dark oval. Keep the paw inside its own cell: no part of it touches a cell edge or crosses into the other cell.
+
+Keep everything else identical to Image 1: the snarling face with bared fangs, the narrowed white glowing eyes, the brow plate, the collar, chain, cables, the white core and steel ring in exactly the same place, the shoulder plates, the fur colour, the bear's size.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on the reference sheet. Do not use green anywhere on the bear.
