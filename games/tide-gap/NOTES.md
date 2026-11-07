@@ -44,6 +44,7 @@ Play-check: reach the boss and watch Hekka stand, throw and get hit; then drown 
 | `test/pull.js` | Can a steering sweep spend a memory, and does a real pull still Dive. Plain node |
 | `test/talk.js` | Does talk arrive when it applies, and does every memory scene play. Headless Chrome |
 | `test/prices.js` | Copies at the boss, gold on a wreck, Mopclaw's line, lose lines on a blank book, the strip against Pause, gentle pulls by real touch. Headless Chrome |
+| `test/pal-talk.js` | No flirting or innuendo while a pal is out: in play, and on the win and lose screens. Headless Chrome |
 | `art/sprites.js`, `art/REQUEST.md`, `art/raw/`, `art/prompts/` | The pictures in use with their measured numbers, what was asked for and which take won, every take, every prompt |
 
 ## What a player does
@@ -69,6 +70,15 @@ Every second you're dragging: Vesh's head goes where you steer, the hull swings 
 **Pals:** Bobbin comes to a clean helm: from stage 2, after 18 s with no knock and no Dive, a 25% chance once per attempt; it bobs alongside for 7 s and you stay within 52 px for 1.1 s. Mopclaw hides under a rock with a mop tuft showing: from stage 3, a 40% chance once per attempt, and only a Dive reaches it, so catching it costs a line.
 
 **Upgrades:** Tougher Hull (one more plank, each level, and planks last, so it's worth more than it was), Longer Dive (0.4 s more air, each level: a wider start, not the only way under), Spare Logbook (each level, the sea burns one copy per story run before a real line; a burned copy stays burned across stages; no copy pays at the boss).
+
+## Pals and jokes: review fix (2026-11-06)
+Built, not yet seen by Dylan. Batch rule: pals are never in flirting or innuendo, lose screens included. Tide Gap had no guard, and the review reproduced it with Bobbin. Now `TG.palAround` (`hazards.js`) says when a pal is out, and lines marked `adult` in `words.js` keep quiet then, the same way Hot Hand, Silent Cut and Hold the Deck do it. Nothing changes when no pal is out.
+- **Marked `adult`:** Silas's stage 2 win line, his stage 4 "I may be in love", Juno's "I'd marry you" and Silas's "done this before" on a blank book, and Silas's "go between them" (the review didn't list that one; my reading of it).
+- **In play:** a marked line is dropped for that attempt, and the radio goes on to its next line. One already showing is replaced by the crew spotting the pal. The memory scenes have no marked lines, so "never dropped" still holds.
+- **Win screen:** Silas says "And out the other side, with most of the boat. Lovely." instead. New line, my words.
+- **Lose screen:** the marked lines are left out of the choice.
+- **Mopclaw too:** the review only tried Bobbin, but the mop tuft is on screen as well. It counts from when its rock is laid (about 1,300 px ahead in the test, the top of the screen is about 470) until that rock has gone by, caught or not, since the tuft stays drawn on the rock.
+- `test/pal-talk.js` runs on the game's own Bobbin code and real result screens. Before the fix it had 9 failures, after it none. Rules only: how often a player meets this in real play is still not measured, because bots don't meet Bobbin unless a test asks.
 
 ## Fourth review: what a Dive costs, the pull, the ramp (2026-11-06)
 Built, not yet seen running by Dylan. Scripts and headless Chrome only; no person has played it. Output: `%TEMP%\kcheck\final\tg-fix\` (`base-*.txt` before, `after-*.txt` after), shots in `shots\`. The review's own human-like player for this game wasn't kept, so `tg-fix\human.js` is my rebuild of it: `botfair.js`, plus thumb wobble and attention lapses. Its numbers are close in shape, not equal.

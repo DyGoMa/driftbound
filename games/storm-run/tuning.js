@@ -29,7 +29,7 @@ window.TUNE = {
   coolPerLevel: 0.35,   // PROVISIONAL: Cool Scars, extra fade speed per level
 
   // ---- Getting hurt
-  hits: 3,              // PROVISIONAL: hits per attempt at a stage
+  hits: 3,              // PROVISIONAL: hits per attempt at a stage, unless the stage sets its own (stage 1 does)
   invuln: 1.1,          // PROVISIONAL: seconds of safety after a hit
   hurtSecs: 0.4,        // PROVISIONAL: seconds of the hurt pose
   catchPerLevel: 1,     // PROVISIONAL: Skarn's Catch, free hits per story run per level (FRIDAY_BATCH.md: "a free hit per run"). Dying gives back only what this attempt spent
@@ -60,7 +60,7 @@ window.TUNE = {
   bigCoinValue: 3,      // PROVISIONAL: the high ones that cost a Surge to reach
   coinChance: 0.35,     // PROVISIONAL: chance of a pattern with each foe (stages[].bait: chance that a low's or a trooper's pattern is the high bait instead)
   grabRadius: 30,       // PROVISIONAL: px from Kaito's middle
-  pullPerLevel: 34,     // PROVISIONAL: Salvage Pull, extra reach per level
+  pullPerLevel: 34,     // PROVISIONAL: Salvage Pull, extra reach per level. Big cogs answer it only while Kaito has Surged (runner.js stepCoins), or a plain jump pulls the high bait down at no cost
   pullSpeed: 520,       // PROVISIONAL: how fast pulled salvage flies in
   coinRows: { low: [58, 70, 58], trooper: [108, 128, 108], pair: [100, 122, 134, 122, 100], tall: [204], swoop: [24, 24, 24], bait: [204, 204] },   // PROVISIONAL: heights of the salvage that comes with each foe. bait: out of reach of a full jump, so only an extra Surge gets it
   baitAhead: 50,        // PROVISIONAL: px past the foe the bait sits, where a jump Surged near its top is highest
@@ -128,7 +128,8 @@ window.TUNE = {
 
   // ---- The five stages. Words are in words.js. length in metres.
   stages: [
-    { length: 700, speed: 225, gap: [1.5, 2.4], mix: { low: 5, trooper: 3 }, clearSalvage: 12, wash: 0 },        // PROVISIONAL: about 31 s, easy
+    // Stage 1 only: hits (the rest use the hits above) and lowScale (low barricades drawn and boxed at this size, so a quick tap has 0.28 s of room, not 0.20). Spec: "first stage easy for a new player". Scripted novice who taps lows: 5 wins of 150 before, 114 after (NOTES.md, sixth pass)
+    { length: 700, speed: 225, gap: [1.5, 2.4], mix: { low: 5, trooper: 3 }, hits: 5, lowScale: 0.65, clearSalvage: 12, wash: 0 },        // PROVISIONAL: about 31 s, easy
     { length: 850, speed: 245, gap: [1.4, 2.2], mix: { low: 4, trooper: 4, tall: 3 }, bait: 0.5, clearSalvage: 12, wash: 0.06 }, // PROVISIONAL: about 35 s
     { length: 950, speed: 265, gap: [1.3, 2.1], mix: { low: 3, trooper: 4, tall: 2, swoop: 4 }, bait: 0.5, clearSalvage: 14, wash: 0.14, rain: 34 }, // PROVISIONAL: about 36 s
     { length: 1100, speed: 285, gap: [1.2, 1.9], mix: { low: 3, trooper: 4, tall: 3, swoop: 4, pair: 2 }, bait: 0.5, clearSalvage: 16, wash: 0.22, rain: 60, flash: 7, silt: true },            // PROVISIONAL: about 39 s

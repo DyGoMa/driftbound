@@ -1,5 +1,6 @@
 // Tide Gap: everything the crew say, except the logbook itself (memory.js). Voices from CAST.md. Full flavour inside the World Bible hard rules. Pals stay out of the jokes.
 // A talk line can carry ifLost and instead: if that memory has drowned by the time the scene plays, the other line plays in its place (sail.js).
+// adult: true means flirting or innuendo, so the line keeps quiet while a pal is out (batch rule; TG.palAround, hazards.js; talk.js and game.js check it). Boss lines and the talk before a stage have no pal near them. A flirty line added to a list said in play or on a win or lose screen needs the mark.
 window.TG = window.TG || {};
 TG.WORDS = {
   tagline: 'Two islands grinding shut, a serpent on the tow line, and every Dive drowns a line in her book.',
@@ -33,7 +34,8 @@ TG.WORDS = {
         { at: 0.33, who: 'bram', text: 'We\'ve no paint on the left side, lass.' },
         { at: 0.7, who: 'sela', text: 'Read the arrows, trust the arrows. They\'re the best of me.', ifLost: 'pulse', instead: { who: 'ione', text: 'Your arrows are getting thin, Captain. I can see it from your face.' } },
       ],
-      winLine: { who: 'silas', text: 'And out the other side, a little sore. Lovely. Same again?' } },
+      winLine: { who: 'silas', adult: true, text: 'And out the other side, a little sore. Lovely. Same again?' },
+      winLineClean: { who: 'silas', text: 'And out the other side, with most of the boat. Lovely.' } },
 
     { name: 'The Blind Shelf', hint: 'Fog. Gold shows through it. You won\'t get much else.',
       talk: [
@@ -60,7 +62,7 @@ TG.WORDS = {
       ],
       radio: [
         { at: 0.2, who: 'hekka', text: 'Page forty, Vey. "Stay left in the Slip." Thank you.' },
-        { at: 0.55, who: 'silas', text: 'She\'s firing blind and still nearly parting my hair. I may be in love.' },
+        { at: 0.55, who: 'silas', adult: true, text: 'She\'s firing blind and still nearly parting my hair. I may be in love.' },
         { at: 0.85, who: 'sela', text: 'There\'s the last tooth. And there she is, sitting right in it.' },
       ],
       winLine: { who: 'hekka', text: 'Out of pages, Vey? Come and read the rest. I\'m not moving.' } },
@@ -87,7 +89,7 @@ TG.WORDS = {
   loseLines: [
     { who: 'sela', text: 'Up, all of you. Again. I\'ve done this before. I\'m told.' },
     { who: 'juno', text: 'Pay up, boys. I said the rock would win.' },
-    { who: 'silas', text: 'Darling, the idea is to go between them.' },
+    { who: 'silas', adult: true, text: 'Darling, the idea is to go between them.' },
     { who: 'bram', text: 'I can patch that. Slow breath. Hand me the big hammer.' },
     { who: 'ione', text: 'Cause of failure: geology. Try being somewhere else.' },
     { who: 'kaito', text: 'That rock MOVED! I saw it! Shit. Okay. Again!' },
@@ -97,8 +99,8 @@ TG.WORDS = {
   emptyLose: [
     { who: 'ione', text: 'No arrows, no Dives, and a blank book. You did that blind. Do it again, with your eyes open.' },
     { who: 'kaito', text: 'So you can\'t feel the rocks anymore. Fine. I\'ll yell when I see one. Get up!' },
-    { who: 'juno', text: 'Blank book, blind helm, and you still took the bet. Shit, Captain, I\'d marry you. Again.' },
-    { who: 'silas', text: 'Nothing left in the book, darling? Then nobody can say you\'ve done this before. Again.' },
+    { who: 'juno', adult: true, text: 'Blank book, blind helm, and you still took the bet. Shit, Captain, I\'d marry you. Again.' },
+    { who: 'silas', adult: true, text: 'Nothing left in the book, darling? Then nobody can say you\'ve done this before. Again.' },
     { who: 'bram', text: 'Empty book, full pot. Eat something, Captain, and we\'ll go at it again. It\'s the onions, shut up.' },
     { who: 'sela', text: 'I don\'t remember losing that one. Good. Again.' },
   ],

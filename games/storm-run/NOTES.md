@@ -86,8 +86,40 @@ My own extra runs (scripts in `%TEMP%\kcheck`, `sr-bot.js`, `sr-extra.js`, `sr-s
   - Not checked: a real phone or thumb; motion; how the bait feels; Boltnip caught by a player under the new arm.
   - **Troopers, later the same day:** `trooper_run_left` now exists (`art/raw/trooper-run-left-v1.png`, first take, prompt in `art/prompts/`), so the line above about the flipped strip no longer holds: troopers show their left side, with no blade. Drawn in the game beside the flipped strip, frame by frame: same top row, same feet row, 94 to 95 px tall in both. That is taller than the 86 px asked for, because `trooper_run`'s fill of 0.84 already draws him so and "same size as `trooper_run`" was the ask. Frames 1 to 3 and 4 to 6 look almost alike (near and far leg hard to tell apart), as in `trooper_run`. Checked: `tools/smoke.js storm-run` passed, stills looked at in stage 1. Not checked: motion, feel, a real phone.
 
+- Sixth pass (review of the Friday batch, 2026-11-06). Status: built, not yet seen by Dylan. Where this differs from anything above, this is the current game. Both findings were first reproduced on the unchanged game, with the same numbers as the review. All the numbers below come from that review's scripted player (300 ms reaction, timing noise, lapses; scripts in `%TEMP%\kcheck\final\sr-work` and `sr-fix2`), not a thumb. They replace the "novice" and "average" lines of the fifth pass, which used a different version of the model.
+  - **Salvage Pull no longer takes the Surge out of the bait.** A big cog now flies in only once Kaito has Surged on that jump (`runner.js` `stepCoins`). Small cogs fly in as before. Direct check, Pull level 3, a big cog at bait height (50 px from his middle at the top of a full jump): no Surge, not taken, it stays at height 204; with a Surge, taken. Average player, salvage per attempt at Pull 0 / 1 / 2 / 3:
+    | | Stage 2 | Stage 3 | Stage 4 |
+    |---|---|---|---|
+    | No extra Surges, before | 17.33 / 27.67 / 36.38 / 36.42 | not run | 24.77 / 32.25 / 40.73 / 40.79 |
+    | No extra Surges, after | 17.33 / 20.99 / 21.48 / 21.48 | 22.09 / 25.45 / 28.58 / 28.58 | 24.77 / 27.95 / 31.48 / 31.52 |
+    | Every bait Surged, after | 31.09 / 35.4 / 36.02 / 36.02 | 31.76 / 35.22 / 38.37 / 38.37 | 33.88 / 37.75 / 41.16 / 41.21 |
+    Surging for the bait now always pays about 9 to 15 more, and goes numb (stage 2: 80 of 120 attempts against 0).
+  - **Stage 1 for a tapper.** Three changes, stage 1 only: low barricades are drawn and boxed at 0.65 size (`stages[0].lowScale`), which takes a quick tap's room from 0.204 s to 0.283 s and a hold's from 0.462 s to 0.533 s; 5 hits instead of 3 (`stages[0].hits`, 5 forks on screen); and a gold HOLD! rides on every trooper until it reaches him, because a tap can never clear a trooper. Wins of 150, stage 1:
+    | Player | Before | After |
+    |---|---|---|
+    | Average, holds | 146 | 150 |
+    | Average, taps every low | 82 | 149 |
+    | Average, taps lows with a longer 0.1 s tap | 110 | 149 |
+    | Average, taps troopers too, holds after 1 hit | 137 | 150 |
+    | Average, taps troopers too, holds after 2 hits | 91 | 149 |
+    | Average, taps troopers too, never learns | not run | 27 |
+    | Novice, holds | 88 | 143 |
+    | Novice, taps every low | 5 | 114 |
+    | Novice, taps lows with a longer 0.1 s tap | 12 | 119 |
+    | Novice, taps troopers too, holds after 1 hit | 54 | 132 |
+    | Novice, taps troopers too, holds after 2 hits | 24 | 118 |
+    | Novice, taps troopers too, never learns | not run | 7 |
+    The average tapper's stage 1 is now easier than stage 2 (116) and stage 3 (127), both unchanged. The script can't read the HOLD! sign, so none of these rows show what it's worth.
+  - **Where the difficulty went:** stage 2 is unchanged, so the step from stage 1 is now steep for a novice: holds 143 then 53, taps lows 114 then 16. Real time at 568x320 with real pointer events, one novice tapper: stage 1 first try, stage 2 on the seventh. Average tapper at 667x375: stage 1 first try, stage 2 on the fourth, stage 3 first try. One run each, so that's only a sign.
+  - Also checked: `tools/smoke.js storm-run` passed. Bot, 40 seeds per stage, no upgrades: 200 wins of 200, 0 hits, never numb, average Surges 0 / 2.67 / 2 / 2.77 / 3.5. Nobody playing stage 1, 60 seeds: lost 60 of 60, in 10 to 12.2 s (7.3 s with 3 hits). Salvage on stage 1: 18.06 holding, 24.68 tapping, inside the kit's 15 to 40.
+  - Looked at, in stills: the small barricade and HOLD! at 667x375, 568x320, 844x390; 5 forks plus 3 of Skarn's Catch with a talk box up at 568x320, nothing overlapping; the longer Salvage Pull wording at 568x320, which wraps to two lines and fits. HOLD! covers part of a salvage cog when one is over the trooper.
+  - Not checked: a real phone or thumb; whether anyone reads HOLD!; how the small barricade reads in motion among the yard's bunkers behind it; a player's feel for the step from stage 1 to stage 2.
+
 ## What a test can't tell, and needs Dylan's thumb
-- Whether "Hold to jump" feels right, or whether thumbs tap anyway. A scripted novice who taps lows still mostly loses stage 1.
+- Whether "Hold to jump" feels right, or whether thumbs tap anyway. A scripted novice who taps lows still mostly loses stage 1. (Sixth pass: no longer so on that script, 114 wins of 150. Whether thumbs tap is still open.)
+- Whether HOLD! on the troopers is read in time, helps or nags, and whether it should stop after the first few.
+- Whether stage 2 feels like a wall after stage 1's 5 forks and small barricades.
+- Whether Salvage Pull still feels worth buying now that big cogs wait for a Surge.
 - Whether the bait tempts, and whether the arm climbing that much feels like pressure or like a punishment on stage 4.
 - Whether the WAIT then FULL JUMP! timing feels fair and can be hit by a real thumb. A script can only prove the 0.19 to 0.40 s window exists; a phone adds its own touch delay. If it feels late, `jumpCueSecs` is the one number to change.
 - Whether the alarm sound on FULL JUMP! is right. Checked that it plays without error, not how it sounds.
@@ -101,7 +133,7 @@ My own extra runs (scripts in `%TEMP%\kcheck`, `sr-bot.js`, `sr-extra.js`, `sr-s
 - A real phone: only Chrome pretending to be one has run this. Weakest-device speed is unmeasured on a real device.
 
 ## Provisional numbers to confirm
-All in `tuning.js`, marked PROVISIONAL. The ones most likely to change: `jumpSpeed`, `gravity`, `hopCut`, `surgeSpeed`, `scarPerSurge`, `scarFade`, `hits`, `stages[].speed`, `stages[].gap`, `tellSecs`, `jumpCueSecs`, `houndTall`, `lungeArc`, `openSecs`, `cableSpeed`, `fizzletChance`, `boltnipChance`, `coinChance`. Not provisional: `numbSecs` 5 (Dylan's answer), `bossHits` 3 (spec).
+All in `tuning.js`, marked PROVISIONAL. The ones most likely to change: `jumpSpeed`, `gravity`, `hopCut`, `surgeSpeed`, `scarPerSurge`, `scarFade`, `hits`, `stages[].speed`, `stages[].gap`, `tellSecs`, `jumpCueSecs`, `houndTall`, `lungeArc`, `openSecs`, `cableSpeed`, `fizzletChance`, `boltnipChance`, `coinChance`, `stages[0].hits`, `stages[0].lowScale`. Not provisional: `numbSecs` 5 (Dylan's answer), `bossHits` 3 (spec).
 
 ## Calls Claude made (change any)
 - The story: the crew send Kaito to steal the Empire's survey chart from Pinhold's tower, so the Gullwake knows where the Empire will pin next. Stage names: The Pin Road, Chain Yard, Searchlight Row, Pylon Four, The Long Drop. Every line of dialogue.
@@ -121,11 +153,14 @@ All in `tuning.js`, marked PROVISIONAL. The ones most likely to change: `jumpSpe
 - The boss's prompt: the words WAIT and FULL JUMP! (it used to say JUMP!, but a hop never clears the hound), the alarm sound, the draining bar, and the lower hit box. Kaito's boots brush Silt's hair at the top of a clean jump, because Silt rides taller than the hit box.
 - "Per run" for Skarn's Catch means a story run, as the kit's README defines it. It first read per attempt.
 - Fifth pass: the new hint wording; hit boxes smaller than the drawings of the low barricade and the Hollow; the arm's numbers, so going numb is now an ordinary event on stage 4; two high cogs as bait over lows and troopers, none on stage 1; pals bolting when a stage ends; the rooftops on stage 4; the boss's hint under the pips.
+- Sixth pass: big cogs fly to Salvage Pull only after a Surge, and the upgrade's wording says so ("Big cogs come only to a Surge."). That also covers the big cog over a tall barricade, which takes a Surge anyway. Stage 1 gets 5 hits, smaller low barricades and the word HOLD! on its troopers; the spec's "Quick tap is a short hop, hold is a full jump" is unchanged on every stage.
 
 ## Kit notes
 Nothing was forked. One thing a later kit version could add: a way to tell how far a picture's `fill` should be for a beast, which `art/REQUEST.md` handles by listing a height for each key.
 
 ## Noticed, not touched
+- Salvage Pull level 3 (80 salvage) buys almost nothing: 0 to 0.05 more salvage per attempt than level 2 on stages 2 to 4, with or without the Surges. It was the same before the sixth pass (36.38 against 36.42). Level 2's reach already gets nearly everything.
+- A novice's stage 4 is the hardest of the five on the script (holds, 32 wins of 150), harder than the boss (90). The spec only asks that the first stage be easy and the boss take a few tries.
 - `docs/TEST_CHECKLIST.md` and `docs/STEP3_PLAN.md` still describe Storm Run as not built.
 - On the boss, Silt's opening line sits over the end of the bottom hint for about 3 of its 7 seconds. The talk scene just before says the same thing.
 - At 568x320, the smallest phone, a three-line talk box comes up to 3.5 px over the feet line on the right of the screen. At 667x375 and up it stays below that line, sampled every 0.1 s over stages 3, 4 and the boss, and never touches the top read-outs, the arm or the forks at any size.

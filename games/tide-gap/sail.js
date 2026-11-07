@@ -174,6 +174,7 @@ window.TG = window.TG || {};
   function finishStage(run, w) {
     run.carry.hullLost = w.hullMax - w.hullLeft;
     TG.talkKeep(run, w);
+    if (TG.palAround(w) && run.stage.winLineClean) run.stage = Object.assign({}, run.stage, { winLine: run.stage.winLineClean });   // a pal still out shows behind the win screen, so no joke there (batch rule)
     run.addSalvage(run.stage.clearSalvage + w.heldSalvage);
     w.heldSalvage = 0;
     run.addScore(T.scoreClear + T.scoreLine * TG.linesLeft(run));

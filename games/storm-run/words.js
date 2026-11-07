@@ -4,7 +4,7 @@ SR.WORDS = {
   tagline: 'Pinhold is being nailed in place. Run it, steal the chart, and pay for every Surge.',
 
   stages: [
-    { name: 'The Pin Road', hint: 'Hold to jump: safest. Quick tap: short hop. Tap in the air: Surge.',
+    { name: 'The Pin Road', hint: 'Hold to jump: safest. Quick tap: short hop. Tap in the air: Surge.', holdTip: 'HOLD!',
       talk: [
         { who: 'sela', text: 'Over the wall, down the road, take the survey chart from the tower, back to the ship. No heroics, pup.' },
         { who: 'kaito', text: 'Heroics? I\'m just gonna run really fast and yell at anyone in the way.' },
@@ -107,7 +107,7 @@ SR.WORDS = {
 
   upgrades: [
     { id: 'cool', name: 'Cool Scars', blurb: 'The scars on the arm fade faster.' },
-    { id: 'pull', name: 'Salvage Pull', blurb: 'Salvage flies to Kaito from further away.' },
+    { id: 'pull', name: 'Salvage Pull', blurb: 'Salvage flies to Kaito from further away. Big cogs come only to a Surge.' },
     { id: 'catch', name: 'Skarn\'s Catch', blurb: 'Skarn snatches him out of one hit per run. One more each level.' },
   ],
 };

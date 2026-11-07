@@ -111,11 +111,11 @@ window.SR = window.SR || {};
   }
 
   // Hits left: little forks. Skarn's Catches: wolf-grey ones.
-  function drawHits(c, w) {
+  function drawHits(c, w, max) {
     const A_ = A(), x = 196, y = 326;
     const fork = (px, col) => A_.poly(c, [[px - 2, y - 11], [px + 5, y - 11], [px + 1.5, y - 2], [px + 7, y - 2], [px - 3, y + 11], [px, y + 1], [px - 6, y + 1]], col, 1.6);
     let px = x;
-    for (let i = 0; i < T.hits; i++) { fork(px, i < w.hits ? A_.ORANGE : '#3a3550'); px += 17; }
+    for (let i = 0; i < max; i++) { fork(px, i < w.hits ? A_.ORANGE : '#3a3550'); px += 17; }
     for (let i = 0; i < w.catches; i++) { fork(px, '#b9bfd4'); px += 17; }
   }
 
@@ -130,7 +130,7 @@ window.SR = window.SR || {};
     const A_ = A(), w = run.w, t = run.time;
     A_.hud(c, run, view);
     drawArm(c, w, t);
-    drawHits(c, w);
+    drawHits(c, w, run.stage.hits || T.hits);
     if (run.boss) {
       const b = w.boss, cx = view.w / 2;
       A_.text(c, 'SILT', cx - 58, 16, { size: 16, color: '#dfe2ea', align: 'right' });

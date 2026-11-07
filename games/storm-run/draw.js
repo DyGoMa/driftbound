@@ -34,11 +34,11 @@ window.SR = window.SR || {};
     else A_.personFast(c, 'kaito', { x, y, h, pose, t });
   }
 
-  function barricade(c, tall, x) {
+  function barricade(c, tall, x, s = 1) {
     const A_ = A(), g = T.groundY;
-    if (A_.draw(c, tall ? 'barricade_tall' : 'barricade_low', 0, x, g, tall ? 132 : 36)) return;
+    if (A_.draw(c, tall ? 'barricade_tall' : 'barricade_low', 0, x, g, (tall ? 132 : 36) * s)) return;
     const b = tall ? SR.bake('tall', 80, 160, 40, 150, cc => paintTall(cc)) : SR.bake('low', 80, 60, 40, 50, cc => paintLow(cc));
-    SR.stamp(c, b, x, g);
+    SR.stamp(c, b, x, g, false, s);
   }
   function stripes(c, x, y, w, h) {
     const A_ = A();
@@ -75,12 +75,14 @@ window.SR = window.SR || {};
     const A_ = A(), w = run.w, g = T.groundY, t = run.time, tH = A_.heightOf('trooper', T.pxPerCm);
     for (const f of w.foes) {
       if (f.x < Kit.view.left - 80 || f.x > Kit.view.right + 80) continue;
-      if (f.type === 'low' || f.type === 'tall') barricade(c, f.type === 'tall', f.x);
+      if (f.type === 'low' || f.type === 'tall') barricade(c, f.type === 'tall', f.x, f.scale);
       else if (f.type === 'trooper') {
         // He faces left, so we see his left side: no blade (trooper-sheet-v1.png). A flipped strip puts the blade on the wrong hip, so a true left-facing strip goes first when it exists (art/REQUEST.md).
         const ft = t + f.x * 0.003;
         if (!A_.draw(c, 'trooper_run_left', A_.frameAt('trooper_run_left', ft), f.x, g, tH) && !A_.draw(c, 'trooper_run', A_.frameAt('trooper_run', ft), f.x, g, tH, true))
           A_.personFast(c, 'trooper', { x: f.x, y: g, h: tH, pose: 'run', t: ft, flip: true });
+        // Stage 1 says it on the foe itself: a tap never clears a trooper, and that's the one thing a thumb has to learn here.
+        if (run.stage.holdTip && f.x > w.kx) A_.text(c, run.stage.holdTip, f.x, g - tH - 14, { size: 19, color: A_.GOLD, align: 'center', lw: 4 });
       } else if (f.type === 'swoop') {
         const b = SR.box(f, f.x), y = g - b.lo - 11, dives = f.low < T.swoopOverLow;
         // A dive throws a hot warning on the road, and the Hollow tips nose-down as it drops.

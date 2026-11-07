@@ -20,6 +20,7 @@ window.SR = window.SR || {};
       f.low = run.rng() < T.swoopDiveChance ? T.swoopOverLow : T.swoopDiveLow;
       Kit.audio.play('whoosh');
     }
+    if (type === 'low' && run.stage.lowScale) f.scale = run.stage.lowScale;
     w.foes.push(f);
     return f;
   }

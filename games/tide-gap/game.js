@@ -72,10 +72,13 @@
     loseLines: W.loseLines,
     loseLine(run) {
       if (run.boss) return null;
-      if (TG.linesLeft(run) === 0) { const fresh = W.emptyLose.filter(l => l !== lastLose); return (lastLose = fresh[Math.floor(Math.random() * fresh.length)]); }
+      const pal = TG.palAround(run.w);   // a pal still out shows behind this screen, so the jokes stay out (batch rule)
+      if (TG.linesLeft(run) === 0) { const fresh = W.emptyLose.filter(l => l !== lastLose && !(pal && l.adult)); return (lastLose = fresh[Math.floor(Math.random() * fresh.length)]); }
       if (run.w.lastCause === 'rock' && lastLose !== W.rockLose && Math.random() < T.rockLoseChance) return (lastLose = W.rockLose);
       lastLose = null;
-      return null;
+      if (!pal) return null;
+      const clean = W.loseLines.filter(l => !l.adult);
+      return clean[Math.floor(Math.random() * clean.length)];
     },
     upgrades: W.upgrades,
     palLines: W.palLines,

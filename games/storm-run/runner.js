@@ -29,7 +29,8 @@ window.SR = window.SR || {};
     const d = T.foes[f.type];
     if (f.type === 'swoop') { const lo = SR.swoopAlt(f, x); return { x0: x - d.hw, x1: x + d.hw, lo, hi: lo + d.thick }; }
     if (f.type === 'cable') return { x0: x - T.cableHalfW, x1: x + T.cableHalfW, lo: f.lo, hi: f.hi };
-    return { x0: x - d.hw, x1: x + d.hw, lo: 0, hi: d.hi };
+    const s = f.scale || 1;   // stage 1's small barricades (spawn.js)
+    return { x0: x - d.hw * s, x1: x + d.hw * s, lo: 0, hi: d.hi * s };
   };
   // Screen speed of a foe: left for everything on the road, right for Silt's cables.
   SR.foeVel = (f, w) => (f.type === 'cable' ? T.cableSpeed : -(w.speed + (T.foes[f.type].extra || 0)));
@@ -131,7 +132,7 @@ window.SR = window.SR || {};
     for (const c of w.coins) {
       c.x -= w.speed * dt;
       const d = Math.hypot(c.x - cx, c.alt - cy);
-      if (d < w.reach && d > T.grabRadius) { // Salvage Pull
+      if (d < w.reach && d > T.grabRadius && (!c.big || w.k.surged)) { // Salvage Pull. A big cog comes only to a Surge, so the high bait still costs one
         const s = T.pullSpeed * dt / d;
         c.x += (cx - c.x) * s; c.alt += (cy - c.alt) * s;
       }

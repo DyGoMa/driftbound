@@ -152,6 +152,9 @@ window.TG = window.TG || {};
   };
 
   // ---- Pals. Bobbin comes to a clean helm: no knock and no Dive for a while, then stay alongside it. Mopclaw hides under a rock with a mop tuft: only a Dive reaches it.
+  // Batch rule: pals are never in flirting or innuendo. While this is true, lines marked adult in words.js keep quiet. Bobbin counts until it's caught or sinks. The tuft counts from when its rock is laid, well ahead of the screen, until that rock has gone by.
+  TG.palAround = w => !!((w.bobbin && !w.bobbin.gone) || (w.mop && w.rocks.includes(w.mop.rock)));
+
   TG.stepPals = function (run, w, dt) {
     if (w.boss) return;
     w.calm += dt;

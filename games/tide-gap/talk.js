@@ -36,7 +36,7 @@ window.TG = window.TG || {};
     const n = w.scene[0];
     w.sayGap -= dt;
     if (n && n.wait > 0) n.wait -= dt;
-    if (w.say.length) w.say = w.say.filter(k => run.time <= k.until);
+    if (w.say.length) w.say = w.say.filter(k => run.time <= k.until && !(k.line.adult && TG.palAround(w)));   // a joke never plays with a pal out; the pal's own call has already replaced one showing (hazards.js)
     if (w.sayGap > 0) return;
     if (w.say.length) show(run, w, w.say.shift());
     else if (n && n.wait <= 0) { w.scene.shift(); show(run, w, n); }

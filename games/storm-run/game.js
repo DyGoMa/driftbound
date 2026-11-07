@@ -36,7 +36,7 @@
         k: SR.newBody(), kx: home, homeX: home,
         scar: 0, numb: 0, scarFlash: 0, deadTap: 0, lastSurge: 0, surges: 0, numbCount: 0, surgeT: 0, dash: null, echoes: [], echoT: 0,
         fade: T.scarFade * (1 + T.coolPerLevel * run.up('cool')), reach: T.grabRadius + T.pullPerLevel * run.up('pull'),
-        hits: T.hits, hitsTaken: 0, hitBy: [], catches: Math.max(0, T.catchPerLevel * run.up('catch') - (run.carry.catchesUsed || 0)), inv: 0, hurtT: 0, catchT: 0,
+        hits: run.stage.hits || T.hits, hitsTaken: 0, hitBy: [], catches: Math.max(0, T.catchPerLevel * run.up('catch') - (run.carry.catchesUsed || 0)), inv: 0, hurtT: 0, catchT: 0,
         speed: run.stage.speed, scroll: 0, dist: 0, stepT: 0,
         foes: [], coins: [], pal: null, boltTried: false, pending: null, nextArrival: T.firstArrival, lastTall: -99, radioI: 0,
         boss: boss ? SR.bossNew() : null,
