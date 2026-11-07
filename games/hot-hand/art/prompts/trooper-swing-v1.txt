@@ -1,0 +1,12 @@
+Image 1 is the reference sheet for a Sever trooper, an adult man about 180 cm tall. Copy his design exactly from the RIGHT SIDE view in Image 1 (the third figure, facing right): grey helmet with a round ear cup and a black visor over the eyes, jaw showing, adult jaw; closed and belted grey coat to the knee with a white stand collar, a short flat black bar on the chest; black gloves, black belt, black boots; dark grey trousers. Adult proportions.
+
+Make a sprite sheet of a three-frame attack, side by side in one row of three equal cells, read left to right. In every frame he is shown full body in side profile facing the RIGHT edge of the image, so his RIGHT arm and RIGHT side are nearest us. He holds his bond-cutter in his right hand: a hooked steel blade, its hook glowing white. There is no blade on his belt in these frames, only the empty clip.
+Frame 1, DRAW: blade just pulled from the hip and rising, in front of his waist.
+Frame 2, READY: blade held high over his head in both a clear and obvious way, arm straight up, chest open, feet braced. This is a warning pose: it must read at a glance from the silhouette alone.
+Frame 3, THROUGH: blade swung down and through, low in front of him, body bent forward, weight on his front foot.
+
+Same character, same size and same head height in every cell. In each cell the figure fills about 85 percent of the cell's height, the middle of the body is at the centre of the cell, the feet are on the same baseline near the bottom of the cell, and no part of the figure touches a cell edge or crosses into another cell. Nothing is cut off. Leave room above his head in every cell so the raised blade in Frame 2 is not cut off: the blade's tip stays inside the cell.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on his sheet. Do not use green anywhere on the character.

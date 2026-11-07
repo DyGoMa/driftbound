@@ -1,0 +1,14 @@
+Image 1 is the character reference sheet for Warden Krell, a 41-year-old adult man, 195 cm tall, huge and heavy, broad shoulders and a thick neck, a hard bored officer's face with a heavy brow, a square stubbled jaw, deep lines beside the mouth, dark eyes, tan skin. Dark grey helmet with no visor, so his brow, eyes and jaw all show. Long dark grey coat to the knee, closed and belted, white stand collar. Flat black bar across the chest with a white ring at its centre, cut by the bar (front only; the back is plain). Heavy steel plates strapped over both upper arms and forearms and over both shins. Black gloves, black belt, black boots, dark grey trousers. Copy his design exactly from the LEFT SIDE view in Image 1 (the second figure, facing left), so his LEFT side is nearest us: in this view only a short end of the chest bar shows. Same face, same helmet, same steel plates. Adult face and adult proportions.
+
+Make a sprite sheet of a four-frame idle loop: a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. In every frame he is shown full body in a true 90-degree side profile facing the LEFT edge of the image. He stands behind his men, feet wide, heavy and bored, one arm stretched out pointing forward towards the left with a short wooden baton in that gloved hand; the other arm hangs at his side, hand closed. Mouth a flat line.
+Frame 1: breathing out.
+Frame 2: breathing in, chest a little higher.
+Frame 3: full breath, shoulders at their highest.
+Frame 4: breathing out.
+The frames are otherwise identical: the same pose, the same feet in the same place. Only the breath changes.
+
+Same character, same size and same head height in every cell. In each cell the figure fills about 85 percent of the cell's height, the middle of the body is at the centre of the cell, the feet are on the same baseline near the bottom of the cell, and no part of the figure touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no dust, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems other than what is on his sheet. Do not use green anywhere on the character.

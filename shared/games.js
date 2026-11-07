@@ -8,7 +8,7 @@ window.DRIFT_GAMES = [
   { id: 'tide-gap', title: 'Tide Gap', lead: 'sela', leadName: 'Sela', partner: 'Vesh', island: 'Gaptooth Reach', hold: 'upright', live: false, status: 'soon',
     art: 'art/site/gaptooth-v1-web.webp', artAlt: 'Gaptooth Reach: two floating islands grinding past each other, shedding boulders and waterfalls, with a narrow gap of dusk sky between them.',
     blurb: 'Islands grind shut around the Gullwake. Sela feels which way they drift, but every deep Dive drowns another page of her life.' },
-  { id: 'hot-hand', title: 'Hot Hand', lead: 'juno', leadName: 'Juno', partner: 'Ashka', island: 'Ashmarket', hold: 'sideways', live: false, status: 'soon',
+  { id: 'hot-hand', title: 'Hot Hand', lead: 'juno', leadName: 'Juno', partner: 'Ashka', island: 'Ashmarket', hold: 'sideways', live: true, status: 'live',
     art: 'art/site/ashmarket-v1-web.webp', artAlt: 'Ashmarket: a crowded floating market town of timber halls and paper lanterns, with two buildings on fire.',
     blurb: 'The Sever raid a gamblers\' island, and Juno bets on herself. The hotter her hands, the harder she throws, right up until they lock.' },
   { id: 'silent-cut', title: 'Silent Cut', lead: 'silas', leadName: 'Silas', partner: 'Hush', island: 'Lanternreach', hold: 'sideways', live: true, status: 'live',
