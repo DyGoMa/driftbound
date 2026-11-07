@@ -1,0 +1,14 @@
+Image 1 is the reference sheet for Sela Vey, a tall athletic grown woman of 28. Copy her design exactly, working from the BACK view (the fourth figure): dark brown skin, a long silver-blue high ponytail, a short cropped deep navy-blue jacket with brass buttons on the cuffs and epaulettes, a brown belt, a teal wrap skirt to mid-calf, brown strapped sandal-boots. Seen from behind, the brass spyglass holster sits on her RIGHT hip, which is on the RIGHT of the image, and the brown leather belt pouch sits on her LEFT hip, which is on the LEFT of the image. Gold hoop earrings.
+
+The camera is unusual: high up and behind her, looking down on her at about 50 degrees, the way a lookout on a ship's mast would see someone standing at the bow. She faces directly away from us, up the picture. We see the top and back of her head, her shoulders and back from above, and her legs and boots shortened by the angle, feet at the bottom. No face is visible. She keeps a grown woman's proportions: small head relative to the body, long legs, broad athletic shoulders. Not chibi, not childlike, not a side view, not a front view. She is simply standing and working: no sexualized posing, nothing framed on her body.
+
+Make a sprite sheet: two frames side by side, each cell the same size. In both frames she stands with her feet braced apart, both arms raised and spread wide in a V above her shoulders, palms open, calling up the sea. Her cropped jacket and the hem of her skirt blow upward from below, and her ponytail streams straight up. A faint teal glow rims her whole outline. The skirt stays a modest length around her legs: only the hem lifts, no underwear and no bare hips showing.
+Frame 1: the teal glow is faint.
+Frame 2: exactly the same pose, the teal glow brighter and wider, a soft teal rim around her.
+Her body stays in exactly the same place and size in both frames.
+
+In every cell she fills about 80 percent of the cell's height, her middle is at the centre of the cell, her feet are on the same baseline near the bottom of the cell, and no part of her or her hair touches a cell edge or crosses into another cell. Nothing is cut off.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no deck, no cast shadows, no motion lines, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems, no written marks on the book. Do not use green anywhere on the figure. Keep the glow a clean teal-blue, clearly bluer than the background.

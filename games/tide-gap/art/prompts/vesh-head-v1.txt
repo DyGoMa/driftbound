@@ -1,0 +1,15 @@
+Image 1 is the reference sheet for Vesh, a deep-sea serpent-dragon. Copy his design exactly: dark navy-blue scales in a fine net pattern, a spined frill with pale steel-blue membranes between black spines, long swept black horns, glowing teal eyes, round glowing gold lamps on thin dark stalks.
+
+Draw only his HEAD and the first bit of his neck, seen from DIRECTLY ABOVE, a true top-down view as if he is swimming up the picture and we look straight down on him. His long dark snout points straight UP the picture, narrowing to a blunt tip. Two glowing teal eyes show on the top of the head, one each side, left and right, mirrored. Four long black horns sweep backward from the crown, two on each side, curving down the picture. The great spined frill is spread out wide on both sides of the head, left and right like two fans, each with five or six black spines and pale steel-blue membrane between them. A line of four gold lamps on short stalks runs down the middle of the crown, from between the eyes to the back of the head. Behind the head, the neck runs straight DOWN the picture and is CUT OFF CLEAN with a straight flat horizontal edge at the bottom. The neck is narrow, about one tenth of the whole height of the drawing wide, centred. Perfect left-right symmetry about the vertical centre line, in every frame.
+
+Make a sprite sheet: four frames in a grid of 2 columns and 2 rows, every cell the same size, read left to right, top to bottom. The snout, eyes, horns, lamps and neck stay in exactly the same place and size in all four frames so they loop without jitter. Only the frill changes, slowly opening and closing:
+Frame 1: frill half open.
+Frame 2: frill fully spread, wide.
+Frame 3: frill half open, same as frame 1.
+Frame 4: frill drawn in closer to the head.
+
+In every cell the drawing fills about 85 percent of the cell's height, the centre line of the snout and neck is exactly at the centre of the cell, the neck's cut end is at the same height near the bottom of the cell, and no part touches a cell edge or crosses into another cell. Nothing is cut off except the neck.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background is one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No water, no cast shadows, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems. Do not use green anywhere on the creature. Keep the eyes clearly a blue-leaning teal.

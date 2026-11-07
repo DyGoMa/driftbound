@@ -1,0 +1,11 @@
+Edit Image 1. Image 1 is a two-frame sprite sheet of Captain Hekka Dorn, a very tall muscular grown woman of 33, on a flat green background. Image 2 is her locked reference sheet; use it only to check the scar and her skin colour.
+
+Change only these two things, in BOTH frames:
+1. The ring scar on her bare midriff. It sits on HER LEFT side, which is on the RIGHT of the image since she faces us, in the same place it is now. Redraw it as one clear round closed ring with a thicker line, about twice as thick as now: a dull dark reddish-brown scar ring, clearly darker than the skin around it, so it still reads when the sprite is shown very small. The inside of the ring is plain skin. Keep it a plain round ring; it must not look like a letter or any written character. Do not move it, and put nothing on the other side of her midriff.
+2. The skin of her bare midriff: make it a little darker and less bright, to match the midriff skin colour in Image 2 (a muted medium brown, about RGB 186, 122, 84). Keep the same one flat shadow tone and the same muscle lines, just in the slightly deeper colour.
+
+Keep everything else identical to Image 1: the same two poses at the same size and in the same position in each cell, her face, hair, armour, the black bar and white ring on her chest plate, gloves, trousers, shin plates, boots, the lance in the same place in HER RIGHT hand on the LEFT of the image with its white-glowing hooked tip. A soldier on duty, adult face and adult proportions, no change of pose or framing.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background stays one flat solid pure chroma-key green (#00FF00) across the whole image with no gradient. No floor, no cast shadows, no motion lines, no grid lines, no cell borders, no text, no labels, no numbers, no logos, and no emblems other than the bar and ring on her chest plate. Do not use green anywhere on the figure.

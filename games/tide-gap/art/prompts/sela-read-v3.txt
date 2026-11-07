@@ -1,0 +1,9 @@
+Image 1 is a sprite sheet: four frames in a grid of 2 columns and 2 rows of a woman seen from behind, holding an open book up in front of her. Edit it. Make only this one change, the same in all four frames:
+
+Her head is bent well forward and down, looking down into the book: the back of her neck now shows above the jacket collar and her head sits lower, between her shoulders. The open book stays exactly as it is, with its cream pages clearly showing past both sides of her head, above her shoulders, and both hands holding its outer edges.
+
+Keep everything else identical: same woman, same dark brown skin, same silver-blue ponytail with the same wind position in each frame (left, centre, right, centre), same navy cropped jacket, teal skirt, brown pouch on the LEFT of the image, brass spyglass in its holster on the RIGHT of the image, same boots, same size, same feet position in every cell, same high back view, adult proportions.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+The background stays one flat solid pure chroma-key green (#00FF00) with no gradient. No floor, no cast shadows, no grid lines, no cell borders, no text, no labels, no numbers, no logos, no emblems, no written marks on the book.

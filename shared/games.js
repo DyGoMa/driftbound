@@ -5,7 +5,7 @@ window.DRIFT_GAMES = [
   { id: 'storm-run', title: 'Storm Run', lead: 'kaito', leadName: 'Kaito', partner: 'Skarn', island: 'Pinhold', hold: 'sideways', live: true, status: 'live',
     art: 'art/site/pinhold-v1-web.webp', artAlt: 'Pinhold, a floating island nailed in place by giant steel pylons and chains, with a grey watchtower on top.',
     blurb: 'Pinhold is being nailed in place. Kaito and Skarn run the island, jumping Sever troopers and paying for every Surge.' },
-  { id: 'tide-gap', title: 'Tide Gap', lead: 'sela', leadName: 'Sela', partner: 'Vesh', island: 'Gaptooth Reach', hold: 'upright', live: false, status: 'soon',
+  { id: 'tide-gap', title: 'Tide Gap', lead: 'sela', leadName: 'Sela', partner: 'Vesh', island: 'Gaptooth Reach', hold: 'upright', live: true, status: 'live',
     art: 'art/site/gaptooth-v1-web.webp', artAlt: 'Gaptooth Reach: two floating islands grinding past each other, shedding boulders and waterfalls, with a narrow gap of dusk sky between them.',
     blurb: 'Islands grind shut around the Gullwake. Sela feels which way they drift, but every deep Dive drowns another page of her life.' },
   { id: 'hot-hand', title: 'Hot Hand', lead: 'juno', leadName: 'Juno', partner: 'Ashka', island: 'Ashmarket', hold: 'sideways', live: true, status: 'live',
