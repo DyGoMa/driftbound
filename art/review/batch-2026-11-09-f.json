@@ -1,9 +1,9 @@
 {
-  "title": "Three-quarter bodies: everyone",
-  "summary": "A second full-body sheet for every locked sheet: four three-quarter views (front-left, front-right, back-left, back-right). People in A-pose, creatures and the ship in their sheet's pose. Each passed Claude's review except Sela (her mark, waiting for your call). Tap any picture to see it full size.",
+  "title": "This run: three-quarter bodies, head turnarounds, first expression pages",
+  "summary": "Everything made on 2026-11-09 up to the ChatGPT limit: a three-quarter body sheet for every locked sheet, head turnarounds for the villains, walk-ons, partners and Hollows, and Krell's first two expression pages. Each passed Claude's review except Sela's mark and Tull's head (both explained on their cards). Tap any picture to see it full size.",
   "date": "2026-11-09",
-  "picturesThisBatch": 52,
-  "imagesToday": 52,
+  "picturesThisBatch": 56,
+  "imagesToday": 56,
   "dailyLimit": 15,
   "items": [
     {
@@ -2164,6 +2164,1356 @@
         "18b red patch on the starboard end in every view",
         "18b fore one yard, main two yards and crosstrees, the Post stump",
         "2 no lettering"
+      ]
+    },
+    {
+      "id": "vasch-head",
+      "name": "Director Vasch, head turnaround",
+      "file": "art/refs/vasch-head-v2.png",
+      "take": "take 2 (edit: profiles showed the ring flat; take 1 also 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "10 bar end only in profile, no ring",
+        "tiny smile, grey eyes"
+      ]
+    },
+    {
+      "id": "hekka-head",
+      "name": "Captain Hekka Dorn, head turnaround",
+      "file": "art/refs/hekka-head-v2.png",
+      "take": "take 2 (edit: profiles showed the ring flat; take 1 also 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "10 bar end only in profile",
+        "no lip scar",
+        "blue-grey eyes"
+      ]
+    },
+    {
+      "id": "krell-head",
+      "name": "Warden Krell, head turnaround",
+      "file": "art/refs/krell-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "ear cups both sides",
+        "stubble, heavy brow"
+      ]
+    },
+    {
+      "id": "nim-head",
+      "name": "Nim Hadda, head turnaround",
+      "file": "art/refs/nim-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Faint forehead lines, as on his sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 chalk behind his RIGHT ear",
+        "9 pinned LEFT sleeve"
+      ]
+    },
+    {
+      "id": "silt-head",
+      "name": "Silt, head turnaround",
+      "file": "art/refs/silt-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "9 one slit, over his RIGHT eye; short at the front edge in profile (fix 35)"
+      ]
+    },
+    {
+      "id": "quint-head",
+      "name": "Lazare Quint, head turnaround",
+      "file": "art/refs/quint-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "His glasses are small gold ovals, not the flat-topped pair on his sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "14 glasses clean and even (D5)"
+      ]
+    },
+    {
+      "id": "fenn-head",
+      "name": "Mister Fenn, head turnaround",
+      "file": "art/refs/fenn-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Hair parted on his RIGHT, as on his locked sheet (his description says left)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "5 matches his sheet"
+      ]
+    },
+    {
+      "id": "hob-head",
+      "name": "Hob Tarrow, head turnaround",
+      "file": "art/refs/hob-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "6 reads 68",
+        "tweed cap, white stubble"
+      ]
+    },
+    {
+      "id": "marta-head",
+      "name": "Marta Oake, head turnaround",
+      "file": "art/refs/marta-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "scarf knot and bun at the back",
+        "small closed smile"
+      ]
+    },
+    {
+      "id": "tull-head",
+      "name": "Mr. Tull, head turnaround",
+      "file": "art/refs/tull-head-v1.png",
+      "take": "take 1 (its edit is waiting on the ChatGPT limit)",
+      "size": "2048x1024",
+      "verdict": "failed",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [
+        "10 both profiles show the white ring flat (front-only symbol); edit written, not yet run (ChatGPT limit)"
+      ],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "14 glasses even"
+      ]
+    },
+    {
+      "id": "skarn-head",
+      "name": "Skarn, head turnaround",
+      "file": "art/refs/skarn-head-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "one fin: edge-on from the front, angled at 3/4"
+      ]
+    },
+    {
+      "id": "ashka-head",
+      "name": "Ashka, head turnaround",
+      "file": "art/refs/ashka-head-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "crest, yellow eyes, beak closed"
+      ]
+    },
+    {
+      "id": "vesh-head",
+      "name": "Vesh, head turnaround",
+      "file": "art/refs/vesh-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "frills, horns, lures on the neck"
+      ]
+    },
+    {
+      "id": "hush-head",
+      "name": "Hush, head turnaround",
+      "file": "art/refs/hush-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "owl disc, violet eyes, ear tufts"
+      ]
+    },
+    {
+      "id": "grist-head",
+      "name": "Grist, head turnaround",
+      "file": "art/refs/grist-head-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "3/4 and profile portraits look nearly alike"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "anvil horn",
+        "2 no squiggles"
+      ]
+    },
+    {
+      "id": "prism-head",
+      "name": "Prism, head turnaround",
+      "file": "art/refs/prism-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "blades on their own sides"
+      ]
+    },
+    {
+      "id": "hollow-bear-head",
+      "name": "Hollow bear, head turnaround",
+      "file": "art/refs/hollow-bear-head-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "brow plate, blank eyes, collar and chain at the front"
+      ]
+    },
+    {
+      "id": "hollow-hound-head",
+      "name": "Hollow hound, head turnaround",
+      "file": "art/refs/hollow-hound-head-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "18 a monster: fangs, plates, cables"
+      ]
+    },
+    {
+      "id": "thimble-head",
+      "name": "Thimble, head turnaround",
+      "file": "art/refs/thimble-head-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.0,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.2,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile left",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.4,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "3/4 right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.6000000000000001,
+            0,
+            0.2,
+            1
+          ]
+        },
+        {
+          "label": "Profile right",
+          "why": "Same head as the locked sheet at this angle",
+          "box": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "bell under the chin, buckle at the back"
+      ]
+    },
+    {
+      "id": "krell-faces-front",
+      "name": "Warden Krell, expressions page 1 (front)",
+      "file": "art/refs/krell-faces-front-v1.png",
+      "take": "take 1 (pages at 3/4 right and page 2 wait on the ChatGPT limit)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Top row: neutral, grin, shout, blush",
+          "why": "Same types as Kaito page 1 (D9)",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row: fear, grief, smug, gag face",
+          "why": "Gag face exaggerated, not chibi",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Gag face's gloom lines are a drawing mark"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "D9 same expressions as Kaito, cell for cell",
+        "6 adult face"
+      ]
+    },
+    {
+      "id": "krell-faces-34l",
+      "name": "Warden Krell, expressions page 1 (3/4 left)",
+      "file": "art/refs/krell-faces-34l-v1.png",
+      "take": "take 1 (pages at 3/4 right and page 2 wait on the ChatGPT limit)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Top row: neutral, grin, shout, blush",
+          "why": "Same types as Kaito page 1 (D9)",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row: fear, grief, smug, gag face",
+          "why": "Gag face exaggerated, not chibi",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Gag face's gloom lines are a drawing mark"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "D9 same expressions as Kaito, cell for cell",
+        "6 adult face"
       ]
     }
   ]
