@@ -1,0 +1,806 @@
+{
+  "title": "Redos, part 2: Silas shoulders, Juno braid, Pain eye",
+  "summary": "The limit reset; all six waiting redos landed and passed Claude's review. Silas's head and his page-2 3/4-right faces now show full shoulders, Juno's Blush at 3/4 right shows her braid, and the Pain face shuts the LEFT eye in every view for all six characters.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 6,
+  "imagesToday": 77,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "d-silas-head",
+      "name": "Silas, head turnaround",
+      "file": "art/refs/silas-head-v3.png",
+      "take": "take 3 (edit): full shoulders and shirt like the others",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders framed like sela-head-v1",
+        "9 neck marks and beauty mark on his left per view"
+      ]
+    },
+    {
+      "id": "d14",
+      "name": "Blush",
+      "take": "Juno's Blush at 3/4 right now shows her braid over the far (left) shoulder, down the front of the jacket",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Her other seven 3/4-right faces and her head turnaround's 3/4-right portrait still hide the braid behind her"
+      ],
+      "passed": [
+        "Dylan 2026-11-09: braid on her shoulder"
+      ]
+    },
+    {
+      "id": "d21",
+      "name": "Laugh",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Laugh, 3/4 right: his beauty mark shows under the NEAR (right) eye; it belongs under his left eye, hidden at this angle. It was in the earlier take too"
+      ],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d22",
+      "name": "Rage",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d23",
+      "name": "Pain",
+      "take": "Pain, every character: the LEFT eye shut in every view. All redos in.",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D11 left eye shut in every view, all six characters"
+      ]
+    },
+    {
+      "id": "d24",
+      "name": "Disgust",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d25",
+      "name": "Surprised",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d26",
+      "name": "Tender",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d27",
+      "name": "Exhausted",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    },
+    {
+      "id": "d28",
+      "name": "Asleep",
+      "take": "Silas page 2 at 3/4 right: full shoulders and shirt",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v3.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders like the others"
+      ]
+    }
+  ]
+}
