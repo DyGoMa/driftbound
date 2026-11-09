@@ -1,0 +1,1831 @@
+{
+ "title": "After the limit: three redos, Krell and Nim's expressions",
+ "summary": "Fifteen new pictures before the ChatGPT limit hit again at 16:36 (back Nov 11, 10:01 PM). Tull, Quint and Sela's redos passed review. Krell's and Nim's full expression sets are below beside Kaito's: 4 cells fail (Krell's Pain at 3/4 right; Nim's eye colour in 3 cells); their fixes are ready but wait for the limit. Vasch and Hekka's pages did not run.",
+ "date": "2026-11-09",
+ "picturesThisBatch": 15,
+ "imagesToday": 71,
+ "dailyLimit": 15,
+ "items": [
+  {
+   "id": "tull-head",
+   "name": "Mr. Tull, head turnaround (side-view fix)",
+   "file": "art/refs/tull-head-v2.png",
+   "take": "take 2 (edit of take 1; your \"Yes, run the fix\")",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Profile left, chest",
+     "why": "Ring gone, only the bar's end at the front",
+     "box": [
+      0.41,
+      0.5,
+      0.19,
+      0.27
+     ]
+    },
+    {
+     "label": "Profile right, chest",
+     "why": "Ring gone, only the bar's end at the front",
+     "box": [
+      0.8,
+      0.5,
+      0.2,
+      0.27
+     ]
+    },
+    {
+     "label": "Front and 3/4 chests",
+     "why": "Ring and bar unchanged where they face us",
+     "box": [
+      0,
+      0.6,
+      0.8,
+      0.17
+     ]
+    },
+    {
+     "label": "Faces",
+     "why": "Glasses, hair, eyes unchanged",
+     "box": [
+      0,
+      0.18,
+      1,
+      0.36
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "1 size 2048x1024",
+    "10 chest symbol edge-on in both profiles",
+    "17 only the profiles' chests changed"
+   ]
+  },
+  {
+   "id": "quint-head",
+   "name": "Lazare Quint, head turnaround (flat-topped glasses)",
+   "file": "art/refs/quint-head-v3.png",
+   "take": "take 3 (take 2 changed the glasses but lost his pink cheeks; take 3 put them back)",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Glasses, front and 3/4",
+     "why": "Flat top, curved bottom, same size both sides (D13, 14)",
+     "box": [
+      0,
+      0.35,
+      0.4,
+      0.15
+     ]
+    },
+    {
+     "label": "Glasses, profiles",
+     "why": "One lens edge-on, gold arm to the ear",
+     "box": [
+      0.4,
+      0.35,
+      0.6,
+      0.15
+     ]
+    },
+    {
+     "label": "Cheeks, all five",
+     "why": "Pink cheeks back (take 2 lost them)",
+     "box": [
+      0,
+      0.38,
+      1,
+      0.15
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Take 2 (quint-head-v2) had the right glasses but no pink cheeks; one automatic redo fixed that."
+   ],
+   "passed": [
+    "D13 glasses match his sheet's shape",
+    "14 even both sides",
+    "17 only the cheeks changed from take 2"
+   ]
+  },
+  {
+   "id": "sela-b34",
+   "name": "Sela Vey, 3/4 body (bond mark)",
+   "file": "art/refs/sela-body34-v5.png",
+   "take": "take 5 (take 4 removed the ringed mark, take 5 added the spiral on clean skin; your \"Two more edits\")",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Bond mark, view 1",
+     "why": "One line winding in, no closed ring (11)",
+     "box": [
+      0.1,
+      0.17,
+      0.08,
+      0.12
+     ]
+    },
+    {
+     "label": "Bond mark, view 2",
+     "why": "Far side of her chest, smaller",
+     "box": [
+      0.36,
+      0.17,
+      0.08,
+      0.12
+     ]
+    },
+    {
+     "label": "Back views, shoulders",
+     "why": "No mark from behind (9)",
+     "box": [
+      0.5,
+      0.1,
+      0.5,
+      0.3
+     ]
+    },
+    {
+     "label": "View 1: 3/4 front left",
+     "why": "Whole figure",
+     "box": [
+      0,
+      0,
+      0.25,
+      1
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "The sheet's spiral ends in a short open tail at its lower right; this one is a little rounder."
+   ],
+   "passed": [
+    "11 one spiralling line, no outer ring",
+    "9 on her LEFT, none in the back views",
+    "17 nothing else changed from take 4"
+   ]
+  },
+  {
+   "id": "x11",
+   "name": "Neutral",
+   "take": "page 1, cell 1: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x12",
+   "name": "Grin",
+   "take": "page 1, cell 2: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x13",
+   "name": "Shout",
+   "take": "page 1, cell 3: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x14",
+   "name": "Blush",
+   "take": "page 1, cell 4: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x15",
+   "name": "Fear",
+   "take": "page 1, cell 5: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x16",
+   "name": "Grief",
+   "take": "page 1, cell 6: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x17",
+   "name": "Smug",
+   "take": "page 1, cell 7: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x18",
+   "name": "Gag face",
+   "take": "page 1, cell 8: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x21",
+   "name": "Laugh",
+   "take": "page 2, cell 1: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x22",
+   "name": "Rage",
+   "take": "page 2, cell 2: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x23",
+   "name": "Pain",
+   "take": "page 2, cell 3: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "redo",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [
+    "Krell 3/4 right: D11 his near RIGHT eye is shut; it should be his LEFT (far) eye. Redo queued."
+   ],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row",
+    "D11 LEFT eye shut in every view (except the fails)"
+   ]
+  },
+  {
+   "id": "x24",
+   "name": "Disgust",
+   "take": "page 2, cell 4: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x25",
+   "name": "Surprised",
+   "take": "page 2, cell 5: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "redo",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [
+    "Nim 3/4 left: 5 amber eyes (his are grey). Redo queued.",
+    "Nim front: 5 brown eyes (his are grey). Redo queued."
+   ],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x26",
+   "name": "Tender",
+   "take": "page 2, cell 6: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x27",
+   "name": "Exhausted",
+   "take": "page 2, cell 7: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "redo",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [
+    "Nim 3/4 left: 5 brown eyes (his are grey). Redo queued."
+   ],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  },
+  {
+   "id": "x28",
+   "name": "Asleep",
+   "take": "page 2, cell 8: Kaito's three views, then Krell's, then Nim's",
+   "verdict": "passed",
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 left",
+     "file": "art/refs/krell-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, front",
+     "file": "art/refs/krell-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Krell, 3/4 right",
+     "file": "art/refs/krell-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 left",
+     "file": "art/refs/nim-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, front",
+     "file": "art/refs/nim-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Nim, 3/4 right",
+     "file": "art/refs/nim-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ]
+  }
+ ]
+}
