@@ -106,7 +106,7 @@
       "file": "art/refs/kaito-arm-v2.png",
       "take": "take 2 (take 1 resized on this PC)",
       "size": "2048x1024",
-      "verdict": "passed",
+      "verdict": "redo",
       "zooms": [
         {
           "label": "Stage 1: hand to elbow",

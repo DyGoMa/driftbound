@@ -1,0 +1,3565 @@
+{
+  "title": "Batch C: the other five leads' faces",
+  "summary": "Sela, Juno, Silas, Bram and Ione: a head turnaround each, then every expression in its three views. All passed my review; eleven pages were resized on this PC. Kaito's three-quarter body sheet is at the top as the layout test for every body sheet.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 37,
+  "imagesToday": 66,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "kaito-body34",
+      "name": "Kaito, three-quarter body (layout test)",
+      "file": "art/refs/kaito-body34-v2.png",
+      "take": "take 2 (gauntlet added in the back-left view)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Front three-quarters",
+          "why": "Streak near in the right one; gauntlet and hand mark on his right arm",
+          "box": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        {
+          "label": "Back three-quarters",
+          "why": "Gauntlet on his right arm in both; back-view hands from behind",
+          "box": [
+            0.5,
+            0,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "The first of the three-quarter body sheets; every other sheet follows this layout once you pass it"
+      ],
+      "passed": [
+        "1 size",
+        "8 four three-quarter views, A-pose",
+        "9 streak, scar and gauntlet sides",
+        "12 back-view hands"
+      ]
+    },
+    {
+      "id": "sela-head",
+      "name": "Sela, head turnaround",
+      "file": "art/refs/sela-head-v1.png",
+      "take": "sela-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "sela-x11",
+      "name": "Sela: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x12",
+      "name": "Sela: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x13",
+      "name": "Sela: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x14",
+      "name": "Sela: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x15",
+      "name": "Sela: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x16",
+      "name": "Sela: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x17",
+      "name": "Sela: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x18",
+      "name": "Sela: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x21",
+      "name": "Sela: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x22",
+      "name": "Sela: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x23",
+      "name": "Sela: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x24",
+      "name": "Sela: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x25",
+      "name": "Sela: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x26",
+      "name": "Sela: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x27",
+      "name": "Sela: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "sela-x28",
+      "name": "Sela: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-head",
+      "name": "Juno, head turnaround",
+      "file": "art/refs/juno-head-v2.png",
+      "take": "juno-head-v2",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "juno-x11",
+      "name": "Juno: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x12",
+      "name": "Juno: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x13",
+      "name": "Juno: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x14",
+      "name": "Juno: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x15",
+      "name": "Juno: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x16",
+      "name": "Juno: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x17",
+      "name": "Juno: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x18",
+      "name": "Juno: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x21",
+      "name": "Juno: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x22",
+      "name": "Juno: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x23",
+      "name": "Juno: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x24",
+      "name": "Juno: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x25",
+      "name": "Juno: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x26",
+      "name": "Juno: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x27",
+      "name": "Juno: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "juno-x28",
+      "name": "Juno: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-head",
+      "name": "Silas, head turnaround",
+      "file": "art/refs/silas-head-v2.png",
+      "take": "silas-head-v2",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "silas-x11",
+      "name": "Silas: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x12",
+      "name": "Silas: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x13",
+      "name": "Silas: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x14",
+      "name": "Silas: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x15",
+      "name": "Silas: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x16",
+      "name": "Silas: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x17",
+      "name": "Silas: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x18",
+      "name": "Silas: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x21",
+      "name": "Silas: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x22",
+      "name": "Silas: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x23",
+      "name": "Silas: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x24",
+      "name": "Silas: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x25",
+      "name": "Silas: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x26",
+      "name": "Silas: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x27",
+      "name": "Silas: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "silas-x28",
+      "name": "Silas: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-head",
+      "name": "Bram, head turnaround",
+      "file": "art/refs/bram-head-v1.png",
+      "take": "bram-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "bram-x11",
+      "name": "Bram: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x12",
+      "name": "Bram: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x13",
+      "name": "Bram: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x14",
+      "name": "Bram: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x15",
+      "name": "Bram: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x16",
+      "name": "Bram: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x17",
+      "name": "Bram: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x18",
+      "name": "Bram: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x21",
+      "name": "Bram: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x22",
+      "name": "Bram: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x23",
+      "name": "Bram: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x24",
+      "name": "Bram: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x25",
+      "name": "Bram: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x26",
+      "name": "Bram: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x27",
+      "name": "Bram: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "bram-x28",
+      "name": "Bram: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-head",
+      "name": "Ione, head turnaround",
+      "file": "art/refs/ione-head-v1.png",
+      "take": "ione-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "ione-x11",
+      "name": "Ione: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x12",
+      "name": "Ione: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x13",
+      "name": "Ione: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x14",
+      "name": "Ione: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x15",
+      "name": "Ione: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x16",
+      "name": "Ione: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x17",
+      "name": "Ione: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x18",
+      "name": "Ione: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x21",
+      "name": "Ione: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x22",
+      "name": "Ione: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x23",
+      "name": "Ione: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x24",
+      "name": "Ione: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x25",
+      "name": "Ione: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x26",
+      "name": "Ione: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x27",
+      "name": "Ione: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    },
+    {
+      "id": "ione-x28",
+      "name": "Ione: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same type as Kaito's cell"
+      ]
+    }
+  ]
+}

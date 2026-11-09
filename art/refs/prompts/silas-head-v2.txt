@@ -1,0 +1,13 @@
+Edit Image 1, a five-portrait head turnaround of Silas Moreau, an ADULT man of 24. Image 2 is his locked full-body reference sheet.
+
+Change only these two things:
+1. In the FIRST portrait (FRONT, far left of the image) he has a small dark beauty mark under EACH eye. He has only ONE, under his LEFT eye, which is the eye on the RIGHT of the image in this front view. REMOVE the beauty mark under the eye on the LEFT of the image completely; paint plain skin there, matching the cheek.
+2. Output the whole sheet at 2048x1024.
+
+Keep everything else identical to Image 1: the other four portraits exactly as they are; the beauty mark under the eye on the RIGHT of the image in the front portrait; the three violet marks on the LEFT side of his neck; his face, violet eyes, dark-teal hair and low ponytail, the open white shirt; sizes, places and colours.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is his neck bond mark.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

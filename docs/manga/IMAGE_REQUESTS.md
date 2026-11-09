@@ -34,6 +34,11 @@ These people appear in Issues 1 to 10 and have no sheet. Use the people layout b
 | The Gullwake | the ship, four views plus a deck plan | Issue 2 | The tide-gap sprite (`games/tide-gap/art/gullwake.webp`) is the start; the dossier `backstory/world.md` has the deck-by-deck description | Done: `gullwake-sheet-v3.png`, deck plan `gullwake-deck-v2.png` (2026-11-08) |
 | Pinhold, Ashmarket, Gaptooth Reach | establishing shots for the manga (wide, dusk, night) | Issues 1, 6, 11 | The site already has one picture of each (`art/site/*-v1.png`); the manga needs an interior or two per island, listed in the generated file's spreads | Not started |
 
+### Batch A2: face sets and three-quarter body sheets (added 2026-11-08, Dylan's answers in DECISIONS.md)
+- **Face sets.** Six leads: head turnaround plus two expression pages at three angles (7 pictures each; Kaito done). Vasch, Hekka, Krell, Nim: the same. Silt and the walk-ons (Quint, Fenn, Hob, Marta, Tull): head turnaround only. Partners and Hollows: head turnaround. Troopers: none. Prompts from `tools/face-prompts.py`.
+- **Three-quarter body sheets.** A second full-body sheet for every locked sheet, people, creatures and the ship: three-quarter front-left, front-right, back-left, back-right. Kaito first as the layout test.
+- **Status:** Kaito's face set done (2026-11-08); the other five leads' head turnarounds running.
+
 ### Batch B: the first issue, all of it (about 120 panels; the proof of the pipeline)
 Issue 1 has 120 panels and 29 pages. Draw it completely, in order, cover first, from the art notes in `manga/issues/issue-01.js` with the sheets attached. This proves the style holds across a whole issue, settles the balloon lettering look, and gives Dylan one finished issue to judge before anything else is drawn. Count: 1 cover + 120 panels; with redos, budget 150.
 
