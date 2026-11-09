@@ -57,6 +57,7 @@ Dylan (2026-11-08): "make an artifact with the pictures and zoomed in pictures o
    node tools/review-page.js art/review/<batch>.json <scratchpad>/review
    ```
 3. **Publish to the same page every time**: the URL is in `art/review/REVIEW_PAGE.md`. Read it first with the Artifact tool (`action: "read"`), then publish `index.html` with `url` set to it, `root` set to the review folder and every `img/*.jpg` in `files` (old images left out are kept, so reuse ids only for the same subject). In the session that first published it, publishing the same file path again is enough. Give Dylan the link.
+   **Grouped sets** (Dylan 2026-11-08: "group the expressions together with all of their views ... we dont need the picture with the full panel of expressions"): for expression pages and anything drawn at several angles, give each expression its own item with `cells` (label, file, box) instead of `file` and `zooms`; the page shows the views side by side and no full page.
 4. **Cards.** One card per subject, up to four per card set, more sets if needed. Options, recommended first: "Passes" (when it passed review), one or two named redos built from its NOTEs (one change each), and "Show me earlier takes". "Other" stays for his own words. If he passes several at once in his own words, take that as the answer for each.
 5. After his answers, set each subject's verdict in the batch file, rebuild and republish, so the page shows what passed.
 

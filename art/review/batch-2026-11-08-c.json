@@ -1,0 +1,288 @@
+{
+  "title": "Batch B: Kaito's full face set",
+  "summary": "Kaito's head turnaround is approved. These are his six expression pages (two pages of eight faces at three angles) and the scar stages redone with the gauntlet on. All passed my review. When you pass them, the other five leads follow the same set.",
+  "date": "2026-11-08",
+  "picturesThisBatch": 13,
+  "imagesToday": 28,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "kaito-faces",
+      "name": "Expressions page 1, three-quarter left",
+      "file": "art/refs/kaito-faces-v2.png",
+      "take": "take 2 (resized)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Neutral, grin, shout, blush",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Fear, grief, smug, gag face",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "You asked for more faces, so page 2 was added; this page still needs your OK"
+      ],
+      "passed": [
+        "8 one angle",
+        "9 scar on the nearer (left) eyebrow",
+        "3 adult, gag face not chibi"
+      ]
+    },
+    {
+      "id": "kaito-faces2",
+      "name": "Expressions page 2, three-quarter left",
+      "file": "art/refs/kaito-faces2-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Laugh, rage, pain, disgust",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Surprised, tender, exhausted, asleep",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Picked from the 51 issues' art notes: asleep 217, laugh 120, disgust 61, rage and fury 85, pain 44, exhausted 28, tender 20, surprised 17",
+        "The cross on the rage forehead is an anger mark, not text"
+      ],
+      "passed": [
+        "8 one angle",
+        "9 scar side checked zoomed in",
+        "3 adult faces"
+      ]
+    },
+    {
+      "id": "kaito-faces-front",
+      "name": "Expressions page 1, front",
+      "file": "art/refs/kaito-faces-front-v2.png",
+      "take": "take 2 (resized)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Same four faces as page 1, facing front",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Same four faces, facing front",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Take 1 came out 1774x887; resized"
+      ],
+      "passed": [
+        "D9 same expression cell for cell",
+        "9 scar right of the picture, streak left"
+      ]
+    },
+    {
+      "id": "kaito-faces2-front",
+      "name": "Expressions page 2, front",
+      "file": "art/refs/kaito-faces2-front-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Laugh, rage, pain, disgust, facing front",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Surprised, tender, exhausted, asleep, facing front",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression cell for cell",
+        "9 scar and streak sides"
+      ]
+    },
+    {
+      "id": "kaito-faces-34r",
+      "name": "Expressions page 1, three-quarter right",
+      "file": "art/refs/kaito-faces-34r-v2.png",
+      "take": "take 2 (resized)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Streak on the near side; scar hidden on the far side, as on the head turnaround",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Same",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Take 1 came out 1774x887; resized"
+      ],
+      "passed": [
+        "D9 same expression cell for cell",
+        "9 sides match the approved head turnaround"
+      ]
+    },
+    {
+      "id": "kaito-faces2-34r",
+      "name": "Expressions page 2, three-quarter right",
+      "file": "art/refs/kaito-faces2-34r-v2.png",
+      "take": "take 2 (edit: scar removed from the near eyebrow)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Laugh, rage, pain, disgust",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Surprised, tender, exhausted, asleep",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Take 1 put the scar on the near (right) eyebrow; removed by edit"
+      ],
+      "passed": [
+        "D9 same expression cell for cell",
+        "9 scar hidden as on the head turnaround"
+      ]
+    },
+    {
+      "id": "kaito-arm",
+      "name": "Scar stages, gauntlet on",
+      "file": "art/refs/kaito-arm-v3.png",
+      "take": "take 3 (your redo)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Stage 1",
+          "why": "Glow on the hand and wrist only; scars above the gauntlet pale",
+          "box": [
+            0,
+            0.25,
+            0.34,
+            0.75
+          ]
+        },
+        {
+          "label": "Stage 2",
+          "why": "Glow climbs to the elbow; upper arm scars pale",
+          "box": [
+            0.33,
+            0.25,
+            0.34,
+            0.75
+          ]
+        },
+        {
+          "label": "Stage 3",
+          "why": "Glow the whole way up and onto the chest",
+          "box": [
+            0.66,
+            0.2,
+            0.34,
+            0.8
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Gauntlet's three metal bands match his locked sheet"
+      ],
+      "passed": [
+        "9 right arm only",
+        "11 glow climbs each stage",
+        "eyebrow scar on his left"
+      ]
+    }
+  ]
+}

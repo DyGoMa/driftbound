@@ -27,6 +27,21 @@ function Save-Jpeg($src, [int]$sx, [int]$sy, [int]$sw, [int]$sh, [double]$scale,
 }
 
 foreach ($item in $data.items) {
+  if ($item.cells) {
+    # A grouped item (Dylan 2026-11-08: one expression with all its views side by side, no full page).
+    # cells: [{ "label": "...", "file": "art/refs/....png", "box": [x, y, w, h] }] -> <id>-c<n>.jpg
+    "$($item.id): $($item.cells.Count) cells"
+    $n = 0
+    foreach ($c in $item.cells) {
+      $n++
+      $src = [System.Drawing.Image]::FromFile((Join-Path $repo $c.file))
+      $sx = [int]($c.box[0] * $src.Width); $sy = [int]($c.box[1] * $src.Height)
+      $sw = [int]($c.box[2] * $src.Width); $sh = [int]($c.box[3] * $src.Height)
+      Save-Jpeg $src $sx $sy $sw $sh 1.4 1000 (Join-Path $img "$($item.id)-c$n.jpg")
+      $src.Dispose()
+    }
+    continue
+  }
   $file = Join-Path $repo $item.file
   $src = [System.Drawing.Image]::FromFile($file)
   "$($item.id): $($src.Width)x$($src.Height)"

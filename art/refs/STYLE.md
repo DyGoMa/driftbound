@@ -34,6 +34,9 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 | Thimble as a Hollow | `thimble-hollow-sheet-v2.png` | **Passed by Dylan 2026-11-08**. Take 1 resized from 1774x887. Same body; dull grey-beige hair, blank white eyes, core set into the chest, brow, shoulder and spine plates, cables, no bell; sad more than menacing |
 | The Gullwake (ship) | `gullwake-sheet-v3.png` | **Passed by Dylan 2026-11-08**. Ship layout block below. Three masts: fore (one yard), main (two yards, crosstrees), the Post stump (no yard); yards square across the ship, full width in bow and stern views, end-on in the side views (Dylan: "at the right angle to be used if the sails were to be put down"); red patch on the main lower yard's starboard end; towing post at the bow, tub and bath screen on the foredeck, quarterdeck with wheel, awning and table, salvage crane; no lettering; fore yard sits a little higher in the bow and stern views |
 | The Gullwake (deck plan) | `gullwake-deck-v2.png` | **Passed by Dylan 2026-11-08**. Top-down, bow at the top, 1024x2048; no portholes on the deck; the canvas screen is Issue 2's bath screen (kept); chain and rope at the towing post |
+| Kaito, head turnaround | `kaito-head-v3.png` | **Passed by Dylan 2026-11-08**. Head layout block below; the layout for every lead. Take 1 had the front-view scar on his right eyebrow; take 3 fixed it |
+| Kaito, expressions | `kaito-faces-v2.png`, `kaito-faces-front-v2.png`, `kaito-faces-34r-v2.png` (page 1); `kaito-faces2-v1.png`, `kaito-faces2-front-v1.png`, `kaito-faces2-34r-v2.png` (page 2) | **Passed by Dylan 2026-11-08**, all 16 judged per expression across the three views. Page 1: neutral, grin, shout, blush, fear, grief, smug, gag face. Page 2 (from the issues' art notes): laugh, rage, pain, disgust, surprised, tender, exhausted, asleep. At 3/4 right the scar is hidden on the far side, as on the head turnaround. The expression guide for every lead (checklist D9) |
+| Kaito, scar stages | `kaito-arm-v3.png` | **Passed by Dylan 2026-11-08**. Gauntlet on; (1) hand to elbow, glow on hand and wrist; (2) up the upper arm, glow to the elbow; (3) onto the right chest, glow all the way |
 
 ## Style block (copy exactly)
 > 2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
@@ -68,6 +71,18 @@ Set by the build step 2 style test. Dylan passed `kaito-sheet-v8.png` and `skarn
 > No three-quarter angles anywhere. No people, no animals, no creatures anywhere on or near the ship.
 
 Name every yard per mast and say it is seen full width in the bow and stern views and end-on in the side views (Gullwake take 2 drew them as long bars in every view).
+
+## Layout block, head turnaround (copy exactly; passed on Kaito 2026-11-08)
+> Five head-and-shoulders portraits of the same person in one row, same scale, evenly spaced, not overlapping, chins on the same line, head tops level, cut off just below the collarbones:
+> (1) FRONT: facing the viewer.
+> (2) THREE-QUARTER LEFT: head and shoulders turned 45 degrees toward the LEFT edge of the image, so their LEFT cheek and LEFT ear are nearer us and the far eye is partly hidden by the nose bridge.
+> (3) PROFILE LEFT: a true 90-degree profile facing the LEFT edge of the image, so their LEFT side is nearest us.
+> (4) THREE-QUARTER RIGHT: head and shoulders turned 45 degrees toward the RIGHT edge of the image, so their RIGHT cheek and RIGHT ear are nearer us.
+> (5) PROFILE RIGHT: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT side is nearest us.
+> Neutral face, mouth closed, eyes looking straight ahead in the direction the head faces. Same lighting in every portrait.
+
+## Expression pages (passed on Kaito 2026-11-08)
+Two pages of eight (4 across, 2 down, head and shoulders), each drawn at three angles: THREE-QUARTER LEFT, FRONT, THREE-QUARTER RIGHT, the angle the same in all eight cells. Attach the lead's sheet, Kaito's page at the same angle as the expression guide, and the lead's head turnaround. Prompts: `art/refs/prompts/kaito-faces*-v1.txt`. A 3/4 face hides one-sided marks on the far side: say so per angle.
 
 Size: `--size 2048x1024` for every four-view sheet.
 

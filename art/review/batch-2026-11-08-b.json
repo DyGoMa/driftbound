@@ -1,0 +1,157 @@
+{
+  "title": "Batch B: Kaito's faces and arm",
+  "summary": "The first sheets in the two new face layouts (head turnaround and three-quarter expressions) plus Kaito's three scar stages. All three passed my review; once you pass them, the other five leads follow in the same layouts. Tap any picture to see it full size.",
+  "date": "2026-11-08",
+  "picturesThisBatch": 5,
+  "imagesToday": 21,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "kaito-head",
+      "name": "Kaito, head turnaround",
+      "file": "art/refs/kaito-head-v3.png",
+      "take": "take 3 (front scar fixed by edit)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Front portrait",
+          "why": "Scar through his LEFT eyebrow (right of the picture), streak on his RIGHT (left of the picture), right eyebrow clean (9)",
+          "box": [
+            0,
+            0.15,
+            0.22,
+            0.45
+          ]
+        },
+        {
+          "label": "Three-quarter and profile left",
+          "why": "Scar on the nearer eyebrow; streak only at the far top of the head",
+          "box": [
+            0.2,
+            0.15,
+            0.4,
+            0.45
+          ]
+        },
+        {
+          "label": "Three-quarter and profile right",
+          "why": "Streak on the nearer side; scar hidden or tiny",
+          "box": [
+            0.6,
+            0.15,
+            0.4,
+            0.45
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Take 1 had the front-view scar on his right eyebrow; take 2 came back unchanged (fix 11); take 3 fixed it with the correct front face as a guide",
+        "Each portrait sits on a slightly darker panel behind the shoulders"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 no text",
+        "3 adult face",
+        "5 matches kaito-sheet-v8 (amber eyes, goggles, zip top)",
+        "9 scar and streak sides in all five"
+      ]
+    },
+    {
+      "id": "kaito-faces",
+      "name": "Kaito, eight expressions",
+      "file": "art/refs/kaito-faces-v2.png",
+      "take": "take 2 (take 1 resized on this PC)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Top row",
+          "why": "Neutral, grin, shout, blush: same face, same three-quarter angle",
+          "box": [
+            0,
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "label": "Bottom row",
+          "why": "Fear, grief, smug, gag face: gag face exaggerated but adult, not chibi",
+          "box": [
+            0,
+            0.5,
+            1,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Take 1 came out 1774x887 (fix 16); resized, no new drawing",
+        "The blush hatching and gag-face gloom lines are drawing marks, not text"
+      ],
+      "passed": [
+        "1 size after resize",
+        "2 no text",
+        "3 adult face in all eight, gag face not chibi",
+        "8 one three-quarter-left angle in all eight",
+        "9 scar on his nearer (left) eyebrow, streak at the far hairline"
+      ]
+    },
+    {
+      "id": "kaito-arm",
+      "name": "Kaito, scar stages",
+      "file": "art/refs/kaito-arm-v2.png",
+      "take": "take 2 (take 1 resized on this PC)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Stage 1: hand to elbow",
+          "why": "Scars stop at the elbow; upper arm clean (fix 2)",
+          "box": [
+            0,
+            0.25,
+            0.34,
+            0.75
+          ]
+        },
+        {
+          "label": "Stage 2: up the upper arm",
+          "why": "Scars climb to just below the shoulder",
+          "box": [
+            0.33,
+            0.25,
+            0.34,
+            0.75
+          ]
+        },
+        {
+          "label": "Stage 3: onto the chest",
+          "why": "Over the shoulder onto the right chest, stopping before the middle",
+          "box": [
+            0.66,
+            0.2,
+            0.34,
+            0.8
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Gauntlet off and jacket not at the waist so the scars show (Claude's call)",
+        "Take 1 came out 1774x887 (fix 16); resized, no new drawing",
+        "Hands face forward, so the bond mark shows on the back of the right hand"
+      ],
+      "passed": [
+        "1 size after resize",
+        "2 scars are branching shapes, no text",
+        "9 right arm only, left arm clean in all three",
+        "11 glowing yellow fork on the back of the right hand",
+        "eyebrow scar on his left in all three"
+      ]
+    }
+  ]
+}

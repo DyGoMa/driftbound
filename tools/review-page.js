@@ -22,7 +22,33 @@ function list(cls, title, items) {
   return `<div class="notes ${cls}"><h4>${title}</h4><ul>${items.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>`;
 }
 
+function group(it) {
+  // One subject shown as a row of cells (e.g. one expression in every view), no full picture.
+  const [vText, vCls] = VERDICT[it.verdict] || VERDICT.review;
+  const cells = it.cells.map((c, i) => `
+      <figure class="zoom">
+        <button class="shot" data-full="img/${esc(it.id)}-c${i + 1}.jpg" aria-label="Open ${esc(c.label)} full size">
+          <img src="img/${esc(it.id)}-c${i + 1}.jpg" alt="${esc(it.name)}: ${esc(c.label)}" loading="lazy">
+        </button>
+        <figcaption><b>${esc(c.label)}</b><span>${esc(c.file)}</span></figcaption>
+      </figure>`).join('');
+  return `
+  <section class="item" id="${esc(it.id)}">
+    <header class="item-head">
+      <div><h2>${esc(it.name)}</h2><p class="meta">${esc(it.take || '')}</p></div>
+      <span class="chip ${vCls}">${vText}</span>
+    </header>
+    <div class="cells">${cells}</div>
+    <div class="lists">
+      ${list('fail', 'Fails (red pencil)', it.fails)}
+      ${list('note', 'Notes (blue pencil)', it.notes)}
+      ${list('pass', 'Checked and passed', it.passed)}
+    </div>
+  </section>`;
+}
+
 function item(it) {
+  if (it.cells) return group(it);
   const [vText, vCls] = VERDICT[it.verdict] || VERDICT.review;
   const zooms = (it.zooms || []).map((z, i) => `
       <figure class="zoom">
@@ -92,6 +118,8 @@ nav.jump a:focus-visible, .shot:focus-visible { outline: 2px solid var(--blue); 
 .shot { display: block; padding: 0; border: 0; background: none; cursor: zoom-in; width: 100%; }
 .shot img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); background: #6b6b6b; }
 .zooms { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; }
+.cells { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 520px) { .cells { gap: 6px; } .cells figcaption span { display: none; } }
 .zoom { margin: 0; display: grid; gap: 6px; min-width: 0; }
 .zoom figcaption { display: grid; gap: 2px; font-size: .92rem; }
 .zoom figcaption span { color: var(--muted); }

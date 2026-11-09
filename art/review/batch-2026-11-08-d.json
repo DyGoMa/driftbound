@@ -1,0 +1,714 @@
+{
+  "title": "Batch B: Kaito's expressions, grouped",
+  "summary": "Each expression in its three views side by side, so you can judge whether it is the same face. The head turnaround and the scar stages are approved. Tap any face to see it bigger.",
+  "date": "2026-11-08",
+  "picturesThisBatch": 13,
+  "imagesToday": 28,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "kaito-x11",
+      "name": "Kaito: Neutral",
+      "take": "page 1, cell 1",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x12",
+      "name": "Kaito: Grin",
+      "take": "page 1, cell 2",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x13",
+      "name": "Kaito: Shout",
+      "take": "page 1, cell 3",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x14",
+      "name": "Kaito: Blush",
+      "take": "page 1, cell 4",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x15",
+      "name": "Kaito: Fear",
+      "take": "page 1, cell 5",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x16",
+      "name": "Kaito: Grief",
+      "take": "page 1, cell 6",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x17",
+      "name": "Kaito: Smug",
+      "take": "page 1, cell 7",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x18",
+      "name": "Kaito: Gag face",
+      "take": "page 1, cell 8",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x21",
+      "name": "Kaito: Laugh",
+      "take": "page 2, cell 1",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x22",
+      "name": "Kaito: Rage",
+      "take": "page 2, cell 2",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x23",
+      "name": "Kaito: Pain",
+      "take": "page 2, cell 3",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x24",
+      "name": "Kaito: Disgust",
+      "take": "page 2, cell 4",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x25",
+      "name": "Kaito: Surprised",
+      "take": "page 2, cell 5",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x26",
+      "name": "Kaito: Tender",
+      "take": "page 2, cell 6",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x27",
+      "name": "Kaito: Exhausted",
+      "take": "page 2, cell 7",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    },
+    {
+      "id": "kaito-x28",
+      "name": "Kaito: Asleep",
+      "take": "page 2, cell 8",
+      "verdict": "passed",
+      "cells": [
+        {
+          "label": "Three-quarter left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Three-quarter right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 same expression in all three views",
+        "9 scar on his left eyebrow where it faces us; streak on his right"
+      ]
+    }
+  ]
+}
