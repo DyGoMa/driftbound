@@ -1041,3 +1041,7 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Hollow bear head take 1 (image 48) passed Claude's review: 2048x1024; bolted brow plate, blank white eyes with a slight glow, small round ears, studded iron collar with the short chain at the front of the throat in every view.
 - Hollow hound head take 1 (image 47): 1774x887 (FAIL 1) → v2 resized on this PC. Passed otherwise: brow and muzzle plate, neck plates, torn ears, fangs over the lip, blank eyes, cables with clamps up the neck; a monster, not a pet.
 - Thimble head = image 49 (first try): 1774x887 (FAIL 1) → v2 resized on this PC. Passed otherwise: shaggy moss-green hair, pale stub horns, heavy-lidded kind eyes, blunt snout, strap with the buckle at the back of the neck and the cracked brass bell under the chin in every view.
+- Redos: Skarn body34 take 2 = image 50, hound body34 take 2 = image 51 (first tries, 2048x1024).
+- Skarn body34 take 2 (image 50) passed Claude's review: the separate spike behind the head is gone in all four views; one fin with lightning along its top; forked tail, eyes and fur unchanged by eye.
+- Hollow hound body34 take 2 (image 51) passed Claude's review: the round tuft on the rump is gone in both back views (plain fur); everything else unchanged by eye.
+- Gullwake body34 take 2 (image 52, first try, 2048x1024) passed Claude's review: red patch moved to the starboard end (image left) of the main lower yard in both bow views; stern views unchanged; everything else unchanged by eye.

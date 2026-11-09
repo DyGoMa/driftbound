@@ -1,9 +1,9 @@
 {
-  "title": "Three-quarter bodies: leads, villains and walk-ons",
-  "summary": "A second full-body sheet for each person, in Kaito's passed layout: four three-quarter views (front-left, front-right, back-left, back-right) in A-pose. Each passed Claude's review against the checklist except Sela (her mark, waiting for your call). Tap any picture to see it full size.",
+  "title": "Three-quarter bodies: everyone",
+  "summary": "A second full-body sheet for every locked sheet: four three-quarter views (front-left, front-right, back-left, back-right). People in A-pose, creatures and the ship in their sheet's pose. Each passed Claude's review except Sela (her mark, waiting for your call). Tap any picture to see it full size.",
   "date": "2026-11-09",
-  "picturesThisBatch": 19,
-  "imagesToday": 19,
+  "picturesThisBatch": 52,
+  "imagesToday": 52,
   "dailyLimit": 15,
   "items": [
     {
@@ -1410,6 +1410,760 @@
         "14 glasses even",
         "12 bare hands from behind",
         "7 no weapon"
+      ]
+    },
+    {
+      "id": "skarn-b34",
+      "name": "Skarn",
+      "file": "art/refs/skarn-body34-v2.png",
+      "take": "take 2 (edit: take 1 doubled the fin with a spike behind the head and came out 1774x887)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "18b one fin, the same in every view",
+        "forked tail with two tips",
+        "glowing yellow eyes, scowl"
+      ]
+    },
+    {
+      "id": "ashka-b34",
+      "name": "Ashka",
+      "file": "art/refs/ashka-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "wings folded in every view",
+        "glowing tail plumes in all four",
+        "crest and yellow eyes as on her sheet"
+      ]
+    },
+    {
+      "id": "vesh-b34",
+      "name": "Vesh",
+      "file": "art/refs/vesh-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "The lures read like a string of lights, as on her sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "coiled, head raised, no legs",
+        "lure ridge down the middle of the back",
+        "belly plates up the front of the neck"
+      ]
+    },
+    {
+      "id": "hush-b34",
+      "name": "Hush",
+      "file": "art/refs/hush-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "13 backs of the ears from behind",
+        "wings folded, blade-like tips",
+        "bobtail in every view"
+      ]
+    },
+    {
+      "id": "grist-b34",
+      "name": "Grist",
+      "file": "art/refs/grist-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "With legs on both sides at 3/4, the six-leg count is hard to read at a glance"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "anvil horn: flat top, forward point",
+        "2 no squiggles on the plates (zoomed)",
+        "no tail"
+      ]
+    },
+    {
+      "id": "prism-b34",
+      "name": "Prism",
+      "file": "art/refs/prism-body34-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887, no new drawing)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024 after the resize",
+        "four walking legs",
+        "7 blades on their own sides, never crossed (fix 25)",
+        "wings folded"
+      ]
+    },
+    {
+      "id": "bear-b34",
+      "name": "Hekka's Hollow bear",
+      "file": "art/refs/hollow-bear-body34-v2.png",
+      "take": "take 2 (take 1 resized from 1774x887, no new drawing)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Fur leans pinkish grey-brown"
+      ],
+      "passed": [
+        "1 size 2048x1024 after the resize",
+        "18 brow, shoulder and spine plates; core and cables; collar with a short chain",
+        "stub tail"
+      ]
+    },
+    {
+      "id": "hound-b34",
+      "name": "Silt's Hollow hound",
+      "file": "art/refs/hollow-hound-body34-v2.png",
+      "take": "take 2 (edit: take 1 had a round tuft on the rump in the back views)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "13 rump is plain fur (fix 34)",
+        "18 a monster: fangs, torn ears, blank eyes, plates, cables, ribs",
+        "back bare for a rider"
+      ]
+    },
+    {
+      "id": "thimble-b34",
+      "name": "Thimble",
+      "file": "art/refs/thimble-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "cracked bell under the chin; strap over the neck from behind",
+        "moss on the back",
+        "tail over the rump"
+      ]
+    },
+    {
+      "id": "thimbleh-b34",
+      "name": "Thimble as a Hollow",
+      "file": "art/refs/thimble-hollow-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "core flush in the chest; brow, shoulder and spine plates",
+        "no bell; blank eyes; dull hair"
+      ]
+    },
+    {
+      "id": "gullwake-b34",
+      "name": "The Gullwake",
+      "file": "art/refs/gullwake-body34-v2.png",
+      "take": "take 2 (edit: take 1 had the red patch on the port end in the bow views)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Heads, all four views",
+          "why": "Same head, eyes and markings as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Yards read near-horizontal rather than strictly across the deck in perspective"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "18b red patch on the starboard end in every view",
+        "18b fore one yard, main two yards and crosstrees, the Post stump",
+        "2 no lettering"
       ]
     }
   ]
