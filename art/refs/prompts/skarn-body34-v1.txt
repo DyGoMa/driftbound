@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model of an ORIGINAL creature, to sit beside the four-view sheet in Image 1. Image 1 is this creature's locked reference sheet: copy its body, head, colours, markings, plates and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from head-on toward the LEFT edge of the image, so we see its face, its chest and its LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from head-on toward the RIGHT edge of the image, so we see its face, its chest and its RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see its back end and its LEFT side, its head facing away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see its back end and its RIGHT side, its head facing away toward the RIGHT edge of the image.
+The far legs sit partly hidden behind the near legs. Pose (neutral, for 3D modelling): standing square on all four legs, legs straight and evenly spaced, head level, mouth closed with a few fang tips showing, tail held straight out behind, fin fully raised.
+
+Creature: Skarn, a storm wolf the size of a horse, exactly as in Image 1: a huge, heavy-boned but lean wolf with long legs, big paws and a thick neck; sharp angular lines and some menace; not cute, not a dog. Slate-grey fur, shaggier at the neck and shoulders. Glowing yellow eyes and a grumpy, scowling brow. A tall sail-like fin along its spine from the back of the neck to the base of the tail: a solid darker-grey membrane stretched between long spines, like a sailfish's sail, with small crackling electric-yellow lightning arcs along its top edge. A forked tail that splits into two separate tips about halfway along.
+
+Per view:
+- The fin is the same height and shape in every view; in (3) and (4) we see it from behind and above the back, edge-on toward us.
+- The forked tail: in (1) and (2) partly hidden behind the body, its two tips showing; in (3) and (4) clearly visible, both tips.
+- Every detail is the same size, colour and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

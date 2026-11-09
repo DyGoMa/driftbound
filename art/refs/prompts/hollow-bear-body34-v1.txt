@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model of an ORIGINAL creature, to sit beside the four-view sheet in Image 1. Image 1 is this creature's locked reference sheet: copy its body, head, colours, markings, plates and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from head-on toward the LEFT edge of the image, so we see its face, its chest and its LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from head-on toward the RIGHT edge of the image, so we see its face, its chest and its RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see its back end and its LEFT side, its head facing away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see its back end and its RIGHT side, its head facing away toward the RIGHT edge of the image.
+The far legs sit partly hidden behind the near legs. Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, a rough stub tail.
+
+Creature: Hekka's Hollow bear, a stripped monster rebuilt into a weapon (about 2.2 m at the shoulder), exactly as in Image 1: a huge, heavy bear-like beast on all four legs, a broad head, small round ears, a thick neck, a shoulder hump and heavy clawed paws; it looks empty and wrong. Rough ash-grey fur leaning warm grey-brown, faded and drained. Blank white eyes with a slight glow, no pupils. Bolted Sever-grey plates on the brow, one on each shoulder and a line down the spine; none on the legs, belly or muzzle. One round glowing white core in a dark metal frame in the middle of the chest. Dark rubber cables from the frame over each shoulder to the shoulder plates and along the spine plates, the same on both sides. A heavy dark iron collar with a short chain end, as long as a forearm, hanging from its front.
+
+Per view:
+- The core: (1) and (2) visible at an angle on the chest, the chain hanging just above it; (3) and (4) hidden.
+- In (3) and (4) the rump carries only plain fur and the stub tail.
+- Every detail is the same size, colour and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

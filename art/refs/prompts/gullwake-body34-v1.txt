@@ -1,0 +1,21 @@
+Three-quarter reference sheet of a ship for building a 3D model, to sit beside the four-view sheet in Image 1. Image 1 is this ship's locked four-view sheet and Image 2 its locked deck plan (bow at the top): copy the hull, masts, yards, deck fittings, colours and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four views of the same ship in one row, same scale, evenly spaced, not overlapping, the waterline of every view on the same baseline, drawn as if the ship sits on calm, invisible water (the hull is cut off flat at the waterline, no water drawn), seen from a little above deck height so the deck shows:
+(1) THREE-QUARTER BOW LEFT: the bow toward us and turned toward the LEFT edge of the image, so we see the bow and the ship's LEFT (port) side.
+(2) THREE-QUARTER BOW RIGHT: the bow toward us and turned toward the RIGHT edge of the image, so we see the bow and the RIGHT (starboard) side.
+(3) THREE-QUARTER STERN LEFT: the stern toward us, so we see the stern and the port side, the bow pointing away toward the LEFT edge of the image.
+(4) THREE-QUARTER STERN RIGHT: the stern toward us, so we see the stern and the starboard side, the bow pointing away toward the RIGHT edge of the image.
+No people, no animals, no creatures anywhere on or near the ship.
+
+Ship: the Gullwake, a battered salvage ship, exactly as in Images 1 and 2: a battered wooden salvage ship. Three masts: the FOREMAST with one yard; the MAINMAST with two yards and crosstrees; and the POST, a cut-down stump aft with no yard. Every yard sits square across the ship, at right angles to the keel, its sail furled along it. A red patch on the starboard (right-hand) end of the mainmast's lower yard. A towing post at the bow with chain and rope; a wooden tub and a canvas bath screen on the foredeck; a raised quarterdeck aft with the wheel, an awning and a table; a salvage crane. No lettering, no name, no figurehead text anywhere.
+
+Per view:
+- Every yard sits square across the ship, at right angles to the keel, so in all four views each yard is seen at the same 45-degree angle as the deck beneath it; the same count of yards on each mast in every view.
+- The red patch on the starboard end of the main lower yard: (1) on the far end of that yard, small; (2) on the near end, clearly visible; (3) on the far end, small; (4) on the near end, clearly visible.
+- Every repeated part (masts, yards, crosstrees, crane, rails) is the same height, size and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

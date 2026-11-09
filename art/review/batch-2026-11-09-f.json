@@ -1,0 +1,913 @@
+{
+  "title": "Three-quarter bodies: the five leads and the villains",
+  "summary": "A second full-body sheet for each lead and villain, in Kaito's passed layout: four three-quarter views (front-left, front-right, back-left, back-right) in A-pose. Each passed Claude's review against the checklist; Sela and Silas needed edits first. Tap any picture to see it full size.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 13,
+  "imagesToday": 13,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "sela-b34",
+      "name": "Sela Vey",
+      "file": "art/refs/sela-body34-v3.png",
+      "take": "take 3 (two edits of take 1); 3 pictures",
+      "size": "2048x1024",
+      "verdict": "failed",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Bond mark, view 1, take 3",
+          "why": "Should be one line spiralling in, no closed outer ring",
+          "box": [
+            0.1,
+            0.17,
+            0.08,
+            0.12
+          ]
+        },
+        {
+          "label": "Bond mark, view 2, take 3",
+          "why": "Far side of the chest",
+          "box": [
+            0.36,
+            0.17,
+            0.08,
+            0.12
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [
+        "11 the bond mark is a closed ring with a small swirl inside, not one line spiralling in like her locked sheet; two edits got closer but not there. Stopped for your call (the known fix needs two more edits)."
+      ],
+      "notes": [
+        "Spiral wording changed twice; the model keeps the ring (STYLE fix 17)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 mark on her LEFT, hidden in the back views; spyglass on her RIGHT hip, logbook on her LEFT, in every view",
+        "9 skirt slit on her LEFT leg",
+        "12 back-view hands from behind",
+        "8 four three-quarter views, A-pose"
+      ]
+    },
+    {
+      "id": "juno-b34",
+      "name": "Juno Calloway",
+      "file": "art/refs/juno-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Braid and mark, views 1-2",
+          "why": "Braid over her left shoulder in both; feather mark on her right",
+          "box": [
+            0.05,
+            0.05,
+            0.4,
+            0.3
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Back views show her short shorts from behind, as on her locked sheet's back view; neutral A-pose"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 braid on her LEFT in every view; over the far shoulder in view 2 (D12)",
+        "9 feather mark below her RIGHT collarbone; hidden from behind",
+        "14 pocket on the LEFT sleeve only",
+        "12 fingerless-glove back hands read from behind (D1)",
+        "7 no rifle or bandolier"
+      ]
+    },
+    {
+      "id": "silas-b34",
+      "name": "Silas Moreau",
+      "file": "art/refs/silas-body34-v2.png",
+      "take": "take 2 (edit of take 1: stray dot under the near eye in view 2 removed)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Faces, views 1-2",
+          "why": "Beauty mark under the left eye only",
+          "box": [
+            0.08,
+            0.04,
+            0.35,
+            0.16
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Neck marks read a little like petals, as on his locked sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 one beauty mark, under his LEFT eye; none under the near eye in view 2 (zoomed)",
+        "9 neck marks on his LEFT",
+        "9 knife at his RIGHT hip in every view",
+        "12 back-view hands from behind",
+        "17 the edit changed only the dot"
+      ]
+    },
+    {
+      "id": "bram-b34",
+      "name": "Bram Torvald",
+      "file": "art/refs/bram-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Back bib and straps, views 3-4",
+          "why": "Right strap buckled; left corner sagging",
+          "box": [
+            0.5,
+            0.1,
+            0.5,
+            0.45
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "9, 11 anvil on his LEFT chest, a closed anvil shape, not a T",
+        "9 iron patches on his LEFT shoulder and forearm",
+        "9 towel and the one strap on his RIGHT shoulder",
+        "18b back bib buckled right, sagging left with the loose strap",
+        "9 hammer at his RIGHT hip, pouch at his LEFT",
+        "2 tattoos are pattern only",
+        "12 back-view hands from behind"
+      ]
+    },
+    {
+      "id": "ione-b34",
+      "name": "Dr. Ione Raske",
+      "file": "art/refs/ione-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Wrist marks, all views",
+          "why": "Broken hexagon and crystals on her left wrist only",
+          "box": [
+            0,
+            0.38,
+            1,
+            0.16
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "View 2: the white lock shows wider than a sliver at the far side of her hair",
+        "Wrist mark reads as zigzags, as on her accepted sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 white lock, neck crystals and wrist mark on her LEFT in every view",
+        "14 round glasses even",
+        "16 grey eyes",
+        "12 back-view hands from behind (zoomed)"
+      ]
+    },
+    {
+      "id": "vasch-b34",
+      "name": "Director Aurel Vasch",
+      "file": "art/refs/vasch-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Arms at hip height",
+          "why": "Tube and core the same size in every view",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.25
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Gloved and metal back-view hands (D1)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 glass-tube forearm with one white core on his RIGHT arm in every view",
+        "9 long black glove on his LEFT arm",
+        "2 black bar and black ring on the front only; back plain",
+        "both sleeves rolled; tiny closed smile"
+      ]
+    },
+    {
+      "id": "hekka-b34",
+      "name": "Captain Hekka Dorn",
+      "file": "art/refs/hekka-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Midriff, views 1-2",
+          "why": "Ring scar on her left side only",
+          "box": [
+            0.05,
+            0.25,
+            0.42,
+            0.2
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Ring scar reads reddish, as on her locked sheet",
+        "Gloved back hands (D1)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 bar and white ring on the chest plate front only",
+        "10 ring scar on her LEFT midriff, whole in view 1, hidden elsewhere",
+        "loose trousers (fix 31); no lip scar",
+        "3 adult woman, neutral pose"
+      ]
+    },
+    {
+      "id": "silt-b34",
+      "name": "Silt",
+      "file": "art/refs/silt-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Masks, all views",
+          "why": "One slit, right eye only",
+          "box": [
+            0,
+            0,
+            1,
+            0.16
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "View 1 mask turned only a little",
+        "Gloved back hands (D1)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "9 one eye slit over his RIGHT eye; short in view 2 (fix 35)",
+        "9 bond-cutter at his RIGHT hip in every view",
+        "back views show strap, hair and mask edge"
+      ]
+    },
+    {
+      "id": "trooper-b34",
+      "name": "Sever trooper",
+      "file": "art/refs/trooper-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "2 bar and white ring on the front only",
+        "9 bond-cutter at his RIGHT hip in every view",
+        "visor hides the eyes; ear cups both sides"
+      ]
+    },
+    {
+      "id": "krell-b34",
+      "name": "Warden Krell",
+      "file": "art/refs/krell-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "15 arms at about 30 degrees, as on his locked sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 bar and white ring on the front only",
+        "strapped plates on both arms and shins in every view",
+        "7 no weapon"
+      ]
+    }
+  ]
+}

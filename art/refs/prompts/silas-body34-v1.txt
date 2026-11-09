@@ -1,0 +1,22 @@
+Three-quarter turnaround reference sheet for building a 3D model, to sit beside the four-view sheet in Image 1. Image 1 is this character's locked reference sheet: copy his face, hair, eyes, marks, outfit and proportions exactly. Image 2 is the house three-quarter sheet (another character, Kaito): use it ONLY for the four angles, the A-pose, the spacing and the framing; do NOT copy his face, hair, clothes or marks. Image 3 is a guide ONLY for how hands look from behind: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from the front toward the LEFT edge of the image, so we see the front and his LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from the front toward the RIGHT edge of the image, so we see the front and his RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see his back and his LEFT side, his face turned away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see his back and his RIGHT side, his face turned away toward the RIGHT edge of the image.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Silas Moreau, exactly as in Image 1: an ADULT man of 24 with an adult face and adult proportions, 183 cm, slim and graceful. Pale skin, violet eyes. Long dark-teal hair tied low at the nape with a simple band; the tail hangs straight down the MIDDLE of his back. A loose white shirt unbuttoned down to the stomach, its loose high collar open and falling back, sleeves pushed up to the elbow; a wide red cloth sash wrapped round the waist with loose tails hanging over the hips; a thin steel chain wound round the waist on top of the sash; loose black trousers gathered at the ankle; off-white cloth wraps on both forearms from wrist to elbow and round both ankles; soft black boots.
+
+One-sided details per view:
+- On his LEFT side: One small dark beauty mark just under his LEFT eye; there is no mark under his right eye. Per view: (1) clearly visible under the near eye, on the RIGHT of the image; (2) under the far eye only, small, on the RIGHT of the image; NOT under the near eye; (3) face turned away, not visible; (4) face turned away, not visible.
+- On his LEFT side: Three short glowing violet feather-line bond marks running down the LEFT side of his neck, each a small slim feather; they must not look like letters, numbers or slashes. The right side of his neck is clean skin. Per view: (1) clearly visible on the side of the neck nearest us, on the RIGHT of the image; (2) on the far side of the neck: hidden, or a sliver of glow at its edge; (3) visible on the near side of the neck below the ear, on the LEFT of the image; (4) hidden (far side).
+- On his RIGHT side: A short curved knife in a black leather sheath hanging at his RIGHT hip, clipped to the end of the chain. Per view: (1) on the far side, partly hidden behind the body, on the LEFT of the image; (2) clearly visible on the side nearest us, on the LEFT of the image; (3) on the far side, partly hidden behind the body, on the RIGHT of the image; (4) clearly visible on the side nearest us, on the RIGHT of the image.
+- Back-view hands in (3) and (4) are seen from behind as in Image 3.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is his bond mark described above.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

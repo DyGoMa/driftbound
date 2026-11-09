@@ -1,0 +1,20 @@
+Three-quarter turnaround reference sheet for building a 3D model, to sit beside the four-view sheet in Image 1. Image 1 is this character's locked reference sheet: copy his face, hair, eyes, marks, outfit and proportions exactly. Image 2 is the house three-quarter sheet (another character, Kaito): use it ONLY for the four angles, the A-pose, the spacing and the framing; do NOT copy his face, hair, clothes or marks. Image 3 is a guide ONLY for how hands look from behind: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from the front toward the LEFT edge of the image, so we see the front and his LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from the front toward the RIGHT edge of the image, so we see the front and his RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see his back and his LEFT side, his face turned away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see his back and his RIGHT side, his face turned away toward the RIGHT edge of the image.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Warden Krell, exactly as in Image 1: an ADULT man of 41 with an adult face and adult proportions, 195 cm, huge and heavy, broad shoulders and a thick neck. A hard, bored officer's face with a heavy brow, a square stubbled jaw, deep lines beside the mouth, dark eyes, tan skin. A dark grey helmet with no visor and a round ear cup on each side, so his brow, eyes and jaw all show. A long dark grey coat to the knee, closed and belted with a black belt, a white stand-up collar. Heavy steel plates strapped on with black buckled straps over both upper arms, both forearms and both shins. Black gloves, dark grey trousers, black boots. No weapon.
+
+One-sided details per view:
+- In the centre: The Sever chest symbol, on the front only: one flat black bar straight across the chest from armpit to armpit, with one plain WHITE ring at the centre of the chest, the bar cutting straight through the middle of the ring; simple geometry that must not look like a letter. Per view: (1) the whole bar and ring, seen at an angle, the ring a little oval; (2) the whole bar and ring, seen at an angle, the ring a little oval; (3) not visible, at most the very end of the bar at the near armpit; no ring; the back is plain grey; (4) not visible, at most the very end of the bar at the near armpit; no ring; the back is plain grey.
+- Back-view hands in (3) and (4) are seen from behind as in Image 3.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is the white ring on his chest bar described above.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

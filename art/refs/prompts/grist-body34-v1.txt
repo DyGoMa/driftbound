@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model of an ORIGINAL creature, to sit beside the four-view sheet in Image 1. Image 1 is this creature's locked reference sheet: copy its body, head, colours, markings, plates and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from head-on toward the LEFT edge of the image, so we see its face, its chest and its LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from head-on toward the RIGHT edge of the image, so we see its face, its chest and its RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see its back end and its LEFT side, its head facing away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see its back end and its RIGHT side, its head facing away toward the RIGHT edge of the image.
+The far legs sit partly hidden behind the near legs. Pose (neutral, for 3D modelling): standing square on all six legs, legs straight and evenly spaced, head level facing ahead, mouth closed; the rear of the shell ends in a rounded plate, no tail.
+
+Creature: Grist, an iron rhino-beetle beast (in the story the size of a truck), exactly as in Image 1: a huge, heavy, low beetle body under a domed SHELL of overlapping dark iron plates, gunmetal grey with a dull metallic sheen, rivet bumps along the plate edges and a few rust-orange scuffs. ONE huge horn rising from the front of the head, curving up and forward, shaped like a blacksmith's ANVIL seen from the side: a thick flat-topped block with a pointed tip sticking forward. A short armoured head with small closed mandibles and two small glowing rust-orange eyes. SIX thick, stubby, armoured legs, three on each side, all planted, each with a blunt clawed foot. No tail, no wings, no fur. Every flat surface is plain metal with no marks or squiggles.
+
+Per view:
+- (1) and (2): the anvil horn at an angle, its flat top and forward point both readable; three near legs and the far legs behind them.
+- (3) and (4): the rounded rear plate and the near three legs; the top of the horn just shows above the shell.
+- Every detail is the same size, colour and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

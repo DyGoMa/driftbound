@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model, to sit beside the four-view sheet in Image 1. Image 1 is this character's locked reference sheet: copy her face, hair, eyes, marks, outfit and proportions exactly. Image 2 is the house three-quarter sheet (another character, Kaito): use it ONLY for the four angles, the A-pose, the spacing and the framing; do NOT copy his face, hair, clothes or marks. Image 3 is a guide ONLY for how hands look from behind: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from the front toward the LEFT edge of the image, so we see the front and her LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from the front toward the RIGHT edge of the image, so we see the front and her RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see her back and her LEFT side, her face turned away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see her back and her RIGHT side, her face turned away toward the RIGHT edge of the image.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Captain Hekka Dorn, exactly as in Image 1: an ADULT woman of 33 with an adult face and adult proportions, 193 cm, very tall and muscular; she clearly reads as a strong, attractive adult woman. Light brown skin, blue-grey eyes, no scar on her lips. Thick wavy black hair swept back from her face, falling loose behind her shoulders to the middle of her back. Sever-grey plate armour: a short solid chest plate with a matching back plate, ending above the waist; shoulder plates; forearm plates on both arms; shin plates over plain black boots. Dark charcoal cloth sleeves on the upper arms. Straight, loose dark charcoal work trousers with natural hips. A white stand-up collar, black gloves, a black belt. Her midriff is bare, muscular skin between the chest plate and the belt, all the way round. No weapon, no coat, no cape.
+
+One-sided details per view:
+- In the centre: The Sever chest symbol, on the front only: one flat black bar straight across the chest from armpit to armpit, with one plain WHITE ring at the centre of the chest, the bar cutting straight through the middle of the ring; simple geometry that must not look like a letter. Per view: (1) the whole bar and ring, seen at an angle, the ring a little oval; (2) the whole bar and ring, seen at an angle, the ring a little oval; (3) not visible, at most the very end of the bar at the near armpit; no ring; the back is plain grey; (4) not visible, at most the very end of the bar at the near armpit; no ring; the back is plain grey.
+- On her LEFT side: A dull, slightly pinkish-grey ring scar on the bare skin of her LEFT midriff, at the front-side of her waist above the belt: a thin closed ring outline, no glow. The right side of her midriff is clean. Per view: (1) clearly visible on the side of the waist nearest us, on the RIGHT of the image; (2) on the far side of the waist: a sliver, or hidden, on the RIGHT of the image; (3) only its back edge at the near side of the waist, or hidden; (4) hidden.
+- Back-view hands in (3) and (4) are seen from behind as in Image 3.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is the white ring on her chest bar described above.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

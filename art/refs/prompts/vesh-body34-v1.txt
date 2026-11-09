@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model of an ORIGINAL creature, to sit beside the four-view sheet in Image 1. Image 1 is this creature's locked reference sheet: copy its body, head, colours, markings, plates and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from head-on toward the LEFT edge of the image, so we see its face, its chest and its LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from head-on toward the RIGHT edge of the image, so we see its face, its chest and its RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see its back end and its LEFT side, its head facing away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see its back end and its RIGHT side, its head facing away toward the RIGHT edge of the image.
+The far legs sit partly hidden behind the near legs. Pose (neutral, for 3D modelling): the head and neck rise straight up out of the coil like a cobra, head level facing ahead, mouth closed, side fins spread; the rest of the long body is coiled tight in a neat pile beneath, resting on the baseline, the tail tip tucked into the coil.
+
+Creature: Vesh, a deep-sea serpent-dragon (in the story as long as a ship; here coiled to fit), exactly as in Image 1: NO LEGS: a true sea serpent. A long, thick, muscular body of dark navy-blue scales with a paler blue-grey underbelly of wide belly plates. A dragon-like head with a long snout, two horns, glowing teal eyes and a large frilled jaw: a fan-shaped frill of webbed spines on each side of the jaw and throat. A single ridge of glowing gold lantern lures down the middle of its back, from the back of the head along the whole body: small round bulbs on short thin stalks, evenly spaced. Pairs of webbed dark-blue side fins with lighter edges along both sides of the body, the first pair just behind the head. No arms, no legs, no claws, no wings.
+
+Per view:
+- (1) and (2): the face at an angle with both frills, the belly plates up the front of the neck, the lure ridge along the far top edge of the neck.
+- (3) and (4): the back of the head and neck at an angle, the gold lure ridge running down the middle of the back, the belly plates hidden.
+- Every detail is the same size, colour and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

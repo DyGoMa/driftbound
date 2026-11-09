@@ -1,0 +1,20 @@
+Three-quarter turnaround reference sheet for building a 3D model of an ORIGINAL creature, to sit beside the four-view sheet in Image 1. Image 1 is this creature's locked reference sheet: copy its body, head, colours, markings, plates and proportions exactly; only the viewing angles change.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from head-on toward the LEFT edge of the image, so we see its face, its chest and its LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from head-on toward the RIGHT edge of the image, so we see its face, its chest and its RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see its back end and its LEFT side, its head facing away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see its back end and its RIGHT side, its head facing away toward the RIGHT edge of the image.
+The far legs sit partly hidden behind the near legs. Pose (neutral, for 3D modelling): standing upright on both feet, legs straight, head level facing ahead, beak closed, tail plumes held straight out behind.
+
+Creature: Ashka, a fire raptor the size of a large eagle, exactly as in Image 1: a sleek, fierce bird of prey, sharp-lined and a little menacing, not cute. Ember-red feathers with black feather tips and black bands on the wings; tiny glowing orange sparks drift off the feather edges. Yellow eyes, a small head crest, a sharp hooked beak. Strong scaly legs with black talons. Wings FOLDED flat against the body in every view, the tips crossing just above the tail. Long tail plumes glowing orange-yellow at the ends like embers.
+
+Per view:
+- The tail plumes show in every view: their glowing tips fan out a little behind the legs in (1) and (2); in (3) and (4) clearly, nearest us.
+- Every detail is the same size, colour and place in all four views.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

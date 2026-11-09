@@ -1,0 +1,21 @@
+Three-quarter turnaround reference sheet for building a 3D model, to sit beside the four-view sheet in Image 1. Image 1 is this character's locked reference sheet: copy his face, hair, eyes, marks, outfit and proportions exactly. Image 2 is the house three-quarter sheet (another character, Kaito): use it ONLY for the four angles, the A-pose, the spacing and the framing; do NOT copy his face, hair, clothes or marks. Image 3 is a guide ONLY for how hands look from behind: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) THREE-QUARTER FRONT LEFT: turned 45 degrees from the front toward the LEFT edge of the image, so we see the front and his LEFT side.
+(2) THREE-QUARTER FRONT RIGHT: turned 45 degrees from the front toward the RIGHT edge of the image, so we see the front and his RIGHT side.
+(3) THREE-QUARTER BACK LEFT: turned so we see his back and his LEFT side, his face turned away toward the LEFT edge of the image.
+(4) THREE-QUARTER BACK RIGHT: turned so we see his back and his RIGHT side, his face turned away toward the RIGHT edge of the image.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Nim Hadda, a bookmaker, exactly as in Image 1: an ADULT man of 30 with an adult face and adult proportions, 176 cm, lean, with soft, slightly rounded shoulders. Pale skin with light freckles across the nose and cheeks, grey eyes, clean-shaven, a gentle, a little tired face that reads 30. A full head of short, slightly untidy sandy-blond hair, thick on top, the hairline only a little higher at the temples. An off-white shirt with the right sleeve rolled to the elbow, a buttoned brown waistcoat, dark grey trousers, worn brown shoes. No hat, no jewellery, no weapon. He has only one arm: only his RIGHT arm is raised out in the A-pose.
+
+One-sided details per view:
+- On his LEFT side: His LEFT arm is missing from just below the shoulder: the empty left shirt sleeve is folded up and pinned flat at his left shoulder, and below it there is only the side of his body and grey background. Per view: (1) the short pinned sleeve on the shoulder nearest us, on the RIGHT of the image, nothing below it; (2) the pinned sleeve on the far shoulder, mostly hidden, on the RIGHT of the image; (3) the short pinned sleeve on the shoulder nearest us, on the LEFT of the image, nothing below it; (4) the pinned sleeve on the far shoulder, mostly hidden, on the LEFT of the image.
+- On his RIGHT side: A short stub of white chalk tucked behind his RIGHT ear. Per view: (1) on the far side of the head: hidden, or only its tip; (2) clearly visible behind the near ear, on the LEFT of the image; (3) on the far side of the head: hidden; (4) visible behind the near ear, seen from behind, on the RIGHT of the image.
+- Back-view hands in (3) and (4) are seen from behind as in Image 3.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. 
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.
