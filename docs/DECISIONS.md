@@ -872,3 +872,9 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Gullwake sheet take 3: "Approve (Recommended)" → locked `art/refs/gullwake-sheet-v3.png`
 - Gullwake deck take 2: "Approve (Recommended)" → locked `art/refs/gullwake-deck-v2.png`
 - Images used 2026-11-08: 15 Codex images (Nim 2; Quint 1-3; Fenn 1; Hob 1-2; Marta 1; Tull 1; Thimble 1; Hollow Thimble 1; Gullwake sheet 1 and 3; deck 1-2) plus 1 timed-out try (Quint 3, first run). Resizes on this PC (Gullwake sheet 2, Hollow Thimble 2) used no images.
+
+## Your words (2026-11-08, the farmer rename)
+- Rename Tolly and Bess in the scripts: "Yes, rename now"
+- The rename plan (Issues 1 and 2, Episode 3, the canon register, old lines archived): "Yes, apply it (Recommended)"
+- Applied: `issue-01.js` (Tolly Marsh and Bess → Hob Tarrow and Thimble, looks from the locked sheets, spelling joke now "T, H, I, M, B, L, E"), `issue-02.js` (the unnamed farmer → Hob, speaker "Hob"), `ep-03.md` (Hob Anser and Tamble → Hob Tarrow and Thimble; look and the ploughshare mark from the sheets), CANON.md conflict 16 marked decided. Old lines word for word in `docs/manga/archive/renames-2026-11-08.md`. `node tools/manga-smoke.js`: "PASSED: shelf and 51 issue(s) at 375x812 and 1280x800"; `node tools/manga-check.js`: "51 clean, 0 with problems".
+- Found while renaming: Thimble is "she" in `issue-03.js` and "he" in `ep-03.md`. Dylan: "She, fix Episode 3 (Recommended)" → three Episode 3 lines changed, archived.

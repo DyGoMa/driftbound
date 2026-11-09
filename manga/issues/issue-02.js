@@ -945,16 +945,16 @@ DriftManga.issue({
         },
         {
           shot: "medium",
-          art: "Kaito turns away and stops. An old farmer (68, weathered, patched coat, kind face) sits on a crate by the wall beside his plough-beast: big, shaggy, gentle, with a heavy neck ruff.",
+          art: "Kaito turns away and stops. Hob Tarrow (68, weathered, kind face, flat tweed cap, patched brown waistcoat) sits on a crate by the wall beside his plough-beast Thimble: big, shaggy, moss-green, gentle, a heavy neck ruff, a cracked brass bell.",
           text: [
-            ["say", "extra:Farmer", "Don't fret. They count her, stamp her, send her home. Done by breakfast."]
+            ["say", "extra:Hob", "Don't fret. They count her, stamp her, send her home. Done by breakfast."]
           ]
         },
         {
           shot: "close",
-          art: "The old farmer's hands tying off a neat braid in the plough-beast's ruff with red twine, in a harbour knot: the same knot as the Hollow's. Kaito's face above, frozen, lit white by the Pylon.",
+          art: "Hob's hands tying off a neat braid in the plough-beast's ruff with red twine, in a harbour knot: the same knot as the Hollow's. Kaito's face above, frozen, lit white by the Pylon.",
           text: [
-            ["say", "extra:Farmer", "Want her looking her best."]
+            ["say", "extra:Hob", "Want her looking her best."]
           ]
         }
       ]

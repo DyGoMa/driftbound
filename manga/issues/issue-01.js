@@ -233,21 +233,21 @@ DriftManga.issue({
           shot: "wide",
           art: "Beyond the last house: farmland out to the sea-cliffs, every field the colour of old dishwater, cracked and grey, not a weed anywhere. The pylon is close here; its shadow lies across the furrows like a dropped pole.",
           text: [
-            ["off", "kaito", "Tolly! Brought your tonic!"]
+            ["off", "kaito", "Hob! Brought your tonic!"]
           ]
         },
         {
           shot: "medium",
-          art: "Tolly Marsh (68, farmer, bow-legged, straw hat, patched dungarees) at a stall beside Bess, a barn-sized shaggy plough-beast with broad flat horns worn smooth, moss on her back, grey at the muzzle. A Sever trooper stands writing on his slate.",
+          art: "Hob Tarrow (68, farmer, thin, stooped, white stubble, flat tweed cap, patched brown waistcoat, sleeves rolled) at a stall beside Thimble, a barn-sized plough-beast: shaggy moss-green hair with moss on her back, short worn stub horns, a broad flat snout, a cracked brass bell on a strap. A Sever trooper stands writing on his slate.",
           text: [
-            ["say", "extra:Tolly", "One head. Plough-beast. Her name's Bess."]
+            ["say", "extra:Hob", "One head. Plough-beast. Her name's Thimble."]
           ]
         },
         {
           shot: "over-shoulder",
           art: "Over the trooper's shoulder: his slate is a printed form with one column headed COUNT and a neat '1' in it. His stylus is lifted, and stays still.",
           text: [
-            ["off", "extra:Tolly", "That's B, E, double S. You want to write that down?"]
+            ["off", "extra:Hob", "That's T, H, I, M, B, L, E. You want to write that down?"]
           ]
         }
       ]
@@ -258,23 +258,23 @@ DriftManga.issue({
       panels: [
         {
           shot: "medium",
-          art: "The trooper walks past Kaito without a word or a glance. Kaito looks after him, then back at Tolly.",
+          art: "The trooper walks past Kaito without a word or a glance. Kaito looks after him, then back at Hob.",
           text: [
             ["say", "kaito", "Cheerful."],
-            ["say", "extra:Tolly", "Census. Very polite. Counted Bess."]
+            ["say", "extra:Hob", "Census. Very polite. Counted Thimble."]
           ]
         },
         {
           shot: "medium",
-          art: "Kaito frowns at Tolly's thin hens scratching at the grey dirt, uncounted.",
+          art: "Kaito frowns at Hob's thin hens scratching at the grey dirt, uncounted.",
           text: [
-            ["say", "kaito", "Just Bess? Not the hens?"],
-            ["say", "extra:Tolly", "Just Bess. Nice to be counted."]
+            ["say", "kaito", "Just Thimble? Not the hens?"],
+            ["say", "extra:Hob", "Just Thimble. Nice to be counted."]
           ]
         },
         {
           shot: "wide",
-          art: "Tolly spoons Kaito's tonic into Bess. Bess, delighted, licks Skarn's entire face in one huge slow lick. Skarn stands rigid, fur slicked up into a crest, a small crackle of pure disgust running along his fin.",
+          art: "Hob spoons Kaito's tonic into Thimble. Thimble, delighted, licks Skarn's entire face in one huge slow lick. Skarn stands rigid, fur slicked up into a crest, a small crackle of pure disgust running along his fin.",
           text: [
             ["sfx", "SHLLLURP"],
             ["say", "kaito", "She likes you."],
@@ -283,27 +283,27 @@ DriftManga.issue({
         },
         {
           shot: "medium",
-          art: "Tolly nods up at a framed Imperial chart nailed above Bess's stall, a pin stuck proudly in his farm.",
+          art: "Hob nods up at a framed Imperial chart nailed above Thimble's stall, a pin stuck proudly in his farm.",
           text: [
-            ["say", "extra:Tolly", "Forty years I ploughed a field that was somewhere else every spring."]
+            ["say", "extra:Hob", "Forty years I ploughed a field that was somewhere else every spring."]
           ]
         },
         {
           shot: "medium",
-          art: "Tolly looks out at the grey furrows, hands on his hips, proud and lost at the same time.",
+          art: "Hob looks out at the grey furrows, hands on his hips, proud and lost at the same time.",
           text: [
-            ["say", "extra:Tolly", "Nothing comes up now. Not a turnip."],
-            ["say", "extra:Tolly", "But I know right where it isn't coming up."]
+            ["say", "extra:Hob", "Nothing comes up now. Not a turnip."],
+            ["say", "extra:Hob", "But I know right where it isn't coming up."]
           ]
         },
         {
           shot: "medium",
-          art: "Tolly presses a cloth bundle of a dozen brown eggs into Kaito's arms. Kaito sags under the weight of the injustice.",
+          art: "Hob presses a cloth bundle of a dozen brown eggs into Kaito's arms. Kaito sags under the weight of the injustice.",
           text: [
             ["cap", "Eggs: twelve."],
-            ["say", "extra:Tolly", "Can't pay you. Got eggs."],
+            ["say", "extra:Hob", "Can't pay you. Got eggs."],
             ["say", "kaito", "Why's it always eggs?"],
-            ["say", "extra:Tolly", "What else is there?"]
+            ["say", "extra:Hob", "What else is there?"]
           ]
         }
       ]
