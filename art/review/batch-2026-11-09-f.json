@@ -1,9 +1,9 @@
 {
-  "title": "Three-quarter bodies: the five leads and the villains",
-  "summary": "A second full-body sheet for each lead and villain, in Kaito's passed layout: four three-quarter views (front-left, front-right, back-left, back-right) in A-pose. Each passed Claude's review against the checklist; Sela and Silas needed edits first. Tap any picture to see it full size.",
+  "title": "Three-quarter bodies: leads, villains and walk-ons",
+  "summary": "A second full-body sheet for each person, in Kaito's passed layout: four three-quarter views (front-left, front-right, back-left, back-right) in A-pose. Each passed Claude's review against the checklist except Sela (her mark, waiting for your call). Tap any picture to see it full size.",
   "date": "2026-11-09",
-  "picturesThisBatch": 13,
-  "imagesToday": 13,
+  "picturesThisBatch": 19,
+  "imagesToday": 19,
   "dailyLimit": 15,
   "items": [
     {
@@ -906,6 +906,509 @@
         "1 size 2048x1024",
         "2 bar and white ring on the front only",
         "strapped plates on both arms and shins in every view",
+        "7 no weapon"
+      ]
+    },
+    {
+      "id": "nim-b34",
+      "name": "Nim Hadda",
+      "file": "art/refs/nim-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Heads, all views",
+          "why": "Chalk behind the right ear only",
+          "box": [
+            0,
+            0,
+            1,
+            0.22
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "9 left arm missing, sleeve pinned at his LEFT shoulder in every view",
+        "9 chalk behind his RIGHT ear (views 2 and 4)",
+        "6 full hair, reads about 30",
+        "12 back-view hand from behind"
+      ]
+    },
+    {
+      "id": "quint-b34",
+      "name": "Lazare Quint",
+      "file": "art/refs/quint-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Glasses, views 1-2",
+          "why": "Same size both sides, not warped",
+          "box": [
+            0.08,
+            0.04,
+            0.35,
+            0.14
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "14 glasses small, even and clean (D5)",
+        "tails to mid-calf",
+        "12 white gloves (D1)"
+      ]
+    },
+    {
+      "id": "fenn-b34",
+      "name": "Mister Fenn",
+      "file": "art/refs/fenn-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Face reads a little young, as on his locked sheet"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "garters above both elbows",
+        "waistcoat piping red",
+        "12 bare hands from behind"
+      ]
+    },
+    {
+      "id": "hob-b34",
+      "name": "Hob Tarrow",
+      "file": "art/refs/hob-body34-v2.png",
+      "take": "take 2 (take 1 came out 1774x887; resized on this PC, no new drawing)",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Forearms, all views",
+          "why": "The mark stays in one spot",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.22
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "The mark is a little brighter green than 'muted'"
+      ],
+      "passed": [
+        "1 size 2048x1024 after the resize",
+        "10 ploughshare mark on the OUTER side of his LEFT forearm, same height in views 1 and 3, hidden in 2 and 4 (D6)",
+        "12 back-view hands from behind"
+      ]
+    },
+    {
+      "id": "marta-b34",
+      "name": "Marta Oake",
+      "file": "art/refs/marta-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "scarf knot, bun and apron bow from behind",
+        "6 reads about 60",
+        "12 back-view hands from behind"
+      ]
+    },
+    {
+      "id": "tull-b34",
+      "name": "Mr. Tull",
+      "file": "art/refs/tull-body34-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [
+        {
+          "label": "Faces and heads, all four views",
+          "why": "Same face, hair and one-sided head details as the locked sheet",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands and hips, all four views",
+          "why": "Back-view hands from behind (12); hip items on the right side (9)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "View 1: 3/4 front left",
+          "why": "Whole figure",
+          "box": [
+            0.0,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 2: 3/4 front right",
+          "why": "Whole figure",
+          "box": [
+            0.25,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 3: 3/4 back left",
+          "why": "Whole figure",
+          "box": [
+            0.5,
+            0,
+            0.25,
+            1
+          ]
+        },
+        {
+          "label": "View 4: 3/4 back right",
+          "why": "Whole figure",
+          "box": [
+            0.75,
+            0,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "1 size 2048x1024",
+        "2 bar and white ring on the front only",
+        "14 glasses even",
+        "12 bare hands from behind",
         "7 no weapon"
       ]
     }

@@ -7,6 +7,8 @@ Add a character to PEOPLE below: one-sided details carry the character's OWN sid
 script writes where each lands in every view.
 """
 import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from face_people2 import FULL, HEAD_ONLY, CREATURES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'art', 'refs', 'prompts')
@@ -69,6 +71,8 @@ def where(side, angle):
     return 'on the far side: only a sliver shows, or it is hidden' if angle in ('34l', '34r') else 'hidden (far side)'
 
 def sides_text(p, angles):
+    if not p['sides']:
+        return '- None: both sides of the head and outfit match.'
     lines = []
     for side, what, _ in p['sides']:
         per = '; '.join(f"{ANGLES[a].split(':')[0]}: {where(side, a)}" for a in angles)
@@ -126,10 +130,34 @@ One-sided details, the same in all eight portraits:
 
 {RULES}""")
 
+def creature_head(cid, c):
+    write(f'{cid}-head-v1.txt', f"""Head turnaround reference sheet of an ORIGINAL creature. Image 1 is this creature's locked reference sheet: copy its head, eyes, colours, plates and markings exactly. Draw only the head and neck.
+
+{STYLE}
+
+Five head-and-neck portraits of the same creature in one row, same scale, evenly spaced, not overlapping, the base of the neck on the same line, head tops level, cut off at the base of the neck:
+(1) FRONT: head-on, facing the viewer.
+(2) THREE-QUARTER LEFT: turned 45 degrees toward the LEFT edge of the image, so its LEFT side is nearer us.
+(3) PROFILE LEFT: a true 90-degree profile facing the LEFT edge of the image.
+(4) THREE-QUARTER RIGHT: turned 45 degrees toward the RIGHT edge of the image, so its RIGHT side is nearer us.
+(5) PROFILE RIGHT: a true 90-degree profile facing the RIGHT edge of the image.
+Head level, mouth closed, eyes looking straight ahead in the direction the head faces. Same lighting in every portrait. Every detail is the same size, colour and place in all five.
+
+Creature: {c['who']}, exactly as in Image 1: {c['look']}
+
+{BG}
+
+{RULES}""")
+
 if __name__ == '__main__':
+    # python tools/face-prompts.py <id> ...  (leads, FULL: head + six pages; HEAD_ONLY and CREATURES: head only)
     for cid in sys.argv[1:] or PEOPLE:
-        p = PEOPLE[cid]
+        if cid in CREATURES:
+            creature_head(cid, CREATURES[cid]); continue
+        p = PEOPLE.get(cid) or FULL.get(cid) or HEAD_ONLY[cid]
         head(cid, p)
+        if cid in HEAD_ONLY:
+            continue
         for page in (1, 2):
             for angle in ('34l', 'front', '34r'):
                 faces(cid, p, page, angle)
