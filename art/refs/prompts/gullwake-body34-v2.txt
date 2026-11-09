@@ -1,0 +1,12 @@
+Edit Image 1, a three-quarter reference sheet of the Gullwake, a salvage ship (four views). Image 2 is its locked four-view sheet: in its first (bow) view the red patch sits on the LEFT end of the main mast's lower yard, which is the ship's starboard (right-hand) side.
+
+Change only this one thing, in the FIRST and SECOND views (the two bow views, on the left half of the image): the red patch on the main mast's LOWER yard (the longer yard of the tall middle mast, just below the crosstrees' lower yard) is on the wrong end. Remove it from the RIGHT end of that yard (paint the furled sail there the same cream as the rest of the sail) and put the same small red patch on the LEFT end of that same yard instead, the same size and colour.
+In the THIRD and FOURTH views (the stern views) the red patch stays exactly where it is, on the right end of that yard.
+
+Keep everything else identical to Image 1: the four views, their angles, places and sizes; the hull, portholes, iron patches, masts, yards, crosstrees, rigging, crane, awning, wheel, tub, bath screen, towing post and lanterns; the colours. Output the whole sheet at 2048x1024.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.
