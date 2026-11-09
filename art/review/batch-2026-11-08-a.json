@@ -1,0 +1,306 @@
+{
+  "title": "Batch A, part 2: Marta, Tull, Thimble, Gullwake",
+  "summary": "Batch A, part 2 is done: all six subjects approved by Dylan on 2026-11-08 (the Gullwake sheet and deck plan after one redo each). Tap any picture to see it full size.",
+  "date": "2026-11-08",
+  "picturesThisBatch": 8,
+  "imagesToday": 15,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "marta",
+      "name": "Marta Oake",
+      "file": "art/refs/marta-sheet-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Faces, all four views",
+          "why": "Reads 61, olive skin, grey hair under the blue headscarf; small closed smile",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Hands at hip height",
+          "why": "Back-view hands seen from behind (checklist 12)",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.32
+          ]
+        },
+        {
+          "label": "Back view",
+          "why": "Scarf knot and bun at the back of the head; apron bow at the waist",
+          "box": [
+            0.72,
+            0,
+            0.28,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Small closed smile rather than a flat neutral mouth",
+        "Boots are lace-up rather than plain ankle boots"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 no text; the shawl's cable knit is a pattern",
+        "3, 6 adult woman reading about 60",
+        "8 four true views",
+        "12 back-view hands from behind",
+        "13 back of the head seen from behind"
+      ]
+    },
+    {
+      "id": "tull",
+      "name": "Mr. Tull",
+      "file": "art/refs/tull-sheet-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Faces and glasses",
+          "why": "Round wire glasses even on both sides (14); parting on his right, left of the picture in front",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Chest bar, every view",
+          "why": "Bar and ring in front, bar end only in both side views, plain back (9)",
+          "box": [
+            0,
+            0.15,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Back view",
+          "why": "Back-view hands from behind; plain coat back",
+          "box": [
+            0.72,
+            0,
+            0.28,
+            1
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Youthful face, reads mid-20s (he is 27)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 no text",
+        "7 bare head, bare hands, no weapon",
+        "9 bar and ring sides; hair parting sides",
+        "12 back-view hands from behind",
+        "14 glasses clean and even"
+      ]
+    },
+    {
+      "id": "thimble",
+      "name": "Thimble",
+      "file": "art/refs/thimble-sheet-v1.png",
+      "take": "take 1",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Heads and bell",
+          "why": "Snout shape, stub horns, eyes; cracked brass bell in every view",
+          "box": [
+            0,
+            0.22,
+            1,
+            0.38
+          ]
+        },
+        {
+          "label": "Back view",
+          "why": "Strap over the neck; the tail hangs over the rump instead of pointing at us (19)",
+          "box": [
+            0.83,
+            0.2,
+            0.17,
+            0.55
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "The snout reads as a broad cow or hippo muzzle more than a spade",
+        "Heavy, human-looking eyelids",
+        "Back-view tail hangs down over the rump (19)"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 no text",
+        "7 no armour, plates or glow",
+        "8 four true views",
+        "9 bell under the chin in front and both sides, strap over the neck in back"
+      ]
+    },
+    {
+      "id": "thimble-hollow",
+      "name": "Thimble as a Hollow",
+      "file": "art/refs/thimble-hollow-sheet-v2.png",
+      "take": "take 2 (take 1 resized on this PC)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Core, cables and plates",
+          "why": "Core set into the chest; only a sliver of glow in the side views (9, 10)",
+          "box": [
+            0,
+            0.25,
+            1,
+            0.36
+          ]
+        },
+        {
+          "label": "Back view",
+          "why": "Spine and shoulder plates; no core showing; tail",
+          "box": [
+            0.83,
+            0.22,
+            0.17,
+            0.55
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Hair reads dull grey-beige more than grey-green",
+        "Sad more than menacing, with finer lines than the bear (18)",
+        "Take 1 came out 1774x887 (fix 16); resized, no new drawing"
+      ],
+      "passed": [
+        "1 size 2048x1024 after resize",
+        "2 no text",
+        "7 bell and strap gone",
+        "8 four true views",
+        "9, 10 core place per view",
+        "same body as Thimble take 1"
+      ]
+    },
+    {
+      "id": "gullwake",
+      "name": "Gullwake, four views",
+      "file": "art/refs/gullwake-sheet-v3.png",
+      "take": "take 3 (edit of take 1: yards and red patch)",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Bow view yards",
+          "why": "Three yards seen full width (fore yard behind, main lower and upper); red patch at the LEFT end of the lowest",
+          "box": [
+            0,
+            0.1,
+            0.14,
+            0.55
+          ]
+        },
+        {
+          "label": "Side views",
+          "why": "Yards now seen end-on as short stubs: one on the fore mast, two on the main, none on the Post; red patch only on the near end in the right-side view",
+          "box": [
+            0.14,
+            0.1,
+            0.72,
+            0.55
+          ]
+        },
+        {
+          "label": "Stern view yards",
+          "why": "Same three yards full width; red patch at the RIGHT end",
+          "box": [
+            0.86,
+            0.1,
+            0.14,
+            0.55
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "The fore yard in the bow and stern views sits a little higher than its stub in the side views",
+        "Take 2 (resized take 1) kept"
+      ],
+      "passed": [
+        "1 size 2048x1024",
+        "2 no lettering",
+        "18b yards square across the ship, matching count and height in every view",
+        "18b red patch on the main lower yard's starboard end in every view that faces it",
+        "17 hull, deck items and colours unchanged by eye"
+      ]
+    },
+    {
+      "id": "gullwake-deck",
+      "name": "Gullwake deck plan",
+      "file": "art/refs/gullwake-deck-v2.png",
+      "take": "take 2 (edit of take 1: deck portholes removed)",
+      "size": "1024x2048",
+      "verdict": "passed",
+      "zooms": [
+        {
+          "label": "Bow and foredeck",
+          "why": "Towing post with chain and rope; tub and canvas screen; fore hatch",
+          "box": [
+            0,
+            0,
+            1,
+            0.3
+          ]
+        },
+        {
+          "label": "Midships",
+          "why": "Main hatch, main mast, the Post stump; the deck portholes are gone",
+          "box": [
+            0,
+            0.3,
+            1,
+            0.35
+          ]
+        },
+        {
+          "label": "Stern",
+          "why": "Awning, table, wheel, cutlass rack, salvage crane",
+          "box": [
+            0,
+            0.62,
+            1,
+            0.38
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "A chain as well as rope at the towing post",
+        "The canvas screen stays: it is Issue 2's bath screen"
+      ],
+      "passed": [
+        "1 size 1024x2048",
+        "2 no lettering",
+        "portholes gone from the deck, planks painted in",
+        "17 everything else unchanged by eye",
+        "red patch at the right (starboard) end of the main yard, matching the sheet"
+      ]
+    }
+  ]
+}

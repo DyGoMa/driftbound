@@ -771,3 +771,104 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
   - Hound armour: plates on brow, back of the neck, shoulders and hips only, with the middle of the back left bare so a rider can sit there; no saddle. Thick cables with clamps, copied from the bear; CAST.md says cable "veins", and take 1's thin veins read weak.
   - Silt: black belt holding the coat shut at the waist only, above the V of his top (Dylan's answer was "open at the front"); thin black strap holding the mask on; a plain collar. Square belt buckle and blade clip are the model's own additions.
 - Dylan's check (2026-11-07): "Vikram sheets look good", then "Meant villian". Silt take 1 (`silt-sheet-v1.png`) and hound take 3 (`hollow-hound-sheet-v3.png`) are passed, along with everything Claude added above. Hound takes 1-2 stay kept.
+
+## Your words (2026-11-07, pictures: the four decisions in `docs/manga/IMAGE_REQUESTS.md`)
+- Colour or black-and-white manga: "Colour (Recommended)"
+- Images per day: "15 a day (Recommended)"
+- Batch B (all of Issue 1) before or after Batch C (the 50 covers): "Issue 1 first (Recommended)"
+- Lettering: "No text, reader balloons (Recommended)"
+
+## Batch A: sheets for Issues 1 to 10 (2026-11-07)
+- First subject: Warden Krell. His working sheet from Hot Hand (`games/hot-hand/art/raw/krell-sheet-v1.png`, never passed) copied to `art/refs/krell-sheet-v1.png` as take 1, with its prompt. Claude's check of take 1: 1774x887 (fix 16); back-view hands read as palms, thumbs on the outer edge (fix 22); arms at about 30 degrees, not 45.
+- Krell take 2 (edit of take 1: back-view hands and size): "Yes, make the edit (Recommended)"
+- Image 1 of today (Krell take 2): 2048x1024; back-view gloves smooth, fingers together, thumb inner side; everything else unchanged by eye. Flaws in both takes: no bar end in the side views; arms at about 30 degrees.
+- Krell take 2: "second take hands look worse. take 1 looked fine."
+- Krell size: "Resize on this PC (Recommended)" → take 3 = take 1 scaled to 2048x1024 on this PC (no Codex use) → locked sheet `art/refs/krell-sheet-v3.png`. Take 2 kept.
+- Next subject: Nim Hadda. Source clash quoted to Dylan: `issue-06.js` "chalk stub behind his ear, shirtsleeves" vs `backstory/allies.md` "Waistcoat, pinned left sleeve, pencil behind the ear".
+- Nim behind the ear: "Chalk stub (Recommended)"
+- Nim outfit: "Waistcoat over shirtsleeves (Recommended)" (rolled shirtsleeves, buttoned waistcoat, left sleeve pinned up at the shoulder, dark trousers, worn shoes)
+- Nim looks: "Pale, sandy hair" (pale freckled skin, thinning sandy hair, grey eyes, clean-shaven)
+- Nim build: "176 cm, lean, soft-shouldered (Recommended)"
+- Nim take 1: "Yes, make Nim (Recommended)" (image 2 of today)
+- Nim take 1 failed Claude's check: 1774x887 (fix 16); "thinning" overshot to a bald crown and comb-over with dark under-eye rings, reads mid-40s, not 30. Passed: one-arm layout and sides in all four views; chalk behind the right ear; back-view hand reads from behind; outfit and colours; no text. Minor: chalk reads long.
+- Nim take 2 (edit of take 1: fuller hair and younger face, size): "Yes, make take 2 (Recommended)" (image 3 of today)
+- Nim take 2 timed out after 1200s, no file saved (fix 26). Counted as a try, not an image: images today 2 made + 1 timed out.
+
+## Batch A continued (2026-11-08)
+- Day count reset: 2026-11-07 used 2 images (Krell take 2, Nim take 1) plus 1 timed-out try (Nim take 2). Krell take 3 was a resize on this PC.
+- Nim take 2 retry: "Retry the same edit (Recommended)" (image 1 of today)
+- Nim take 2 passed Claude's check: 2048x1024; full sandy hair in all four views, no bald patch; face reads about 30; one-arm layout, sides, chalk behind the right ear, outfit and colours unchanged by eye; back-view hand reads from behind; no text. Minor: faint forehead lines in the front view; chalk still a little long.
+- Nim take 2: "He passes (Recommended)" → locked sheet `art/refs/nim-sheet-v2.png`. Take 1 kept.
+- Next subject: Lazare Quint. Look from `issue-07.js`: "short, round, immaculate ember-red tailcoat, white gloves, silver hair oiled flat, half-moon spectacles, a smile like a cat in a dairy."
+- Quint sheet type: "Full four-view sheet (Recommended)"
+- Quint looks: "Ruddy pale, pale blue, 160 cm (Recommended)"
+- Quint face: "Neutral, mouth closed"
+- Quint take 1: "Yes, make Quint (Recommended)" (image 2 of today)
+- Quint take 1: 2048x1024; four true views; short and round, ruddy cheeks, pale-blue eyes, silver hair oiled back, neutral closed mouth; tailcoat, cravat, waistcoat, white gloves, tails behind in side and back views; no text. Failed Claude's check: (a) spectacles are full oval lenses at eye level, not half-moon low on the nose; (b) back-view gloves show thumbs on the outer edge (fix 22; Dylan accepted the same on Krell take 1). Minor: tails reach mid-calf, not the backs of the knees; coat reads deep crimson more than ember-red.
+- Quint take 2 (edit of take 1): "Edit: half-moon glasses only (Recommended)" (image 3 of today)
+- Quint take 2 passed Claude's check: 2048x1024; front view now flat-topped half-moon lenses lower on the nose with the eyes above; side views show the lens low by the nose tip with a gold arm to the ear; back view shows the gold arms at the ears; rest unchanged by eye. Still as take 1: back-view gloves with thumbs on the outer edge; tails to mid-calf; deep crimson red.
+- Quint take 2: "gloves are fine in this picture, glasses are not they look weird and distorted"
+- Quint glasses: "Try half-moon again" → take 3, a fresh edit of take 1 with simpler wording (image 4 of today)
+- Quint take 3 timed out after 1200s, no file saved (fix 26). Today: 3 images made + 1 timed out.
+- Quint take 3 retry: "Retry the same edit (Recommended)"
+- Quint take 3 (image 4 of today) passed Claude's check: 2048x1024; front-view lenses small, symmetrical, flat-topped, just under the eyes with the eyes above, thin gold rims, clean lines (a white glint on his left lens); side views show a small lens low by the nose and a straight arm to the ear; back view shows the arms at the ears; rest unchanged by eye.
+- Quint take 3: "He passes (Recommended)" → locked sheet `art/refs/quint-sheet-v3.png`. Takes 1-2 kept.
+- Next subject: Mister Fenn, the dealer. Look from `issue-08.js`: "51, thin and silver-haired, white sleeve garters, has the most beautiful hands in the room".
+- Fenn sheet type: "Full four-view sheet (Recommended)"
+- Fenn looks: "Light brown, dark eyes, 185 cm (Recommended)"
+- Fenn outfit: "House dealer's uniform (Recommended)" (white shirt with the garters, black waistcoat with ember-red trim, black bow tie, black trousers, black shoes)
+- Fenn hair: "Neat side part, short (Recommended)"
+- Fenn take 1: "Yes, make Fenn (Recommended)" (image 5 of today)
+- Fenn take 1 passed Claude's check, no redo: 2048x1024; four true views, full A-pose; light brown skin, dark eyes, short silver hair parted on his left (right of the picture in front); white garters above both elbows, shirt puffing above them; black waistcoat with red piping, bow tie, black trousers and shoes; back-view hands read from behind (smooth back, fingers together, thumb hidden); bare hands, no rings; no text. Minor: front-view face reads mid-40s rather than 51 (fine lines show in the side views); the back of the head has a short darker underlayer at the nape.
+- Fenn take 1: "He passes (Recommended)" → locked sheet `art/refs/fenn-sheet-v1.png`.
+- Next subjects: Hob Tarrow and Marta Oake. CANON.md conflict 16 (Tolly Marsh and Bess in `issue-01.js`; an unnamed farmer, 68, in `issue-02.js`; Hob Tarrow and Thimble in `issue-03.js`) put to Dylan before drawing.
+- Farmer, first ask: "are they 2 seperate people in both issues or the same person? that decides what we make"
+- Claude's answer: the scripts never say; Issue 1 names Tolly and Bess, Issue 2 has an unnamed farmer of 68 who sets up Issue 3, Issue 3 names Hob and Thimble and strips them.
+- Farmer: "One man: Hob and Thimble (Recommended)" (Issue 1's Tolly and Bess become Hob and Thimble, Issue 2's farmer is Hob; one sheet in Issue 3's look). The scripts are not changed in this step.
+- Hob's mark on the sheet: "Before: glowing green (Recommended)" (moss-green ploughshare, left forearm, from `issue-03.js`)
+- Hob looks: "Weathered tan, white stubble (Recommended)" (sun-weathered tan skin, wispy white hair, white stubble, brown eyes)
+- Marta looks: "Sturdy, grey bun, headscarf (Recommended)" (160 cm, sturdy, olive skin, grey hair in a bun under a faded headscarf, long skirt, apron, shawl)
+- Hob take 1: "Yes, make Hob (Recommended)" (image 6 of today)
+- Hob take 1: 2048x1024; four true views, A-pose; reads 68 (lined tan face, white stubble, wispy white hair under a brown tweed cap); collarless blue shirt rolled below the elbow, patched brown waistcoat, baggy trousers, scuffed boots; mark sides all correct (right of the picture in front, nearest arm in the left-side view, hidden in the right-side view, left of the picture in back); right forearm clean; no text (the cap tweed is a zigzag weave, not text, by zoom). Flaws: the mark is bright lime green, not moss-green, and bigger than "small" (about a third of the forearm); it reads as a teardrop or leaf more than a ploughshare; back-view thumbs sit on the outer edge (fix 22, as Krell take 1).
+- Hob take 1: "the mark doesnt read as being in the same spot from the different views, it moves. make it more consistent and make it moss-green and smaller"
+- Hob take 2 (edit of take 1: mark removed and redrawn, moss-green, small, outer left forearm, same height per view; fix 27 and 17): "Outer forearm, this prompt (Recommended)" (image 7 of today)
+- Hob take 2 passed Claude's check: 2048x1024; old lime mark gone; new mark muted moss-green and about half the size; whole mark in the left-side view, a thin sliver at the outer edge in the front view (right of the picture) and back view (left of the picture), all at about the same height in the upper half of the forearm (a little nearer the elbow than halfway); right forearm clean; rest unchanged by eye. Still a teardrop shape more than a plough blade.
+- Hob take 2: "He passes (Recommended)" → locked sheet `art/refs/hob-sheet-v2.png`. Take 1 kept. Added known fix 36 to STYLE.md.
+- Marta take 1 approval card answered instead with: "any way to automate this? go through reviews with the things ive said in the past that are wrong like the mark not being consistent in all the views, the hands looking the wrong way from the back etc. would like you to make 5 sheets after youve reviews them for me to look at and approve. make it a skill so i can do it for any images for this project that need to get made. also ways learn from what i tell you to add to the reviews judment calls. also use the consistant art style across everything that we have in the art bible." (Marta not made yet.)
+- Automation, auto redos before Dylan sees a sheet: "Up to 3 redos"
+- First automated batch: "Marta, Tull, Thimble x2, Gullwake (Recommended)"
+- Budget if 15 runs out mid-batch: "Finish the batch today"
+- Unset looks: "Ask me all at once first (Recommended)"
+- Gap answers for the automated batch:
+  - Mr. Tull: "Slight, neat, nervous (Recommended)" (170 cm, slight; thin mousy-brown hair parted flat; pale grey-green eyes; round wire glasses; bar and ring on his coat like the troopers; no helmet or weapon; telegrams left out of the sheet)
+  - Hollow Thimble: "Like the bear, bell gone (Recommended)" (plates on brow, shoulders and spine; cables from a white core in the chest; blank white eyes; moss-green hair gone dull grey-green; brass bell removed)
+  - Gullwake masts (game sprite shows one; `backstory/world.md` and CANON.md say three with the aftermost a stump, the Post): "Three masts, Post stump (Recommended)"
+  - Gullwake layout: "Two pictures (Recommended)" (a four-view sheet: bow, left side, right side, stern; and a deck plan from above; Vesh and crew left out)
+  - Thimble tail: "Short, shaggy tuft (Recommended)"
+- Automated batch (Marta, Tull, Thimble, Hollow Thimble, Gullwake sheet, Gullwake deck): "Yes, run the batch (Recommended)". Marta take 1 = image 8 of today, Tull take 1 = image 9.
+- Thimble take 1 = image 10 of today, Gullwake sheet take 1 = image 11.
+- Marta take 1 (image 8) passed Claude's review against REVIEW_CHECKLIST.md: 2048x1024 (1); no text, the shawl's cable knit is a knit pattern (2); adult woman reading about 60 (3, 6); four true views (8); back-view hands read from behind (12); scarf knot and bun at the back of the head (13). NOTES: a small closed smile rather than a flat neutral mouth; boots are lace-up rather than plain ankle boots.
+- Tull take 1 (image 9) passed Claude's review: 2048x1024 (1); no text (2); bar and ring front only, bar ends in both side views, back plain (9); hair parted on his right, left of the picture in front (9); round wire glasses even and clean (14); back-view hands read from behind (12); bare head, bare hands, no weapon (7). NOTE: a youthful face, reads mid-20s (he is 27).
+- Fixed a bug in `tools/zoom-crops.ps1` found on first use (PowerShell ignores case, so $W overwrote $w and the crops came out half black).
+- Thimble take 1 (image 10) passed Claude's review: 2048x1024 (1); no text (2); four true views (8); shaggy moss-green hair with moss on the back, pillar legs, stub horns, kind brown eyes, cracked brass bell on a strap in all four views (bell under the chin in front and both sides, strap over the neck in back) (9); no armour or glow (7). NOTES: the snout reads as a broad cow or hippo muzzle more than a spade; the eyes have heavy, human-looking lids; the back-view tail hangs down over the rump as a stub and tuft instead of pointing at us (19).
+- Gullwake sheet take 1 (image 11): 1774x887 (FAIL 1). Otherwise passed: four true views, bow left in the left-side view and right in the right-side view (8); fore mast, taller main mast with crosstrees, the Post stump at the quarterdeck; towing post and rope at the bow; tub and canvas screen on the foredeck; hatches; quarterdeck with wheel, awning and table; salvage crane with hook at the stern; stern windows and lantern; cream sails with a red patch; no lettering (2); no creatures (7). NOTE: the red patch sits on a different yard in the bow view than in the side views.
+- Gullwake sheet take 2 = take 1 resized on this PC to 2048x1024 (skill step 4: size-only fix, not a picture).
+- Hollow Thimble take 1 = image 12 of today (made from Thimble take 1), Gullwake deck take 1 = image 13.
+- Hollow Thimble take 1 (image 12): 1774x887 (FAIL 1); take 2 = take 1 resized on this PC to 2048x1024. Otherwise passed: four true views (8); same body as Thimble take 1; blank white eyes; core set into the chest in a steel frame, a sliver of glow at the chest front in both side views, none in back (9, 10); brow plate between the horns, shoulder plates, a row of spine plates; cables with clamps from the core to the shoulder plates; bell and strap gone (7); no text (2). NOTES: hair reads dull grey-beige more than grey-green; less menace and finer lines than the bear (18: she reads sad, which the prompt asked for); back-view tail hangs over the rump as on Thimble.
+- Gullwake deck take 1 (image 13) passed Claude's review: 1024x2048 (1); straight top-down, bow at the top; towing post with chain and rope, tub and canvas screen, fore hatch, fore mast and yard, main hatch, main mast with the widest yard and the red sail patch, the Post stump, quarterdeck with awning, table, wheel and cutlass rack, salvage crane at the stern; stern cabin roof and lantern; no lettering (2); no creatures (7). NOTES: portholes are drawn on the deck inside the rail (they belong on the hull sides); a chain as well as rope at the towing post.
+- Batch total: 6 Codex images (8 to 13 of today), no redos needed beyond two size fixes on this PC. Today: 13 images.
+- Dylan, instead of answering the batch cards: "can you make the skill make an artifact with the pictures and zoomed in pictures of the areas of interest/where things can go wrong after it completes the batch and updates it with the current batch so i can see them and links it for easier access. than give me a toast choice cards for each character/sheet/image to approve/deny/other or any other options you can think of to make it easier and more automated"
+- Built: `tools/review-images.ps1` and `tools/review-page.js` (page from `art/review/batch-*.json`), skill step 5 rewritten, page published once to https://claude.ai/artifact/FKxuBtti8WDyTxsMsb7tUU (recorded in `art/review/REVIEW_PAGE.md`). No Codex use.
+- Marta take 1: "Approve (Recommended)" → locked `art/refs/marta-sheet-v1.png`
+- Tull take 1: "Approve (Recommended)" → locked `art/refs/tull-sheet-v1.png`
+- Thimble take 1: "Approve (Recommended)" → locked `art/refs/thimble-sheet-v1.png`
+- Hollow Thimble take 2: "Approve (Recommended)" → locked `art/refs/thimble-hollow-sheet-v2.png`
+- Gullwake sheet take 2: "the way the masts that hold the sails that are rolled up display differently in each view and need to be fixed so they are all the same and at the right angle to be used if the sails were to be put down. also match the red patch to the same spot on all views."
+- Gullwake deck take 1: "redo no deck portholes. also what is the canvas screen on the deck for? get rid of it if no legitimate use"
+- Claude's answer on the screen: it is the bath screen from Issue 2 ("The sail-screen hides the tub completely; only steam drifts over the top", `issue-02.js` line 569; `backstory/world.md` §7), so it stays. Checklist line 18b and calls D7-D8 added.
+- Gullwake sheet take 3 (edit of take 1: square yards matching in every view, red patch in one place) = image 14 of today; deck take 2 (edit of take 1: deck portholes removed) = image 15.
+- Gullwake sheet take 3 (image 14) passed Claude's review: 2048x1024; yards square across the ship: bow and stern views show three yards full width (fore, main lower, main upper), side views show them end-on as stubs (one on the fore mast, two on the main, none on the Post); red patch on the main lower yard's starboard end (left of the picture in the bow view, right in the stern view, near end in the right-side view, hidden in the left-side view); hull and deck unchanged by eye. NOTE: the fore yard in the bow and stern views sits a little higher than its side-view stub.
+- Gullwake deck take 2 (image 15) passed Claude's review: 1024x2048; deck portholes gone, planks painted in; everything else unchanged by eye; screen kept.
+- Gullwake sheet take 3: "Approve (Recommended)" → locked `art/refs/gullwake-sheet-v3.png`
+- Gullwake deck take 2: "Approve (Recommended)" → locked `art/refs/gullwake-deck-v2.png`
+- Images used 2026-11-08: 15 Codex images (Nim 2; Quint 1-3; Fenn 1; Hob 1-2; Marta 1; Tull 1; Thimble 1; Hollow Thimble 1; Gullwake sheet 1 and 3; deck 1-2) plus 1 timed-out try (Quint 3, first run). Resizes on this PC (Gullwake sheet 2, Hollow Thimble 2) used no images.

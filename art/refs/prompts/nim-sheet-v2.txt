@@ -1,0 +1,21 @@
+Edit Image 1, a character reference turnaround sheet of Nim Hadda, an ADULT man of 30 with an adult face and an adult body.
+
+Change only these two things:
+1. His hair and age, in all four views: give him a full head of short, slightly untidy sandy-blond hair, thick on top and at the crown, with NO bald patch and no comb-over; the hairline is only a little higher at the temples. Soften the dark rings under his eyes so his face reads 30 years old: gentle and a little tired, not old. Keep his freckles, grey eyes and clean-shaven jaw.
+2. Output the whole sheet at 2048x1024.
+
+Keep everything else identical to Image 1: the one-arm layout (his LEFT arm is missing; the empty left sleeve is pinned at his left shoulder: on the RIGHT of the image in the FRONT view, nearest us in the LEFT SIDE view, on the LEFT of the image in the BACK view; his whole RIGHT arm on the LEFT of the image in the FRONT view, nearest us in the RIGHT SIDE view, on the RIGHT of the image in the BACK view); the white chalk behind his RIGHT ear; the off-white shirt with the right sleeve rolled to the elbow, the buttoned brown waistcoat, dark grey trousers and worn brown shoes; the back-view hand seen from behind; the size, spacing and place of all four figures; all colours.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

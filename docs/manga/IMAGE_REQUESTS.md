@@ -14,25 +14,25 @@ This is the hand-ordered list. The complete, generated list of every cover, spla
 7. **Claude checks every picture against its sheet before Dylan sees it**, zoomed in on faces, hands, marks and text, and redoes failures on Dylan's yes.
 
 ## Budget
-ChatGPT image generation has a rolling limit; the sheets so far cost about 3 to 5 messages each with redos (56 images for 16 sheets, plus timeouts). Dylan sets the number per day here: **___ images a day**. Each batch below says how many it needs; Claude asks before each batch (what it makes, rough count, usage left) and stops when the day's number is reached.
+ChatGPT image generation has a rolling limit; the sheets so far cost about 3 to 5 messages each with redos (56 images for 16 sheets, plus timeouts). Dylan sets the number per day here: **15 images a day** (Dylan, 2026-11-07). Each batch below says how many it needs; Claude asks before each batch (what it makes, rough count, usage left) and stops when the day's number is reached, unless Dylan says to finish the batch. The `driftbound-images` skill (`.claude/skills/driftbound-images/SKILL.md`) runs every batch: self-review against `art/refs/REVIEW_CHECKLIST.md`, up to 3 automatic redos, then the review page (`art/review/REVIEW_PAGE.md`) and one approval card per picture.
 
 ## Order of work (each batch asks first)
 
 ### Batch A: sheets the first ten issues need (about 14 sheets, 40 to 60 images with redos)
 These people appear in Issues 1 to 10 and have no sheet. Use the people layout block for humans and the creature block for monsters; one sheet per subject.
-| Subject | Who | Needed from | Notes for the prompt |
-|---|---|---|---|
-| Warden Krell | 41, 195 cm, heavy trooper officer (`docs/FRIDAY_BATCH.md`, `shared/kit/cast.js`) | Issue 6 | Already has game sprites (`games/hot-hand/art/`), so match them: open-faced helmet, heavier coat, shield line officer |
-| Nim Hadda | 30, one-armed bookmaker, Burnt Penny | Issue 6 | Left arm missing below the shoulder; sleeve pinned; gentle face |
-| Lazare Quint | 61, Cinder Palace owner | Issue 7 | Walk-on with lines on three pages; a head-and-shoulders bust is enough |
-| Fenn the dealer | 51 | Issue 8 | Bust |
-| Hob Tarrow and Marta Oake | 68 and 61, Pinhold farmer and neighbour | Issue 3 | Busts; plain clothes; the plough-beast Thimble becomes a Hollow (see creatures) |
-| Mr. Tull | Vasch's aide | Issue 5 | Bust; age to be set in the register |
-| Thimble (plough-beast, then Hollow) | a heavy farm beast | Issue 3 | Two states: alive, then Hollow with plates, cables and a white core, drawn like the bear and hound |
-| Part One Kaito, battle-damaged | scars to the elbow, then past it | Issues 2, 12 | Not a new sheet: an **expression and damage sheet** for Kaito, eight faces plus the arm at three scar stages |
-| Expression sheets, the six leads | eight faces each: neutral, grin, shout, blush, fear, grief, smug, gag face | Issue 1 on | Adult faces only; gag faces exaggerated, never chibi |
-| The Gullwake | the ship, four views plus a deck plan | Issue 2 | The tide-gap sprite (`games/tide-gap/art/gullwake.webp`) is the start; the dossier `backstory/world.md` has the deck-by-deck description |
-| Pinhold, Ashmarket, Gaptooth Reach | establishing shots for the manga (wide, dusk, night) | Issues 1, 6, 11 | The site already has one picture of each (`art/site/*-v1.png`); the manga needs an interior or two per island, listed in the generated file's spreads |
+| Subject | Who | Needed from | Notes for the prompt | Status |
+|---|---|---|---|---|
+| Warden Krell | 41, 195 cm, heavy trooper officer (`docs/FRIDAY_BATCH.md`, `shared/kit/cast.js`) | Issue 6 | Already has game sprites (`games/hot-hand/art/`), so match them: open-faced helmet, heavier coat, shield line officer | Done: `krell-sheet-v3.png` (2026-11-08) |
+| Nim Hadda | 30, one-armed bookmaker, Burnt Penny | Issue 6 | Left arm missing below the shoulder; sleeve pinned; gentle face | Done: `nim-sheet-v2.png` (2026-11-08) |
+| Lazare Quint | 61, Cinder Palace owner | Issue 7 | Walk-on with lines on three pages; a head-and-shoulders bust is enough | Done: full sheet `quint-sheet-v3.png` (2026-11-08) |
+| Fenn the dealer | 51 | Issue 8 | Bust | Done: full sheet `fenn-sheet-v1.png` (2026-11-08) |
+| Hob Tarrow and Marta Oake | 68 and 61, Pinhold farmer and neighbour | Issue 3 | Busts; plain clothes; the plough-beast Thimble becomes a Hollow (see creatures) | Done: `hob-sheet-v2.png`, `marta-sheet-v1.png` (2026-11-08); one farmer (Dylan), Issue 1-2 scripts not yet renamed |
+| Mr. Tull | Vasch's aide | Issue 5 | Bust; age to be set in the register | Done: `tull-sheet-v1.png`, age 27 from `issue-05.js` (2026-11-08) |
+| Thimble (plough-beast, then Hollow) | a heavy farm beast | Issue 3 | Two states: alive, then Hollow with plates, cables and a white core, drawn like the bear and hound | Done: `thimble-sheet-v1.png`, `thimble-hollow-sheet-v2.png` (2026-11-08) |
+| Part One Kaito, battle-damaged | scars to the elbow, then past it | Issues 2, 12 | Not a new sheet: an **expression and damage sheet** for Kaito, eight faces plus the arm at three scar stages | Not started |
+| Expression sheets, the six leads | eight faces each: neutral, grin, shout, blush, fear, grief, smug, gag face | Issue 1 on | Adult faces only; gag faces exaggerated, never chibi | Not started |
+| The Gullwake | the ship, four views plus a deck plan | Issue 2 | The tide-gap sprite (`games/tide-gap/art/gullwake.webp`) is the start; the dossier `backstory/world.md` has the deck-by-deck description | Done: `gullwake-sheet-v3.png`, deck plan `gullwake-deck-v2.png` (2026-11-08) |
+| Pinhold, Ashmarket, Gaptooth Reach | establishing shots for the manga (wide, dusk, night) | Issues 1, 6, 11 | The site already has one picture of each (`art/site/*-v1.png`); the manga needs an interior or two per island, listed in the generated file's spreads | Not started |
 
 ### Batch B: the first issue, all of it (about 120 panels; the proof of the pipeline)
 Issue 1 has 120 panels and 29 pages. Draw it completely, in order, cover first, from the art notes in `manga/issues/issue-01.js` with the sheets attached. This proves the style holds across a whole issue, settles the balloon lettering look, and gives Dylan one finished issue to judge before anything else is drawn. Count: 1 cover + 120 panels; with redos, budget 150.
@@ -57,3 +57,9 @@ In reading order, Issue 2 onward. At 100 to 120 panels an issue this is the long
 2. The daily image number for the budget line above.
 3. Whether Batch B (all of Issue 1) comes before Batch C (every cover), or the covers first so the shelf fills up sooner.
 4. Lettering: hand-lettered balloons baked into the pictures, or the reader's own balloons over art with no text (the reader already draws balloons; keeping text out of the pictures means a line can be fixed without redrawing). Recommended: pictures with no text.
+
+### Your words (2026-11-07)
+1. Colour or black-and-white: "Colour (Recommended)"
+2. Images per day: "15 a day (Recommended)"
+3. Issue 1 or covers first: "Issue 1 first (Recommended)"
+4. Lettering: "No text, reader balloons (Recommended)"

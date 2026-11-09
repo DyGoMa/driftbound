@@ -1,0 +1,28 @@
+Ship reference turnaround sheet for building a 3D model. Image 1 is this ship seen from above in a game: copy its battered wooden hull, the grey metal patches, the cream patched sails with one red patch, and its general shape, but NOT the beetle-like creature lying on its deck (leave it out). Image 2 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, background): do NOT copy anything else from it.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four views of the same ship in one row, same scale, evenly spaced, not overlapping, the waterline of every view on the same baseline, drawn as if the ship sits on calm, invisible water (the hull is cut off flat at the waterline, no water drawn):
+(1) BOW view, seen from directly in front.
+(2) LEFT SIDE view: a true 90-degree side view with the bow pointing to the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree side view with the bow pointing to the RIGHT edge of the image.
+(4) STERN view, seen from directly behind.
+No three-quarter angles anywhere. No people, no animals, no creatures anywhere on or near the ship.
+
+Ship: the Gullwake, a short, broad, battered wooden salvage barque, original design. Weathered brown plank hull with several grey riveted metal patch plates, a row of small round portholes along each side, worn paint, rope fenders. Three masts:
+- the fore mast at the front, medium height;
+- the main mast in the middle, tallest, with crosstrees near the top;
+- the third, aft mast, cut off in a storm: only a thick stump about two metres high stands above the deck, flat-topped and rough (it is called the Post).
+Sails furled and tied up on the yards: cream canvas with patches, one patch red. Rigging lines from the masts to the sides.
+At the bow: a heavy wooden towing post (a bitt) on the foredeck, grooved and worn, with a coil of thick rope beside it; no figurehead.
+On the foredeck: a round wooden tub with a folded canvas screen on a frame beside it.
+Midships: a square main hatch with a wooden cover, and a smaller fore hatch.
+At the stern: a raised quarterdeck with a ship's wheel, a canvas awning over a small table, a rack of cutlasses beside the wheel, and a wooden salvage crane with a hook on the stern rail.
+No name or lettering painted anywhere on the ship. No flags with symbols.
+- BOW view: the towing post at the centre front, the masts lined up one behind another.
+- LEFT SIDE and RIGHT SIDE views: both masts and the stump in profile, the crane at the stern end, the towing post at the bow end.
+- STERN view: the quarterdeck rail, the crane, the stern windows; the masts lined up behind.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Nothing copied from any real anime or game ship. Nothing Pokémon-like.

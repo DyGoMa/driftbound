@@ -1,0 +1,32 @@
+Edit Image 1, a four-view reference sheet of a wooden salvage ship, the Gullwake. Image 2 is the same ship's deck plan seen from above: use it ONLY to see where each mast and yard sits and which way the yards point.
+
+Change only these two things:
+
+1. The yards (the horizontal spars that hold the rolled-up sails). Make them the same in every view, sitting square across the ship at a right angle to the keel, level, ready for each sail to drop straight down:
+- Fore mast: ONE yard, about two-thirds of the way up the mast.
+- Main mast: TWO yards, a lower one about halfway up and an upper one just below the crosstrees.
+- The Post (the cut-off stump): no yard.
+Each yard carries its sail rolled up tight along it in cream canvas.
+- BOW view and STERN view: each yard is seen at its full width across the ship, horizontal, at the heights above.
+- LEFT SIDE view and RIGHT SIDE view: the yards point straight at us, so each is seen END-ON as a short stub with the rolled sail bundled around it, at the same heights. No yard is drawn as a long bar along the length of the ship in the side views.
+
+2. The red patch. One red patch on the rolled sail of the main mast's LOWER yard, at the yard's STARBOARD end (the ship's own right side), and nowhere else.
+- BOW view (we face the bow): the patch at the LEFT end of the main lower yard.
+- STERN view: the patch at the RIGHT end of the main lower yard.
+- RIGHT SIDE view (starboard nearest us): the patch shows on the near end of the main lower yard's bundle.
+- LEFT SIDE view: hidden (far end).
+
+Keep everything else identical to Image 1: the hull, planks, grey metal patches, portholes on the hull sides, rope fenders, rigging, the towing post at the bow, the tub and screen on the foredeck, the hatches, the Post stump, the quarterdeck with wheel, awning and table, the salvage crane, the stern windows and lantern; the size, spacing and place of all four views; all colours; the image size of 2048x1024.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four views of the same ship in one row, same scale, evenly spaced, not overlapping, the waterline of every view on the same baseline, drawn as if the ship sits on calm, invisible water (the hull is cut off flat at the waterline, no water drawn):
+(1) BOW view, seen from directly in front.
+(2) LEFT SIDE view: a true 90-degree side view with the bow pointing to the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree side view with the bow pointing to the RIGHT edge of the image.
+(4) STERN view, seen from directly behind.
+No three-quarter angles anywhere. No people, no animals, no creatures anywhere on or near the ship.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Nothing copied from any real anime or game ship. Nothing Pokémon-like.

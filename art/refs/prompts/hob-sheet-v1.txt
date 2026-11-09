@@ -1,0 +1,27 @@
+Character reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that character's face, hair, outfit or marks. Image 2 is a guide ONLY for how hands look from behind in the BACK view: one smooth back of the hand, fingers together, a short thumb behind the hand on the inner side; do NOT copy anything else from it. Draw a new character, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Character: Hob Tarrow, an old farmer. An ADULT man of 68 with an old man's face and an adult body. 172 cm, thin and wiry, with rounded, slightly stooped shoulders even while standing straight. Sun-weathered tan skin with deep lines. Kind brown eyes. White stubble on his jaw. Wispy white hair showing under the cap at the sides and back. Big work-worn hands with huge knuckles.
+
+Outfit: a flat cloth cap in faded brown tweed; a collarless faded blue work shirt with both sleeves rolled to just below the elbow, so both forearms are bare; a brown waistcoat with two square cloth patches on the front, buttoned; baggy brown work trousers; old scuffed brown boots.
+
+Bond mark: one small glowing moss-green mark on the outside of his LEFT forearm, halfway between wrist and elbow, on bare skin. It is the plain shape of a ploughshare blade: a single smooth, pointed wedge with one curved edge, a closed outline with no tail. It must not look like a letter or any written character. His RIGHT forearm is plain skin with no mark.
+- FRONT view: the mark on the forearm on the RIGHT of the image.
+- LEFT SIDE view: the mark clearly visible on the forearm nearest us.
+- RIGHT SIDE view: hidden (far arm).
+- BACK view: the mark on the forearm on the LEFT of the image.
+
+No weapon, nothing in his hands.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is the bond mark on his left forearm described above.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

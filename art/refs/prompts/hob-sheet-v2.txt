@@ -1,0 +1,29 @@
+Edit Image 1, a character reference turnaround sheet of Hob Tarrow, an ADULT man of 68 with an old man's face and an adult body.
+
+Change only his bond mark on his LEFT forearm. Remove the current large lime-green mark completely and paint plain skin where it was. Then add the new mark:
+- Colour: a muted, dark moss-green with only a soft faint glow, not bright lime.
+- Size: small, about as long as his thumb.
+- Shape: a simple ploughshare blade, a smooth pointed wedge with one curved edge, a closed outline with no tail. It must not look like a letter or any written character.
+- Place: on the OUTER side of his LEFT forearm (the side facing away from his body in the A-pose), exactly halfway between wrist and elbow, at the same height in every view.
+Because it sits on the outer side of the arm, each view shows it differently:
+- LEFT SIDE view: we look straight at the outer side of the forearm nearest us, so the whole small mark faces us, halfway between wrist and elbow.
+- FRONT view: the forearm on the RIGHT of the image; only a thin sliver of the mark shows at the arm's outer edge, at the same halfway height.
+- BACK view: the forearm on the LEFT of the image; only a thin sliver of the mark shows at the arm's outer edge, at the same halfway height.
+- RIGHT SIDE view: hidden (far arm).
+His RIGHT forearm stays plain skin with no mark.
+
+Keep everything else identical to Image 1: his face, white stubble, wispy white hair and tweed cap; the blue shirt with rolled sleeves, the patched brown waistcoat, brown trousers and boots; his hands; the pose, size, spacing and place of all four figures; all colours; the image size of 2048x1024.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same person in one row, same scale, evenly spaced, not overlapping, feet on the same baseline, head tops level:
+(1) FRONT view, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image, so their LEFT arm and LEFT side are nearest us.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image, so their RIGHT arm and RIGHT side are nearest us.
+(4) BACK view, seen from directly behind.
+In both side views the legs are in line: the far leg sits directly behind the near leg, so the far boot is mostly hidden. No three-quarter angles anywhere.
+Pose: A-POSE in every view: standing straight, feet about shoulder-width apart, arms straight and raised away from the body so each arm makes a 45-degree angle with the torso, hands out at hip height, a clear gap of grey background between each arm and the body. Neutral face, mouth closed.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems. The one exception is the bond mark on his left forearm described above.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

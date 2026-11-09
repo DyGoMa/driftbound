@@ -1,0 +1,11 @@
+Edit Image 1, a deck plan of a wooden salvage ship seen from directly above, bow at the top.
+
+Change only this one thing: remove every round porthole drawn on the deck planks inside the rail (the small round brass-rimmed windows along both sides of the deck). Paint plain deck planks where they were, matching the planks around them. Portholes belong on the hull sides, which cannot be seen from above, so there are none in this view.
+
+Keep everything else identical to Image 1: the hull outline, rails, grey metal patches, rope fenders; the towing post with chain and rope at the bow; the round tub and the canvas screen on its frame on the foredeck (keep the screen); the fore hatch, fore mast and yard; the main hatch, main mast and yard with the red patch at its right end; the Post stump; the quarterdeck with awning, table, wheel and cutlass rack; the salvage crane; the stern cabin roof and lantern; the crates and rope coils; all colours; the image size of 1024x2048.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Nothing copied from any real anime or game ship. Nothing Pokémon-like.

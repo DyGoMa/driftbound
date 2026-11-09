@@ -1,0 +1,26 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is THIS creature's own sheet: copy her body, size, head, snout, stub horns, legs, hooves and shaggy hair exactly. Image 2 shows how a Hollow is drawn in this series: use it ONLY as a guide for the armour plates, thick cables with clamps, the white core and the blank white eyes, NOT for the bear's shape. Draw Image 1's creature after she has been turned into a Hollow, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind.
+
+Creature: Thimble as a Hollow, a gentle plough-beast whose bond was cut out and who was rebuilt into a weapon. The same body as Image 1, with these changes only:
+- Her shaggy hair has gone dull and faded: a dead grey-green, matted, with no moss growing on it.
+- Her eyes are blank and white, with no pupils.
+- A round white glowing core is set INTO the middle of her chest, inside a steel frame, flush with the chest, not hanging.
+- Grey steel armour plates, bolted on: one on her brow between the stub horns, one over each shoulder, and a row along her spine. No plate over the snout.
+- Thick black cables with steel clamps run from the core over the chest to the shoulder plates.
+- The leather strap and brass bell are GONE: her neck is bare.
+- Tail: the same short tuft, dull grey-green.
+Per view: FRONT view, the core at the centre of the chest, cables running to both shoulder plates; LEFT SIDE and RIGHT SIDE views, only the edge of the core frame and a sliver of its glow at the front of the chest, the spine plates along the top; BACK view, the spine plates and the backs of the shoulder plates, no core visible, the tail tuft pointing straight at us so we see only its round end, nothing hanging between the back legs.
+She looks sad and wrong, a monster made out of a farm animal, not a cute beast.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.

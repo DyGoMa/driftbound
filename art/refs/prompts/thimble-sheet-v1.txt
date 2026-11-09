@@ -1,0 +1,21 @@
+Creature reference turnaround sheet for building a 3D model. Image 1 is a reference for ART STYLE ONLY (line weight, cel shading, colour treatment, layout, background): do NOT copy that creature's shape, colours, fin or features. Draw a new creature, described below.
+
+2000s TV-anime cel-shaded style: clean black ink lines, flat cel shading with one shadow tone, slightly muted early-2000s colours.
+
+Four full-body views of the same creature in one row, same scale, evenly spaced, not overlapping, all on the same baseline:
+(1) FRONT view, head-on, facing the viewer.
+(2) LEFT SIDE view: a true 90-degree profile facing the LEFT edge of the image.
+(3) RIGHT SIDE view: a true 90-degree profile facing the RIGHT edge of the image.
+(4) BACK view, seen from directly behind.
+In the side views the far legs sit directly behind the near legs and are mostly hidden. No three-quarter angles anywhere.
+Pose (neutral, for 3D modelling): standing square, legs straight and evenly spaced, head level facing ahead, mouth closed, tail held straight out behind.
+
+Creature: Thimble, an old, gentle farm plough-beast, original design. Huge and heavy: about as long as a cart-shed, low to the ground, with a broad barrel body. Long, shaggy, moss-green hair covers the body and hangs in a fringe over the upper legs; a few patches of real moss grow on her back. Four thick pillar legs like tree trunks, with wide flat hooves, dark grey. A broad, flat snout shaped like a spade, wide and blunt, dark grey-brown skin at the muzzle. Two short, worn stub horns on top of the head, smooth and pale. Small, patient brown eyes, half-lidded and kind. A short tail ending in a shaggy moss-green tuft, like a cow's tail. Around her neck, a worn leather strap holding one cracked brass bell under the chin.
+- FRONT view: the bell hangs at the centre under the chin; the crack shows on the bell.
+- LEFT SIDE and RIGHT SIDE views: the bell hangs under the chin at the front of the neck.
+- BACK view: the strap passes over the back of the neck; the tail tuft points straight at us, so we see its round end; nothing hangs down between the back legs.
+She is calm and old, a plain farm animal, not a monster: no armour, no plates, no cables, no glow.
+
+Plain flat mid-grey background. No floor, no cast shadows, no text, no labels, no numbers, no logos, no symbols, no emblems.
+
+Adults only, with adult faces and adult bodies. No nudity, no sexualized posing or framing. Nothing copied from any real anime or game. Nothing Pokémon-like.
