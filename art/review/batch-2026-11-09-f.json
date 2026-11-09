@@ -1,6 +1,6 @@
 {
   "title": "This run: three-quarter bodies, head turnarounds, first expression pages",
-  "summary": "Everything made on 2026-11-09 up to the ChatGPT limit: a three-quarter body sheet for every locked sheet, head turnarounds for the villains, walk-ons, partners and Hollows, and Krell's first two expression pages. Each passed Claude's review except Sela's mark and Tull's head (both explained on their cards). Tap any picture to see it full size.",
+  "summary": "Everything made on 2026-11-09 up to the ChatGPT limit. Dylan passed all of it on the cards except three redos waiting on the limit: Sela's mark (two edits), Quint's glasses (flat-topped) and Tull's side views.",
   "date": "2026-11-09",
   "picturesThisBatch": 56,
   "imagesToday": 56,
@@ -10,9 +10,9 @@
       "id": "sela-b34",
       "name": "Sela Vey",
       "file": "art/refs/sela-body34-v3.png",
-      "take": "take 3 (two edits of take 1); 3 pictures",
+      "take": "take 3 (two edits of take 1); 3 pictures. Dylan: \"Two more edits\" (remove, then add the spiral), after the limit",
       "size": "2048x1024",
-      "verdict": "failed",
+      "verdict": "redo",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -115,7 +115,7 @@
       "file": "art/refs/juno-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -207,7 +207,7 @@
       "file": "art/refs/silas-body34-v2.png",
       "take": "take 2 (edit of take 1: stray dot under the near eye in view 2 removed)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -299,7 +299,7 @@
       "file": "art/refs/bram-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -391,7 +391,7 @@
       "file": "art/refs/ione-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -483,7 +483,7 @@
       "file": "art/refs/vasch-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -574,7 +574,7 @@
       "file": "art/refs/hekka-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -666,7 +666,7 @@
       "file": "art/refs/silt-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -757,7 +757,7 @@
       "file": "art/refs/trooper-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -835,7 +835,7 @@
       "file": "art/refs/krell-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -915,7 +915,7 @@
       "file": "art/refs/nim-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1004,7 +1004,7 @@
       "file": "art/refs/quint-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1092,7 +1092,7 @@
       "file": "art/refs/fenn-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1172,7 +1172,7 @@
       "file": "art/refs/hob-body34-v2.png",
       "take": "take 2 (take 1 came out 1774x887; resized on this PC, no new drawing)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1261,7 +1261,7 @@
       "file": "art/refs/marta-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1339,7 +1339,7 @@
       "file": "art/refs/tull-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Faces and heads, all four views",
@@ -1418,7 +1418,7 @@
       "file": "art/refs/skarn-body34-v2.png",
       "take": "take 2 (edit: take 1 doubled the fin with a spike behind the head and came out 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1486,7 +1486,7 @@
       "file": "art/refs/ashka-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1554,7 +1554,7 @@
       "file": "art/refs/vesh-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1624,7 +1624,7 @@
       "file": "art/refs/hush-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1692,7 +1692,7 @@
       "file": "art/refs/grist-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1762,7 +1762,7 @@
       "file": "art/refs/prism-body34-v2.png",
       "take": "take 2 (take 1 resized from 1774x887, no new drawing)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1830,7 +1830,7 @@
       "file": "art/refs/hollow-bear-body34-v2.png",
       "take": "take 2 (take 1 resized from 1774x887, no new drawing)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1899,7 +1899,7 @@
       "file": "art/refs/hollow-hound-body34-v2.png",
       "take": "take 2 (edit: take 1 had a round tuft on the rump in the back views)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -1967,7 +1967,7 @@
       "file": "art/refs/thimble-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -2035,7 +2035,7 @@
       "file": "art/refs/thimble-hollow-body34-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -2102,7 +2102,7 @@
       "file": "art/refs/gullwake-body34-v2.png",
       "take": "take 2 (edit: take 1 had the red patch on the port end in the bow views)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Heads, all four views",
@@ -2172,7 +2172,7 @@
       "file": "art/refs/vasch-head-v2.png",
       "take": "take 2 (edit: profiles showed the ring flat; take 1 also 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2239,7 +2239,7 @@
       "file": "art/refs/hekka-head-v2.png",
       "take": "take 2 (edit: profiles showed the ring flat; take 1 also 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2307,7 +2307,7 @@
       "file": "art/refs/krell-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2374,7 +2374,7 @@
       "file": "art/refs/nim-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2443,7 +2443,7 @@
       "file": "art/refs/silt-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2507,9 +2507,9 @@
       "id": "quint-head",
       "name": "Lazare Quint, head turnaround",
       "file": "art/refs/quint-head-v1.png",
-      "take": "take 1",
+      "take": "take 1. Dylan: \"Redo: flat-topped\"",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "redo",
       "zooms": [
         {
           "label": "Front",
@@ -2577,7 +2577,7 @@
       "file": "art/refs/fenn-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2645,7 +2645,7 @@
       "file": "art/refs/hob-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2712,7 +2712,7 @@
       "file": "art/refs/marta-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2777,9 +2777,9 @@
       "id": "tull-head",
       "name": "Mr. Tull, head turnaround",
       "file": "art/refs/tull-head-v1.png",
-      "take": "take 1 (its edit is waiting on the ChatGPT limit)",
+      "take": "take 1. Dylan: \"Yes, run the fix\" (after the limit)",
       "size": "2048x1024",
-      "verdict": "failed",
+      "verdict": "redo",
       "zooms": [
         {
           "label": "Front",
@@ -2847,7 +2847,7 @@
       "file": "art/refs/skarn-head-v2.png",
       "take": "take 2 (take 1 resized from 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2913,7 +2913,7 @@
       "file": "art/refs/ashka-head-v2.png",
       "take": "take 2 (take 1 resized from 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -2979,7 +2979,7 @@
       "file": "art/refs/vesh-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3045,7 +3045,7 @@
       "file": "art/refs/hush-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3111,7 +3111,7 @@
       "file": "art/refs/grist-head-v2.png",
       "take": "take 2 (take 1 resized from 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3180,7 +3180,7 @@
       "file": "art/refs/prism-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3246,7 +3246,7 @@
       "file": "art/refs/hollow-bear-head-v1.png",
       "take": "take 1",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3312,7 +3312,7 @@
       "file": "art/refs/hollow-hound-head-v2.png",
       "take": "take 2 (take 1 resized from 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3378,7 +3378,7 @@
       "file": "art/refs/thimble-head-v2.png",
       "take": "take 2 (take 1 resized from 1774x887)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Front",
@@ -3444,7 +3444,7 @@
       "file": "art/refs/krell-faces-front-v1.png",
       "take": "take 1 (pages at 3/4 right and page 2 wait on the ChatGPT limit)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Top row: neutral, grin, shout, blush",
@@ -3483,7 +3483,7 @@
       "file": "art/refs/krell-faces-34l-v1.png",
       "take": "take 1 (pages at 3/4 right and page 2 wait on the ChatGPT limit)",
       "size": "2048x1024",
-      "verdict": "review",
+      "verdict": "passed",
       "zooms": [
         {
           "label": "Top row: neutral, grin, shout, blush",

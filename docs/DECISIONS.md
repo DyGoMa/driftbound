@@ -1050,3 +1050,14 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Krell page 1 front = image 55, page 1 3/4 left = image 56 (first tries, 2048x1024). Both passed Claude's review: the same eight expressions as Kaito's page 1, cell for cell (D9); one angle per page (3/4 left turned toward the left edge); ear cups both sides; adult face; the gag face's gloom lines and sweat drop are drawing marks, not text.
 - **ChatGPT limit reached (2026-11-09, about 08:40).** Krell's other four pages failed twice each in seconds with Codex's message "You've hit your usage limit ... try again at 12:05 PM" (exit 2, no file). The queue was stopped there. Not yet run: Krell `faces-34r`, `faces2-34l`, `faces2-front`, `faces2-34r`; Nim's six pages; Vasch's six; Hekka's six; Tull's head edit (`tull-head-v2`, prompt ready); Sela's mark (waiting for Dylan). Prompts for all of them are in `art/refs/prompts/`.
 - Count for this run: 56 Codex pictures (images 1-56), 0 timeouts, 8 limit errors; 8 resizes on this PC (no pictures).
+
+## Your words (2026-11-09, approval cards for this run)
+- Sela 3/4 body mark: "Two more edits (Recommended)" (fix 17: one edit removes the mark, a second adds the spiral on clean skin; after the limit resets)
+- Quint head glasses: "Redo: flat-topped (Recommended)"
+- Fenn parting: "Right, as drawn (Recommended)" → CAST/sheet notes say his RIGHT; old wording kept in the archive.
+- Tull head: "Yes, run the fix (Recommended)"
+- Crew and villain bodies: "Pass all 9 (Recommended)" → locked `juno-body34-v1`, `silas-body34-v2`, `bram-body34-v1`, `ione-body34-v1`, `vasch-body34-v1`, `hekka-body34-v1`, `silt-body34-v1`, `trooper-body34-v1`, `krell-body34-v1`.
+- Walk-on bodies: "Pass all 6 (Recommended)" → locked `nim-body34-v1`, `quint-body34-v1`, `fenn-body34-v1`, `hob-body34-v2`, `marta-body34-v1`, `tull-body34-v1`.
+- Creature and ship bodies: "Pass all 11 (Recommended)" → locked `skarn-body34-v2`, `ashka-body34-v1`, `vesh-body34-v1`, `hush-body34-v1`, `grist-body34-v1`, `prism-body34-v2`, `hollow-bear-body34-v2`, `hollow-hound-body34-v2`, `thimble-body34-v1`, `thimble-hollow-body34-v1`, `gullwake-body34-v2`.
+- Heads and Krell's pages: "Pass all 19 (Recommended)" → locked `vasch-head-v2`, `hekka-head-v2`, `krell-head-v1`, `nim-head-v1`, `silt-head-v1`, `hob-head-v1`, `marta-head-v1`, `fenn-head-v1`, `skarn-head-v2`, `ashka-head-v2`, `vesh-head-v1`, `hush-head-v1`, `grist-head-v2`, `prism-head-v1`, `hollow-bear-head-v1`, `hollow-hound-head-v2`, `thimble-head-v2`, `krell-faces-front-v1`, `krell-faces-34l-v1`.
+- Learned: Quint's oval glasses were a NOTE in Claude's review (D5: clean beats exact); Dylan asked for the sheet's shape → new checklist line D13.

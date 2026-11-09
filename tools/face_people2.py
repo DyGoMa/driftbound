@@ -38,7 +38,7 @@ HEAD_ONLY = {
   'fenn': dict(sheet='fenn-sheet-v1.png', who="Mister Fenn", pro="his", Pro="His",
     look="an ADULT man of 51 with a calm, unreadable face and fine lines at the eyes. Light brown skin, dark brown eyes, clean-shaven. Short silver hair, neatly combed, a little longer on top. A crisp white shirt collar, a small black bow tie, a black waistcoat with thin ember-red piping.",
     crop="cut off just below the collarbones",
-    sides=[("LEFT", "the side parting of his hair, on his LEFT side", False)], allow=""),
+    sides=[("RIGHT", "the side parting of his hair, on his RIGHT side (Dylan 2026-11-09)", False)], allow=""),
   'hob': dict(sheet='hob-sheet-v2.png', who="Hob Tarrow", pro="his", Pro="His",
     look="an ADULT man of 68 with an old man's sun-weathered tan face and deep lines, kind brown eyes, white stubble on his jaw, wispy white hair under a flat cloth cap of faded brown tweed. A collarless faded blue work shirt under a brown waistcoat.",
     crop="cut off just below the collarbones", sides=[], allow=""),
