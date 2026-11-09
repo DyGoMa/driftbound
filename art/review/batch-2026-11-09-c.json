@@ -1,0 +1,790 @@
+{
+  "title": "Redos: Pain eye and Silas shoulders",
+  "summary": "Five redos landed and passed Claude's review: the Pain face now shuts the LEFT eye in Kaito's, Juno's and Ione's 3/4-right views and Silas's 3/4-left view, and Silas's page-1 3/4-left view shows full shoulders. Six more redos (Silas head, Silas page-2 3/4 right, Juno blush braid, Sela/Bram pain 3/4 right, Ione pain 3/4 left) timed out three times each, so the ChatGPT picture limit looks reached; they wait for the next run.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 5,
+  "imagesToday": 71,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "r11",
+      "name": "Neutral",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r12",
+      "name": "Grin",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r13",
+      "name": "Shout",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r14",
+      "name": "Blush",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r15",
+      "name": "Fear",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r16",
+      "name": "Grief",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r17",
+      "name": "Smug",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r18",
+      "name": "Gag face",
+      "take": "Silas page 1 redone at 3/4 left: full shoulders and shirt (3/4 right still the old take; its redo timed out)",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D10 shoulders shown like the others at 3/4 left"
+      ]
+    },
+    {
+      "id": "r23",
+      "name": "Pain",
+      "take": "page 2, cell 3: every character, LEFT eye shut in every view. Redone: Kaito, Juno and Ione 3/4 right, Silas 3/4 left. Still the old take (redo timed out): Sela and Bram 3/4 right, Ione and Silas 3/4 left/right where marked",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [
+        "Old takes still shown for Sela 3/4 right, Bram 3/4 right, Ione 3/4 left, Silas 3/4 right: their redos timed out three times"
+      ],
+      "passed": [
+        "D11 left eye shut in every redone view",
+        "D9 same type of expression as Kaito"
+      ]
+    }
+  ]
+}

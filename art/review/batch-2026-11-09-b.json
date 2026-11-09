@@ -1,0 +1,3185 @@
+{
+  "title": "Batch C: the five leads beside Kaito",
+  "summary": "Each expression is one block: Kaito's three views on top as the guide, then Sela, Juno, Silas, Bram and Ione underneath, each in 3/4 left, front and 3/4 right. Head turnarounds first. Kaito's three-quarter body sheet is approved.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 37,
+  "imagesToday": 66,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "sela-head",
+      "name": "Sela, head turnaround",
+      "file": "art/refs/sela-head-v1.png",
+      "take": "sela-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "juno-head",
+      "name": "Juno, head turnaround",
+      "file": "art/refs/juno-head-v2.png",
+      "take": "juno-head-v2",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "silas-head",
+      "name": "Silas, head turnaround",
+      "file": "art/refs/silas-head-v2.png",
+      "take": "silas-head-v2",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "bram-head",
+      "name": "Bram, head turnaround",
+      "file": "art/refs/bram-head-v1.png",
+      "take": "bram-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "ione-head",
+      "name": "Ione, head turnaround",
+      "file": "art/refs/ione-head-v1.png",
+      "take": "ione-head-v1",
+      "size": "2048x1024",
+      "verdict": "review",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 one-sided details per view",
+        "3 adult face"
+      ]
+    },
+    {
+      "id": "kaito-head",
+      "name": "Kaito, head turnaround (approved, for comparison)",
+      "file": "art/refs/kaito-head-v3.png",
+      "take": "kaito-head-v3",
+      "size": "2048x1024",
+      "verdict": "passed",
+      "zooms": [],
+      "fails": [],
+      "notes": [],
+      "passed": []
+    },
+    {
+      "id": "x11",
+      "name": "Neutral",
+      "take": "page 1, cell 1: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x12",
+      "name": "Grin",
+      "take": "page 1, cell 2: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x13",
+      "name": "Shout",
+      "take": "page 1, cell 3: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x14",
+      "name": "Blush",
+      "take": "page 1, cell 4: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x15",
+      "name": "Fear",
+      "take": "page 1, cell 5: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x16",
+      "name": "Grief",
+      "take": "page 1, cell 6: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x17",
+      "name": "Smug",
+      "take": "page 1, cell 7: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x18",
+      "name": "Gag face",
+      "take": "page 1, cell 8: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x21",
+      "name": "Laugh",
+      "take": "page 2, cell 1: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x22",
+      "name": "Rage",
+      "take": "page 2, cell 2: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x23",
+      "name": "Pain",
+      "take": "page 2, cell 3: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x24",
+      "name": "Disgust",
+      "take": "page 2, cell 4: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x25",
+      "name": "Surprised",
+      "take": "page 2, cell 5: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x26",
+      "name": "Tender",
+      "take": "page 2, cell 6: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x27",
+      "name": "Exhausted",
+      "take": "page 2, cell 7: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    },
+    {
+      "id": "x28",
+      "name": "Asleep",
+      "take": "page 2, cell 8: one row per character, Kaito first",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 left",
+          "file": "art/refs/sela-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, front",
+          "file": "art/refs/sela-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Sela, 3/4 right",
+          "file": "art/refs/sela-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces2-34l-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces2-34r-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 left",
+          "file": "art/refs/bram-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, front",
+          "file": "art/refs/bram-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Bram, 3/4 right",
+          "file": "art/refs/bram-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 left",
+          "file": "art/refs/ione-faces2-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, front",
+          "file": "art/refs/ione-faces2-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Ione, 3/4 right",
+          "file": "art/refs/ione-faces2-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D9 each lead's row is the same type of expression as Kaito's row"
+      ]
+    }
+  ]
+}
