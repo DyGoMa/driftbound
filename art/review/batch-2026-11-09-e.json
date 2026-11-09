@@ -1,0 +1,675 @@
+{
+  "title": "Redos, part 3: Juno braid, Silas Laugh mark",
+  "summary": "Juno's braid now shows in all eight 3/4-right faces, as you asked; Silas's Laugh face at 3/4 right no longer has the mark under the near eye. Both passed Claude's review.",
+  "date": "2026-11-09",
+  "picturesThisBatch": 2,
+  "imagesToday": 79,
+  "dailyLimit": 15,
+  "items": [
+    {
+      "id": "e11",
+      "name": "Neutral",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e12",
+      "name": "Grin",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e13",
+      "name": "Shout",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e14",
+      "name": "Blush",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e15",
+      "name": "Fear",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e16",
+      "name": "Grief",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e17",
+      "name": "Smug",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e18",
+      "name": "Gag face",
+      "take": "Juno page 1: her braid now shows over her far (left) shoulder in all eight 3/4-right faces",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces-front-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces-34r-v2.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 left",
+          "file": "art/refs/juno-faces-34l-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, front",
+          "file": "art/refs/juno-faces-front-v1.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Juno, 3/4 right",
+          "file": "art/refs/juno-faces-34r-v3.png",
+          "box": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "D12 braid shows at the far 3/4 in every face",
+        "faces unchanged from the passed take"
+      ]
+    },
+    {
+      "id": "e21",
+      "name": "Laugh",
+      "take": "Silas Laugh at 3/4 right: the stray mark under the near eye is gone",
+      "verdict": "review",
+      "cells": [
+        {
+          "label": "Kaito (guide), 3/4 left",
+          "file": "art/refs/kaito-faces2-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), front",
+          "file": "art/refs/kaito-faces2-front-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Kaito (guide), 3/4 right",
+          "file": "art/refs/kaito-faces2-34r-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 left",
+          "file": "art/refs/silas-faces2-34l-v1.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, front",
+          "file": "art/refs/silas-faces2-front-v2.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        },
+        {
+          "label": "Silas, 3/4 right",
+          "file": "art/refs/silas-faces2-34r-v4.png",
+          "box": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "fails": [],
+      "notes": [],
+      "passed": [
+        "9 beauty mark only under his left eye, hidden at this angle"
+      ]
+    }
+  ]
+}
