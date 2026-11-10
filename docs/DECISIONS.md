@@ -1094,3 +1094,8 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Runner guide: "Yes, use the fixed page (Recommended)" → `tools/run-faces.sh` now gives `kaito-faces2-34r-v3.png` (Kaito's Pain eye fixed) as the 3/4-right page-2 guide, not `-v2`.
 - Learned: no checklist change; every answer matched Claude's review.
 - My mistake, fixed: batch g first went up with Claude-passed rows marked "Passed by Dylan" (the page tool's word for `passed`) before his answers; they should have shown "waiting". Republished after his answers, so the page is now correct.
+
+## Your words (2026-11-09, 11:10 PM, after-limit run started early)
+- Asked: the limit resets Nov 11, 10:01 PM, about 47 hours away; what to do. Answer: "Try one picture now".
+- Ran `krell-faces2-34r-v2` only (two tries, 23:14): both tries "You've hit your usage limit ... try again at Nov 11th, 2026 10:01 PM". No picture made, nothing on the review page changed.
+- Count: 0 pictures, 2 limit errors. Since the 2026-11-09 morning start: still 71. The whole queue (`tools/run-after-limit-2026-11-11.sh`) is still waiting.
