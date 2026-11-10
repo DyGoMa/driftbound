@@ -8,7 +8,7 @@ gen() { # id tag angle sheet head
   local name="$1-$2-$3-v1" guide
   case "$2-$3" in
     faces-34l) guide=kaito-faces-v2.png ;; faces-front) guide=kaito-faces-front-v2.png ;; faces-34r) guide=kaito-faces-34r-v2.png ;;
-    faces2-34l) guide=kaito-faces2-v1.png ;; faces2-front) guide=kaito-faces2-front-v1.png ;; faces2-34r) guide=kaito-faces2-34r-v2.png ;;
+    faces2-34l) guide=kaito-faces2-v1.png ;; faces2-front) guide=kaito-faces2-front-v1.png ;; faces2-34r) guide=kaito-faces2-34r-v3.png ;;
   esac
   [ -f "art/refs/$name.png" ] && { echo "$name: exists, skipped"; return; }
   for try in 1 2; do

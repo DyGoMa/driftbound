@@ -1084,3 +1084,13 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - **ChatGPT limit reached again (2026-11-09, 16:36).** Vasch's first two pages failed twice each in seconds: "You've hit your usage limit ... try again at Nov 11th, 2026 10:01 PM" (exit 2, no file). Queue stopped. Not yet run: Vasch's six pages, Hekka's six; the three queued redos `krell-faces2-34r-v2`, `nim-faces2-front-v2`, `nim-faces2-34l-v2` (prompts and .refs ready; `bash tools/run-redo-queue.sh krell-faces2-34r-v2 nim-faces2-front-v2 nim-faces2-34l-v2`).
 - Count for this run: 15 Codex pictures (images 57-71), 0 timeouts, 4 limit errors (2 pictures x 2 tries). Since the 2026-11-09 morning start: 71.
 - Review page rebuilt from `art/review/batch-2026-11-09-g.json` and published to the same link in two parts (versions 20-21): 158 new images, 296 old ones removed (159 files on the page now).
+
+## Your words (2026-11-09, approval cards for the after-limit run)
+- Tull head turnaround: "Passes (Recommended)" → locked `tull-head-v2`.
+- Quint head turnaround: "Passes (Recommended)" → locked `quint-head-v3`.
+- Sela 3/4 body: "Passes (Recommended)" → locked `sela-body34-v5`.
+- Krell expressions: "Pass the rest, fix Pain (Recommended)" → locked `krell-faces-34r-v1`, `krell-faces2-front-v1`, `krell-faces2-34l-v1`; `krell-faces2-34r-v2` runs after the limit.
+- Nim expressions: "Pass the rest, fix eyes (Recommended)" → locked `nim-faces-34l-v1`, `nim-faces-front-v1`, `nim-faces-34r-v1`, `nim-faces2-34r-v1`; `nim-faces2-front-v2` and `nim-faces2-34l-v2` run after the limit.
+- Runner guide: "Yes, use the fixed page (Recommended)" → `tools/run-faces.sh` now gives `kaito-faces2-34r-v3.png` (Kaito's Pain eye fixed) as the 3/4-right page-2 guide, not `-v2`.
+- Learned: no checklist change; every answer matched Claude's review.
+- My mistake, fixed: batch g first went up with Claude-passed rows marked "Passed by Dylan" (the page tool's word for `passed`) before his answers; they should have shown "waiting". Republished after his answers, so the page is now correct.
