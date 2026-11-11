@@ -1100,3 +1100,6 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Ran `krell-faces2-34r-v2` only (two tries, 23:14): both tries "You've hit your usage limit ... try again at Nov 11th, 2026 10:01 PM". No picture made, nothing on the review page changed.
 - Count: 0 pictures, 2 limit errors. Since the 2026-11-09 morning start: still 71. The whole queue (`tools/run-after-limit-2026-11-11.sh`) is still waiting.
 - Asked (2026-11-10): how to start the full run once the limit is confirmed. Answer: "Schedule it for Wed 10:15 PM (Recommended)" → one-time task `driftbound-after-limit-2026-11-11`, set for Wed Nov 11, 10:15 PM as the app shows it (the shell clock and the app clock differ by an hour, so the time was picked to land after the 10:01 PM reset on either clock).
+
+## Your words (2026-11-11, 11:20 AM)
+- "try now" → ran `krell-faces2-34r-v2` again (two tries, 11:22): both "You've hit your usage limit ... try again at 10:01 PM". No picture made. Count: 0 pictures, 2 limit errors; since the 2026-11-09 morning start: still 71. The scheduled run tonight is unchanged.
