@@ -1,0 +1,8 @@
+krell-sheet-v3.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of krell-sheet-v1.png. No new drawing.
+Pixel size checked 2026-11-12: krell-sheet-v1.png is 1774x887; krell-sheet-v3.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/krell-sheet-v1.txt
+
+From docs/DECISIONS.md:
+line 782: "- First subject: Warden Krell. His working sheet from Hot Hand (`games/hot-hand/art/raw/krell-sheet-v1.png`, never passed) copied to `art/refs/krell-sheet-v1.png` as take 1, with its prompt. Claude's check of take 1: 1774x887 (fix 16); back-view hands read as palms, thumbs on the outer edge (fix 22); arms at about 30 degrees, not 45."
+line 786: "- Krell size: "Resize on this PC (Recommended)" → take 3 = take 1 scaled to 2048x1024 on this PC (no Codex use) → locked sheet `art/refs/krell-sheet-v3.png`. Take 2 kept."

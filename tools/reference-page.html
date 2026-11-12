@@ -1,0 +1,69 @@
+<title>Driftbound Reference Sheets</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a model-sheet binder. Sticky group tabs, one block per subject, sheets on the same flat grey as the art. */
+:root {
+  --bg: #eceef0; --panel: #ffffff; --sheet: #8f9396; --ink: #16191c; --muted: #5a6168;
+  --line: #d3d7db; --accent: #2b6f8f; --accent-soft: #dbe9f0; --warn: #8a5a12;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121518; --panel: #1b1f23; --sheet: #6f7376; --ink: #e8eaec; --muted: #9aa2a9;
+  --line: #2c3237; --accent: #79b8d6; --accent-soft: #1c3340; --warn: #e0b064; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121518; --panel: #1b1f23; --sheet: #6f7376; --ink: #e8eaec; --muted: #9aa2a9;
+  --line: #2c3237; --accent: #79b8d6; --accent-soft: #1c3340; --warn: #e0b064; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--panel); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top { padding-block: 36px 20px; display: grid; gap: 14px; }
+h1 { font: 800 clamp(30px, 5vw, 48px)/1.05 var(--f-display); font-stretch: 78%; letter-spacing: .01em; margin: 0; text-transform: uppercase; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; max-width: 68ch; }
+.style { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: 14px 18px; display: grid; gap: 6px; max-width: 80ch; }
+.style .k { font: 600 11px/1 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.style blockquote { margin: 0; font-size: 17px; line-height: 1.5; }
+.style small { color: var(--muted); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--panel); border-block: 1px solid var(--line); }
+nav .wrap { display: flex; gap: 4px; overflow-x: auto; padding-block: 8px; }
+nav a { flex: none; color: var(--ink); text-decoration: none; font: 700 14px/1 var(--f-display); font-stretch: 85%; text-transform: uppercase; letter-spacing: .05em; padding: 8px 12px; border-radius: 4px; }
+nav a span { color: var(--muted); font-weight: 500; margin-left: 4px; }
+nav a:hover, nav a:focus-visible { background: var(--accent-soft); outline: none; }
+.grp { padding-block: 34px 8px; scroll-margin-top: 60px; display: grid; gap: 22px; }
+.ghead { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-bottom: 2px solid var(--ink); padding-bottom: 6px; }
+h2 { font: 800 30px/1 var(--f-display); font-stretch: 78%; text-transform: uppercase; margin: 0; letter-spacing: .02em; }
+.ghead p { margin: 0; color: var(--muted); }
+.subj { background: var(--panel); border: 1px solid var(--line); padding: 18px; display: grid; gap: 12px; scroll-margin-top: 60px; min-width: 0; }
+.subj header { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+h3 { font: 700 22px/1.1 var(--f-display); font-stretch: 88%; margin: 0; text-wrap: balance; }
+.tag { font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 3px 8px; border-radius: 999px; }
+.note { margin: 0; color: var(--muted); font-size: 13.5px; max-width: 95ch; }
+.gap { margin: 0; color: var(--warn); font-size: 13px; }
+h4 { margin: 8px 0 0; font: 700 15px/1.2 var(--f-display); font-stretch: 88%; text-transform: uppercase; letter-spacing: .05em; }
+h4 span { font: 400 13px var(--f-body); text-transform: none; letter-spacing: 0; color: var(--muted); margin-left: 6px; }
+.sheets, .faces { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); }
+.faces { grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.pic { margin: 0; display: grid; gap: 6px; min-width: 0; }
+.pic .im { display: block; background: var(--sheet); line-height: 0; }
+.pic img { width: 100%; height: auto; max-width: 100%; }
+.pic.tall img { max-height: 420px; width: auto; margin: 0 auto; display: block; }
+figcaption { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font-size: 12.5px; }
+.lab { font-weight: 600; }
+code { font: 12px var(--f-mono); color: var(--muted); overflow-wrap: anywhere; }
+.plink { margin-left: auto; color: var(--accent); font-weight: 600; text-decoration: none; }
+.plink:hover, .plink:focus-visible { text-decoration: underline; }
+.plink.none { color: var(--muted); font-weight: 400; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+footer { padding-block: 30px 40px; color: var(--muted); font-size: 13px; }
+@media (max-width: 520px) { .subj { padding: 12px; } }
+</style>
+<div class="wrap top">
+  <h1>Driftbound reference sheets</h1>
+  <p class="sub">Every locked picture in <code>art/refs/</code>, as listed in the locked-sheet table of <code>art/refs/STYLE.md</code>. {{COUNT}} pictures. Tap a picture for a bigger copy; "Prompt" opens the prompt or note used for that file.</p>
+  <div class="style"><span class="k">Style block, copy exactly</span><blockquote>{{STYLE}}</blockquote><small>Word for word from STYLE.md. The background and layout blocks are in the same file.</small></div>
+</div>
+<nav aria-label="Groups"><div class="wrap">{{NAV}}</div></nav>
+<main class="wrap">{{BODY}}</main>
+<footer class="wrap">Pictures are 1200-pixel-wide JPG copies; the full PNGs stay in art/refs/. Earlier takes are left out.</footer>

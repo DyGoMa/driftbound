@@ -1,0 +1,7 @@
+juno-faces2-34l-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of juno-faces2-34l-v1.png. No new drawing.
+Pixel size checked 2026-11-12: juno-faces2-34l-v1.png is 1774x887; juno-faces2-34l-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/juno-faces2-34l-v1.txt
+
+From docs/DECISIONS.md:
+line 933: "- Sela's six expression pages and Juno's six (images 37-48) passed Claude's review, checked as a montage per lead (`tools/montage.ps1`) and one full page each zoomed: every cell the same type of expression as Kaito's (D9); Sela's mark below her left collarbone shows in front and 3/4 left and is hidden at 3/4 right; Juno's braid on her left and feather mark on her right per angle; adult faces, gag faces not chibi. Four pages came out 1774x887 (FAIL 1) and were resized on this PC as v2: `juno-faces2-34l`, `juno-faces2-front`, `sela-faces-34r`, `sela-faces2-34r`. NOTE: both women's chests read prominent in the low necklines, as on their sheets."

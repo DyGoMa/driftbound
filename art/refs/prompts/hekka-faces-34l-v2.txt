@@ -1,0 +1,7 @@
+hekka-faces-34l-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of hekka-faces-34l-v1.png. No new drawing.
+Pixel size checked 2026-11-12: hekka-faces-34l-v1.png is 1774x887; hekka-faces-34l-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/hekka-faces-34l-v1.txt
+
+From docs/DECISIONS.md:
+line 1115: "- Hekka, six pages (images 10-15): front page 1, page 2 3/4-left and page 2 3/4-right passed. 3/4-left page 1 came out 1774x887 (FAIL 1) → take 2 = take 1 resized on this PC. 3/4-right page 1: Smug had amber eyes (FAIL 5) → take 2 (image 17, one automatic redo) made them blue-grey, passed. Front page 2: Exhausted had brown eyes (FAIL 5) → take 2 (image 18) blue-grey, passed. NOTES: the 3/4-left pages are cut a little higher (only the top of her ring shows); the STYLE.md jaw mark is not drawn on any face page (her prompts said no one-sided details). D11: Pain shuts her LEFT eye in all three views."

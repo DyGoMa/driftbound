@@ -70,6 +70,7 @@ Dylan (2026-11-08): "make an artifact with the pictures and zoomed in pictures o
 
 ## 7. Lock and file
 - A passed sheet: add a row to the `STYLE.md` locked-sheet table (file, "Passed by Dylan <date>", notes, Claude's calls). Earlier takes stay.
+- Update the references page (Dylan 2026-11-12: "Yes, add that step"): add the passed picture to `tools/reference-page.py`, rebuild and republish to the link in `art/refs/REFERENCE_PAGE.md` (how-to there). A picture made without its own prompt (a resize or hand-paint) gets an `art/refs/prompts/<name>.txt` note saying what was done, quoting the log line.
 - A passed manga picture: save as `manga/art/<key>.webp` (Dylan: "named by their key"), add `"<key>": "art/<key>.webp"` to `manga/art/manifest.js`, run `node tools/manga-smoke.js` and paste its result.
 - Update the status column in `IMAGE_REQUESTS.md`, commit with a clear message, and push nothing unless Dylan says (the site is live).
 

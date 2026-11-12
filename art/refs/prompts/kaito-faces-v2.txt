@@ -1,0 +1,7 @@
+kaito-faces-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of kaito-faces-v1.png. No new drawing.
+Pixel size checked 2026-11-12: kaito-faces-v1.png is 1774x887; kaito-faces-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/kaito-faces-v1.txt
+
+From docs/DECISIONS.md:
+line 893: "- Kaito faces take 1 (image 17): 1774x887 (FAIL 1) → take 2 = take 1 resized on this PC. Otherwise passed: one 3/4-left angle in all eight; scar on his nearer (left) eyebrow, streak at the far front hairline; eight distinct adult expressions; gag face exaggerated but adult; the blush hatching and gag-face gloom lines are drawing marks, not text."

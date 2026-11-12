@@ -1,0 +1,8 @@
+gullwake-sheet-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of gullwake-sheet-v1.png. No new drawing.
+Pixel size checked 2026-11-12: gullwake-sheet-v1.png is 1774x887; gullwake-sheet-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/gullwake-sheet-v1.txt
+
+From docs/DECISIONS.md:
+line 854: "- Gullwake sheet take 1 (image 11): 1774x887 (FAIL 1). Otherwise passed: four true views, bow left in the left-side view and right in the right-side view (8); fore mast, taller main mast with crosstrees, the Post stump at the quarterdeck; towing post and rope at the bow; tub and canvas screen on the foredeck; hatches; quarterdeck with wheel, awning and table; salvage crane with hook at the stern; stern windows and lantern; cream sails with a red patch; no lettering (2); no creatures (7). NOTE: the red patch sits on a different yard in the bow view than in the side views."
+line 855: "- Gullwake sheet take 2 = take 1 resized on this PC to 2048x1024 (skill step 4: size-only fix, not a picture)."

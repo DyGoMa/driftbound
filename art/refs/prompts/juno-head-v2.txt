@@ -1,0 +1,7 @@
+juno-head-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of juno-head-v1.png. No new drawing.
+Pixel size checked 2026-11-12: juno-head-v1.png is 1774x887; juno-head-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/juno-head-v1.txt
+
+From docs/DECISIONS.md:
+line 925: "- Juno head (image 31): 1774x887 (FAIL 1) → v2 resized. Passed otherwise: braid over her LEFT shoulder (right of the picture in front, near in 3/4 left and profile left, hidden on the right); feather mark below her RIGHT collarbone (left of the picture in front, near on the right, hidden on the left); freckles, green eyes, fur collar. NOTE: chest prominent in the side views, as on her sheet."

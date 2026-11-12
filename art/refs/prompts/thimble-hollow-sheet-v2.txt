@@ -1,0 +1,7 @@
+thimble-hollow-sheet-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of thimble-hollow-sheet-v1.png. No new drawing.
+Pixel size checked 2026-11-12: thimble-hollow-sheet-v1.png is 1774x887; thimble-hollow-sheet-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/thimble-hollow-sheet-v1.txt
+
+From docs/DECISIONS.md:
+line 857: "- Hollow Thimble take 1 (image 12): 1774x887 (FAIL 1); take 2 = take 1 resized on this PC to 2048x1024. Otherwise passed: four true views (8); same body as Thimble take 1; blank white eyes; core set into the chest in a steel frame, a sliver of glow at the chest front in both side views, none in back (9, 10); brow plate between the horns, shoulder plates, a row of spine plates; cables with clamps from the core to the shoulder plates; bell and strap gone (7); no text (2). NOTES: hair reads dull grey-beige more than grey-green; less menace and finer lines than the bear (18: she reads sad, which the prompt asked for); back-view tail hangs over the rump as on Thimble."

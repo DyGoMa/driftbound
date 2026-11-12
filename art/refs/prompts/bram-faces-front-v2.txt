@@ -1,0 +1,7 @@
+bram-faces-front-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of bram-faces-front-v1.png. No new drawing.
+Pixel size checked 2026-11-12: bram-faces-front-v1.png is 1774x887; bram-faces-front-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/bram-faces-front-v1.txt
+
+From docs/DECISIONS.md:
+line 934: "- Bram's, Ione's and Silas's six expression pages each (images 49-66, run across midnight into 2026-11-09; no timeouts) passed Claude's review by montage: every cell matches Kaito's expression type (D9); Bram's anvil and iron patch on his left and towel on his right per angle; Ione's lock and neck crystals on her left (hidden or a sliver at 3/4 right); Silas's neck marks and one beauty mark on his left. Eight came out 1774x887 (FAIL 1) and were resized on this PC as v2: `bram-faces-front`, `bram-faces2-34r`, `ione-faces-34l`, `ione-faces-front`, `ione-faces2-34r`, `silas-faces-34r`, `silas-faces2-34r`, `silas-faces2-front`."

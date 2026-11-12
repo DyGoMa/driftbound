@@ -1,0 +1,7 @@
+kaito-arm-v2.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a resize on this PC of kaito-arm-v1.png. No new drawing.
+Pixel size checked 2026-11-12: kaito-arm-v1.png is 1774x887; kaito-arm-v2.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/kaito-arm-v1.txt
+
+From docs/DECISIONS.md:
+line 896: "- Kaito arm take 1 retry (image 19): 1774x887 (FAIL 1) → take 2 = resized on this PC. Otherwise passed: three waist-up front views; scars on the right arm only, left arm clean; (1) hand to elbow and stop, (2) up the upper arm to just below the shoulder, (3) over the shoulder onto the right side of the chest, stopping before the middle; glowing yellow fork on the right hand; eyebrow scar on his left (right of the picture); scars are branching shapes, no text."

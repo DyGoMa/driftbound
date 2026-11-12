@@ -1,0 +1,8 @@
+kaito-sheet-v6.png: no prompt of its own (no new Codex picture was made for it).
+What it is: a hand-paint of kaito-sheet-v4.png: a scar line painted through his left eyebrow in the left-side view, and also in the front view (as the log line says). No Codex use.
+Pixel size checked 2026-11-12: kaito-sheet-v4.png is 2048x1024; kaito-sheet-v6.png is 2048x1024.
+Prompt of the take it came from: art/refs/prompts/kaito-sheet-v4.txt
+
+From docs/DECISIONS.md:
+line 97: "- Kaito scar: "Paint it in by hand" → take 6 = take 4 with a scar line painted through his left eyebrow in the left-side view, and (Claude's call) also in the front view, where take 4's scar was only a faint line above the brow."
+line 110: "- Images used in this step: 9 Codex images (Kaito takes 1–5 and 7, Skarn takes 1–3); Kaito takes 6 and 8 were painted by hand (no Codex use)."
