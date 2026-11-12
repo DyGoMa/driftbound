@@ -1147,3 +1147,10 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Sheet and head too: "No mark, so skip this"
 - Result: no pictures made (0 Codex images, 0 timeouts). Her six expression pages stay locked as passed. STYLE.md's two Hekka rows now say no jaw mark; the old wording moved word for word to a new archive at the end of STYLE.md. IMAGE_REQUESTS.md status line added. No batch file or review-page change (nothing new to show).
 - Learned: no checklist change (no picture was judged). Claude's note: a "mark" written into STYLE.md from a sheet should be checked as a design choice with Dylan, not copied from a stray line.
+
+## Your words (2026-11-12, next chat's job)
+- Next picture chat: "kaitos battle-damage sheet. we should also make an artifact with all of the references for the characters and things we have. i also want to make sure we have the prompts for the characters/images saved somewhere as well as the art style saved somewhere."
+- Claude checked: Kaito's scar stages are already locked (`kaito-arm-v3.png`, passed 2026-11-08). The style block is saved word for word in `art/refs/STYLE.md`. Of 268 pictures in `art/refs/`, 245 have a prompt file in `art/refs/prompts/`; 23 have none (mostly edits, resizes and hand-paints).
+- Kaito sheet: "Show me the scar sheet first" → shown `kaito-arm-v3.png` → "No, this sheet is enough". No Kaito pictures; the IMAGE_REQUESTS row is marked done.
+- References page: "Every locked picture (Recommended)": one page grouped by character, locked pictures only.
+- Missing prompts: "Fill the gaps from the log (Recommended)": a short note file for each picture with no prompt, saying what was done, from this log. No pictures.
