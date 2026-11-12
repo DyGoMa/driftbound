@@ -49,7 +49,7 @@
    "file": "art/refs/nim-faces2-front-v5.png",
    "take": "take 5 (edit of take 4, 2026-11-12, first try)",
    "size": "2048x1024",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Top row eyes",
@@ -103,7 +103,7 @@
    "file": "art/refs/nim-faces2-34l-v4.png",
    "take": "take 4 (fresh page, not an edit, 2026-11-12, first try)",
    "size": "2048x1024",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Top row eyes",

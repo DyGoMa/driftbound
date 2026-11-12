@@ -1132,3 +1132,9 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Nim 3/4-left page 2 take 4 (`nim-faces2-34l-v4`, fresh page; image 22 since the 2026-11-11 reset; first try, 00:23) passed Claude's review: 2048x1024 (1); every open eye cool grey, BOTH the near and the far eye, zoomed cell by cell, including Surprise and Tired where takes 1-3 had brown (5); the same eight as Kaito's `kaito-faces2-v1` cell for cell, turned toward the left edge like his (D9); Pain shuts his LEFT eye (the near eye, beside the ear) (D11); pinned LEFT sleeve with its button on the near side, chalk behind his RIGHT ear hidden on the far side, all eight (9); framing matches his locked page 1 `nim-faces-34l-v1` (D10); reads 30 (6); no text (2). NOTES: in Rage and Tender the grey leans slightly blue; faint forehead lines, as on every Nim page.
 - Count this budget: 2 Codex pictures (images 21-22 since the 2026-11-11 reset), 0 timeouts, 0 limit errors, 1 instant refusal (5 refs) not counted. No automatic redos needed.
 - Review page: Nim's two items in `art/review/batch-2026-11-11-a.json` updated to the new takes and published to the same link (version 26).
+
+## Your words (2026-11-12, approval cards for the Nim pages)
+- Nim front page 2 take 5: "Passes (Recommended)" → locked `nim-faces2-front-v5`.
+- Nim 3/4-left page 2 take 4: "Passes (Recommended)" → locked `nim-faces2-34l-v4`. Nim's six expression pages are done.
+- Learned: no checklist change; both answers matched Claude's review. Earlier takes kept.
+- Review page republished with both Nim pages marked passed (version 27).
