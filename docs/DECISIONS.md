@@ -1138,3 +1138,4 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Nim 3/4-left page 2 take 4: "Passes (Recommended)" → locked `nim-faces2-34l-v4`. Nim's six expression pages are done.
 - Learned: no checklist change; both answers matched Claude's review. Earlier takes kept.
 - Review page republished with both Nim pages marked passed (version 27).
+- Dylan after looking at the review page: "eyes look good" (Nim front v5 and 3/4-left v4 eye colour confirmed).
