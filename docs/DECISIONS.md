@@ -1115,3 +1115,11 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Hekka, six pages (images 10-15): front page 1, page 2 3/4-left and page 2 3/4-right passed. 3/4-left page 1 came out 1774x887 (FAIL 1) → take 2 = take 1 resized on this PC. 3/4-right page 1: Smug had amber eyes (FAIL 5) → take 2 (image 17, one automatic redo) made them blue-grey, passed. Front page 2: Exhausted had brown eyes (FAIL 5) → take 2 (image 18) blue-grey, passed. NOTES: the 3/4-left pages are cut a little higher (only the top of her ring shows); the STYLE.md jaw mark is not drawn on any face page (her prompts said no one-sided details). D11: Pain shuts her LEFT eye in all three views.
 - Count for this run: 19 Codex pictures (images 1-19 of 2026-11-11), 4 timeouts (2 pictures x 2 tries), 0 limit errors. Earlier on 2026-11-11: 0 pictures, 2 limit errors.
 - Review page rebuilt from `art/review/batch-2026-11-11-a.json` and published to the same link in two parts (versions 23-24): 154 new images, 158 batch-g images removed.
+
+## Your words (2026-11-12, approval cards for the 2026-11-11 batch)
+- Krell Pain (3/4-right page 2): "Passes (Recommended)" → locked `krell-faces2-34r-v2`. Krell's six pages are done.
+- Nim front page 2: "One more edit tomorrow" → best take `nim-faces2-front-v4` stays open; one more edit (Anger, Pain, Disgust to grey) runs on the next picture budget.
+- Nim 3/4-left page 2: "Retry the same fix (Recommended)" → `nim-faces2-34l-v3` rerun with the same prompt (your yes for one picture).
+- Vasch expressions: "All pass (Recommended)" → locked all six v1 pages; panel lines and the Fear-eye ring left as they are.
+- Hekka expressions: "Pass, add jaw mark later" → locked `hekka-faces-front-v1`, `hekka-faces-34l-v2`, `hekka-faces-34r-v2`, `hekka-faces2-front-v2`, `hekka-faces2-34l-v1`, `hekka-faces2-34r-v1`; her small left-jaw mark is to be added to the face pages later.
+- Learned: no checklist change; every answer matched Claude's review. New point for later: STYLE.md lists Hekka's jaw mark but her face-page prompts said "no one-sided details"; the face prompts should name it next time.

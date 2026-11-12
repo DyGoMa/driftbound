@@ -12,7 +12,7 @@
    "file": "art/refs/krell-faces2-34r-v2.png",
    "take": "take 2 (edit of take 1; your \"Pass the rest, fix Pain\")",
    "size": "2048x1024",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Pain cell",
@@ -49,7 +49,7 @@
    "file": "art/refs/nim-faces2-front-v4.png",
    "take": "take 4 (best of 3 automatic redos; take 5 timed out twice)",
    "size": "2048x1024",
-   "verdict": "failed",
+   "verdict": "redo",
    "zooms": [
     {
      "label": "Top row eyes",
@@ -88,7 +88,7 @@
    "file": "art/refs/nim-faces2-34l-v2.png",
    "take": "take 2 (take 3 timed out twice)",
    "size": "2048x1024",
-   "verdict": "failed",
+   "verdict": "redo",
    "zooms": [
     {
      "label": "Surprise eyes",
@@ -135,7 +135,7 @@
    "id": "y11",
    "name": "Neutral",
    "take": "page 1, cell 1: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "Vasch: his rest face has a tiny closed smile (his sheet), so at page size it sits near Smug; zoomed, Smug has lowered lids and one brow up."
@@ -240,7 +240,7 @@
    "id": "y12",
    "name": "Grin",
    "take": "page 1, cell 2: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -343,7 +343,7 @@
    "id": "y13",
    "name": "Shout",
    "take": "page 1, cell 3: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -446,7 +446,7 @@
    "id": "y14",
    "name": "Blush",
    "take": "page 1, cell 4: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -549,7 +549,7 @@
    "id": "y15",
    "name": "Fear",
    "take": "page 1, cell 5: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "Vasch 3/4 right: a faint warm-brown ring round the tiny pupils (Kaito's amber leaking in); about 6 px, kept as a NOTE."
@@ -654,7 +654,7 @@
    "id": "y16",
    "name": "Grief",
    "take": "page 1, cell 6: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -757,7 +757,7 @@
    "id": "y17",
    "name": "Smug",
    "take": "page 1, cell 7: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "Hekka 3/4 right: take 1 had amber eyes here; take 2 (one automatic redo) made them blue-grey."
@@ -862,7 +862,7 @@
    "id": "y18",
    "name": "Gag face",
    "take": "page 1, cell 8: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "The gloom lines are the same drawing marks as on Kaito's passed page, not text."
@@ -967,7 +967,7 @@
    "id": "y21",
    "name": "Laugh",
    "take": "page 2, cell 1: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -1070,7 +1070,7 @@
    "id": "y22",
    "name": "Rage",
    "take": "page 2, cell 2: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -1173,7 +1173,7 @@
    "id": "y23",
    "name": "Pain",
    "take": "page 2, cell 3: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "D11 checked zoomed: Vasch and Hekka both shut their own LEFT eye in all three views."
@@ -1279,7 +1279,7 @@
    "id": "y24",
    "name": "Disgust",
    "take": "page 2, cell 4: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -1382,7 +1382,7 @@
    "id": "y25",
    "name": "Surprised",
    "take": "page 2, cell 5: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -1485,7 +1485,7 @@
    "id": "y26",
    "name": "Tender",
    "take": "page 2, cell 6: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
@@ -1588,7 +1588,7 @@
    "id": "y27",
    "name": "Exhausted",
    "take": "page 2, cell 7: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [
     "Hekka front: take 1 had brown eyes here; take 2 (one automatic redo) made them blue-grey."
@@ -1693,7 +1693,7 @@
    "id": "y28",
    "name": "Asleep",
    "take": "page 2, cell 8: Kaito's three views, then Vasch's, then Hekka's",
-   "verdict": "review",
+   "verdict": "passed",
    "fails": [],
    "notes": [],
    "passed": [
