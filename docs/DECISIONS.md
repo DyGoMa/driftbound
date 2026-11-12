@@ -1103,3 +1103,15 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 
 ## Your words (2026-11-11, 11:20 AM)
 - "try now" → ran `krell-faces2-34r-v2` again (two tries, 11:22): both "You've hit your usage limit ... try again at 10:01 PM". No picture made. Count: 0 pictures, 2 limit errors; since the 2026-11-09 morning start: still 71. The scheduled run tonight is unchanged.
+
+## Your words (2026-11-11, 10:51 PM)
+- "try now" → `krell-faces2-34r-v2` made at 22:53 (the limit had reset). The scheduled task `driftbound-after-limit-2026-11-11` was then turned off so the run would not happen twice, and `tools/run-after-limit-2026-11-11.sh` ran here.
+
+## After-limit run, 2026-11-11 night (review: Claude, plus two helper reviews for Vasch and Hekka)
+- Krell 3/4-right page 2 take 2 (image 1 of today): passed review. Pain now shuts his LEFT (far) eye and the near RIGHT eye is open, matching his front page (D11); the other seven cells match take 1.
+- Nim front page 2 take 2 (image 2): FAIL 5/16. Surprise and Tired turned grey, but Anger, Pain, Disgust and Smile turned from grey to brown. Redo 1 = take 3 (edit of take 1, image 16): changed nothing and came out 1774x887, FAIL. Redo 2 = take 4 (edit of take 2, image 19): Surprise, Smile and Tired grey; Anger, Pain and Disgust warm grey-brown, FAIL. Redo 3 = take 5: timed out twice (00:06), stopped (fix 26). Best take: `nim-faces2-front-v4`, open FAIL.
+- Nim 3/4-left page 2 take 2 (image 3): FAIL 5/16. Anger and the far eyes turned grey, but in Surprise and Tired the NEARER eye is still brown. Redo 1 = take 3: timed out twice (23:51), stopped (fix 26). Best take: `nim-faces2-34l-v2`, open FAIL.
+- Vasch, six pages (images 4-9): all passed. NOTES: front page 1 has thin, lighter panel lines between cells (no checklist line covers it); 3/4-right Fear has a faint warm-brown ring round his tiny pupils (about 6 px); Neutral (his tiny closed smile) sits near Smug at page size. D11: Pain shuts his LEFT eye in all three views.
+- Hekka, six pages (images 10-15): front page 1, page 2 3/4-left and page 2 3/4-right passed. 3/4-left page 1 came out 1774x887 (FAIL 1) → take 2 = take 1 resized on this PC. 3/4-right page 1: Smug had amber eyes (FAIL 5) → take 2 (image 17, one automatic redo) made them blue-grey, passed. Front page 2: Exhausted had brown eyes (FAIL 5) → take 2 (image 18) blue-grey, passed. NOTES: the 3/4-left pages are cut a little higher (only the top of her ring shows); the STYLE.md jaw mark is not drawn on any face page (her prompts said no one-sided details). D11: Pain shuts her LEFT eye in all three views.
+- Count for this run: 19 Codex pictures (images 1-19 of 2026-11-11), 4 timeouts (2 pictures x 2 tries), 0 limit errors. Earlier on 2026-11-11: 0 pictures, 2 limit errors.
+- Review page rebuilt from `art/review/batch-2026-11-11-a.json` and published to the same link in two parts (versions 23-24): 154 new images, 158 batch-g images removed.

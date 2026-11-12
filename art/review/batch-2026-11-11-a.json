@@ -1,0 +1,1796 @@
+{
+ "title": "After the reset: Krell and Nim fixes, Vasch and Hekka's expressions",
+ "summary": "The limit reset at 10:01 PM on Nov 11. Krell's Pain fix and both Nim eye fixes ran, then Vasch's and Hekka's six expression pages each, shown beside Kaito's. Vasch passed review first time; Hekka needed one automatic redo on two cells (eye colour) and one resize; Nim's eye-colour edits were the stubborn ones.",
+ "date": "2026-11-11",
+ "picturesThisBatch": 19,
+ "imagesToday": 19,
+ "dailyLimit": 15,
+ "items": [
+  {
+   "id": "krell-pain34r",
+   "name": "Krell, 3/4-right page 2 (Pain eye fix)",
+   "file": "art/refs/krell-faces2-34r-v2.png",
+   "take": "take 2 (edit of take 1; your \"Pass the rest, fix Pain\")",
+   "size": "2048x1024",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Pain cell",
+     "why": "His RIGHT (near) eye open, LEFT (far, by the nose) shut, as on his front page",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Rage cell (unchanged)",
+     "why": "Check nothing else moved",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D11 same eye (his LEFT) shut as the front page",
+    "17 the other seven portraits unchanged from take 1",
+    "1 size 2048x1024"
+   ]
+  },
+  {
+   "id": "nim-front2",
+   "name": "Nim, front page 2 (grey eyes fix)",
+   "file": "art/refs/nim-faces2-front-v4.png",
+   "take": "take 4 (best of 3 automatic redos; take 5 timed out twice)",
+   "size": "2048x1024",
+   "verdict": "failed",
+   "zooms": [
+    {
+     "label": "Top row eyes",
+     "why": "Anger, Pain, Disgust irises: grey, not brown",
+     "box": [
+      0.25,
+      0.12,
+      0.75,
+      0.15
+     ]
+    },
+    {
+     "label": "Bottom row eyes",
+     "why": "Surprise, Smile, Tired irises: grey",
+     "box": [
+      0.0,
+      0.62,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "fails": [
+    "5/16 Anger, Pain and Disgust irises read warm grey-brown, not his cool grey (Surprise, Smile, Tired are right)"
+   ],
+   "notes": [
+    "Take 2 made Surprise and Tired grey but turned the four top-row grey eyes brown; take 3 changed nothing and came out 1774x887; take 4 got halfway; take 5 timed out twice."
+   ],
+   "passed": [
+    "17 expressions unchanged"
+   ]
+  },
+  {
+   "id": "nim-34l2",
+   "name": "Nim, 3/4-left page 2 (grey eyes fix)",
+   "file": "art/refs/nim-faces2-34l-v2.png",
+   "take": "take 2 (take 3 timed out twice)",
+   "size": "2048x1024",
+   "verdict": "failed",
+   "zooms": [
+    {
+     "label": "Surprise eyes",
+     "why": "Both eyes grey, the near one too",
+     "box": [
+      0.05,
+      0.62,
+      0.17,
+      0.12
+     ]
+    },
+    {
+     "label": "Tired eyes",
+     "why": "Both eyes grey, the near one too",
+     "box": [
+      0.55,
+      0.62,
+      0.17,
+      0.12
+     ]
+    },
+    {
+     "label": "Top row eyes",
+     "why": "Still grey",
+     "box": [
+      0.25,
+      0.12,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "fails": [
+    "5/16 Surprise and Tired: the far eye is grey but the NEARER eye is still brown"
+   ],
+   "notes": [
+    "Take 2 fixed Anger and the far eyes; the redo for the near eyes timed out twice."
+   ],
+   "passed": [
+    "17 expressions unchanged"
+   ]
+  },
+  {
+   "id": "y11",
+   "name": "Neutral",
+   "take": "page 1, cell 1: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "Vasch: his rest face has a tiny closed smile (his sheet), so at page size it sits near Smug; zoomed, Smug has lowered lids and one brow up."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y12",
+   "name": "Grin",
+   "take": "page 1, cell 2: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y13",
+   "name": "Shout",
+   "take": "page 1, cell 3: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y14",
+   "name": "Blush",
+   "take": "page 1, cell 4: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y15",
+   "name": "Fear",
+   "take": "page 1, cell 5: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "Vasch 3/4 right: a faint warm-brown ring round the tiny pupils (Kaito's amber leaking in); about 6 px, kept as a NOTE."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y16",
+   "name": "Grief",
+   "take": "page 1, cell 6: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y17",
+   "name": "Smug",
+   "take": "page 1, cell 7: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "Hekka 3/4 right: take 1 had amber eyes here; take 2 (one automatic redo) made them blue-grey."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y18",
+   "name": "Gag face",
+   "take": "page 1, cell 8: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "The gloom lines are the same drawing marks as on Kaito's passed page, not text."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces-front-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces-34l-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces-34r-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y21",
+   "name": "Laugh",
+   "take": "page 2, cell 1: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y22",
+   "name": "Rage",
+   "take": "page 2, cell 2: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y23",
+   "name": "Pain",
+   "take": "page 2, cell 3: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "D11 checked zoomed: Vasch and Hekka both shut their own LEFT eye in all three views."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row",
+    "D11 same eye shut in every view"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y24",
+   "name": "Disgust",
+   "take": "page 2, cell 4: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.0,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y25",
+   "name": "Surprised",
+   "take": "page 2, cell 5: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.0,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y26",
+   "name": "Tender",
+   "take": "page 2, cell 6: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.25,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y27",
+   "name": "Exhausted",
+   "take": "page 2, cell 7: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [
+    "Hekka front: take 1 had brown eyes here; take 2 (one automatic redo) made them blue-grey."
+   ],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.5,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "y28",
+   "name": "Asleep",
+   "take": "page 2, cell 8: Kaito's three views, then Vasch's, then Hekka's",
+   "verdict": "review",
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "D9 same type of expression as Kaito's row"
+   ],
+   "cells": [
+    {
+     "label": "Kaito (guide), 3/4 left",
+     "file": "art/refs/kaito-faces2-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), front",
+     "file": "art/refs/kaito-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Kaito (guide), 3/4 right",
+     "file": "art/refs/kaito-faces2-34r-v3.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 left",
+     "file": "art/refs/vasch-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, front",
+     "file": "art/refs/vasch-faces2-front-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Vasch, 3/4 right",
+     "file": "art/refs/vasch-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 left",
+     "file": "art/refs/hekka-faces2-34l-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, front",
+     "file": "art/refs/hekka-faces2-front-v2.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    },
+    {
+     "label": "Hekka, 3/4 right",
+     "file": "art/refs/hekka-faces2-34r-v1.png",
+     "box": [
+      0.75,
+      0.5,
+      0.25,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}
