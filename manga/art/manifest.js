@@ -6,4 +6,6 @@
 // Panel is its place in that page's panels list, counting from 1, which is reading order.
 // An entry shows the image inside the panel shape and hides that panel's dots, number and art note. Balloons stay on top.
 // If a picture fails to load, the placeholder comes back. Example: "i01-p03-2": "art/i01/p03-2.webp"
-window.DRIFT_MANGA_ART = {};
+window.DRIFT_MANGA_ART = {
+  "i01-cover": "art/i01-cover.webp",
+};

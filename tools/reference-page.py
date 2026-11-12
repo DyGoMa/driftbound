@@ -76,15 +76,22 @@ SUBJ = [
   S(id="fenn", name="Mister Fenn", sheet="fenn-sheet-v1", body="fenn-body34-v1", head="fenn-head-v1"),
   S(id="hob", name="Hob Tarrow", sheet="hob-sheet-v2", body="hob-body34-v2", head="hob-head-v1"),
   S(id="marta", name="Marta Oake", sheet="marta-sheet-v1", body="marta-body34-v1", head="marta-head-v1"),
-  S(id="thimble", name="Thimble", tag="Hob's plough-beast", sheet="thimble-sheet-v1", body="thimble-body34-v1", head="thimble-head-v2")]),
+  S(id="thimble", name="Thimble", tag="Hob's plough-beast", sheet="thimble-sheet-v1", body="thimble-body34-v1", head="thimble-head-v2"),
+  S(id="dole", name="Sergeant Dole", tag="Empire customs, Issue 1", sheet="dole-sheet-v1"),
+  S(id="pym", name="Officer Pym", tag="Empire customs, Issue 1", sheet="pym-sheet-v2")]),
  ("ship", "Ship", "The crew's salvage ship.", [
   S(id="gullwake", name="The Gullwake", sheet="gullwake-sheet-v3", body="gullwake-body34-v2", extras=[("Deck plan", "gullwake-deck-v2")])]),
+ ("places", "Places", "Islands and rooms, drawn on the sea (Dylan 2026-11-12: \"On the sea\").", [
+  S(id="pinhold", name="Pinhold", tag="Issues 1-5", place=True, sheet="places/pinhold-wide-v2", extras=[("Signal-tower chart room", "places/pinhold-tower-room-v1")]),
+  S(id="ashmarket", name="Ashmarket", tag="Issues 6-10", place=True, sheet="places/ashmarket-wide-v1", extras=[("High Table hall", "places/ashmarket-high-table-v1")]),
+  S(id="gaptooth", name="Gaptooth Reach", tag="Issues 11-14", place=True, sheet="places/gaptooth-wide-v1")]),
 ]
 
 used, missing = [], []
 
 def pic(name, label):
     src = os.path.join(REFS, name + ".png")
+    base = os.path.basename(name)
     if not os.path.exists(src):
         missing.append(name)
         return ""
@@ -93,16 +100,16 @@ def pic(name, label):
     w, h = im.size
     tw = 1200 if w >= h else 600
     im = im.resize((tw, round(h * tw / w)), Image.LANCZOS)
-    im.save(os.path.join(OUT, "img", name + ".jpg"), quality=86, optimize=True)
-    pt = os.path.join(REFS, "prompts", name + ".txt")
+    im.save(os.path.join(OUT, "img", base + ".jpg"), quality=86, optimize=True)
+    pt = os.path.join(REFS, "prompts", base + ".txt")
     has = os.path.exists(pt)
     if has:
-        shutil.copyfile(pt, os.path.join(OUT, "prompts", name + ".txt"))
-    plink = (f'<a class="plink" href="prompts/{name}.txt" target="_blank" rel="noopener">Prompt</a>' if has
+        shutil.copyfile(pt, os.path.join(OUT, "prompts", base + ".txt"))
+    plink = (f'<a class="plink" href="prompts/{base}.txt" target="_blank" rel="noopener">Prompt</a>' if has
              else '<span class="plink none">No prompt file</span>')
     tall = " tall" if h > w else ""
-    return (f'<figure class="pic{tall}"><a class="im" href="img/{name}.jpg" target="_blank" rel="noopener">'
-            f'<img src="img/{name}.jpg" alt="{html.escape(label)}, {name}" loading="lazy" width="{im.size[0]}" height="{im.size[1]}"></a>'
+    return (f'<figure class="pic{tall}"><a class="im" href="img/{base}.jpg" target="_blank" rel="noopener">'
+            f'<img src="img/{base}.jpg" alt="{html.escape(label)}, {base}" loading="lazy" width="{im.size[0]}" height="{im.size[1]}"></a>'
             f'<figcaption><span class="lab">{html.escape(label)}</span><code>{name}.png</code>{plink}</figcaption></figure>')
 
 nav, body = [], []
@@ -110,8 +117,8 @@ for sid, title, blurb, subs in SUBJ:
     nav.append(f'<a href="#{sid}">{title} <span>{len(subs)}</span></a>')
     cards = []
     for s in subs:
-        note = re.sub(r"\*\*(.+?)\*\*", r"\1", notes.get(s["sheet"], "")).replace("`", "")
-        parts = [pic(s["sheet"], "Main sheet")]
+        note = re.sub(r"\*\*(.+?)\*\*", r"\1", notes.get(os.path.basename(s["sheet"]), "")).replace("`", "")
+        parts = [pic(s["sheet"], "Wide shot" if s.get("place") else "Main sheet")]
         if s.get("body"):
             parts.append(pic(s["body"], "3/4 body"))
         if s.get("head"):
@@ -122,7 +129,7 @@ for sid, title, blurb, subs in SUBJ:
         if s["id"] in FACES:
             faces = ('<h4>Expressions <span>16 faces on 2 pages, each at 3 angles</span></h4><div class="faces">'
                      + "".join(pic(f, l) for f, l in zip(FACES[s["id"]], FACE_LABELS)) + "</div>")
-        gaps = [{"body": "3/4 body sheet", "head": "head turnaround"}[k] for k in ("body", "head") if not s.get(k)]
+        gaps = [{"body": "3/4 body sheet", "head": "head turnaround"}[k] for k in ("body", "head") if not s.get(k) and not s.get("place")]
         gap = f'<p class="gap">No locked {" or ".join(gaps)} yet.</p>' if gaps else ""
         tag = f'<span class="tag">{html.escape(s["tag"])}</span>' if s.get("tag") else ""
         cards.append(f'<article class="subj" id="{s["id"]}"><header><h3>{html.escape(s["name"])}</h3>{tag}</header>'

@@ -1,0 +1,459 @@
+{
+ "title": "Islands and Issue 1: tonight's pictures",
+ "summary": "Your 'Both: islands, then Issue 1'. Dole and Pym passed earlier tonight. After the 3:51 reset: Pinhold's symbol fix, Ashmarket, Gaptooth, the tower room and the High Table, the cover (one automatic redo) and panel p1-3. From 04:03 every ChatGPT run hung (six 20-minute timeouts across p1-2, the p1-3 fix and p2-3), so the run stopped there; p2-5 and the four customs-men panels were not started.",
+ "date": "2026-11-12",
+ "picturesThisBatch": 13,
+ "imagesToday": 13,
+ "dailyLimit": 15,
+ "items": [
+  {
+   "id": "dole-sheet",
+   "name": "Sergeant Dole (52), customs",
+   "file": "art/refs/dole-sheet-v1.png",
+   "take": "take 1",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Front face and badge",
+     "why": "Walrus moustache, ruddy cheeks, chin strap under the chin; badge on HIS LEFT chest (right of the picture)",
+     "box": [
+      0.08,
+      0.0,
+      0.2,
+      0.45
+     ]
+    },
+    {
+     "label": "Left-side view",
+     "why": "Badge at the front edge of the chest, nearest us",
+     "box": [
+      0.3,
+      0.0,
+      0.15,
+      0.45
+     ]
+    },
+    {
+     "label": "Right-side view",
+     "why": "Badge hidden on the far side",
+     "box": [
+      0.54,
+      0.0,
+      0.15,
+      0.45
+     ]
+    },
+    {
+     "label": "Back-view hands",
+     "why": "Backs of the hands, fingers together (line 12)",
+     "box": [
+      0.7,
+      0.35,
+      0.3,
+      0.25
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "15 arms about 30 degrees, not 45",
+    "Tabard reads navy-blue more than blue-grey",
+    "7 two small brass buttons on the cap sides (model's addition)"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text; plain disc badge",
+    "5 your look: stout, ruddy, grey-brown hair, grey walrus moustache",
+    "6 reads 52",
+    "9 badge side in all four views",
+    "12 back-view hands",
+    "13 back of the head"
+   ]
+  },
+  {
+   "id": "pym-sheet",
+   "name": "Officer Pym (24), customs",
+   "file": "art/refs/pym-sheet-v2.png",
+   "take": "take 2 (take 1 resized from 1774x887 on this PC)",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Front face and badge",
+     "why": "Freckles, green eyes, sandy hair; strap across the peak; badge on HIS LEFT chest",
+     "box": [
+      0.06,
+      0.0,
+      0.2,
+      0.45
+     ]
+    },
+    {
+     "label": "Left-side view",
+     "why": "Badge at the front edge of the chest",
+     "box": [
+      0.3,
+      0.0,
+      0.15,
+      0.45
+     ]
+    },
+    {
+     "label": "Right-side view",
+     "why": "Badge hidden",
+     "box": [
+      0.53,
+      0.0,
+      0.15,
+      0.45
+     ]
+    },
+    {
+     "label": "Back-view hands",
+     "why": "Line 12",
+     "box": [
+      0.7,
+      0.35,
+      0.3,
+      0.25
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "6 face reads a little young for 24 (mild)",
+    "15 arms about 35 degrees",
+    "Tabard a shade lighter than Dole's"
+   ],
+   "passed": [
+    "1 size after resize",
+    "2 no text",
+    "5 your look: tall, lanky, freckled, green eyes, sandy hair, clean-shaven",
+    "9 badge side in all four views",
+    "12 back-view hands",
+    "13 back of the head"
+   ]
+  },
+  {
+   "id": "pinhold-wide",
+   "name": "Pinhold, wide, dusk (take 2: symbol fixed)",
+   "file": "art/refs/places/pinhold-wide-v2.png",
+   "take": "take 2 (edit of take 1; your \"logo ... vertical instead of horizontal\")",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Symbol",
+     "why": "Line through the circle is now HORIZONTAL (checklist D14)",
+     "box": [
+      0.52,
+      0.12,
+      0.16,
+      0.18
+     ]
+    },
+    {
+     "label": "Harbour",
+     "why": "Unchanged from take 1",
+     "box": [
+      0.05,
+      0.62,
+      0.55,
+      0.38
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Pylon still leans toward the Eiffel Tower and stands close behind the town (not changed; you did not ask)"
+   ],
+   "passed": [
+    "1 size",
+    "D14 horizontal line",
+    "17 nothing else changed"
+   ]
+  },
+  {
+   "id": "ashmarket-wide",
+   "name": "Ashmarket, wide, night (on the sea)",
+   "file": "art/refs/places/ashmarket-wide-v1.png",
+   "take": "take 1",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Cinder Palace",
+     "why": "Gold dome, red-lit, beside the smoking crater",
+     "box": [
+      0.38,
+      0.0,
+      0.36,
+      0.3
+     ]
+    },
+    {
+     "label": "Sea wall boards",
+     "why": "Must be blank (no text)",
+     "box": [
+      0.3,
+      0.62,
+      0.4,
+      0.2
+     ]
+    },
+    {
+     "label": "Banners",
+     "why": "Plain red, no writing",
+     "box": [
+      0.05,
+      0.3,
+      0.3,
+      0.3
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Roofs lean East Asian (pagoda eaves), not asked for",
+    "Flames on the crater's flank as well as smoke"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "On the sea",
+    "22 crag, lanterns, soot, vents, palace, harbour"
+   ]
+  },
+  {
+   "id": "gaptooth-wide",
+   "name": "Gaptooth Reach, wide, dusk (on the sea)",
+   "file": "art/refs/places/gaptooth-wide-v1.png",
+   "take": "take 1",
+   "size": "2048x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Channel",
+     "why": "Narrowing to a strip of dusk, mist between the rocks",
+     "box": [
+      0.3,
+      0.3,
+      0.4,
+      0.5
+     ]
+    },
+    {
+     "label": "Ruined towers",
+     "why": "Broken stone towers on the clifftops",
+     "box": [
+      0.0,
+      0.0,
+      0.25,
+      0.3
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Green grass patches on the cliff tops"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "On the sea",
+    "22 tooth-cliffs, mist, towers, surf, falling rocks"
+   ]
+  },
+  {
+   "id": "tower-room",
+   "name": "Pinhold signal-tower chart room, night",
+   "file": "art/refs/places/pinhold-tower-room-v1.png",
+   "take": "take 1",
+   "size": "1536x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Chart wall",
+     "why": "Coastlines and the looping line into a spiral, no writing",
+     "box": [
+      0.0,
+      0.15,
+      0.8,
+      0.5
+     ]
+    },
+    {
+     "label": "Window and sill",
+     "why": "Broken window, lamp on the sill (pages 19 and 27)",
+     "box": [
+      0.78,
+      0.1,
+      0.22,
+      0.6
+     ]
+    },
+    {
+     "label": "Hatch",
+     "why": "Floor hatch with the ladder top",
+     "box": [
+      0.3,
+      0.72,
+      0.4,
+      0.28
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "1 size",
+    "2 no writing on charts",
+    "22 every item in the brief"
+   ]
+  },
+  {
+   "id": "high-table",
+   "name": "Ashmarket High Table hall, night",
+   "file": "art/refs/places/ashmarket-high-table-v1.png",
+   "take": "take 1",
+   "size": "1536x1024",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Table",
+     "why": "Round black volcanic glass, reflecting the lamps",
+     "box": [
+      0.15,
+      0.6,
+      0.7,
+      0.3
+     ]
+    },
+    {
+     "label": "Banners",
+     "why": "Plain, no writing",
+     "box": [
+      0.12,
+      0.15,
+      0.2,
+      0.2
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "22 table, chandelier, gallery, drapes, vents"
+   ]
+  },
+  {
+   "id": "i01-cover",
+   "name": "Issue 1 cover",
+   "file": "manga/art/i01-cover-v2.png",
+   "take": "take 2 (automatic redo: take 1 had two tails on Skarn)",
+   "size": "1024x1536",
+   "verdict": "passed",
+   "zooms": [
+    {
+     "label": "Kaito's face",
+     "why": "White lock on his near RIGHT side, goggles, amber eyes",
+     "box": [
+      0.35,
+      0.35,
+      0.3,
+      0.15
+     ]
+    },
+    {
+     "label": "Skarn's tail",
+     "why": "One tail splitting into two tips (fixed in take 2)",
+     "box": [
+      0.0,
+      0.22,
+      0.4,
+      0.22
+     ]
+    },
+    {
+     "label": "Bracer arm",
+     "why": "Rag, bands and scars on his RIGHT arm",
+     "box": [
+      0.0,
+      0.42,
+      0.35,
+      0.12
+     ]
+    },
+    {
+     "label": "Parcel and symbol",
+     "why": "Plain red ring stamp, teal drips; pylon with the horizontal symbol",
+     "box": [
+      0.5,
+      0.38,
+      0.5,
+      0.3
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Kaito's skin reads a little tanned"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 matches Kaito's and Skarn's sheets",
+    "9 sides",
+    "D14 symbol",
+    "Top fifth clear for the title"
+   ]
+  },
+  {
+   "id": "i01-p01-3",
+   "name": "Issue 1, page 1, panel 3 (the leap)",
+   "file": "manga/art/i01-p01-3-v1.png",
+   "take": "take 1 (the fix edit timed out twice)",
+   "size": "1328x1200",
+   "verdict": "redo",
+   "zooms": [
+    {
+     "label": "Skarn's tail",
+     "why": "FAIL: two tails from the base",
+     "box": [
+      0.02,
+      0.04,
+      0.3,
+      0.25
+     ]
+    },
+    {
+     "label": "Parcel stamp",
+     "why": "Filled red disc could read like a flag",
+     "box": [
+      0.52,
+      0.4,
+      0.2,
+      0.2
+     ]
+    }
+   ],
+   "fails": [
+    "5 Skarn has two tails from the base (his sheet: one tail forking halfway)"
+   ],
+   "notes": [
+    "Parcel stamp is a filled red disc (cover uses a ring)",
+    "Pose very close to the cover's"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "9 sides",
+    "D14 symbol",
+    "22 low angle, noon, washing lines"
+   ]
+  }
+ ]
+}

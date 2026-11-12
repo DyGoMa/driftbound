@@ -32,7 +32,7 @@ These people appear in Issues 1 to 10 and have no sheet. Use the people layout b
 | Part One Kaito, battle-damaged | scars to the elbow, then past it | Issues 2, 12 | Not a new sheet: an **expression and damage sheet** for Kaito, eight faces plus the arm at three scar stages | Done: scar stages `kaito-arm-v3.png` (2026-11-08) and his face set; no separate battle-damage sheet (Dylan 2026-11-12: "No, this sheet is enough") |
 | Expression sheets, the six leads | eight faces each: neutral, grin, shout, blush, fear, grief, smug, gag face | Issue 1 on | Adult faces only; gag faces exaggerated, never chibi | Not started |
 | The Gullwake | the ship, four views plus a deck plan | Issue 2 | The tide-gap sprite (`games/tide-gap/art/gullwake.webp`) is the start; the dossier `backstory/world.md` has the deck-by-deck description | Done: `gullwake-sheet-v3.png`, deck plan `gullwake-deck-v2.png` (2026-11-08) |
-| Pinhold, Ashmarket, Gaptooth Reach | establishing shots for the manga (wide, dusk, night) | Issues 1, 6, 11 | The site already has one picture of each (`art/site/*-v1.png`); the manga needs an interior or two per island, listed in the generated file's spreads | Not started |
+| Pinhold, Ashmarket, Gaptooth Reach | establishing shots for the manga (wide, dusk, night) | Issues 1, 6, 11 | The site already has one picture of each (`art/site/*-v1.png`); the manga needs an interior or two per island, listed in the generated file's spreads | Done: `art/refs/places/` pinhold-wide-v2, pinhold-tower-room-v1, ashmarket-wide-v1, ashmarket-high-table-v1, gaptooth-wide-v1 (2026-11-12); drawn on the sea (Dylan) |
 
 ### Batch A2: face sets and three-quarter body sheets (added 2026-11-08, Dylan's answers in DECISIONS.md)
 - **Face sets.** Six leads: head turnaround plus two expression pages at three angles (7 pictures each; Kaito done). Vasch, Hekka, Krell, Nim: the same. Silt and the walk-ons (Quint, Fenn, Hob, Marta, Tull): head turnaround only. Partners and Hollows: head turnaround. Troopers: none. Prompts from `tools/face-prompts.py`.
@@ -45,7 +45,8 @@ These people appear in Issues 1 to 10 and have no sheet. Use the people layout b
 - **Status (2026-11-12, later):** Hekka's jaw mark dropped by Dylan ("No mark, drop it"): her six expression pages stay as locked, nothing left open for her face set. No pictures used.
 
 ### Batch B: the first issue, all of it (about 120 panels; the proof of the pipeline)
-Issue 1 has 120 panels and 29 pages. Draw it completely, in order, cover first, from the art notes in `manga/issues/issue-01.js` with the sheets attached. This proves the style holds across a whole issue, settles the balloon lettering look, and gives Dylan one finished issue to judge before anything else is drawn. Count: 1 cover + 120 panels; with redos, budget 150.
+Issue 1 has 120 panels and 29 pages. Draw it completely, in order, cover first, from the art notes in `manga/issues/issue-01.js` with the sheets attached.
+- **Status (2026-11-12):** cover locked (`manga/art/i01-cover.webp`, in the reader). New sheets for the customs men: Dole and Pym (locked). Panel p1-3 made but fails (two tails), fix queued for the next budget. Not yet made: p1-1, p1-2 (two timeouts), p2-1 to p2-5 (p2-3 two timeouts), and pages 3-28. Panel look: each panel its own picture at its shape from `manga/layouts.js` (Dylan). This proves the style holds across a whole issue, settles the balloon lettering look, and gives Dylan one finished issue to judge before anything else is drawn. Count: 1 cover + 120 panels; with redos, budget 150.
 
 ### Batch C: covers for Issues 2 to 51 (50 images, budget 70)
 Briefs are in the generated list. A cover is the one picture most people see; do all of them before more interior pages, so the shelf looks real.
