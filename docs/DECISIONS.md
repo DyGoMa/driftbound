@@ -1123,3 +1123,4 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Vasch expressions: "All pass (Recommended)" → locked all six v1 pages; panel lines and the Fear-eye ring left as they are.
 - Hekka expressions: "Pass, add jaw mark later" → locked `hekka-faces-front-v1`, `hekka-faces-34l-v2`, `hekka-faces-34r-v2`, `hekka-faces2-front-v2`, `hekka-faces2-34l-v1`, `hekka-faces2-34r-v1`; her small left-jaw mark is to be added to the face pages later.
 - Learned: no checklist change; every answer matched Claude's review. New point for later: STYLE.md lists Hekka's jaw mark but her face-page prompts said "no one-sided details"; the face prompts should name it next time.
+- Nim 3/4-left retry, take 3 (image 20, 00:15): FAIL 5/16, worse than take 2: Surprise now brown in both eyes, Tired's near eye still brown. Best take stays `nim-faces2-34l-v2`. Count since the reset: 20 pictures.

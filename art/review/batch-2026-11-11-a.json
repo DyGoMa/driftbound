@@ -2,7 +2,7 @@
  "title": "After the reset: Krell and Nim fixes, Vasch and Hekka's expressions",
  "summary": "The limit reset at 10:01 PM on Nov 11. Krell's Pain fix and both Nim eye fixes ran, then Vasch's and Hekka's six expression pages each, shown beside Kaito's. Vasch passed review first time; Hekka needed one automatic redo on two cells (eye colour) and one resize; Nim's eye-colour edits were the stubborn ones.",
  "date": "2026-11-11",
- "picturesThisBatch": 19,
+ "picturesThisBatch": 20,
  "imagesToday": 19,
  "dailyLimit": 15,
  "items": [
@@ -76,7 +76,8 @@
     "5/16 Anger, Pain and Disgust irises read warm grey-brown, not his cool grey (Surprise, Smile, Tired are right)"
    ],
    "notes": [
-    "Take 2 made Surprise and Tired grey but turned the four top-row grey eyes brown; take 3 changed nothing and came out 1774x887; take 4 got halfway; take 5 timed out twice."
+    "Take 2 made Surprise and Tired grey but turned the four top-row grey eyes brown; take 3 changed nothing and came out 1774x887; take 4 got halfway; take 5 timed out twice.",
+    "Your answer: one more edit on the next picture budget."
    ],
    "passed": [
     "17 expressions unchanged"
@@ -125,7 +126,8 @@
     "5/16 Surprise and Tired: the far eye is grey but the NEARER eye is still brown"
    ],
    "notes": [
-    "Take 2 fixed Anger and the far eyes; the redo for the near eyes timed out twice."
+    "Take 2 fixed Anger and the far eyes; the redo for the near eyes timed out twice.",
+    "Your retry (take 3, 00:15): worse. Surprise now has brown in BOTH eyes and Tired's near eye is still brown, so take 2 stays the best take."
    ],
    "passed": [
     "17 expressions unchanged"
