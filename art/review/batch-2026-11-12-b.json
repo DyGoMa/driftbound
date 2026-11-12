@@ -1,0 +1,440 @@
+{
+ "title": "Issue 1 pages 1-2: next budget",
+ "summary": "Your 'finish Issue 1 pages 1-2'. 12 runs, no timeouts. Five panels passed Claude's review after one fix each (p1-1, p1-2, p1-3, p2-3, p2-5). Three wait on you: p2-1 and p2-2 came back the wrong shape (tall instead of nearly square), and p2-4 has the wrong shape, a two-tailed Skarn and a filled stamp. Today is at 25, so those fixes were not run.",
+ "date": "2026-11-12",
+ "picturesThisBatch": 12,
+ "imagesToday": 25,
+ "dailyLimit": 15,
+ "items": [
+  {
+   "id": "i01-p01-1",
+   "name": "Issue 1, page 1, panel 1 (the chase)",
+   "file": "manga/art/i01-p01-1-v2.png",
+   "take": "take 2 (edit: wider framing, ring stamp)",
+   "size": "1136x1408",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Kaito's face",
+     "why": "White lock far side (his RIGHT), brow scar near side (his LEFT)",
+     "box": [
+      0.12,
+      0.14,
+      0.3,
+      0.16
+     ]
+    },
+    {
+     "label": "Parcel stamp",
+     "why": "Plain red ring, nothing inside",
+     "box": [
+      0.36,
+      0.3,
+      0.2,
+      0.15
+     ]
+    },
+    {
+     "label": "Dole and Pym",
+     "why": "Moustache, badges on their LEFT chests, straps",
+     "box": [
+      0.64,
+      0.26,
+      0.36,
+      0.25
+     ]
+    },
+    {
+     "label": "Bracer arm",
+     "why": "Bracer, rag and scars on his RIGHT arm",
+     "box": [
+      0.04,
+      0.36,
+      0.26,
+      0.16
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Take 1 came back too narrow (1070x1470) with a filled disc stamp; fixed by one edit",
+    "Brow scar sits above the brow",
+    "Pym's face reads a little young at this size"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 sheets",
+    "9 sides",
+    "22 art note",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p01-2",
+   "name": "Issue 1, page 1, panel 2 (the grin)",
+   "file": "manga/art/i01-p01-2-v2.png",
+   "take": "take 2 (edit: arm gear moved)",
+   "size": "1136x1408",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Face",
+     "why": "Grin; white lock far side (his RIGHT), brow scar near side (his LEFT)",
+     "box": [
+      0.05,
+      0.05,
+      0.38,
+      0.28
+     ]
+    },
+    {
+     "label": "Far arm (his RIGHT)",
+     "why": "Bracer, scars and rag now here",
+     "box": [
+      0.76,
+      0.3,
+      0.24,
+      0.3
+     ]
+    },
+    {
+     "label": "Near arm (his LEFT)",
+     "why": "Bare and unmarked",
+     "box": [
+      0.0,
+      0.55,
+      0.45,
+      0.4
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Take 1 had the bracer, rag and scars on his LEFT arm; fixed by one edit",
+    "Brow scar sits above the brow on the forehead"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 sheet",
+    "9 sides",
+    "17 edit changed only the arm",
+    "22 art note"
+   ]
+  },
+  {
+   "id": "i01-p01-3",
+   "name": "Issue 1, page 1, panel 3 (the leap)",
+   "file": "manga/art/i01-p01-3-v2.png",
+   "take": "take 2 (edit: tail and stamp)",
+   "size": "1328x1200",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Skarn's tail",
+     "why": "One thick tail forking into two tips halfway",
+     "box": [
+      0.04,
+      0.06,
+      0.36,
+      0.24
+     ]
+    },
+    {
+     "label": "Parcel stamp",
+     "why": "Now a plain ring, not a filled disc",
+     "box": [
+      0.53,
+      0.42,
+      0.17,
+      0.16
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Pose very close to the cover's"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 tail",
+    "17 edit changed only tail and stamp",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p02-1",
+   "name": "Issue 1, page 2, panel 1 (Dole wheezes)",
+   "file": "manga/art/i01-p02-1-v1.png",
+   "take": "take 1",
+   "size": "1122x1402 (asked 1248x1280)",
+   "verdict": "redo",
+   "zooms": [
+    {
+     "label": "Dole",
+     "why": "Bent over, hands on knees, wheezing at the drop",
+     "box": [
+      0.0,
+      0.13,
+      0.45,
+      0.55
+     ]
+    },
+    {
+     "label": "Face and badge",
+     "why": "Moustache, strap under chin, badge on HIS LEFT chest",
+     "box": [
+      0.28,
+      0.14,
+      0.18,
+      0.2
+     ]
+    }
+   ],
+   "fails": [
+    "1 wrong shape: tall 1122x1402, the panel is nearly square; a resize would squash it"
+   ],
+   "notes": [
+    "Fix not run: it would take today past 25"
+   ],
+   "passed": [
+    "2 no text",
+    "5 sheet",
+    "9 badge side",
+    "22 art note",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p02-2",
+   "name": "Issue 1, page 2, panel 2 (Pym's notebook)",
+   "file": "manga/art/i01-p02-2-v1.png",
+   "take": "take 1",
+   "size": "1122x1402 (asked 1248x1280)",
+   "verdict": "redo",
+   "zooms": [
+    {
+     "label": "Pym",
+     "why": "Blank notebook, pencil, freckles, green eyes, strap on the peak",
+     "box": [
+      0.08,
+      0.22,
+      0.36,
+      0.36
+     ]
+    },
+    {
+     "label": "Dole's glare",
+     "why": "Bent over, glaring sideways",
+     "box": [
+      0.58,
+      0.25,
+      0.3,
+      0.25
+     ]
+    }
+   ],
+   "fails": [
+    "1 wrong shape: tall 1122x1402, the panel is nearly square"
+   ],
+   "notes": [
+    "Roof edge not shown, a low parapet behind them",
+    "Pym reads a little young (as on his sheet)",
+    "Fix not run: it would take today past 25"
+   ],
+   "passed": [
+    "2 no text",
+    "5 sheets",
+    "9 badge sides",
+    "22 art note",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p02-3",
+   "name": "Issue 1, page 2, panel 3 (the burst)",
+   "file": "manga/art/i01-p02-3-v2.png",
+   "take": "take 2 (edit: tail)",
+   "size": "1792x896",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Skarn's tail",
+     "why": "One thick tail forking halfway",
+     "box": [
+      0.04,
+      0.07,
+      0.24,
+      0.27
+     ]
+    },
+    {
+     "label": "Glow through the rag",
+     "why": "Faint yellow glow, RIGHT hand",
+     "box": [
+      0.37,
+      0.3,
+      0.36,
+      0.42
+     ]
+    },
+    {
+     "label": "Net on the chimney",
+     "why": "Weighted rope net tangled harmlessly",
+     "box": [
+      0.0,
+      0.3,
+      0.26,
+      0.4
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Take 1 had two tails from the base and came back 1774x887; the edit fixed both"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 sheets",
+    "9 sides",
+    "17 edit changed only the tail",
+    "22 art note",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p02-4",
+   "name": "Issue 1, page 2, panel 4 (the edge)",
+   "file": "manga/art/i01-p02-4-v1.png",
+   "take": "take 1",
+   "size": "1122x1402 (asked 1248x1280)",
+   "verdict": "redo",
+   "zooms": [
+    {
+     "label": "Skarn's tail",
+     "why": "FAIL: two tails from the base",
+     "box": [
+      0.39,
+      0.07,
+      0.24,
+      0.16
+     ]
+    },
+    {
+     "label": "Parcel stamp",
+     "why": "FAIL: filled disc, not the ring",
+     "box": [
+      0.43,
+      0.27,
+      0.13,
+      0.11
+     ]
+    },
+    {
+     "label": "Customs men",
+     "why": "Top one looks like Pym",
+     "box": [
+      0.0,
+      0.07,
+      0.27,
+      0.24
+     ]
+    },
+    {
+     "label": "Bracer arm",
+     "why": "Bracer, rag and scars on his RIGHT arm",
+     "box": [
+      0.08,
+      0.3,
+      0.25,
+      0.18
+     ]
+    }
+   ],
+   "fails": [
+    "1 wrong shape: tall 1122x1402",
+    "5 Skarn has two tails from the base",
+    "22 stamp is a filled disc (every other panel: ring)"
+   ],
+   "notes": [
+    "Blond customs man looks like Pym",
+    "Arms flung out rather than windmilling",
+    "Redo not run: it would take today past 25"
+   ],
+   "passed": [
+    "2 no text",
+    "9 sides",
+    "22 drop to the fish market, stairway, Skarn at eye level",
+    "D14 symbol"
+   ]
+  },
+  {
+   "id": "i01-p02-5",
+   "name": "Issue 1, page 2, panel 5 (the jump)",
+   "file": "manga/art/i01-p02-5-v2.png",
+   "take": "take 2 (edit: shape and stamp)",
+   "size": "1248x1280",
+   "verdict": "review",
+   "zooms": [
+    {
+     "label": "Parcel stamp",
+     "why": "Plain ring, nothing inside",
+     "box": [
+      0.63,
+      0.43,
+      0.12,
+      0.12
+     ]
+    },
+    {
+     "label": "Skarn yawning",
+     "why": "High and far, tail forks halfway",
+     "box": [
+      0.05,
+      0.02,
+      0.3,
+      0.12
+     ]
+    },
+    {
+     "label": "Face",
+     "why": "Calm, trusting",
+     "box": [
+      0.42,
+      0.29,
+      0.2,
+      0.15
+     ]
+    },
+    {
+     "label": "Bracer arm",
+     "why": "Bracer, rag and scars on his RIGHT arm",
+     "box": [
+      0.12,
+      0.43,
+      0.25,
+      0.18
+     ]
+    }
+   ],
+   "fails": [],
+   "notes": [
+    "Take 1 came back tall with swirls inside the stamp; fixed by one edit",
+    "Brow scar does not show at this size",
+    "Small background people in the market"
+   ],
+   "passed": [
+    "1 size",
+    "2 no text",
+    "5 sheets",
+    "9 sides",
+    "17 edit",
+    "22 art note",
+    "D14 symbol"
+   ]
+  }
+ ]
+}
