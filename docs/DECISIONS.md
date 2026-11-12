@@ -1139,3 +1139,11 @@ Branch `art/ref-sheets-villains`, folder `Documents\driftbound-villains`.
 - Learned: no checklist change; both answers matched Claude's review. Earlier takes kept.
 - Review page republished with both Nim pages marked passed (version 27).
 - Dylan after looking at the review page: "eyes look good" (Nim front v5 and 3/4-left v4 eye colour confirmed).
+
+## Hekka jaw mark, 2026-11-12 (Dylan: "add Hekka's small mark at the left end of her jaw to her six locked expression pages")
+- Claude zoomed in on her locked sheet `hekka-sheet-v6.png` (all views) and her head turnaround `hekka-head-v2.png`. Found: the only thing on her jaw is a tiny dark tick on HER RIGHT (left of the picture, front view), likely left from the lip-scar paint-out (takes 4-6; take 4's note "Short dark jaw marks remain in the front view"). Nothing on her left; the side views show only faint lines; the head turnaround has no mark on either side. So STYLE.md's "tiny mark at the left end of her jaw" most likely meant the left of the picture. Asked before drawing anything, with a zoom picture.
+- Jaw mark: "No mark, drop it (Recommended)"
+- Which side: "No mark, so skip this"
+- Sheet and head too: "No mark, so skip this"
+- Result: no pictures made (0 Codex images, 0 timeouts). Her six expression pages stay locked as passed. STYLE.md's two Hekka rows now say no jaw mark; the old wording moved word for word to a new archive at the end of STYLE.md. IMAGE_REQUESTS.md status line added. No batch file or review-page change (nothing new to show).
+- Learned: no checklist change (no picture was judged). Claude's note: a "mark" written into STYLE.md from a sheet should be checked as a design choice with Dylan, not copied from a stray line.
