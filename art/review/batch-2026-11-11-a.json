@@ -1,6 +1,6 @@
 {
  "title": "After the reset: Krell and Nim fixes, Vasch and Hekka's expressions",
- "summary": "The limit reset at 10:01 PM on Nov 11. Krell's Pain fix and both Nim eye fixes ran, then Vasch's and Hekka's six expression pages each, shown beside Kaito's. Vasch passed review first time; Hekka needed one automatic redo on two cells (eye colour) and one resize; Nim's eye-colour edits were the stubborn ones.",
+ "summary": "The limit reset at 10:01 PM on Nov 11. Krell's Pain fix and both Nim eye fixes ran, then Vasch's and Hekka's six expression pages each, shown beside Kaito's. Vasch passed review first time; Hekka needed one automatic redo on two cells (eye colour) and one resize; Nim's eye-colour edits were the stubborn ones. Update 2026-11-12: Nim's two open pages redone on the next budget (front take 5 edit, fresh 3/4-left take 4); both passed review.",
  "date": "2026-11-11",
  "picturesThisBatch": 20,
  "imagesToday": 19,
@@ -46,91 +46,120 @@
   {
    "id": "nim-front2",
    "name": "Nim, front page 2 (grey eyes fix)",
-   "file": "art/refs/nim-faces2-front-v4.png",
-   "take": "take 4 (best of 3 automatic redos; take 5 timed out twice)",
+   "file": "art/refs/nim-faces2-front-v5.png",
+   "take": "take 5 (edit of take 4, 2026-11-12, first try)",
    "size": "2048x1024",
-   "verdict": "redo",
+   "verdict": "review",
    "zooms": [
     {
      "label": "Top row eyes",
-     "why": "Anger, Pain, Disgust irises: grey, not brown",
+     "why": "Anger, Pain, Disgust: now the same cool grey as Surprise",
      "box": [
       0.25,
-      0.12,
+      0.14,
       0.75,
-      0.15
+      0.12
      ]
     },
     {
      "label": "Bottom row eyes",
-     "why": "Surprise, Smile, Tired irises: grey",
+     "why": "Surprise, Smile, Tired: still grey",
      "box": [
       0.0,
-      0.62,
+      0.64,
       0.75,
-      0.15
+      0.12
+     ]
+    },
+    {
+     "label": "Pain cell",
+     "why": "His LEFT eye shut (right of the picture)",
+     "box": [
+      0.5,
+      0.0,
+      0.25,
+      0.5
      ]
     }
    ],
-   "fails": [
-    "5/16 Anger, Pain and Disgust irises read warm grey-brown, not his cool grey (Surprise, Smile, Tired are right)"
-   ],
+   "fails": [],
    "notes": [
-    "Take 2 made Surprise and Tired grey but turned the four top-row grey eyes brown; take 3 changed nothing and came out 1774x887; take 4 got halfway; take 5 timed out twice.",
-    "Your answer: one more edit on the next picture budget."
+    "Takes 2 to 4 kept flipping some eyes brown; take 5 changed only the three top-row irises.",
+    "Rest of the page matches take 4 (only slight redraw noise, nothing moved by eye).",
+    "Faint forehead lines, as on every Nim page."
    ],
    "passed": [
-    "17 expressions unchanged"
+    "1 size",
+    "5 grey eyes in every open cell, zoomed",
+    "9 chalk right ear, pinned left sleeve, all eight",
+    "D9 same eight as Kaito's page 2",
+    "D11 Pain shuts his LEFT eye",
+    "17 nothing else changed"
    ]
   },
   {
    "id": "nim-34l2",
-   "name": "Nim, 3/4-left page 2 (grey eyes fix)",
-   "file": "art/refs/nim-faces2-34l-v2.png",
-   "take": "take 2 (take 3 timed out twice)",
+   "name": "Nim, 3/4-left page 2 (fresh page, grey eyes)",
+   "file": "art/refs/nim-faces2-34l-v4.png",
+   "take": "take 4 (fresh page, not an edit, 2026-11-12, first try)",
    "size": "2048x1024",
-   "verdict": "redo",
+   "verdict": "review",
    "zooms": [
     {
-     "label": "Surprise eyes",
-     "why": "Both eyes grey, the near one too",
-     "box": [
-      0.05,
-      0.62,
-      0.17,
-      0.12
-     ]
-    },
-    {
-     "label": "Tired eyes",
-     "why": "Both eyes grey, the near one too",
-     "box": [
-      0.55,
-      0.62,
-      0.17,
-      0.12
-     ]
-    },
-    {
      "label": "Top row eyes",
-     "why": "Still grey",
+     "why": "Rage, Pain, Disgust: both eyes grey",
      "box": [
+      0.0,
+      0.14,
+      1.0,
+      0.12
+     ]
+    },
+    {
+     "label": "Bottom row eyes",
+     "why": "Surprise and Tired: the NEAR eye grey too (it was brown before)",
+     "box": [
+      0.0,
+      0.64,
+      1.0,
+      0.12
+     ]
+    },
+    {
+     "label": "Pain cell",
+     "why": "His LEFT eye shut (the near eye, beside the ear)",
+     "box": [
+      0.5,
+      0.0,
       0.25,
-      0.12,
+      0.5
+     ]
+    },
+    {
+     "label": "Sleeve side",
+     "why": "Pinned LEFT sleeve on the near side; chalk hidden on the far side",
+     "box": [
       0.75,
-      0.15
+      0.0,
+      0.25,
+      0.5
      ]
     }
    ],
-   "fails": [
-    "5/16 Surprise and Tired: the far eye is grey but the NEARER eye is still brown"
-   ],
+   "fails": [],
    "notes": [
-    "Take 2 fixed Anger and the far eyes; the redo for the near eyes timed out twice.",
-    "Your retry (take 3, 00:15): worse. Surprise now has brown in BOTH eyes and Tired's near eye is still brown, so take 2 stays the best take."
+    "Drawn from scratch with his sheet, head turnaround and locked 3/4-left page 1 as guides, plus Kaito's page for the expressions.",
+    "In a few cells (Rage, Tender) the grey leans slightly blue.",
+    "Faint forehead lines, as on every Nim page."
    ],
    "passed": [
-    "17 expressions unchanged"
+    "1 size",
+    "5 grey eyes in both eyes of every open cell, zoomed",
+    "6 reads 30",
+    "9 chalk hidden far side, pinned left sleeve near side",
+    "D9 same eight as Kaito's page 2",
+    "D10 framing matches his page 1",
+    "D11 Pain shuts his LEFT eye"
    ]
   },
   {
