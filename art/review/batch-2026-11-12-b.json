@@ -1,9 +1,9 @@
 {
  "title": "Issue 1 pages 1-2: next budget",
- "summary": "Your 'finish Issue 1 pages 1-2'. 12 runs, no timeouts. Five panels passed Claude's review after one fix each (p1-1, p1-2, p1-3, p2-3, p2-5). Three wait on you: p2-1 and p2-2 came back the wrong shape (tall instead of nearly square), and p2-4 has the wrong shape, a two-tailed Skarn and a filled stamp. Today is at 25, so those fixes were not run.",
+ "summary": "Your 'finish Issue 1 pages 1-2'. You passed six panels for good (p1-1, p1-2, p1-3, p2-1, p2-3, p2-4); p2-5 stays in the reader until its redo passes. p2-2: notebook fixed and passed. p2-5: feet-first redo queued for the next budget.",
  "date": "2026-11-12",
- "picturesThisBatch": 12,
- "imagesToday": 25,
+ "picturesThisBatch": 16,
+ "imagesToday": 29,
  "dailyLimit": 15,
  "items": [
   {
@@ -12,7 +12,7 @@
    "file": "manga/art/i01-p01-1-v2.png",
    "take": "take 2 (edit: wider framing, ring stamp)",
    "size": "1136x1408",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Kaito's face",
@@ -76,7 +76,7 @@
    "file": "manga/art/i01-p01-2-v2.png",
    "take": "take 2 (edit: arm gear moved)",
    "size": "1136x1408",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Face",
@@ -129,7 +129,7 @@
    "file": "manga/art/i01-p01-3-v2.png",
    "take": "take 2 (edit: tail and stamp)",
    "size": "1328x1200",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Skarn's tail",
@@ -167,10 +167,10 @@
   {
    "id": "i01-p02-1",
    "name": "Issue 1, page 2, panel 1 (Dole wheezes)",
-   "file": "manga/art/i01-p02-1-v1.png",
-   "take": "take 1",
-   "size": "1122x1402 (asked 1248x1280)",
-   "verdict": "redo",
+   "file": "manga/art/i01-p02-1-v2.png",
+   "take": "take 2 (edit on your yes: wider framing)",
+   "size": "1248x1280",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Dole",
@@ -193,13 +193,13 @@
      ]
     }
    ],
-   "fails": [
-    "1 wrong shape: tall 1122x1402, the panel is nearly square; a resize would squash it"
-   ],
+   "fails": [],
    "notes": [
-    "Fix not run: it would take today past 25"
+    "Take 1 came back tall (1122x1402); fixed by one edit"
    ],
    "passed": [
+    "1 size",
+    "17 edit changed only what was asked",
     "2 no text",
     "5 sheet",
     "9 badge side",
@@ -210,14 +210,14 @@
   {
    "id": "i01-p02-2",
    "name": "Issue 1, page 2, panel 2 (Pym's notebook)",
-   "file": "manga/art/i01-p02-2-v1.png",
-   "take": "take 1",
-   "size": "1122x1402 (asked 1248x1280)",
-   "verdict": "redo",
+   "file": "manga/art/i01-p02-2-v3.png",
+   "take": "take 3 (edit on your note: notebook faces Pym)",
+   "size": "1248x1280",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Pym",
-     "why": "Blank notebook, pencil, freckles, green eyes, strap on the peak",
+     "why": "Notebook open toward HIM, pencil on the page (D15)",
      "box": [
       0.08,
       0.22,
@@ -236,15 +236,16 @@
      ]
     }
    ],
-   "fails": [
-    "1 wrong shape: tall 1122x1402, the panel is nearly square"
-   ],
+   "fails": [],
    "notes": [
+    "Take 2 held the notebook pages-out (your note); fixed by one edit",
+    "Take 1 came back tall (1122x1402); fixed by one edit",
     "Roof edge not shown, a low parapet behind them",
-    "Pym reads a little young (as on his sheet)",
-    "Fix not run: it would take today past 25"
+    "Pym reads a little young (as on his sheet)"
    ],
    "passed": [
+    "1 size",
+    "17 edit changed only what was asked",
     "2 no text",
     "5 sheets",
     "9 badge sides",
@@ -258,7 +259,7 @@
    "file": "manga/art/i01-p02-3-v2.png",
    "take": "take 2 (edit: tail)",
    "size": "1792x896",
-   "verdict": "review",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Skarn's tail",
@@ -308,14 +309,14 @@
   {
    "id": "i01-p02-4",
    "name": "Issue 1, page 2, panel 4 (the edge)",
-   "file": "manga/art/i01-p02-4-v1.png",
-   "take": "take 1",
-   "size": "1122x1402 (asked 1248x1280)",
-   "verdict": "redo",
+   "file": "manga/art/i01-p02-4-v2.png",
+   "take": "take 2 (edit on your yes: wider, one forked tail, ring stamp, dark-haired customs man)",
+   "size": "1248x1280",
+   "verdict": "passed",
    "zooms": [
     {
      "label": "Skarn's tail",
-     "why": "FAIL: two tails from the base",
+     "why": "Now one tail forking partway",
      "box": [
       0.39,
       0.07,
@@ -325,7 +326,7 @@
     },
     {
      "label": "Parcel stamp",
-     "why": "FAIL: filled disc, not the ring",
+     "why": "Now a plain ring",
      "box": [
       0.43,
       0.27,
@@ -335,7 +336,7 @@
     },
     {
      "label": "Customs men",
-     "why": "Top one looks like Pym",
+     "why": "Top one now dark-haired",
      "box": [
       0.0,
       0.07,
@@ -354,17 +355,15 @@
      ]
     }
    ],
-   "fails": [
-    "1 wrong shape: tall 1122x1402",
-    "5 Skarn has two tails from the base",
-    "22 stamp is a filled disc (every other panel: ring)"
-   ],
+   "fails": [],
    "notes": [
+    "Take 1 came back tall (1122x1402) with two tails, a filled stamp and a Pym look-alike; fixed by one edit",
     "Blond customs man looks like Pym",
-    "Arms flung out rather than windmilling",
-    "Redo not run: it would take today past 25"
+    "Arms flung out rather than windmilling"
    ],
    "passed": [
+    "1 size",
+    "17 edit changed only what was asked",
     "2 no text",
     "9 sides",
     "22 drop to the fish market, stairway, Skarn at eye level",
@@ -377,7 +376,7 @@
    "file": "manga/art/i01-p02-5-v2.png",
    "take": "take 2 (edit: shape and stamp)",
    "size": "1248x1280",
-   "verdict": "review",
+   "verdict": "redo",
    "zooms": [
     {
      "label": "Parcel stamp",
@@ -420,7 +419,9 @@
      ]
     }
    ],
-   "fails": [],
+   "fails": [
+    "D16 stiff pose, reads as standing in the air (Dylan: \"Panel 5 makes him look weird in that jumping motion it doesn't look natural\"); feet-first redo queued for the next budget"
+   ],
    "notes": [
     "Take 1 came back tall with swirls inside the stamp; fixed by one edit",
     "Brow scar does not show at this size",

@@ -8,4 +8,12 @@
 // If a picture fails to load, the placeholder comes back. Example: "i01-p03-2": "art/i01/p03-2.webp"
 window.DRIFT_MANGA_ART = {
   "i01-cover": "art/i01-cover.webp",
+  "i01-p01-1": "art/i01-p01-1.webp",
+  "i01-p01-2": "art/i01-p01-2.webp",
+  "i01-p01-3": "art/i01-p01-3.webp",
+  "i01-p02-1": "art/i01-p02-1.webp",
+  "i01-p02-2": "art/i01-p02-2.webp",
+  "i01-p02-3": "art/i01-p02-3.webp",
+  "i01-p02-4": "art/i01-p02-4.webp",
+  "i01-p02-5": "art/i01-p02-5.webp",
 };

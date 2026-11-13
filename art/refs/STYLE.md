@@ -145,6 +145,7 @@ Size: `--size 2048x1024` for every four-view sheet.
 36. **A forearm mark asked for "on the outside" but with no per-view plan moves between views** (Hob take 1: big and in a different place in each view, Dylan spotted it). Pick one face of the limb, say which view shows it whole and which show only a sliver at the same height, and remove the old mark fully before drawing the new one; one edit fixed it (take 2).
 
 37. **The Sever symbol drawn with a vertical line** (Pinhold wide take 1: the prompt said only "a straight line cutting through a circle"). Say "a HORIZONTAL straight line cutting through a circle, like a flat bar through a ring" (checklist D14).
+38. **A held prop is turned to show the camera** (i01-p02-2 take 2: Pym's open notebook faced us, not him; Dylan caught it). In any prompt with a held book, map, letter or tool, say how the holder uses it: "the open pages facing up and toward HIM, tilted toward his own face, so we see mostly its cover and page edges" (checklist D15).
 
 ## Archive: replaced wording (word for word)
 - Hekka sheet row, replaced 2026-11-12 (jaw mark dropped): "| Captain Hekka Dorn | `hekka-sheet-v6.png` | Take 3 with stray chin lines blended out by hand; thick wavy black hair swept back; no lip scar (removed by Dylan); black bar and white ring on the chest plate; dull ring scar on her left midriff (reads a bit reddish); blue-grey eyes; lance is for a later prop sheet; tiny mark at the left end of her jaw |"
