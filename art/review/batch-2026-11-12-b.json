@@ -1,9 +1,9 @@
 {
  "title": "Issue 1 pages 1-2: next budget",
- "summary": "Your 'finish Issue 1 pages 1-2'. You passed six panels for good (p1-1, p1-2, p1-3, p2-1, p2-3, p2-4); p2-5 stays in the reader until its redo passes. p2-2: notebook fixed and passed. p2-5: feet-first redo queued for the next budget.",
+ "summary": "Your 'finish Issue 1 pages 1-2'. All eight panels passed by you and in the reader. The jump panel was redrawn as a trust fall from your sketch and notes. 18 pictures this run, 31 today.",
  "date": "2026-11-12",
- "picturesThisBatch": 16,
- "imagesToday": 29,
+ "picturesThisBatch": 18,
+ "imagesToday": 31,
  "dailyLimit": 15,
  "items": [
   {
@@ -373,59 +373,56 @@
   {
    "id": "i01-p02-5",
    "name": "Issue 1, page 2, panel 5 (the jump)",
-   "file": "manga/art/i01-p02-5-v2.png",
-   "take": "take 2 (edit: shape and stamp)",
+   "file": "manga/art/i01-p02-5-v4.png",
+   "take": "take 4 (fresh trust-fall take 3, then widened)",
    "size": "1248x1280",
-   "verdict": "redo",
+   "verdict": "passed",
    "zooms": [
     {
-     "label": "Parcel stamp",
-     "why": "Plain ring, nothing inside",
+     "label": "Parcel in both hands",
+     "why": "Held at his chest, ring stamp, teal drips",
      "box": [
-      0.63,
-      0.43,
-      0.12,
-      0.12
+      0.48,
+      0.36,
+      0.24,
+      0.16
      ]
     },
     {
-     "label": "Skarn yawning",
-     "why": "High and far, tail forks halfway",
+     "label": "Skarn's sleepy yawn",
+     "why": "Eyes shut, head drooping, far off",
      "box": [
-      0.05,
+      0.1,
       0.02,
-      0.3,
-      0.12
+      0.27,
+      0.1
      ]
     },
     {
      "label": "Face",
-     "why": "Calm, trusting",
+     "why": "Calm, eyes closed, small smile",
      "box": [
       0.42,
-      0.29,
-      0.2,
-      0.15
+      0.24,
+      0.18,
+      0.14
      ]
     },
     {
-     "label": "Bracer arm",
-     "why": "Bracer, rag and scars on his RIGHT arm",
+     "label": "Feet",
+     "why": "Under him, knees loose, could land",
      "box": [
-      0.12,
-      0.43,
-      0.25,
-      0.18
+      0.3,
+      0.72,
+      0.3,
+      0.25
      ]
     }
    ],
-   "fails": [
-    "D16 stiff pose, reads as standing in the air (Dylan: \"Panel 5 makes him look weird in that jumping motion it doesn't look natural\"); feet-first redo queued for the next budget"
-   ],
+   "fails": [],
    "notes": [
-    "Take 1 came back tall with swirls inside the stamp; fixed by one edit",
-    "Brow scar does not show at this size",
-    "Small background people in the market"
+    "Takes 1-2 hung stiffly upright (your note); take 3 redrew the pose as a trust fall (your sketch and words), take 4 widened it",
+    "Two timeouts on the way (not counted)"
    ],
    "passed": [
     "1 size",
